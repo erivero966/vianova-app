@@ -1,0 +1,262 @@
+{
+ "fecha": "2026-10-16 18:40",
+ "entorno": {
+  "cpu": 2,
+  "sistema": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "python": "3.13.16",
+  "servidor": "uvicorn, 1 proceso, SQLite (ambiente de pruebas)"
+ },
+ "volumen": {
+  "cuidadores_ficticios": 200,
+  "dias_historial": 30,
+  "filas": {
+   "users": 203,
+   "tasks": 600,
+   "task_completions": 19697,
+   "care_events": 2233,
+   "alerts": 483,
+   "event_logs": 30440,
+   "chunks": 48
+  },
+  "tamano_bd_mb": 11.44,
+  "tiempo_generacion_s": 61.4,
+  "lecturas": {
+   "indicadores (todos los participantes)": {
+    "ms": 439.8,
+    "estado": 200,
+    "bytes": 75345
+   },
+   "exportar registros CSV (8 semanas)": {
+    "ms": 723.9,
+    "estado": 200,
+    "bytes": 4208545
+   }
+  }
+ },
+ "login_promedio_ms": 313.3,
+ "carga": [
+  {
+   "usuarios": 1,
+   "iteraciones": 10,
+   "solicitudes": 50,
+   "duracion_s": 0.5,
+   "rps": 100.8,
+   "errores": 0,
+   "endpoints": {
+    "GET agenda (CRUD)": {
+     "n": 10,
+     "errores": 0,
+     "p50_ms": 5.3,
+     "p95_ms": 44.8,
+     "max_ms": 44.8
+    },
+    "GET recomendaciones": {
+     "n": 10,
+     "errores": 0,
+     "p50_ms": 13.5,
+     "p95_ms": 22.6,
+     "max_ms": 22.6
+    },
+    "POST consulta RAG": {
+     "n": 10,
+     "errores": 0,
+     "p50_ms": 10.8,
+     "p95_ms": 14.4,
+     "max_ms": 14.4
+    },
+    "POST registro (CRUD)": {
+     "n": 10,
+     "errores": 0,
+     "p50_ms": 7.2,
+     "p95_ms": 12.2,
+     "max_ms": 12.2
+    },
+    "GET avisos (CRUD)": {
+     "n": 10,
+     "errores": 0,
+     "p50_ms": 5.4,
+     "p95_ms": 6.8,
+     "max_ms": 6.8
+    }
+   }
+  },
+  {
+   "usuarios": 10,
+   "iteraciones": 4,
+   "solicitudes": 200,
+   "duracion_s": 1.72,
+   "rps": 116.3,
+   "errores": 0,
+   "endpoints": {
+    "GET agenda (CRUD)": {
+     "n": 40,
+     "errores": 0,
+     "p50_ms": 60.0,
+     "p95_ms": 95.1,
+     "max_ms": 119.1
+    },
+    "GET recomendaciones": {
+     "n": 40,
+     "errores": 0,
+     "p50_ms": 138.7,
+     "p95_ms": 207.7,
+     "max_ms": 237.1
+    },
+    "POST consulta RAG": {
+     "n": 40,
+     "errores": 0,
+     "p50_ms": 83.8,
+     "p95_ms": 140.6,
+     "max_ms": 217.8
+    },
+    "POST registro (CRUD)": {
+     "n": 40,
+     "errores": 0,
+     "p50_ms": 65.4,
+     "p95_ms": 106.3,
+     "max_ms": 203.8
+    },
+    "GET avisos (CRUD)": {
+     "n": 40,
+     "errores": 0,
+     "p50_ms": 60.6,
+     "p95_ms": 97.7,
+     "max_ms": 114.6
+    }
+   }
+  },
+  {
+   "usuarios": 25,
+   "iteraciones": 4,
+   "solicitudes": 500,
+   "duracion_s": 4.51,
+   "rps": 110.9,
+   "errores": 0,
+   "endpoints": {
+    "GET agenda (CRUD)": {
+     "n": 100,
+     "errores": 0,
+     "p50_ms": 133.2,
+     "p95_ms": 167.0,
+     "max_ms": 212.4
+    },
+    "GET recomendaciones": {
+     "n": 100,
+     "errores": 0,
+     "p50_ms": 278.0,
+     "p95_ms": 726.1,
+     "max_ms": 1680.9
+    },
+    "POST consulta RAG": {
+     "n": 100,
+     "errores": 0,
+     "p50_ms": 181.5,
+     "p95_ms": 373.4,
+     "max_ms": 1103.9
+    },
+    "POST registro (CRUD)": {
+     "n": 100,
+     "errores": 0,
+     "p50_ms": 153.2,
+     "p95_ms": 727.0,
+     "max_ms": 1135.9
+    },
+    "GET avisos (CRUD)": {
+     "n": 100,
+     "errores": 0,
+     "p50_ms": 105.3,
+     "p95_ms": 203.9,
+     "max_ms": 261.4
+    }
+   }
+  },
+  {
+   "usuarios": 50,
+   "iteraciones": 4,
+   "solicitudes": 1000,
+   "duracion_s": 9.98,
+   "rps": 100.2,
+   "errores": 0,
+   "endpoints": {
+    "GET agenda (CRUD)": {
+     "n": 200,
+     "errores": 0,
+     "p50_ms": 230.0,
+     "p95_ms": 329.2,
+     "max_ms": 462.6
+    },
+    "GET recomendaciones": {
+     "n": 200,
+     "errores": 0,
+     "p50_ms": 566.5,
+     "p95_ms": 1884.8,
+     "max_ms": 3249.9
+    },
+    "POST consulta RAG": {
+     "n": 200,
+     "errores": 0,
+     "p50_ms": 389.1,
+     "p95_ms": 1247.5,
+     "max_ms": 3861.3
+    },
+    "POST registro (CRUD)": {
+     "n": 200,
+     "errores": 0,
+     "p50_ms": 312.4,
+     "p95_ms": 1853.8,
+     "max_ms": 6519.5
+    },
+    "GET avisos (CRUD)": {
+     "n": 200,
+     "errores": 0,
+     "p50_ms": 196.2,
+     "p95_ms": 374.9,
+     "max_ms": 453.3
+    }
+   }
+  }
+ ],
+ "estres": [
+  {
+   "n": 300,
+   "errores": 0,
+   "p50_ms": 1924.9,
+   "p95_ms": 3124.0,
+   "max_ms": 3219.2,
+   "usuarios": 100,
+   "solicitudes": 300,
+   "duracion_s": 3.45,
+   "rps": 87.1,
+   "tasa_error_pct": 0.0
+  },
+  {
+   "n": 450,
+   "errores": 0,
+   "p50_ms": 3635.3,
+   "p95_ms": 5411.9,
+   "max_ms": 5929.5,
+   "usuarios": 150,
+   "solicitudes": 450,
+   "duracion_s": 6.12,
+   "rps": 73.5,
+   "tasa_error_pct": 0.0
+  },
+  {
+   "n": 600,
+   "errores": 3,
+   "p50_ms": 7062.2,
+   "p95_ms": 11677.8,
+   "max_ms": 13350.4,
+   "usuarios": 200,
+   "solicitudes": 600,
+   "duracion_s": 13.52,
+   "rps": 44.4,
+   "tasa_error_pct": 0.5
+  }
+ ],
+ "rnf_r01": {
+  "crud_mediana_max_ms": 312.4,
+  "rag_mediana_max_ms": 389.1,
+  "cumple": true
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "dispositivo": "Pulsera de demostración",
+  "lecturas": [
+    {"metrica": "frecuencia_cardiaca", "valor": 78, "fecha": "2026-10-10T08:00:00"},
+    {"metrica": "frecuencia_cardiaca", "valor": 84, "fecha": "2026-10-10T14:00:00"},
+    {"metrica": "frecuencia_cardiaca", "valor": 80, "fecha": "2026-10-11T08:00:00"},
+    {"metrica": "pasos", "valor": 1850, "fecha": "2026-10-10T21:00:00"},
+    {"metrica": "pasos", "valor": 2210, "fecha": "2026-10-11T21:00:00"},
+    {"metrica": "spo2", "valor": 97, "fecha": "2026-10-11T08:05:00"},
+    {"metrica": "sueno_horas", "valor": 6.5, "fecha": "2026-10-11T07:00:00"}
+  ]
+}

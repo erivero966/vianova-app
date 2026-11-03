@@ -1,0 +1,15 @@
+{
+  "descripcion": "Banco inicial de consultas (fase 3). No modificar: se reutiliza para comparar ALIA, Qwen3 y BGE-M3.",
+  "consultas": [
+    {"id": "Q01", "texto": "náuseas después de la quimioterapia"},
+    {"id": "Q02", "texto": "qué hacer si tiene vómitos después de la quimioterapia"},
+    {"id": "Q03", "texto": "qué hacer si el paciente está muy cansado después de la quimioterapia"},
+    {"id": "Q04", "texto": "signos de infección durante la quimioterapia"},
+    {"id": "Q05", "texto": "estreñimiento durante el tratamiento con quimioterapia"},
+    {"id": "Q06", "texto": "diarrea causada por la quimioterapia"},
+    {"id": "Q07", "texto": "dolor durante el tratamiento contra el cáncer"},
+    {"id": "Q08", "texto": "problemas para comer durante la quimioterapia"},
+    {"id": "Q09", "texto": "llagas o molestias en la boca durante la quimioterapia"},
+    {"id": "Q10", "texto": "cuidados de seguridad en casa después de recibir quimioterapia"}
+  ]
+}

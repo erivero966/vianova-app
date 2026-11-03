@@ -1,0 +1,32 @@
+{
+  "origen": "pruebas/e2e/run_e2e.py (funciones originales sin alterar)",
+  "casos": [
+    {
+      "id": "E2E-02",
+      "rf": "RF-02",
+      "escenario": "Ver agenda, crear tarea y marcarla como hecha",
+      "estado": "aprobado",
+      "error": "",
+      "duracion_s": 0.92,
+      "toques": 3,
+      "capturas": [
+        "RF02_agenda.png",
+        "RF02_nueva_tarea.png"
+      ]
+    },
+    {
+      "id": "E2E-04",
+      "rf": "RF-04",
+      "escenario": "Registrar síntoma por texto con confirmación",
+      "estado": "aprobado",
+      "error": "",
+      "duracion_s": 0.9,
+      "toques": 2,
+      "capturas": [
+        "RF04_confirmacion_registro.png",
+        "RF04_RF09_registro_guardado_con_aviso.png"
+      ]
+    }
+  ],
+  "codigo_salida": 0
+}

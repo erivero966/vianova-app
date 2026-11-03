@@ -1,0 +1,722 @@
+{
+  "fecha_utc": "2026-10-23T21:22:32.373858+00:00",
+  "modelo": "SINAI/ALIA-MrBERT-es-biomedical-embeddings",
+  "dimension": 768,
+  "device": "cuda",
+  "busqueda": "pgvector exacta, distancia coseno (<=>)",
+  "chunk_size_tokens": 450,
+  "chunk_overlap_tokens": 75,
+  "top_k": 5,
+  "consultas": [
+    {
+      "id": "Q01",
+      "texto": "náuseas después de la quimioterapia",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.756548,
+          "distancia": 0.243452,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "ff5acd2e-b53e-4d7f-a510-374535d8cd38",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nNáuseas y vómitos\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia pueden causar náuseas, vómitos o ambos. Las náuseas ocurren cuando se siente asco. Vomitar es cuando se arroja (devuelve) lo que haya en el estómago. Es posible que también se tenga arcadas (“dry heaves”). Estas ocurren cuando el cuerpo intenta vomitar aun cuando el estómago esté vacío"
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.709326,
+          "distancia": 0.290674,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "Las náuseas y los vómitos pueden suceder:",
+          "fragmento_id": "fe9339d9-9d4a-4ee6-9268-b71da0a8f245",
+          "texto": "Las náuseas y los vómitos pueden suceder:\n\nÎ Mientras recibe el tratamiento de quimioterapia\n\nÎ Justo después de la quimioterapia\n\nÎ Muchas horas o días después de la quimioterapia\n\nEs posible que se sienta mejor en los días en que no tenga sesión de quimioterapia.\n\nHay medicinas nuevas que pueden ayudar a prevenir las náuseas y los vómitos. Estas medicinas se llaman antieméticos o antináuseas. Tal vez necesite tomar estas medicinas una hora antes de cada tratamiento de quimioterapia y unos días después. Cuántos días después de la quimioterapia dependerá del tipo de quimioterapia que esté recibiendo y de cómo reaccione usted al tratamiento. Si un tipo de medicina antináuseas no le ayuda, el doctor puede recetarle otra diferente. Tal vez tenga que tomar más de un tipo de medicina para aliviar las náuseas. La acupuntura puede ayudar también. Hable con el doctor o con la enfermera sobre tratamientos para controlar las náuseas y los vómitos causados por la quimioterapia."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.678612,
+          "distancia": 0.321388,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 29,
+          "pagina_fin": 29,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "d5a3a0a5-2f12-408d-81c1-787bdf3b7665",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nCambios en el sistema nervioso\n\n¿Qué son y por qué suceden?\n\nLa quimioterapia puede causar daños al sistema nervioso. Muchos de estos problemas se mejoran en menos de un año después de terminar la quimioterapia. Pero algunos podrían durar el resto de su vida. Algunos de los síntomas son:\n\nÎ Hormigueo, ardor, debilidad o adormecimiento en las manos o los pies\n\nÎ Sensación de frío mayor que de costumbre\n\nÎ Dolor al caminar\n\nÎ Músculos débiles, sensibles, cansados o adoloridos\n\nÎ Sensación de falta de equilibrio (balance)\n\nÎ Dificultad para recoger objetos o abotonarse la ropa\n\nÎ Temblores\n\nÎ Sordera\n\nÎ Dolor de estómago, como estreñimiento o acidez\n\nÎ Cansancio\n\nÎ Confusión y problemas de memoria\n\nÎ Mareos\n\nÎ Depresión"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.6682,
+          "distancia": 0.3318,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "www.cancer.gov/espanol i",
+          "fragmento_id": "2d423d07-936e-4111-9057-934fcf57e1b9",
+          "texto": "www.cancer.gov/espanol i\n\nÍndice\n\nPreguntas y respuestas sobre la quimioterapia .................................................................... 1\n\nConsejos para cuando hable con el doctor o con la enfermera ....................................... 9\n\nSu estado de ánimo durante la quimioterapia .................................................................... 11\n\nLos efectos secundarios ............................................................................................................. 14\n\nAnemia .......................................................................................................................................... 17\n\nCaída del pelo ............................................................................................................................... 19\n\nCambios de apetito ...................................................................................................................... 23\n\nCambios en el sistema nervioso ................................................................................................. 25\n\nCambios en la boca y garganta .................................................................................................. 27\n\nCambios en la piel y las uñas ...................................................................................................... 31\n\nCambios sexuales ......................................................................................................................... 34\n\nCambios urinarios, en los riñones o en la vejiga ..................................................................... 38\n\nCansancio ..................................................................................................................................... 40\n\nDiarrea .......................................................................................................................................... 44\n\nDolor ............................................................................................................................................. 47\n\nEstreñimiento ............................................................................................................................... 49\n\nHemorragia .................................................................................................................................. 51\n\nInfección ....................................................................................................................................... 54\n\nInfecundidad ................................................................................................................................ 59\n\nNáuseas y vómitos ....................................................................................................................... 61\n\nOtros efectos secundarios ........................................................................................................... 64"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.661038,
+          "distancia": 0.338962,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 15,
+          "pagina_fin": 15,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "a28a72b2-4b57-405a-a379-314537a7f58c",
+          "texto": "www.cancer.gov/espanol\n\nSu estado de ánimo durante la quimioterapia\n\nEn algún momento durante la quimioterapia es posible que sienta:\n\nÎ Ansiedad\n\nÎ Depresión\n\nÎ Enojo\n\nÎ Frustración\n\nÎ Impotencia\n\nÎ Soledad\n\nÎ Temor\n\nEs normal tener todos estos tipos de sentimientos al recibir quimioterapia. Después de todo, vivir con cáncer y someterse al tratamiento puede causar tensión. Se puede sentir también cansancio, lo cual puede dificultar que se superen los sentimientos."
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "texto": "qué hacer si tiene vómitos después de la quimioterapia",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.757696,
+          "distancia": 0.242304,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "ff5acd2e-b53e-4d7f-a510-374535d8cd38",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nNáuseas y vómitos\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia pueden causar náuseas, vómitos o ambos. Las náuseas ocurren cuando se siente asco. Vomitar es cuando se arroja (devuelve) lo que haya en el estómago. Es posible que también se tenga arcadas (“dry heaves”). Estas ocurren cuando el cuerpo intenta vomitar aun cuando el estómago esté vacío"
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.695132,
+          "distancia": 0.304868,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "Las náuseas y los vómitos pueden suceder:",
+          "fragmento_id": "fe9339d9-9d4a-4ee6-9268-b71da0a8f245",
+          "texto": "Las náuseas y los vómitos pueden suceder:\n\nÎ Mientras recibe el tratamiento de quimioterapia\n\nÎ Justo después de la quimioterapia\n\nÎ Muchas horas o días después de la quimioterapia\n\nEs posible que se sienta mejor en los días en que no tenga sesión de quimioterapia.\n\nHay medicinas nuevas que pueden ayudar a prevenir las náuseas y los vómitos. Estas medicinas se llaman antieméticos o antináuseas. Tal vez necesite tomar estas medicinas una hora antes de cada tratamiento de quimioterapia y unos días después. Cuántos días después de la quimioterapia dependerá del tipo de quimioterapia que esté recibiendo y de cómo reaccione usted al tratamiento. Si un tipo de medicina antináuseas no le ayuda, el doctor puede recetarle otra diferente. Tal vez tenga que tomar más de un tipo de medicina para aliviar las náuseas. La acupuntura puede ayudar también. Hable con el doctor o con la enfermera sobre tratamientos para controlar las náuseas y los vómitos causados por la quimioterapia."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.666898,
+          "distancia": 0.333102,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 67,
+          "pagina_fin": 67,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "1dd4e419-bcd1-4c30-a28a-9556404f1305",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\ncada tratamiento de quimioterapia. Puede realizar actividades que disfrute, como:\n\n• Meditar\n\n• Hacer ejercicios de respiración profunda\n\n• Imaginar escenas o experiencias que le hagan sentir en paz\n\n• Leer un libro\n\n• Tejer\n\nÎ Si siente ganas de vomitar, respire profunda y lentamente\n\no tome aire fresco. También podría distraerse al:\n\n• Conversar con amigos o parientes\n\n• Escuchar música\n\n• Mirar una película o la televisión\n\nÎ Hable con el doctor o la enfermera. El doctor puede darle medicinas que ayuden a\n\nprevenir las náuseas durante y después de la quimioterapia. Tóme las medicinas como se lo digan e informe a la enfermera si no le hacen efecto. También puede mencionar la acupuntura, la cual puede ayudar a aliviar las náuseas y vómitos causados por el tratamiento del cáncer. Infórmeles si los vómitos duran más de un día, y si vomita inmediatamente después de beber algo.\n\nDiga al doctor o a la enfermera si las medicinas antinaúseas no están funcionando."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.608527,
+          "distancia": 0.391473,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "www.cancer.gov/espanol i",
+          "fragmento_id": "2d423d07-936e-4111-9057-934fcf57e1b9",
+          "texto": "www.cancer.gov/espanol i\n\nÍndice\n\nPreguntas y respuestas sobre la quimioterapia .................................................................... 1\n\nConsejos para cuando hable con el doctor o con la enfermera ....................................... 9\n\nSu estado de ánimo durante la quimioterapia .................................................................... 11\n\nLos efectos secundarios ............................................................................................................. 14\n\nAnemia .......................................................................................................................................... 17\n\nCaída del pelo ............................................................................................................................... 19\n\nCambios de apetito ...................................................................................................................... 23\n\nCambios en el sistema nervioso ................................................................................................. 25\n\nCambios en la boca y garganta .................................................................................................. 27\n\nCambios en la piel y las uñas ...................................................................................................... 31\n\nCambios sexuales ......................................................................................................................... 34\n\nCambios urinarios, en los riñones o en la vejiga ..................................................................... 38\n\nCansancio ..................................................................................................................................... 40\n\nDiarrea .......................................................................................................................................... 44\n\nDolor ............................................................................................................................................. 47\n\nEstreñimiento ............................................................................................................................... 49\n\nHemorragia .................................................................................................................................. 51\n\nInfección ....................................................................................................................................... 54\n\nInfecundidad ................................................................................................................................ 59\n\nNáuseas y vómitos ....................................................................................................................... 61\n\nOtros efectos secundarios ........................................................................................................... 64"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.591456,
+          "distancia": 0.408544,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 27,
+          "pagina_fin": 27,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "7868d623-3639-41d9-a4f7-8da442bc9e69",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nCambios de apetito\n\n¿Qué son y por qué suceden?\n\nLa quimioterapia puede causar cambios de apetito. Por ejemplo, es posible que usted no tenga deseos de comer debido a:\n\nÎ Náuseas\n\nÎ Problemas en la boca y la garganta que le causan dolor al comer\n\nÎ Medicinas que le hacen perder el gusto por la comida\n\nÎ Sensación de cansancio o depresión.\n\nÎ Este problema puede durar un día, unas cuantas semanas o hasta meses.\n\nEs importante que coma bien, aun cuando no tenga apetito. Esto significa comer y beber alimentos que tengan mucha proteína, vitaminas y calorías. Comer bien ayuda a su cuerpo a combatir las infecciones y a reparar los tejidos dañados por la quimioterapia. Si no come bien podría experimentar:\n\nÎ Adelgazamiento\n\nÎ Debilidad\n\nÎ Cansancio\n\nAlgunos tratamientos contra el cáncer hacen subir de peso o aumentan el apetito. Pregunte al doctor, a la enfermera o al dietista qué tipos de cambios de apetito usted podría esperar y cómo controlarlos."
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "texto": "qué hacer si el paciente está muy cansado después de la quimioterapia",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.708364,
+          "distancia": 0.291636,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 44,
+          "pagina_fin": 44,
+          "seccion": "1-800-422-6237 (1-800-4-CANCER)",
+          "fragmento_id": "7a181ec0-ba48-4f1b-9417-07e288f8ce31",
+          "texto": "1-800-422-6237 (1-800-4-CANCER)\n\nForma de controlar los efectos secundarios\n\nCansancio\n\n¿Qué es y por qué sucede?\n\nEl cansancio causado por la quimioterapia puede ser una sensación ligera de fatiga hasta un cansancio extremo. Muchas personas describen el cansancio como:\n\nÎ Debilidad\n\nÎ Molestia\n\nÎ Agotamiento\n\nÎ Pesadez\n\nÎ Lentitud\n\nÎ Descanso que no siempre ayuda.\n\nMuchas personas dicen que sienten cansancio durante la quimioterapia y hasta semanas o meses después que ha terminado el tratamiento. Si recibe radioterapia junto con quimoterapia, el cansancio puede ser más severo."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.687066,
+          "distancia": 0.312934,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 46,
+          "pagina_fin": 46,
+          "seccion": "1-800-422-6237 (1-800-4-CANCER)",
+          "fragmento_id": "7a92b18f-f6a4-4c6d-9a5e-7b83f7ed6037",
+          "texto": "1-800-422-6237 (1-800-4-CANCER)\n\nForma de controlar los efectos secundarios\n\nHaga el plan de tener alguna actividad física cuando se sienta con más energía. Hable con el doctor o con la enfermera sobre cómo mantener la actividad durante la quimioterapia.\n\nÎ Trate de no hacer muchas cosas. Con el cansancio, es\n\nposible que no tenga suficiente energía para hacer todo lo que quiere hacer. Escoja las actividades que desee hacer y permita que otra persona le ayude con las demás. Trate de hacer actividades tranquilas, como por ejemplo:\n\n• Leer\n\n• Tejer\n\n• Aprender un idioma con cintas de audio.\n\nÎ Duerma por lo menos 8 horas cada noche. Esto quizá es más de lo que necesitaba dormir\n\nantes de la quimioterapia. Es más probable que duerma mejor durante la noche, si ha tenido alguna actividad durante el día. Además, relajarse antes de irse a la cama podría ayudarle. Por ejemplo podría:\n\n• Leer un libro\n\n• Armar un rompecabezas\n\n• Escuchar música\n\n• Practicar otro pasatiempo que le calme\n\nÎ Deje que le ayuden los demás. Pida a sus familiares y amigos que le ayuden cuando sienta\n\ncansancio. Tal vez puedan ayudarle:\n\n• Con las tareas del hogar\n\n• Llevándole a las citas de quimioterapia y de vuelta a casa\n\n• Comprando los alimentos que necesite\n\n• Preparándole comidas para servirlas al momento o para congelarlas y comerlas después."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.650633,
+          "distancia": 0.349367,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 44,
+          "pagina_fin": 44,
+          "seccion": "El cansancio puede ser causado también por:",
+          "fragmento_id": "28605b9d-8335-4133-8607-6e04c42ad4f0",
+          "texto": "El cansancio puede ser causado también por:\n\nÎ Anemia (vea la página 17)\n\nÎ Dolor (vea la página 47)\n\nÎ Medicinas\n\nÎ Adelgazamiento\n\nÎ Falta de apetito (vea la página 23)\n\nÎ Dificultad para dormir\n\nÎ Falta de actividad física\n\nÎ Dificultad para respirar\n\nÎ Infecciones (vea la página 54)\n\nÎ Hacer muchas cosas a la vez\n\nÎ Otros problemas médicos\n\nEl cansancio se puede presentar de repente o poco a poco. Cada persona siente el cansancio de una manera diferente. Usted podría sentir más o menos cansancio que alguien que esté recibiendo el mismo tipo de quimioterapia."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.645835,
+          "distancia": 0.354165,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 15,
+          "pagina_fin": 15,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "a28a72b2-4b57-405a-a379-314537a7f58c",
+          "texto": "www.cancer.gov/espanol\n\nSu estado de ánimo durante la quimioterapia\n\nEn algún momento durante la quimioterapia es posible que sienta:\n\nÎ Ansiedad\n\nÎ Depresión\n\nÎ Enojo\n\nÎ Frustración\n\nÎ Impotencia\n\nÎ Soledad\n\nÎ Temor\n\nEs normal tener todos estos tipos de sentimientos al recibir quimioterapia. Después de todo, vivir con cáncer y someterse al tratamiento puede causar tensión. Se puede sentir también cansancio, lo cual puede dificultar que se superen los sentimientos."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.639427,
+          "distancia": 0.360573,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "www.cancer.gov/espanol i",
+          "fragmento_id": "2d423d07-936e-4111-9057-934fcf57e1b9",
+          "texto": "www.cancer.gov/espanol i\n\nÍndice\n\nPreguntas y respuestas sobre la quimioterapia .................................................................... 1\n\nConsejos para cuando hable con el doctor o con la enfermera ....................................... 9\n\nSu estado de ánimo durante la quimioterapia .................................................................... 11\n\nLos efectos secundarios ............................................................................................................. 14\n\nAnemia .......................................................................................................................................... 17\n\nCaída del pelo ............................................................................................................................... 19\n\nCambios de apetito ...................................................................................................................... 23\n\nCambios en el sistema nervioso ................................................................................................. 25\n\nCambios en la boca y garganta .................................................................................................. 27\n\nCambios en la piel y las uñas ...................................................................................................... 31\n\nCambios sexuales ......................................................................................................................... 34\n\nCambios urinarios, en los riñones o en la vejiga ..................................................................... 38\n\nCansancio ..................................................................................................................................... 40\n\nDiarrea .......................................................................................................................................... 44\n\nDolor ............................................................................................................................................. 47\n\nEstreñimiento ............................................................................................................................... 49\n\nHemorragia .................................................................................................................................. 51\n\nInfección ....................................................................................................................................... 54\n\nInfecundidad ................................................................................................................................ 59\n\nNáuseas y vómitos ....................................................................................................................... 61\n\nOtros efectos secundarios ........................................................................................................... 64"
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "texto": "signos de infección durante la quimioterapia",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.625337,
+          "distancia": 0.374663,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 69,
+          "pagina_fin": 69,
+          "seccion": "Síntomas como los de influenza",
+          "fragmento_id": "dc3ef57f-b469-487c-be1f-b549679203a6",
+          "texto": "Síntomas como los de influenza\n\nÎ Algunas clases de quimioterapia pueden hacer que se sienta como si tuviera influenza (gripe o “flu”). Esto es más probable que suceda si recibe quimioterapia junto con inmunoterapia.\n\nÎ Dolores en los músculos y en las articulaciones\n\nÎ Dolor de cabeza\n\nÎ Cansancio\n\nÎ Náuseas\n\nÎ Fiebre\n\nÎ Escalofríos\n\nÎ Falta de apetito\n\nÎ Estos síntomas pueden durar de 1 a 3 días. Una infección o el cáncer mismo pueden también causar estos síntomas. Diga al doctor o a la enfermera si tiene alguno de estos síntomas."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.589405,
+          "distancia": 0.410595,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 19,
+          "pagina_fin": 19,
+          "seccion": "¿Qué se puede hacer acerca de los efectos secundarios?",
+          "fragmento_id": "78e277a2-8c99-47be-a736-9494914afb38",
+          "texto": "¿Qué se puede hacer acerca de los efectos secundarios?\n\nLos doctores tienen muchas formas de evitar o de tratar los efectos secundarios de la quimioterapia y pueden ayudarle a sanar después de cada sesión de tratamiento. Pregunte al doctor o a la enfermera cuáles efectos secundarios podría tener y qué hacer al respecto.\n\nAdemás, dígales cualquier cambio que note. Esos cambios podrían ser señales de un efecto secundario.\n\nLa lista en la página siguiente indica en qué lugar del libro puede encontrar la información sobre efectos secundarios específicos."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.584205,
+          "distancia": 0.415795,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 5,
+          "pagina_fin": 5,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "ceee272d-4925-4f51-ad10-b66e7a802240",
+          "texto": "www.cancer.gov/espanol\n\nPreguntas y respuestas sobre la quimioterapia\n\n¿Qué es la quimioterapia?\n\nLa quimioterapia es un tipo de tratamiento contra el cáncer. Usa medicamentos (fármacos) para destruir las células cancerosas."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.582818,
+          "distancia": 0.417182,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 9,
+          "pagina_fin": 9,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "54aee41d-341e-488d-adbc-9571232f5c14",
+          "texto": "www.cancer.gov/espanol\n\n¿Cómo me sentiré durante la quimioterapia?\n\nLa quimioterapia afecta a las personas de diferentes maneras. Lo que usted sentirá dependerá de:\n\nÎ Su salud antes del tratamiento\n\nÎ El tipo de cáncer que tenga\n\nÎ Lo avanzado que esté el cáncer\n\nÎ El tipo de quimioterapia que vaya a recibir\n\nÎ La cantidad (dosis) de quimioterapia\n\nLos doctores y las enfermeras no pueden saber con seguridad cómo se va a sentir usted durante la quimioterapia. Existen muchas formas para controlar los efectos secundarios de la quimioterapia. Si desea más información, vea la sección “Lista de efectos secundarios” que comienza en la página 15."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.581927,
+          "distancia": 0.418073,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 18,
+          "pagina_fin": 18,
+          "seccion": "¿Tendré efectos secundarios por la quimioterapia?",
+          "fragmento_id": "cfb71e61-9ad9-4206-bb4a-5228c5b67ccf",
+          "texto": "¿Tendré efectos secundarios por la quimioterapia?\n\nEs posible que tenga muchos efectos secundarios, solo algunos o ninguno. Eso depende del tipo y de la cantidad de quimioterapia que reciba. También depende de cómo reacciona su cuerpo. Antes de comenzar la quimioterapia, hable con el doctor o con la enfermera sobre los efectos que pueda esperar."
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "texto": "estreñimiento durante el tratamiento con quimioterapia",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.703758,
+          "distancia": 0.296242,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 53,
+          "pagina_fin": 53,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "7abbd04e-0920-4189-8f7e-3ebf8ed5103c",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nEstreñimiento\n\n¿Qué es y por qué sucede?\n\nEl estreñimiento sucede cuando una persona tiene evacuaciones del intestino menos frecuentes y las heces son duras, secas y difíciles de expulsar. Se puede eructar, pasar mucho gas, y tener calambres en el estómago o presión en el recto.\n\nLos fármacos como la quimioterapia y los medicamentos para el dolor pueden causar estreñimiento. Puede suceder también cuando la persona no tiene actividad y pasa mucho tiempo sentada o acostada. El estreñimiento puede deberse también al consumo de alimentos con poca fibra o a no beber suficientes líquidos."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.619172,
+          "distancia": 0.380828,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "ff5acd2e-b53e-4d7f-a510-374535d8cd38",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nNáuseas y vómitos\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia pueden causar náuseas, vómitos o ambos. Las náuseas ocurren cuando se siente asco. Vomitar es cuando se arroja (devuelve) lo que haya en el estómago. Es posible que también se tenga arcadas (“dry heaves”). Estas ocurren cuando el cuerpo intenta vomitar aun cuando el estómago esté vacío"
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.61839,
+          "distancia": 0.38161,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "www.cancer.gov/espanol i",
+          "fragmento_id": "2d423d07-936e-4111-9057-934fcf57e1b9",
+          "texto": "www.cancer.gov/espanol i\n\nÍndice\n\nPreguntas y respuestas sobre la quimioterapia .................................................................... 1\n\nConsejos para cuando hable con el doctor o con la enfermera ....................................... 9\n\nSu estado de ánimo durante la quimioterapia .................................................................... 11\n\nLos efectos secundarios ............................................................................................................. 14\n\nAnemia .......................................................................................................................................... 17\n\nCaída del pelo ............................................................................................................................... 19\n\nCambios de apetito ...................................................................................................................... 23\n\nCambios en el sistema nervioso ................................................................................................. 25\n\nCambios en la boca y garganta .................................................................................................. 27\n\nCambios en la piel y las uñas ...................................................................................................... 31\n\nCambios sexuales ......................................................................................................................... 34\n\nCambios urinarios, en los riñones o en la vejiga ..................................................................... 38\n\nCansancio ..................................................................................................................................... 40\n\nDiarrea .......................................................................................................................................... 44\n\nDolor ............................................................................................................................................. 47\n\nEstreñimiento ............................................................................................................................... 49\n\nHemorragia .................................................................................................................................. 51\n\nInfección ....................................................................................................................................... 54\n\nInfecundidad ................................................................................................................................ 59\n\nNáuseas y vómitos ....................................................................................................................... 61\n\nOtros efectos secundarios ........................................................................................................... 64"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.600294,
+          "distancia": 0.399706,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 27,
+          "pagina_fin": 27,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "7868d623-3639-41d9-a4f7-8da442bc9e69",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nCambios de apetito\n\n¿Qué son y por qué suceden?\n\nLa quimioterapia puede causar cambios de apetito. Por ejemplo, es posible que usted no tenga deseos de comer debido a:\n\nÎ Náuseas\n\nÎ Problemas en la boca y la garganta que le causan dolor al comer\n\nÎ Medicinas que le hacen perder el gusto por la comida\n\nÎ Sensación de cansancio o depresión.\n\nÎ Este problema puede durar un día, unas cuantas semanas o hasta meses.\n\nEs importante que coma bien, aun cuando no tenga apetito. Esto significa comer y beber alimentos que tengan mucha proteína, vitaminas y calorías. Comer bien ayuda a su cuerpo a combatir las infecciones y a reparar los tejidos dañados por la quimioterapia. Si no come bien podría experimentar:\n\nÎ Adelgazamiento\n\nÎ Debilidad\n\nÎ Cansancio\n\nAlgunos tratamientos contra el cáncer hacen subir de peso o aumentan el apetito. Pregunte al doctor, a la enfermera o al dietista qué tipos de cambios de apetito usted podría esperar y cómo controlarlos."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.581874,
+          "distancia": 0.418126,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "Las náuseas y los vómitos pueden suceder:",
+          "fragmento_id": "fe9339d9-9d4a-4ee6-9268-b71da0a8f245",
+          "texto": "Las náuseas y los vómitos pueden suceder:\n\nÎ Mientras recibe el tratamiento de quimioterapia\n\nÎ Justo después de la quimioterapia\n\nÎ Muchas horas o días después de la quimioterapia\n\nEs posible que se sienta mejor en los días en que no tenga sesión de quimioterapia.\n\nHay medicinas nuevas que pueden ayudar a prevenir las náuseas y los vómitos. Estas medicinas se llaman antieméticos o antináuseas. Tal vez necesite tomar estas medicinas una hora antes de cada tratamiento de quimioterapia y unos días después. Cuántos días después de la quimioterapia dependerá del tipo de quimioterapia que esté recibiendo y de cómo reaccione usted al tratamiento. Si un tipo de medicina antináuseas no le ayuda, el doctor puede recetarle otra diferente. Tal vez tenga que tomar más de un tipo de medicina para aliviar las náuseas. La acupuntura puede ayudar también. Hable con el doctor o con la enfermera sobre tratamientos para controlar las náuseas y los vómitos causados por la quimioterapia."
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "texto": "diarrea causada por la quimioterapia",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.783976,
+          "distancia": 0.216024,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 48,
+          "pagina_fin": 48,
+          "seccion": "1-800-422-6237 (1-800-4-CANCER)",
+          "fragmento_id": "29d63f27-91f8-4b7b-9df3-193441c92f5e",
+          "texto": "1-800-422-6237 (1-800-4-CANCER)\n\nForma de controlar los efectos secundarios\n\nDiarrea\n\n¿Qué es y por qué sucede?\n\nLa diarrea sucede cuando es necesario ir frecuentemente al baño y las heces pueden ser blandas, sueltas o líquidas. La quimioterapia puede causar diarrea porque daña las células sanas que recubren el intestino grueso y el intestino delgado. Esto puede hacer que sus intestinos procesen las heces con más rapidez. La diarrea puede ser causada también por infecciones o por los medicamentos para tratar el estreñimiento."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.640009,
+          "distancia": 0.359991,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "www.cancer.gov/espanol i",
+          "fragmento_id": "2d423d07-936e-4111-9057-934fcf57e1b9",
+          "texto": "www.cancer.gov/espanol i\n\nÍndice\n\nPreguntas y respuestas sobre la quimioterapia .................................................................... 1\n\nConsejos para cuando hable con el doctor o con la enfermera ....................................... 9\n\nSu estado de ánimo durante la quimioterapia .................................................................... 11\n\nLos efectos secundarios ............................................................................................................. 14\n\nAnemia .......................................................................................................................................... 17\n\nCaída del pelo ............................................................................................................................... 19\n\nCambios de apetito ...................................................................................................................... 23\n\nCambios en el sistema nervioso ................................................................................................. 25\n\nCambios en la boca y garganta .................................................................................................. 27\n\nCambios en la piel y las uñas ...................................................................................................... 31\n\nCambios sexuales ......................................................................................................................... 34\n\nCambios urinarios, en los riñones o en la vejiga ..................................................................... 38\n\nCansancio ..................................................................................................................................... 40\n\nDiarrea .......................................................................................................................................... 44\n\nDolor ............................................................................................................................................. 47\n\nEstreñimiento ............................................................................................................................... 49\n\nHemorragia .................................................................................................................................. 51\n\nInfección ....................................................................................................................................... 54\n\nInfecundidad ................................................................................................................................ 59\n\nNáuseas y vómitos ....................................................................................................................... 61\n\nOtros efectos secundarios ........................................................................................................... 64"
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.634806,
+          "distancia": 0.365194,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "ff5acd2e-b53e-4d7f-a510-374535d8cd38",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nNáuseas y vómitos\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia pueden causar náuseas, vómitos o ambos. Las náuseas ocurren cuando se siente asco. Vomitar es cuando se arroja (devuelve) lo que haya en el estómago. Es posible que también se tenga arcadas (“dry heaves”). Estas ocurren cuando el cuerpo intenta vomitar aun cuando el estómago esté vacío"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.60051,
+          "distancia": 0.39949,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 42,
+          "pagina_fin": 42,
+          "seccion": "1-800-422-6237 (1-800-4-CANCER)",
+          "fragmento_id": "e1bc6485-e80c-40cb-b099-951f671d010e",
+          "texto": "1-800-422-6237 (1-800-4-CANCER)\n\nForma de controlar los efectos secundarios\n\nCambios urinarios, en los riñones o en la vejiga\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia dañan las células de los riñones y la vejiga. Los problemas pueden ser:\n\nÎ Ardor o dolor cuando comienza a orinar o después de vaciar la vejiga\n\nÎ Necesidad frecuente y más urgente de orinar\n\nÎ No poder orinar\n\nÎ No poder controlar el flujo de orina de la vejiga (lo que se refiere como incontinencia)\n\nÎ Sangre en la orina\n\nÎ Fiebre\n\nÎ Escalofríos\n\nÎ Orina color naranja, rojo, verde o amarillo oscuro, o tiene un fuerte olor a medicina.\n\nTome mucho líquido si recibe quimioterapia que puede dañar la vejiga y los riñones.\n\nAlgunos problemas de los riñones y de la vejiga desaparecen después de terminar la quimioterapia. Otros problemas pueden durar el resto de la vida."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.574815,
+          "distancia": 0.425185,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 18,
+          "pagina_fin": 18,
+          "seccion": "¿Tendré efectos secundarios por la quimioterapia?",
+          "fragmento_id": "cfb71e61-9ad9-4206-bb4a-5228c5b67ccf",
+          "texto": "¿Tendré efectos secundarios por la quimioterapia?\n\nEs posible que tenga muchos efectos secundarios, solo algunos o ninguno. Eso depende del tipo y de la cantidad de quimioterapia que reciba. También depende de cómo reacciona su cuerpo. Antes de comenzar la quimioterapia, hable con el doctor o con la enfermera sobre los efectos que pueda esperar."
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "texto": "dolor durante el tratamiento contra el cáncer",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.689896,
+          "distancia": 0.310104,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 51,
+          "pagina_fin": 51,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "db67640a-9593-4eeb-bcc3-01a0b00f123a",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nDolor\n\n¿Qué es y por qué sucede?\n\nAlgunos tipos de quimioterapia causan efectos secundarios dolorosos, por ejemplo:\n\nÎ Ardor\n\nÎ Adormecimiento\n\nÎ Hormigueo\n\nÎ Dolores punzantes en las manos y los pies\n\nÎ Lesiones en la boca\n\nÎ Dolores de cabeza\n\nÎ Dolores en los músculos\n\nÎ Dolores de estómago\n\nEl dolor puede ser causado por el cáncer o por la quimioterapia. Los doctores y las enfermeras tienen forma de reducir o aliviar su dolor.\n\nDiga al doctor o a la enfermera si tiene dolor."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.631446,
+          "distancia": 0.368554,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 52,
+          "pagina_fin": 52,
+          "seccion": "Forma de controlar los efectos secundarios",
+          "fragmento_id": "da95723d-d74c-46ca-b387-093d4d6ffc4f",
+          "texto": "• Neurólogo\n\n• Neurocirujano\n\n• Enfermera\n\n• Farmacéutico\n\nÎ Diga al doctor, a la enfermera o al especialista en dolor si su dolor cambia. Su\n\ndolor puede cambiar durante el curso del tratamiento. Si esto sucede, puede ser necesario cambiarle las medicinas que está tomando para el dolor.\n\nEl libro del Instituto Nacional del Cáncer titulado Control del dolor: Apoyo para las personas con cáncer ofrece más consejos para controlar el dolor causado por el cáncer y su tratamiento. Está disponible en www.cancer.gov/espanol/control-del-dolor."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.581705,
+          "distancia": 0.418295,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 52,
+          "pagina_fin": 52,
+          "seccion": "1-800-422-6237 (1-800-4-CANCER)",
+          "fragmento_id": "dea76f6c-897b-4f6d-b0f2-835ac0a6add4",
+          "texto": "1-800-422-6237 (1-800-4-CANCER)\n\nForma de controlar los efectos secundarios\n\n• Qué empeora o alivia el dolor. Por ejemplo, ¿le ayuda si se pone hielo? ¿O empeora el dolor si se mueve de cierta manera?\n\n• Qué medicinas toma para el dolor. ¿Le ayudan? ¿Cuánto dura su efecto? ¿Qué cantidad toma? ¿Con qué frecuencia?\n\nÎ Hable con sus seres queridos y amigos de su dolor. Ellos necesitan saber de su dolor para\n\nque le puedan ayudar. Si siente mucho cansancio o tiene mucho dolor, ellos pueden llamar al doctor o a la enfermera por usted. Si este es el caso, pida a sus familiares o amigos que les llamen por usted. Al darse cuenta del dolor que usted tiene puede ayudarles a entender por qué actúa usted en forma diferente.\n\nÎ Controle el dolor:\n\n• Tome las medicinas para el dolor como lo ordena el doctor. Si tiene dolor todo el tiempo, el doctor puede sugerir que las tome a un horario regular. Si ya tiene un plan determinado, tome la medicina para el dolor como se la han recetado, en vez de esperar a sentir que necesita tomarla. El dolor es más difícil de controlar si espera hasta tener un dolor muy fuerte.\n\n• Trate de respirar profundamente, haga yoga o trate formas de relajarse. Esto puede ayudarle a reducir la tensión muscular, la ansiedad y el dolor.\n\nÎ Pida ver a un profesional médico que se especialice en el control del dolor o en\n\ncuidados paliativos. Este profesional puede ser:\n\n• Oncólogo\n\n• Anestesiólogo\n\n• Neurólogo\n\n• Neurocirujano\n\n• Enfermera\n\n• Farmacéutico\n\nÎ Diga al doctor, a la enfermera o al especialista en dolor si su dolor cambia. Su\n\ndolor puede cambiar durante el curso del tratamiento. Si esto sucede, puede ser necesario cambiarle las medicinas que está tomando para el dolor."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.570963,
+          "distancia": 0.429037,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 51,
+          "pagina_fin": 51,
+          "seccion": "Qué hacer para controlar el dolor:",
+          "fragmento_id": "87e3c86a-9233-471d-b7bb-b225d3693355",
+          "texto": "Qué hacer para controlar el dolor:\n\nÎ Hable con el doctor, enfermera o farmacéutico sobre su dolor. Mencione los detalles\n\ny describa:\n\n• En dónde siente el dolor. ¿Es en una parte del cuerpo o en todo el cuerpo?\n\n• Cómo es el dolor. ¿Es agudo, moderado o palpitante? ¿Va y viene, o es constante?\n\n• Qué tan fuerte es el dolor.\n\n• Cuánto dura el dolor. ¿Dura unos minutos, una hora o más tiempo?"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.513155,
+          "distancia": 0.486845,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 67,
+          "pagina_fin": 67,
+          "seccion": "Cómo obtener más información:",
+          "fragmento_id": "fee80d75-723d-479b-88f9-61a5bceece7d",
+          "texto": "Cómo obtener más información:\n\nPara aprender más sobre las náuseas y los vómitos durante el tratamiento del cáncer, lea Consejos de alimentación para pacientes con cáncer: Antes, durante y después del tratamiento, un libro del NCI. Disponible en: www.cancer.gov/espanol/consejos-de-alimentacion."
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "texto": "problemas para comer durante la quimioterapia",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.728721,
+          "distancia": 0.271279,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 27,
+          "pagina_fin": 27,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "7868d623-3639-41d9-a4f7-8da442bc9e69",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nCambios de apetito\n\n¿Qué son y por qué suceden?\n\nLa quimioterapia puede causar cambios de apetito. Por ejemplo, es posible que usted no tenga deseos de comer debido a:\n\nÎ Náuseas\n\nÎ Problemas en la boca y la garganta que le causan dolor al comer\n\nÎ Medicinas que le hacen perder el gusto por la comida\n\nÎ Sensación de cansancio o depresión.\n\nÎ Este problema puede durar un día, unas cuantas semanas o hasta meses.\n\nEs importante que coma bien, aun cuando no tenga apetito. Esto significa comer y beber alimentos que tengan mucha proteína, vitaminas y calorías. Comer bien ayuda a su cuerpo a combatir las infecciones y a reparar los tejidos dañados por la quimioterapia. Si no come bien podría experimentar:\n\nÎ Adelgazamiento\n\nÎ Debilidad\n\nÎ Cansancio\n\nAlgunos tratamientos contra el cáncer hacen subir de peso o aumentan el apetito. Pregunte al doctor, a la enfermera o al dietista qué tipos de cambios de apetito usted podría esperar y cómo controlarlos."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.685973,
+          "distancia": 0.314027,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 66,
+          "pagina_fin": 66,
+          "seccion": "1-800-422-6237 (1-800-4-CANCER)",
+          "fragmento_id": "a7accb42-b697-4918-a573-0bb4b599fedf",
+          "texto": "1-800-422-6237 (1-800-4-CANCER)\n\nForma de controlar los efectos secundarios\n\nÎ Haga un plan para comer y beber. Algunas personas se sienten mejor cuando comen algo\n\nligero antes de la quimioterapia. Otras se sienten mejor cuando reciben la quimioterapia con el estómago vacío (sin comer nada 2 o 3 horas antes del tratamiento). Después del tratamiento, espere al menos una hora antes de comer o beber.\n\nÎ Coma comidas pequeñas. En lugar de comer 3 comidas grandes al día, tal vez quiera comer 5 o 6 comidas pequeñas. También ayuda si no se toma mucho líquido antes o durante las comidas. Tampoco se acueste justo después de comer.\n\nÎ Consuma alimentos y bebidas que estén tibios o frescos (alimentos que no estén ni\n\nmuy fríos ni muy calientes). Espere a que se enfríen los alimentos y las bebidas calientes, use hielo para enfriarlos. Para calentar los alimentos fríos, sáquelos del refrigerador una hora antes de comer o caliéntelos ligeramente en el horno de microondas. Tome bebidas que estén a temperatura ambiente y que ya no tengan burbujas.\n\nComa 5 o 6 comidas pequeñas cada día en vez de 3 comidas grandes.\n\nEvite los alimentos y las bebidas con olores fuertes. Por ejemplo:\n\n• Café\n\n• Pescado\n\n• Cebollas\n\n• Ajo\n\n• Alimentos que se estén cocinando\n\nÎ Pruebe pequeños trozos de paletas de agua sin leche o frutas heladas. También puede\n\nchupar trocitos de hielo.\n\nÎ Chupe mentas sin azúcar (“sugar-free”) o dulces que tengan un sabor agrio. Pero no\n\nuse dulces ácidos si le duele la boca o la garganta.\n\nÎ Relájese antes del tratamiento. Es posible que sienta menos náuseas si se relaja antes de"
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.633378,
+          "distancia": 0.366622,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "www.cancer.gov/espanol i",
+          "fragmento_id": "2d423d07-936e-4111-9057-934fcf57e1b9",
+          "texto": "www.cancer.gov/espanol i\n\nÍndice\n\nPreguntas y respuestas sobre la quimioterapia .................................................................... 1\n\nConsejos para cuando hable con el doctor o con la enfermera ....................................... 9\n\nSu estado de ánimo durante la quimioterapia .................................................................... 11\n\nLos efectos secundarios ............................................................................................................. 14\n\nAnemia .......................................................................................................................................... 17\n\nCaída del pelo ............................................................................................................................... 19\n\nCambios de apetito ...................................................................................................................... 23\n\nCambios en el sistema nervioso ................................................................................................. 25\n\nCambios en la boca y garganta .................................................................................................. 27\n\nCambios en la piel y las uñas ...................................................................................................... 31\n\nCambios sexuales ......................................................................................................................... 34\n\nCambios urinarios, en los riñones o en la vejiga ..................................................................... 38\n\nCansancio ..................................................................................................................................... 40\n\nDiarrea .......................................................................................................................................... 44\n\nDolor ............................................................................................................................................. 47\n\nEstreñimiento ............................................................................................................................... 49\n\nHemorragia .................................................................................................................................. 51\n\nInfección ....................................................................................................................................... 54\n\nInfecundidad ................................................................................................................................ 59\n\nNáuseas y vómitos ....................................................................................................................... 61\n\nOtros efectos secundarios ........................................................................................................... 64"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.612108,
+          "distancia": 0.387892,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 14,
+          "pagina_fin": 14,
+          "seccion": "Sobre el tratamiento con quimioterapia",
+          "fragmento_id": "65285df4-ac2c-4dbc-bec9-9e933e7a4335",
+          "texto": "Sobre el tratamiento con quimioterapia\n\n¿Por qué necesito quimioterapia? _____________________________________________\n\n¿Cuál es el objeto de esta quimioterapia? _______________________________________\n\n¿Cuáles son los beneficios de la quimioterapia? __________________________________\n\n¿Cuáles son los riesgos de la quimioterapia? ____________________________________\n\n¿Cuántos ciclos de quimioterapia recibiré? ¿Cuánto dura cada tratamiento? ¿Cuánto tiempo de descanso hay entre tratamientos? _____________________________________\n\n¿Qué tipos de quimioterapia recibiré? _________________________________________\n\n¿Cómo me darán la quimioterapia? ___________________________________________\n\n¿Adónde tengo que ir para recibir este tratamiento? _______________________________\n\n¿Cuánto dura cada tratamiento? ______________________________________________"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.610926,
+          "distancia": 0.389074,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 9,
+          "pagina_fin": 9,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "54aee41d-341e-488d-adbc-9571232f5c14",
+          "texto": "www.cancer.gov/espanol\n\n¿Cómo me sentiré durante la quimioterapia?\n\nLa quimioterapia afecta a las personas de diferentes maneras. Lo que usted sentirá dependerá de:\n\nÎ Su salud antes del tratamiento\n\nÎ El tipo de cáncer que tenga\n\nÎ Lo avanzado que esté el cáncer\n\nÎ El tipo de quimioterapia que vaya a recibir\n\nÎ La cantidad (dosis) de quimioterapia\n\nLos doctores y las enfermeras no pueden saber con seguridad cómo se va a sentir usted durante la quimioterapia. Existen muchas formas para controlar los efectos secundarios de la quimioterapia. Si desea más información, vea la sección “Lista de efectos secundarios” que comienza en la página 15."
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "texto": "llagas o molestias en la boca durante la quimioterapia",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.761616,
+          "distancia": 0.238384,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 31,
+          "pagina_fin": 31,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "0bb70b37-8eae-4712-b6ce-bafee4944dfc",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nCambios en la boca y garganta\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia dañan las células que crecen rápidamente, como las que revisten la boca, la garganta y los labios. Esto puede afectar:\n\nÎ Los dientes\n\nÎ Las encías\n\nÎ El revestimiento de la boca\n\nÎ Las glándulas que producen la saliva\n\nLa mayoría de los problemas de la boca desaparecen unos cuantos días después de terminar la quimioterapia."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.669315,
+          "distancia": 0.330685,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 32,
+          "pagina_fin": 32,
+          "seccion": "1-800-422-6237 (1-800-4-CANCER)",
+          "fragmento_id": "28fd4872-e179-4128-8fef-e5893ad09b41",
+          "texto": "1-800-422-6237 (1-800-4-CANCER)\n\nForma de controlar los efectos secundarios\n\nÎ Revísese la boca y la lengua todos los días. Así podrá ver o sentir los problemas tan\n\npronto como empiecen. Los problemas pueden incluir, por ejemplo:\n\n• Llagas en la boca\n\n• Manchas blancas\n\n• Infecciones\n\nInforme de inmediato si tiene estos problemas.\n\nVisite al dentista al menos 2 semanas antes de comenzar a recibir quimioterapia.\n\nÎ Mantenga la boca húmeda. Para esto, puede:\n\n• Beber a menudo sorbos de agua durante el día\n\n• Chupar pedacitos de hielo\n\n• Chupar caramelos duros sin azúcar (“sugar-free”)\n\n• Mascar goma (chicle) sin azúcar (“sugar-free”)\n\nSi tiene la boca seca todo el tiempo, pregunte si puede usar sustitutos de saliva.\n\nÎ Limpie la boca, los dientes, las encías y la lengua.\n\n• Cepíllese los dientes, las encías y la lengua después de cada comida y antes de acostarse.\n\n• Use un cepillo de dientes muy suave. Puede suavizar las cerdas del cepillo poniéndolas bajo el chorro de agua caliente antes de cepillarse.\n\n• Si le duele cepillarse, pruebe limpiarse los dientes con hisopos de algodón (“cotton swabs”) como Toothettes®, las cuales tienen la forma de esponja en un palillo.\n\n• Use una pasta de dientes con fluoruro. O use un gel especial con flúor recetado por el dentista."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.648578,
+          "distancia": 0.351422,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 51,
+          "pagina_fin": 51,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "db67640a-9593-4eeb-bcc3-01a0b00f123a",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nDolor\n\n¿Qué es y por qué sucede?\n\nAlgunos tipos de quimioterapia causan efectos secundarios dolorosos, por ejemplo:\n\nÎ Ardor\n\nÎ Adormecimiento\n\nÎ Hormigueo\n\nÎ Dolores punzantes en las manos y los pies\n\nÎ Lesiones en la boca\n\nÎ Dolores de cabeza\n\nÎ Dolores en los músculos\n\nÎ Dolores de estómago\n\nEl dolor puede ser causado por el cáncer o por la quimioterapia. Los doctores y las enfermeras tienen forma de reducir o aliviar su dolor.\n\nDiga al doctor o a la enfermera si tiene dolor."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.644248,
+          "distancia": 0.355752,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "ff5acd2e-b53e-4d7f-a510-374535d8cd38",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\nNáuseas y vómitos\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia pueden causar náuseas, vómitos o ambos. Las náuseas ocurren cuando se siente asco. Vomitar es cuando se arroja (devuelve) lo que haya en el estómago. Es posible que también se tenga arcadas (“dry heaves”). Estas ocurren cuando el cuerpo intenta vomitar aun cuando el estómago esté vacío"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.624362,
+          "distancia": 0.375638,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "www.cancer.gov/espanol i",
+          "fragmento_id": "2d423d07-936e-4111-9057-934fcf57e1b9",
+          "texto": "www.cancer.gov/espanol i\n\nÍndice\n\nPreguntas y respuestas sobre la quimioterapia .................................................................... 1\n\nConsejos para cuando hable con el doctor o con la enfermera ....................................... 9\n\nSu estado de ánimo durante la quimioterapia .................................................................... 11\n\nLos efectos secundarios ............................................................................................................. 14\n\nAnemia .......................................................................................................................................... 17\n\nCaída del pelo ............................................................................................................................... 19\n\nCambios de apetito ...................................................................................................................... 23\n\nCambios en el sistema nervioso ................................................................................................. 25\n\nCambios en la boca y garganta .................................................................................................. 27\n\nCambios en la piel y las uñas ...................................................................................................... 31\n\nCambios sexuales ......................................................................................................................... 34\n\nCambios urinarios, en los riñones o en la vejiga ..................................................................... 38\n\nCansancio ..................................................................................................................................... 40\n\nDiarrea .......................................................................................................................................... 44\n\nDolor ............................................................................................................................................. 47\n\nEstreñimiento ............................................................................................................................... 49\n\nHemorragia .................................................................................................................................. 51\n\nInfección ....................................................................................................................................... 54\n\nInfecundidad ................................................................................................................................ 59\n\nNáuseas y vómitos ....................................................................................................................... 61\n\nOtros efectos secundarios ........................................................................................................... 64"
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "texto": "cuidados de seguridad en casa después de recibir quimioterapia",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.698305,
+          "distancia": 0.301695,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 6,
+          "pagina_fin": 6,
+          "seccion": "Seguridad en casa después de recibir tratamientos de quimioterapia",
+          "fragmento_id": "c4e3da70-4d7b-4be4-980c-801e7011a362",
+          "texto": "Seguridad en casa después de recibir tratamientos de quimioterapia\n\nDespués de recibir quimioterapia, usted y quienes cuidan de usted necesitan poner especial atención para evitar el contacto con los líquidos de su cuerpo. Estos líquidos (fluidos) incluyen la orina, materia fecal, sudor, sangre, vómitos y los fluidos que se originan en las relaciones sexuales. El doctor o la enfermera sugerirán medidas de seguridad en casa que deberán observar usted y quienes cuidan de usted. Por ejemplo:\n\nÎ Cerrar la tapa y jalar dos veces después de usar el inodoro.\n\nÎ Sentarse en el inodoro para orinar, si usted es hombre.\n\nÎ Lavarse las manos con jabón y agua después de usar el baño\n\nÎ Limpiar las salpicaduras del inodoro con toallas con cloro\n\nÎ Usar guantes al manejar fluidos del cuerpo y lavarse las manos después de quitarse los guantes.\n\nÎ Usar pañales o tampones, si hay problemas de incontinencia y usar guantes al manejarlos.\n\nÎ Lavar por separado la ropa de cama sucia con fluidos corporales.\n\nÎ Usar condones durante las relaciones sexuales."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.566947,
+          "distancia": 0.433053,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 2,
+          "pagina_fin": 2,
+          "seccion": "1-800-422-6237 (1-800-4-CANCER)",
+          "fragmento_id": "8d75c07b-0784-42aa-8cee-b94bff48b8c5",
+          "texto": "1-800-422-6237 (1-800-4-CANCER)\n\nAcerca de este libro\n\nLa quimioterapia y usted fue escrito para usted quien ya está recibiendo o recibirá quimioterapia contra el cáncer. Es posible que este libro ayude también a sus seres queridos. Este libro es una guía que puede consultar durante todo el tratamiento de quimioterapia. Incluye datos acerca de la quimioterapia y sus efectos secundarios y destaca también las diferentes formas como usted puede cuidarse antes, durante y después del tratamiento.\n\nEn vez de leer este libro de principio a fin, lea solo las secciones que necesita ahora. Más tarde, usted podrá leer otras secciones."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.547671,
+          "distancia": 0.452329,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 14,
+          "pagina_fin": 14,
+          "seccion": "Sobre el tratamiento con quimioterapia",
+          "fragmento_id": "65285df4-ac2c-4dbc-bec9-9e933e7a4335",
+          "texto": "Sobre el tratamiento con quimioterapia\n\n¿Por qué necesito quimioterapia? _____________________________________________\n\n¿Cuál es el objeto de esta quimioterapia? _______________________________________\n\n¿Cuáles son los beneficios de la quimioterapia? __________________________________\n\n¿Cuáles son los riesgos de la quimioterapia? ____________________________________\n\n¿Cuántos ciclos de quimioterapia recibiré? ¿Cuánto dura cada tratamiento? ¿Cuánto tiempo de descanso hay entre tratamientos? _____________________________________\n\n¿Qué tipos de quimioterapia recibiré? _________________________________________\n\n¿Cómo me darán la quimioterapia? ___________________________________________\n\n¿Adónde tengo que ir para recibir este tratamiento? _______________________________\n\n¿Cuánto dura cada tratamiento? ______________________________________________"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.515827,
+          "distancia": 0.484173,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 2,
+          "pagina_fin": 2,
+          "seccion": "Este libro incluye:",
+          "fragmento_id": "d15d9f46-4cc3-4099-a557-17b45b37be3a",
+          "texto": "Este libro incluye:\n\nÎ Preguntas y respuestas sobre la quimioterapia. Respuestas a preguntas comunes,\n\ncomo: ¿qué es la quimioterapia? y ¿cómo afecta la quimioterapia a las células cancerosas?\n\nÎ Efectos secundarios y formas para controlarlos: Explica los efectos secundarios\n\ny otros problemas que puede causar la quimioterapia. Esta sección incluye también formas como usted, el doctor o la enfermera pueden controlar estos efectos secundarios.\n\nÎ Sugerencias para cuando hable con el doctor o con la enfermera: Preguntas que\n\npuede hacer al doctor, a la enfermera y a otras personas a cargo de su tratamiento para el cáncer.\n\nÎ Cómo obtener más información: Contiene listas para obtener más información\n\nimpresa, en Internet y por teléfono acerca de la quimioterapia y otros temas tratados en este libro.\n\nHable con el doctor o con la enfermera de lo que puede esperar durante la quimioterapia. Ellos pueden sugerirle que lea algunas partes de este libro o que trate algunas de las formas para controlar los efectos secundarios."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.498197,
+          "distancia": 0.501803,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 67,
+          "pagina_fin": 67,
+          "seccion": "www.cancer.gov/espanol",
+          "fragmento_id": "1dd4e419-bcd1-4c30-a28a-9556404f1305",
+          "texto": "www.cancer.gov/espanol\n\nForma de controlar los efectos secundarios\n\ncada tratamiento de quimioterapia. Puede realizar actividades que disfrute, como:\n\n• Meditar\n\n• Hacer ejercicios de respiración profunda\n\n• Imaginar escenas o experiencias que le hagan sentir en paz\n\n• Leer un libro\n\n• Tejer\n\nÎ Si siente ganas de vomitar, respire profunda y lentamente\n\no tome aire fresco. También podría distraerse al:\n\n• Conversar con amigos o parientes\n\n• Escuchar música\n\n• Mirar una película o la televisión\n\nÎ Hable con el doctor o la enfermera. El doctor puede darle medicinas que ayuden a\n\nprevenir las náuseas durante y después de la quimioterapia. Tóme las medicinas como se lo digan e informe a la enfermera si no le hacen efecto. También puede mencionar la acupuntura, la cual puede ayudar a aliviar las náuseas y vómitos causados por el tratamiento del cáncer. Infórmeles si los vómitos duran más de un día, y si vomita inmediatamente después de beber algo.\n\nDiga al doctor o a la enfermera si las medicinas antinaúseas no están funcionando."
+        }
+      ]
+    }
+  ]
+}

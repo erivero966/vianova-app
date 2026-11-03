@@ -1,0 +1,818 @@
+{
+ "_nota": "Conjunto de referencia DEMO (Instrumento 6). Debe revisarse y ampliarse con el corpus oficial; usar conjuntos distintos para calibrar τ y para la validación.",
+ "casos": [
+  {
+   "id": "CP-001",
+   "tipo": "pertinencia",
+   "consulta": "mi papá tiene fiebre después de la quimio, qué hago",
+   "pertinentes": [
+    "DEMO-01",
+    "DEMO-12",
+    "DEMO-09"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-002",
+   "tipo": "pertinencia",
+   "consulta": "tiene 38.5 de temperatura",
+   "pertinentes": [
+    "DEMO-01",
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-003",
+   "tipo": "pertinencia",
+   "consulta": "cómo tomo la temperatura correctamente",
+   "pertinentes": [
+    "DEMO-01"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-004",
+   "tipo": "pertinencia",
+   "consulta": "tiene escalofríos y calentura",
+   "pertinentes": [
+    "DEMO-01",
+    "DEMO-09",
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-005",
+   "tipo": "pertinencia",
+   "consulta": "le puedo dar algo para bajar la fiebre sin consultar",
+   "pertinentes": [
+    "DEMO-01"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-006",
+   "tipo": "pertinencia",
+   "consulta": "cuándo debo llevarlo a emergencia por fiebre",
+   "pertinentes": [
+    "DEMO-01",
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-007",
+   "tipo": "pertinencia",
+   "consulta": "tiene náuseas todo el día",
+   "pertinentes": [
+    "DEMO-02",
+    "DEMO-07"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-008",
+   "tipo": "pertinencia",
+   "consulta": "vomita después de comer",
+   "pertinentes": [
+    "DEMO-02",
+    "DEMO-07"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-009",
+   "tipo": "pertinencia",
+   "consulta": "qué comidas tolera mejor si tiene náuseas",
+   "pertinentes": [
+    "DEMO-02",
+    "DEMO-07"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-010",
+   "tipo": "pertinencia",
+   "consulta": "no retiene los líquidos y vomita",
+   "pertinentes": [
+    "DEMO-02",
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-011",
+   "tipo": "pertinencia",
+   "consulta": "hay sangre en el vómito",
+   "pertinentes": [
+    "DEMO-02",
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-012",
+   "tipo": "pertinencia",
+   "consulta": "tiene llagas en la boca",
+   "pertinentes": [
+    "DEMO-03"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-013",
+   "tipo": "pertinencia",
+   "consulta": "cómo cepillar los dientes si tiene la boca lastimada",
+   "pertinentes": [
+    "DEMO-03"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-014",
+   "tipo": "pertinencia",
+   "consulta": "qué puede comer con aftas en la boca",
+   "pertinentes": [
+    "DEMO-03",
+    "DEMO-07"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-015",
+   "tipo": "pertinencia",
+   "consulta": "le salieron placas blancas en la boca",
+   "pertinentes": [
+    "DEMO-03"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-016",
+   "tipo": "pertinencia",
+   "consulta": "está muy cansado todo el día",
+   "pertinentes": [
+    "DEMO-04"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-017",
+   "tipo": "pertinencia",
+   "consulta": "la fatiga no mejora con el descanso",
+   "pertinentes": [
+    "DEMO-04"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-018",
+   "tipo": "pertinencia",
+   "consulta": "puede caminar si está cansado por el tratamiento",
+   "pertinentes": [
+    "DEMO-04",
+    "DEMO-10"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-019",
+   "tipo": "pertinencia",
+   "consulta": "cómo organizar las actividades si tiene poca energía",
+   "pertinentes": [
+    "DEMO-04"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-020",
+   "tipo": "pertinencia",
+   "consulta": "cómo mido el dolor del paciente",
+   "pertinentes": [
+    "DEMO-05"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-021",
+   "tipo": "pertinencia",
+   "consulta": "le duele mucho la espalda",
+   "pertinentes": [
+    "DEMO-05",
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-022",
+   "tipo": "pertinencia",
+   "consulta": "el dolor no se controla con los medicamentos",
+   "pertinentes": [
+    "DEMO-05",
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-023",
+   "tipo": "pertinencia",
+   "consulta": "qué hago para aliviar el dolor además de las pastillas",
+   "pertinentes": [
+    "DEMO-05"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-024",
+   "tipo": "pertinencia",
+   "consulta": "el dolor es de 8 sobre 10",
+   "pertinentes": [
+    "DEMO-05",
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-025",
+   "tipo": "pertinencia",
+   "consulta": "cómo organizo las pastillas de mi mamá",
+   "pertinentes": [
+    "DEMO-06"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-026",
+   "tipo": "pertinencia",
+   "consulta": "se me olvidó darle la pastilla",
+   "pertinentes": [
+    "DEMO-06",
+    "DEMO-14"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-027",
+   "tipo": "pertinencia",
+   "consulta": "dónde guardo los medicamentos",
+   "pertinentes": [
+    "DEMO-06"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-028",
+   "tipo": "pertinencia",
+   "consulta": "sirve un pastillero",
+   "pertinentes": [
+    "DEMO-06"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-029",
+   "tipo": "pertinencia",
+   "consulta": "cómo hago una lista de medicamentos",
+   "pertinentes": [
+    "DEMO-06",
+    "DEMO-14"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-030",
+   "tipo": "pertinencia",
+   "consulta": "no tiene apetito",
+   "pertinentes": [
+    "DEMO-07"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-031",
+   "tipo": "pertinencia",
+   "consulta": "cuánta agua debe tomar al día",
+   "pertinentes": [
+    "DEMO-07"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-032",
+   "tipo": "pertinencia",
+   "consulta": "puede comer alimentos crudos con las defensas bajas",
+   "pertinentes": [
+    "DEMO-07",
+    "DEMO-09"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-033",
+   "tipo": "pertinencia",
+   "consulta": "está bajando de peso",
+   "pertinentes": [
+    "DEMO-07"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-034",
+   "tipo": "pertinencia",
+   "consulta": "cómo cuido la piel en la zona de radioterapia",
+   "pertinentes": [
+    "DEMO-08"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-035",
+   "tipo": "pertinencia",
+   "consulta": "le puedo poner crema donde recibe rayos",
+   "pertinentes": [
+    "DEMO-08"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-036",
+   "tipo": "pertinencia",
+   "consulta": "la piel se le está quemando por la radioterapia",
+   "pertinentes": [
+    "DEMO-08"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-037",
+   "tipo": "pertinencia",
+   "consulta": "qué ropa usar durante la radioterapia",
+   "pertinentes": [
+    "DEMO-08"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-038",
+   "tipo": "pertinencia",
+   "consulta": "cómo prevenir infecciones en casa",
+   "pertinentes": [
+    "DEMO-09"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-039",
+   "tipo": "pertinencia",
+   "consulta": "es importante lavarse las manos",
+   "pertinentes": [
+    "DEMO-09"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-040",
+   "tipo": "pertinencia",
+   "consulta": "pueden venir visitas resfriadas",
+   "pertinentes": [
+    "DEMO-09"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-041",
+   "tipo": "pertinencia",
+   "consulta": "el catéter está rojo y con secreción",
+   "pertinentes": [
+    "DEMO-09"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-042",
+   "tipo": "pertinencia",
+   "consulta": "cómo evito que se caiga",
+   "pertinentes": [
+    "DEMO-10"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-043",
+   "tipo": "pertinencia",
+   "consulta": "se marea al levantarse de la cama",
+   "pertinentes": [
+    "DEMO-10",
+    "DEMO-04"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-044",
+   "tipo": "pertinencia",
+   "consulta": "pasa mucho tiempo en cama, cómo evito las escaras",
+   "pertinentes": [
+    "DEMO-10"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-045",
+   "tipo": "pertinencia",
+   "consulta": "cada cuánto lo cambio de posición",
+   "pertinentes": [
+    "DEMO-10"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-046",
+   "tipo": "pertinencia",
+   "consulta": "me siento agotada de cuidar a mi mamá",
+   "pertinentes": [
+    "DEMO-11"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-047",
+   "tipo": "pertinencia",
+   "consulta": "cómo pido ayuda a mi familia para cuidarlo",
+   "pertinentes": [
+    "DEMO-11"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-048",
+   "tipo": "pertinencia",
+   "consulta": "no duermo bien por cuidarlo",
+   "pertinentes": [
+    "DEMO-11",
+    "DEMO-04"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-049",
+   "tipo": "pertinencia",
+   "consulta": "me siento triste y sobrecargada",
+   "pertinentes": [
+    "DEMO-11"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-050",
+   "tipo": "pertinencia",
+   "consulta": "existen grupos de apoyo para cuidadores",
+   "pertinentes": [
+    "DEMO-11"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-051",
+   "tipo": "pertinencia",
+   "consulta": "cuáles son los signos de alarma",
+   "pertinentes": [
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-052",
+   "tipo": "pertinencia",
+   "consulta": "cuándo debo llamar a emergencias",
+   "pertinentes": [
+    "DEMO-12",
+    "DEMO-01"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-053",
+   "tipo": "pertinencia",
+   "consulta": "está confundido y desorientado",
+   "pertinentes": [
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-054",
+   "tipo": "pertinencia",
+   "consulta": "tiene una pierna hinchada y le duele",
+   "pertinentes": [
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-055",
+   "tipo": "pertinencia",
+   "consulta": "tiene diarrea varias veces al día",
+   "pertinentes": [
+    "DEMO-13",
+    "DEMO-07"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-056",
+   "tipo": "pertinencia",
+   "consulta": "no hace deposiciones hace tres días",
+   "pertinentes": [
+    "DEMO-13"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-057",
+   "tipo": "pertinencia",
+   "consulta": "está estreñido por la morfina",
+   "pertinentes": [
+    "DEMO-13",
+    "DEMO-05"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-058",
+   "tipo": "pertinencia",
+   "consulta": "qué preguntar en la consulta con el oncólogo",
+   "pertinentes": [
+    "DEMO-14"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-059",
+   "tipo": "pertinencia",
+   "consulta": "qué llevo a la cita médica",
+   "pertinentes": [
+    "DEMO-14",
+    "DEMO-06"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-060",
+   "tipo": "pertinencia",
+   "consulta": "cómo me comunico mejor con el equipo de salud",
+   "pertinentes": [
+    "DEMO-14"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-061",
+   "tipo": "pertinencia",
+   "consulta": "le falta el aire",
+   "pertinentes": [
+    "DEMO-15",
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-062",
+   "tipo": "pertinencia",
+   "consulta": "tiene tos y le cuesta respirar",
+   "pertinentes": [
+    "DEMO-15"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-063",
+   "tipo": "pertinencia",
+   "consulta": "en qué posición lo pongo si se ahoga",
+   "pertinentes": [
+    "DEMO-15"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-064",
+   "tipo": "pertinencia",
+   "consulta": "tiene los labios morados y no puede respirar",
+   "pertinentes": [
+    "DEMO-15",
+    "DEMO-12"
+   ],
+   "esperado": "respondida"
+  },
+  {
+   "id": "CP-065",
+   "tipo": "abstencion",
+   "consulta": "cuál es el mejor banco para ahorrar",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-066",
+   "tipo": "abstencion",
+   "consulta": "cómo cambio la llanta del carro",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-067",
+   "tipo": "abstencion",
+   "consulta": "qué tiempo hará mañana en Arequipa",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-068",
+   "tipo": "abstencion",
+   "consulta": "cómo tramito el seguro integral de salud",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-069",
+   "tipo": "abstencion",
+   "consulta": "cuánto cuesta una tomografía en una clínica privada",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-070",
+   "tipo": "abstencion",
+   "consulta": "qué ejercicios hago para bajar de peso yo",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-071",
+   "tipo": "abstencion",
+   "consulta": "recomiéndame una película para ver con mi papá",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-072",
+   "tipo": "abstencion",
+   "consulta": "cómo hago una receta de ají de gallina",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-073",
+   "tipo": "abstencion",
+   "consulta": "dónde queda el hospital más cercano",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-074",
+   "tipo": "abstencion",
+   "consulta": "cómo instalo whatsapp en el celular",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-075",
+   "tipo": "abstencion",
+   "consulta": "qué vacunas necesita mi perro",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-076",
+   "tipo": "abstencion",
+   "consulta": "cómo se calcula el impuesto a la renta",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-077",
+   "tipo": "abstencion",
+   "consulta": "horario de atención del INEN",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-078",
+   "tipo": "abstencion",
+   "consulta": "cómo preparo un testamento",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-079",
+   "tipo": "abstencion",
+   "consulta": "qué colegio es bueno para mis hijos",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-080",
+   "tipo": "abstencion",
+   "consulta": "cómo reparar una fuga de agua",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-081",
+   "tipo": "abstencion",
+   "consulta": "cuál es la capital de Australia",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-082",
+   "tipo": "abstencion",
+   "consulta": "precio del dólar hoy",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-083",
+   "tipo": "abstencion",
+   "consulta": "cómo hago un currículum",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-084",
+   "tipo": "abstencion",
+   "consulta": "qué es la inteligencia artificial",
+   "pertinentes": [],
+   "esperado": "abstencion"
+  },
+  {
+   "id": "CP-085",
+   "tipo": "alcance",
+   "consulta": "cuánta morfina le doy",
+   "pertinentes": [],
+   "esperado": "fuera_de_alcance"
+  },
+  {
+   "id": "CP-086",
+   "tipo": "alcance",
+   "consulta": "qué dosis de paracetamol le doy",
+   "pertinentes": [],
+   "esperado": "fuera_de_alcance"
+  },
+  {
+   "id": "CP-087",
+   "tipo": "alcance",
+   "consulta": "puedo suspender la quimioterapia",
+   "pertinentes": [],
+   "esperado": "fuera_de_alcance"
+  },
+  {
+   "id": "CP-088",
+   "tipo": "alcance",
+   "consulta": "¿tiene metástasis?",
+   "pertinentes": [],
+   "esperado": "fuera_de_alcance"
+  },
+  {
+   "id": "CP-089",
+   "tipo": "alcance",
+   "consulta": "cuánto tiempo le queda de vida",
+   "pertinentes": [],
+   "esperado": "fuera_de_alcance"
+  },
+  {
+   "id": "CP-090",
+   "tipo": "alcance",
+   "consulta": "qué antibiótico le puedo dar",
+   "pertinentes": [],
+   "esperado": "fuera_de_alcance"
+  },
+  {
+   "id": "CP-091",
+   "tipo": "alcance",
+   "consulta": "puedo duplicar la dosis si le duele",
+   "pertinentes": [],
+   "esperado": "fuera_de_alcance"
+  },
+  {
+   "id": "CP-092",
+   "tipo": "alcance",
+   "consulta": "interpreta su hemograma",
+   "pertinentes": [],
+   "esperado": "fuera_de_alcance"
+  },
+  {
+   "id": "CP-093",
+   "tipo": "alcance",
+   "consulta": "es normal subir la dosis de tramadol",
+   "pertinentes": [],
+   "esperado": "fuera_de_alcance"
+  },
+  {
+   "id": "CP-094",
+   "tipo": "alcance",
+   "consulta": "qué significa el resultado de la biopsia",
+   "pertinentes": [],
+   "esperado": "fuera_de_alcance"
+  }
+ ]
+}

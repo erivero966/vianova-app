@@ -1,0 +1,238 @@
+{
+ "fecha": "2026-10-16 18:33",
+ "entorno": {
+  "cpu": 2,
+  "sistema": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "python": "3.13.16",
+  "servidor": "uvicorn, 1 proceso, SQLite (ambiente de pruebas)"
+ },
+ "volumen": {
+  "cuidadores_ficticios": 200,
+  "dias_historial": 30,
+  "filas": {
+   "users": 203,
+   "tasks": 600,
+   "task_completions": 19697,
+   "care_events": 2233,
+   "alerts": 486,
+   "event_logs": 29174,
+   "chunks": 48
+  },
+  "tamano_bd_mb": 11.17,
+  "tiempo_generacion_s": 61.8,
+  "lecturas": {
+   "indicadores (todos los participantes)": {
+    "ms": 483.0,
+    "estado": 200,
+    "bytes": 75362
+   },
+   "exportar registros CSV (8 semanas)": {
+    "ms": 684.5,
+    "estado": 200,
+    "bytes": 4047126
+   }
+  }
+ },
+ "login_promedio_ms": 309.6,
+ "carga": [
+  {
+   "usuarios": 1,
+   "iteraciones": 10,
+   "solicitudes": 50,
+   "duracion_s": 0.5,
+   "rps": 99.6,
+   "errores": 0,
+   "endpoints": {
+    "GET agenda (CRUD)": {
+     "n": 10,
+     "errores": 0,
+     "p50_ms": 5.4,
+     "p95_ms": 47.2,
+     "max_ms": 47.2
+    },
+    "GET recomendaciones": {
+     "n": 10,
+     "errores": 0,
+     "p50_ms": 13.7,
+     "p95_ms": 23.7,
+     "max_ms": 23.7
+    },
+    "POST consulta RAG": {
+     "n": 10,
+     "errores": 0,
+     "p50_ms": 10.7,
+     "p95_ms": 16.9,
+     "max_ms": 16.9
+    },
+    "POST registro (CRUD)": {
+     "n": 10,
+     "errores": 0,
+     "p50_ms": 8.3,
+     "p95_ms": 11.7,
+     "max_ms": 11.7
+    },
+    "GET avisos (CRUD)": {
+     "n": 10,
+     "errores": 0,
+     "p50_ms": 5.0,
+     "p95_ms": 6.4,
+     "max_ms": 6.4
+    }
+   }
+  },
+  {
+   "usuarios": 10,
+   "iteraciones": 4,
+   "solicitudes": 200,
+   "duracion_s": 1.83,
+   "rps": 109.3,
+   "errores": 0,
+   "endpoints": {
+    "GET agenda (CRUD)": {
+     "n": 40,
+     "errores": 0,
+     "p50_ms": 55.1,
+     "p95_ms": 85.7,
+     "max_ms": 102.0
+    },
+    "GET recomendaciones": {
+     "n": 40,
+     "errores": 0,
+     "p50_ms": 144.1,
+     "p95_ms": 256.1,
+     "max_ms": 432.7
+    },
+    "POST consulta RAG": {
+     "n": 40,
+     "errores": 0,
+     "p50_ms": 78.9,
+     "p95_ms": 161.4,
+     "max_ms": 321.2
+    },
+    "POST registro (CRUD)": {
+     "n": 40,
+     "errores": 0,
+     "p50_ms": 48.0,
+     "p95_ms": 188.4,
+     "max_ms": 455.6
+    },
+    "GET avisos (CRUD)": {
+     "n": 40,
+     "errores": 0,
+     "p50_ms": 46.1,
+     "p95_ms": 113.6,
+     "max_ms": 224.7
+    }
+   }
+  },
+  {
+   "usuarios": 25,
+   "iteraciones": 4,
+   "solicitudes": 500,
+   "duracion_s": 5.18,
+   "rps": 96.5,
+   "errores": 0,
+   "endpoints": {
+    "GET agenda (CRUD)": {
+     "n": 100,
+     "errores": 0,
+     "p50_ms": 123.5,
+     "p95_ms": 244.8,
+     "max_ms": 328.3
+    },
+    "GET recomendaciones": {
+     "n": 100,
+     "errores": 0,
+     "p50_ms": 336.2,
+     "p95_ms": 1116.2,
+     "max_ms": 1951.2
+    },
+    "POST consulta RAG": {
+     "n": 100,
+     "errores": 0,
+     "p50_ms": 212.3,
+     "p95_ms": 770.5,
+     "max_ms": 1509.8
+    },
+    "POST registro (CRUD)": {
+     "n": 100,
+     "errores": 0,
+     "p50_ms": 147.0,
+     "p95_ms": 603.5,
+     "max_ms": 1684.1
+    },
+    "GET avisos (CRUD)": {
+     "n": 100,
+     "errores": 0,
+     "p50_ms": 122.6,
+     "p95_ms": 261.8,
+     "max_ms": 364.7
+    }
+   }
+  },
+  {
+   "usuarios": 50,
+   "iteraciones": 4,
+   "solicitudes": 1000,
+   "duracion_s": 10.64,
+   "rps": 94.0,
+   "errores": 0,
+   "endpoints": {
+    "GET agenda (CRUD)": {
+     "n": 200,
+     "errores": 0,
+     "p50_ms": 390.7,
+     "p95_ms": 728.6,
+     "max_ms": 1395.5
+    },
+    "GET recomendaciones": {
+     "n": 200,
+     "errores": 0,
+     "p50_ms": 591.2,
+     "p95_ms": 1065.4,
+     "max_ms": 1531.3
+    },
+    "POST consulta RAG": {
+     "n": 200,
+     "errores": 0,
+     "p50_ms": 575.1,
+     "p95_ms": 1131.7,
+     "max_ms": 1523.8
+    },
+    "POST registro (CRUD)": {
+     "n": 200,
+     "errores": 0,
+     "p50_ms": 452.5,
+     "p95_ms": 1069.0,
+     "max_ms": 1434.3
+    },
+    "GET avisos (CRUD)": {
+     "n": 200,
+     "errores": 0,
+     "p50_ms": 363.0,
+     "p95_ms": 762.1,
+     "max_ms": 1702.7
+    }
+   }
+  }
+ ],
+ "estres": [
+  {
+   "n": 300,
+   "errores": 284,
+   "p50_ms": 151469.2,
+   "p95_ms": 151486.3,
+   "max_ms": 151493.6,
+   "usuarios": 100,
+   "solicitudes": 300,
+   "duracion_s": 152.09,
+   "rps": 2.0,
+   "tasa_error_pct": 94.67
+  }
+ ],
+ "rnf_r01": {
+  "crud_mediana_max_ms": 452.5,
+  "rag_mediana_max_ms": 575.1,
+  "cumple": true
+ }
+}

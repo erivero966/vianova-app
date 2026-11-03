@@ -1,0 +1,22 @@
+{
+  "_nota": "Reglas de DEMOSTRACIÓN para avisos (RF-11). Cada regla debe validarse contra la guía oficial que cite (doc_id) antes del piloto. El sistema muestra el aviso y su fuente; no realiza triaje ni clasificación clínica.",
+  "rules": [
+    {"id": "R-FIEBRE-38", "symptom": "fiebre", "min_value": 38.0, "unit": "°C", "doc_id": "DEMO-01",
+     "message": "Registró una temperatura de 38 °C o más. Las guías indican que la fiebre durante el tratamiento del cáncer es un signo de alarma."},
+    {"id": "R-FIEBRE-SIN-VALOR", "symptom": "fiebre", "requires_no_value": true, "doc_id": "DEMO-01",
+     "message": "Registró fiebre. Tome y anote la temperatura: las guías indican que 38 °C o más durante el tratamiento es un signo de alarma."},
+    {"id": "R-DISNEA", "symptom": "disnea", "doc_id": "DEMO-12",
+     "message": "Registró dificultad para respirar, que las guías describen como un signo de alarma."},
+    {"id": "R-SANGRADO", "symptom": "sangrado", "doc_id": "DEMO-12",
+     "message": "Registró un sangrado. Un sangrado que no se detiene es un signo de alarma según las guías."},
+    {"id": "R-CONFUSION", "symptom": "confusion", "doc_id": "DEMO-12",
+     "message": "Registró confusión o desorientación, que las guías describen como un signo de alarma."},
+    {"id": "R-DOLOR-7", "symptom": "dolor", "min_intensity": 7, "doc_id": "DEMO-05",
+     "message": "Registró un dolor de 7 o más sobre 10. Las guías recomiendan comunicarlo al equipo de salud."},
+    {"id": "R-VOMITO-REPETIDO", "symptom": "vomito", "min_frequency": 4, "doc_id": "DEMO-02",
+     "message": "Registró vómitos repetidos. Las guías recomiendan consultar si no puede retener líquidos o si persisten."},
+    {"id": "R-DIARREA-6", "symptom": "diarrea", "min_frequency": 6, "doc_id": "DEMO-13",
+     "message": "Registró diarrea abundante. Las guías recomiendan consultar al equipo de salud."}
+  ],
+  "contact_text": "Comuníquese con su equipo de salud o acuda al servicio de emergencia. Este aviso no reemplaza la valoración de un profesional."
+}

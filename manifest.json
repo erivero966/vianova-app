@@ -1,0 +1,36 @@
+{
+  "fuentes": [
+    {
+      "archivo": "nci_consejos_alimentacion_2024.pdf",
+      "titulo": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "entidad": "National Cancer Institute (NCI)",
+      "version": "2024",
+      "url": "https://www.cancer.gov/espanol/cancer/sobrellevar/consejos-de-alimentacion.pdf",
+      "vigencia": "por revisar"
+    },
+    {
+      "archivo": "nci_radioterapia_y_usted_2016.pdf",
+      "titulo": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "entidad": "National Cancer Institute (NCI)",
+      "version": "2016",
+      "url": "https://www.cancer.gov/espanol/cancer/radioterapia-y-usted.pdf",
+      "vigencia": "por revisar"
+    },
+    {
+      "archivo": "inen_paciente_oncologico_inmunodeprimido_2020.pdf",
+      "titulo": "Guía Técnica: Gestión del Cuidado de Enfermería en la atención del paciente oncológico inmunodeprimido",
+      "entidad": "Instituto Nacional de Enfermedades Neoplásicas (INEN)",
+      "version": "2020",
+      "url": "https://portal.inen.sld.pe/wp-content/uploads/2020/09/RJ-288-2020-J-INEN-1.pdf",
+      "vigencia": "por revisar"
+    },
+    {
+      "archivo": "inen_agentes_antineoplasicos_2023.pdf",
+      "titulo": "Guía Técnica: Gestión del cuidado de enfermería oncológica en la administración de agentes antineoplásicos en el paciente con cáncer",
+      "entidad": "Instituto Nacional de Enfermedades Neoplásicas (INEN)",
+      "version": "2023-V1",
+      "url": "https://portal.inen.sld.pe/wp-content/uploads/2023/11/RJ-N%C2%B0-300-2023-J-INEN.pdf",
+      "vigencia": "por revisar"
+    }
+  ]
+}

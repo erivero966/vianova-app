@@ -1,0 +1,14 @@
+{
+  "appId": "pe.edu.ucsm.vianova",
+  "appName": "Vianova",
+  "webDir": "../frontend/dist",
+  "server": {
+    "url": "https://vianova.example.pe",
+    "cleartext": false,
+    "androidScheme": "https"
+  },
+  "android": { "allowMixedContent": false },
+  "plugins": {
+    "LocalNotifications": { "smallIcon": "ic_stat_icon", "iconColor": "#0f6b5c" }
+  }
+}

@@ -1,0 +1,11 @@
+$ /home/erivero96/Downloads/vianova_app/vianova/backend/.venv/bin/python -m pytest -q tests/test_funcionales_rf.py::test_CF02_rf02_agenda_crear_ver_completar tests/test_funcionales_rf.py::test_CF04_rf04_registro_por_voz_requiere_confirmacion --junitxml=/home/erivero96/Downloads/vianova_app/vianova/evidencias_funcionales/logs/junit_CF02_CF04.xml
+..                                                                       [100%]
+=============================== warnings summary ===============================
+.venv/lib64/python3.13/site-packages/fastapi/testclient.py:1
+  /home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+2 passed, 1 warning in 1.36s
+
+CÓDIGO_SALIDA=0

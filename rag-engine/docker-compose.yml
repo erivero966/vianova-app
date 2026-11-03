@@ -1,0 +1,35 @@
+# PostgreSQL 16 + pgvector para el motor RAG de Vianova (desarrollo local).
+# Las credenciales se leen de .env (ignorado por Git); ver .env.example.
+name: vianova-rag
+
+services:
+  postgres:
+    # Imagen oficial del proyecto pgvector, fijada al entorno validado:
+    # tag 0.8.7-pg16 (pgvector 0.8.7, PostgreSQL 16.15, Debian bookworm).
+    # El digest garantiza los mismos bytes aunque el tag se vuelva a publicar.
+    image: pgvector/pgvector:0.8.7-pg16@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a
+    container_name: vianova_rag_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-vianova_rag}
+      POSTGRES_USER: ${POSTGRES_USER:-vianova}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Defina POSTGRES_PASSWORD en .env}
+    ports:
+      # Solo se publica en loopback: la base no queda expuesta a la red local.
+      - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # Se ejecutan solo al crear el volumen por primera vez (orden alfabético).
+      - ./sql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      # -h 127.0.0.1 evita dar "healthy" mientras corre el servidor temporal de
+      # inicialización, que solo escucha por socket Unix.
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+volumes:
+  pgdata:
+    name: vianova_rag_pgdata

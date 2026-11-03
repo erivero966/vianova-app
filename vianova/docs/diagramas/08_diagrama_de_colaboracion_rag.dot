@@ -1,0 +1,7 @@
+digraph CO { rankdir=LR; fontname="DejaVu Sans"; node [fontname="DejaVu Sans", fontsize=11]; edge [fontname="DejaVu Sans", fontsize=9]; node [shape=box, style="filled", fillcolor="#e3f1ed", color="#0f6b5c"]; nodesep=0.6; ranksep=0.9;
+c [label=":Cuidador", shape=box]; ui [label=":PantallaConsultar"]; api [label=":RouterConocimiento"]; asis [label=":AsistenteRAG"];
+seg [label=":FiltroAlcance"]; idx [label=":ÍndiceHíbrido"]; gen [label=":Generador"]; bd [label=":Documento"]; log [label=":RegistroUso"];
+c -> ui [label="1: escribe o dicta la consulta"]; ui -> api [label="2: POST /api/assistant/ask"]; api -> asis [label="3: preguntar(consulta)"];
+asis -> seg [label="4: verificarAlcance()"]; asis -> idx [label="5: corregir() / buscar(k=5)"]; asis -> bd [label="6: cobertura y metadatos"];
+asis -> gen [label="7: generar(fragmentos ≥ τ)"]; api -> log [label="8: registrar evento\n(sin contenido)"]; api -> ui [label="9: respuesta + fuentes + traza", style=dashed];
+ui -> c [label="10: muestra fuente y\n«cómo se obtuvo»", style=dashed]; }

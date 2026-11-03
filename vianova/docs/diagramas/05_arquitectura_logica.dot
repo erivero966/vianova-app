@@ -1,0 +1,13 @@
+digraph AL { rankdir=TB; fontname="DejaVu Sans"; node [fontname="DejaVu Sans", fontsize=11]; edge [fontname="DejaVu Sans", fontsize=9]; node [shape=box, style="rounded,filled", fillcolor="#e3f1ed", color="#0f6b5c"]; ranksep=0.5;
+subgraph cluster_p { label="Capa de presentación"; style=filled; fillcolor="#f5f7f6"; color="#0f6b5c";
+ui [label="App móvil (PWA / APK Capacitor)\nInicio · Agenda · Registrar · Consultar · Más"]; staff [label="Módulos web del personal\nCorpus · Usuarios · Investigación"]; }
+subgraph cluster_s { label="Capa de servicios (API REST /api, JWT)"; style=filled; fillcolor="#f5f7f6"; color="#0f6b5c";
+api [label="FastAPI: autenticación · cuidado · conocimiento · investigación · administración · privacidad"]; }
+subgraph cluster_d { label="Capa de dominio"; style=filled; fillcolor="#f5f7f6"; color="#0f6b5c";
+rec [label="Recomendador híbrido\nw1·sem + w2·ctx + w3·reg + w4·pref"]; ragn [label="Flujo RAG\nalcance → recuperación → τ → generación → fuentes"];
+av [label="Motor de avisos\n(reglas documentadas)"]; nlp [label="Interpretación de\nvoz/texto"]; ind [label="Indicadores y\nregistros (Tabla 8)"]; }
+subgraph cluster_r { label="Capa de datos y conocimiento"; style=filled; fillcolor="#f5f7f6"; color="#0f6b5c";
+bd [shape=cylinder, label="Base de datos\n(PostgreSQL / SQLite)"]; idx [shape=cylinder, label="Índice híbrido\nTF-IDF + embeddings"]; corp [shape=folder, label="Corpus curado\n(guías oncológicas)"]; reg [shape=note, label="rules.json"]; }
+llm [label="Proveedor LLM\n(opcional, solo fragmentos)", style="rounded,dashed"]; wear [label="Archivo de wearable\n(JSON/CSV)", style="rounded,dashed"];
+ui -> api; staff -> api; api -> rec; api -> ragn; api -> av; api -> nlp; api -> ind; rec -> idx; ragn -> idx; ragn -> llm [style=dashed];
+av -> reg; idx -> corp; rec -> bd; av -> bd; ind -> bd; nlp -> bd [style=invis]; wear -> api [style=dashed]; }

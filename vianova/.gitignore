@@ -1,0 +1,14 @@
+backend/data/*.db
+backend/data/.fernet.key
+backend/data/.jwt_secret
+frontend/node_modules/
+__pycache__/
+.venv/
+.pytest_cache/
+backend/data/entornos/
+*.vbk
+.backup.key
+mobile/node_modules/
+mobile/android/app/build/
+mobile/android/.gradle/
+pruebas/resultados/tmp/

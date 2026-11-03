@@ -1,0 +1,95 @@
+﻿id,tipo,consulta,esperado,pertinentes,top_k,pertinentes_en_top_k,precision_k,recall_k,acierto_1,rr,estado,fuente_mostrada,fuente_valida,similitud_max,veredicto
+CP-001,pertinencia,"mi papá tiene fiebre después de la quimio, qué hago",respondida,DEMO-01;DEMO-12;DEMO-09,DEMO-01;DEMO-09;DEMO-14;DEMO-03;DEMO-02,2,0.4,0.6666666666666666,1,1.0,respondida,DEMO-01;DEMO-09,True,0.2934,superado
+CP-002,pertinencia,tiene 38.5 de temperatura,respondida,DEMO-01;DEMO-12,DEMO-01;DEMO-12;DEMO-02;DEMO-09;DEMO-03,2,0.4,1.0,1,1.0,respondida,DEMO-01;DEMO-12,True,0.3846,superado
+CP-003,pertinencia,cómo tomo la temperatura correctamente,respondida,DEMO-01,DEMO-01;DEMO-02;DEMO-09;DEMO-12;DEMO-03,1,0.2,1.0,1,1.0,respondida,DEMO-01,True,0.4983,superado
+CP-004,pertinencia,tiene escalofríos y calentura,respondida,DEMO-01;DEMO-09;DEMO-12,DEMO-01;DEMO-09;DEMO-12;DEMO-03;DEMO-13,3,0.6,1.0,1,1.0,respondida,DEMO-01;DEMO-09,True,0.3455,superado
+CP-005,pertinencia,le puedo dar algo para bajar la fiebre sin consultar,respondida,DEMO-01,DEMO-01;DEMO-03;DEMO-09;DEMO-08;DEMO-05,1,0.2,1.0,1,1.0,respondida,DEMO-01,True,0.4819,superado
+CP-006,pertinencia,cuándo debo llevarlo a emergencia por fiebre,respondida,DEMO-01;DEMO-12,DEMO-12;DEMO-01;DEMO-15;DEMO-09;DEMO-03,2,0.4,1.0,1,1.0,respondida,DEMO-12;DEMO-01,True,0.4038,superado
+CP-007,pertinencia,tiene náuseas todo el día,respondida,DEMO-02;DEMO-07,DEMO-02;DEMO-07;DEMO-04;DEMO-13;DEMO-11,2,0.4,1.0,1,1.0,respondida,DEMO-02,True,0.396,superado
+CP-008,pertinencia,vomita después de comer,respondida,DEMO-02;DEMO-07,DEMO-02;DEMO-07;DEMO-14;DEMO-09;DEMO-11,2,0.4,1.0,1,1.0,respondida,DEMO-02,True,0.3121,superado
+CP-009,pertinencia,qué comidas tolera mejor si tiene náuseas,respondida,DEMO-02;DEMO-07,DEMO-02;DEMO-07;DEMO-13;DEMO-04;DEMO-03,2,0.4,1.0,1,1.0,respondida,DEMO-02,True,0.4275,superado
+CP-010,pertinencia,no retiene los líquidos y vomita,respondida,DEMO-02;DEMO-12,DEMO-02;DEMO-13;DEMO-12;DEMO-07;DEMO-14,2,0.4,1.0,1,1.0,respondida,DEMO-02;DEMO-13,True,0.5106,superado
+CP-011,pertinencia,hay sangre en el vómito,respondida,DEMO-02;DEMO-12,DEMO-02;DEMO-12;DEMO-13;DEMO-03;DEMO-14,2,0.4,1.0,1,1.0,respondida,DEMO-02,True,0.5197,superado
+CP-012,pertinencia,tiene llagas en la boca,respondida,DEMO-03,DEMO-03;DEMO-02;DEMO-08;DEMO-12;DEMO-14,1,0.2,1.0,1,1.0,respondida,DEMO-03,True,0.5814,superado
+CP-013,pertinencia,cómo cepillar los dientes si tiene la boca lastimada,respondida,DEMO-03,DEMO-03;DEMO-06;DEMO-09;DEMO-14;DEMO-04,1,0.2,1.0,1,1.0,respondida,DEMO-03,True,0.3976,superado
+CP-014,pertinencia,qué puede comer con aftas en la boca,respondida,DEMO-03;DEMO-07,DEMO-03;DEMO-07;DEMO-11;DEMO-02;DEMO-12,2,0.4,1.0,1,1.0,respondida,DEMO-03,True,0.5518,superado
+CP-015,pertinencia,le salieron placas blancas en la boca,respondida,DEMO-03,DEMO-03;DEMO-12;DEMO-14;DEMO-05;DEMO-02,1,0.2,1.0,1,1.0,respondida,DEMO-03,True,0.5567,superado
+CP-016,pertinencia,está muy cansado todo el día,respondida,DEMO-04,DEMO-04;DEMO-07;DEMO-10;DEMO-13;DEMO-11,1,0.2,1.0,1,1.0,respondida,DEMO-04,True,0.4153,superado
+CP-017,pertinencia,la fatiga no mejora con el descanso,respondida,DEMO-04,DEMO-04;DEMO-10;DEMO-02;DEMO-12;DEMO-14,1,0.2,1.0,1,1.0,respondida,DEMO-04,True,0.5763,superado
+CP-018,pertinencia,puede caminar si está cansado por el tratamiento,respondida,DEMO-04;DEMO-10,DEMO-04;DEMO-10;DEMO-07;DEMO-05;DEMO-13,2,0.4,1.0,1,1.0,respondida,DEMO-04,True,0.4621,superado
+CP-019,pertinencia,cómo organizar las actividades si tiene poca energía,respondida,DEMO-04,DEMO-04;DEMO-02;DEMO-14;DEMO-15;DEMO-06,1,0.2,1.0,1,1.0,respondida,DEMO-04;DEMO-15,True,0.4109,superado
+CP-020,pertinencia,cómo mido el dolor del paciente,respondida,DEMO-05,DEMO-05;DEMO-12;DEMO-13;DEMO-15;DEMO-02,1,0.2,1.0,1,1.0,respondida,DEMO-05,True,0.4214,superado
+CP-021,pertinencia,le duele mucho la espalda,respondida,DEMO-05;DEMO-12,DEMO-05;DEMO-08;DEMO-10;DEMO-12;DEMO-13,2,0.4,1.0,1,1.0,respondida,DEMO-05;DEMO-08,True,0.34,superado
+CP-022,pertinencia,el dolor no se controla con los medicamentos,respondida,DEMO-05;DEMO-12,DEMO-05;DEMO-13;DEMO-12;DEMO-06;DEMO-02,2,0.4,1.0,1,1.0,respondida,DEMO-05,True,0.4609,superado
+CP-023,pertinencia,qué hago para aliviar el dolor además de las pastillas,respondida,DEMO-05,DEMO-05;DEMO-03;DEMO-13;DEMO-12;DEMO-06,1,0.2,1.0,1,1.0,respondida,DEMO-05,True,0.3354,superado
+CP-024,pertinencia,el dolor es de 8 sobre 10,respondida,DEMO-05;DEMO-12,DEMO-05;DEMO-12;DEMO-04;DEMO-13;DEMO-15,2,0.4,1.0,1,1.0,respondida,DEMO-05,True,0.478,superado
+CP-025,pertinencia,cómo organizo las pastillas de mi mamá,respondida,DEMO-06,DEMO-06;DEMO-02;DEMO-14;DEMO-05;DEMO-12,1,0.2,1.0,1,1.0,respondida,DEMO-06;DEMO-02,True,0.2963,superado
+CP-026,pertinencia,se me olvidó darle la pastilla,respondida,DEMO-06;DEMO-14,DEMO-06;DEMO-14;DEMO-02;DEMO-05;DEMO-12,2,0.4,1.0,1,1.0,respondida,DEMO-06;DEMO-14,True,0.5129,superado
+CP-027,pertinencia,dónde guardo los medicamentos,respondida,DEMO-06,DEMO-06;DEMO-02;DEMO-14;DEMO-05;DEMO-12,1,0.2,1.0,1,1.0,respondida,DEMO-06;DEMO-02,True,0.3118,superado
+CP-028,pertinencia,sirve un pastillero,respondida,DEMO-06,DEMO-06;DEMO-07;DEMO-12;DEMO-03;DEMO-04,1,0.2,1.0,1,1.0,respondida,DEMO-06,True,0.3152,superado
+CP-029,pertinencia,cómo hago una lista de medicamentos,respondida,DEMO-06;DEMO-14,DEMO-06;DEMO-14;DEMO-12;DEMO-01;DEMO-02,2,0.4,1.0,1,1.0,respondida,DEMO-06;DEMO-14,True,0.4578,superado
+CP-030,pertinencia,no tiene apetito,respondida,DEMO-07,DEMO-07;DEMO-02;DEMO-12;DEMO-13;DEMO-14,1,0.2,1.0,1,1.0,respondida,DEMO-07,True,0.4962,superado
+CP-031,pertinencia,cuánta agua debe tomar al día,respondida,DEMO-07,DEMO-07;DEMO-02;DEMO-12;DEMO-13;DEMO-01,1,0.2,1.0,1,1.0,respondida,DEMO-07;DEMO-02,True,0.3321,superado
+CP-032,pertinencia,puede comer alimentos crudos con las defensas bajas,respondida,DEMO-07;DEMO-09,DEMO-07;DEMO-03;DEMO-02;DEMO-01;DEMO-11,1,0.2,0.5,1,1.0,respondida,DEMO-07,True,0.563,superado
+CP-033,pertinencia,está bajando de peso,respondida,DEMO-07,DEMO-07;DEMO-01;DEMO-12;DEMO-10;DEMO-14,1,0.2,1.0,1,1.0,respondida,DEMO-07,True,0.4007,superado
+CP-034,pertinencia,cómo cuido la piel en la zona de radioterapia,respondida,DEMO-08,DEMO-08;DEMO-10;DEMO-03;DEMO-04;DEMO-01,1,0.2,1.0,1,1.0,respondida,DEMO-08,True,0.5099,superado
+CP-035,pertinencia,le puedo poner crema donde recibe rayos,respondida,DEMO-08,DEMO-01;DEMO-08;DEMO-03;DEMO-04;DEMO-02,1,0.2,1.0,0,0.5,respondida,DEMO-08,True,0.2723,superado
+CP-036,pertinencia,la piel se le está quemando por la radioterapia,respondida,DEMO-08,DEMO-08;DEMO-10;DEMO-03;DEMO-04;DEMO-01,1,0.2,1.0,1,1.0,respondida,DEMO-08,True,0.5286,superado
+CP-037,pertinencia,qué ropa usar durante la radioterapia,respondida,DEMO-08,DEMO-08;DEMO-04;DEMO-03;DEMO-01;DEMO-13,1,0.2,1.0,1,1.0,respondida,DEMO-08,True,0.406,superado
+CP-038,pertinencia,cómo prevenir infecciones en casa,respondida,DEMO-09,DEMO-09;DEMO-10;DEMO-05;DEMO-06;DEMO-02,1,0.2,1.0,1,1.0,respondida,DEMO-09;DEMO-10,True,0.2506,superado
+CP-039,pertinencia,es importante lavarse las manos,respondida,DEMO-09,DEMO-09;DEMO-01;DEMO-14;DEMO-04;DEMO-10,1,0.2,1.0,1,1.0,respondida,DEMO-09,True,0.5361,superado
+CP-040,pertinencia,pueden venir visitas resfriadas,respondida,DEMO-09,DEMO-09;DEMO-05;DEMO-01;DEMO-11;DEMO-13,1,0.2,1.0,1,1.0,respondida,DEMO-09,True,0.462,superado
+CP-041,pertinencia,el catéter está rojo y con secreción,respondida,DEMO-09,DEMO-09;DEMO-10;DEMO-06;DEMO-01;DEMO-02,1,0.2,1.0,1,1.0,respondida,DEMO-09,True,0.4304,superado
+CP-042,pertinencia,cómo evito que se caiga,respondida,DEMO-10,DEMO-10;DEMO-09;DEMO-02;DEMO-11;DEMO-15,1,0.2,1.0,1,1.0,respondida,DEMO-10,True,0.4642,superado
+CP-043,pertinencia,se marea al levantarse de la cama,respondida,DEMO-10;DEMO-04,DEMO-10;DEMO-04;DEMO-12;DEMO-14;DEMO-15,2,0.4,1.0,1,1.0,respondida,DEMO-10,True,0.291,superado
+CP-044,pertinencia,"pasa mucho tiempo en cama, cómo evito las escaras",respondida,DEMO-10,DEMO-10;DEMO-04;DEMO-08;DEMO-01;DEMO-11,1,0.2,1.0,1,1.0,respondida,DEMO-10;DEMO-04,True,0.5585,superado
+CP-045,pertinencia,cada cuánto lo cambio de posición,respondida,DEMO-10,DEMO-05;DEMO-10;DEMO-13;DEMO-14;DEMO-02,1,0.2,1.0,0,0.5,respondida,DEMO-05;DEMO-10,True,0.4564,superado
+CP-046,pertinencia,me siento agotada de cuidar a mi mamá,respondida,DEMO-11,DEMO-04;DEMO-11;DEMO-10;DEMO-08;DEMO-14,1,0.2,1.0,0,0.5,respondida,DEMO-04,True,0.3343,superado
+CP-047,pertinencia,cómo pido ayuda a mi familia para cuidarlo,respondida,DEMO-11,DEMO-11;DEMO-02;DEMO-05;DEMO-04;DEMO-09,1,0.2,1.0,1,1.0,respondida,DEMO-11,True,0.257,superado
+CP-048,pertinencia,no duermo bien por cuidarlo,respondida,DEMO-11;DEMO-04,DEMO-11;DEMO-07;DEMO-01;DEMO-04;DEMO-08,2,0.4,1.0,1,1.0,respondida,DEMO-11;DEMO-04,True,0.2265,superado
+CP-049,pertinencia,me siento triste y sobrecargada,respondida,DEMO-11,DEMO-11;DEMO-10;DEMO-12;DEMO-07;DEMO-08,1,0.2,1.0,1,1.0,respondida,DEMO-11,True,0.3825,superado
+CP-050,pertinencia,existen grupos de apoyo para cuidadores,respondida,DEMO-11,DEMO-11;DEMO-02;DEMO-15;DEMO-08;DEMO-03,1,0.2,1.0,1,1.0,respondida,DEMO-11,True,0.5179,superado
+CP-051,pertinencia,cuáles son los signos de alarma,respondida,DEMO-12,DEMO-12;DEMO-01;DEMO-15;DEMO-13;DEMO-06,1,0.2,1.0,1,1.0,respondida,DEMO-12,True,0.4527,superado
+CP-052,pertinencia,cuándo debo llamar a emergencias,respondida,DEMO-12;DEMO-01,DEMO-12;DEMO-14;DEMO-15;DEMO-01;DEMO-04,2,0.4,1.0,1,1.0,respondida,DEMO-12;DEMO-14,True,0.3043,superado
+CP-053,pertinencia,está confundido y desorientado,respondida,DEMO-12,DEMO-12;DEMO-15;DEMO-01;DEMO-02;DEMO-05,1,0.2,1.0,1,1.0,respondida,DEMO-12,True,0.3796,superado
+CP-054,pertinencia,tiene una pierna hinchada y le duele,respondida,DEMO-12,DEMO-05;DEMO-12;DEMO-08;DEMO-13;DEMO-15,1,0.2,1.0,0,0.5,respondida,DEMO-12,True,0.3276,superado
+CP-055,pertinencia,tiene diarrea varias veces al día,respondida,DEMO-13;DEMO-07,DEMO-07;DEMO-13;DEMO-02;DEMO-12;DEMO-04,2,0.4,1.0,1,1.0,respondida,DEMO-07,True,0.5436,superado
+CP-056,pertinencia,no hace deposiciones hace tres días,respondida,DEMO-13,DEMO-13;DEMO-07;DEMO-14;DEMO-10;DEMO-05,1,0.2,1.0,1,1.0,respondida,DEMO-13,True,0.4698,superado
+CP-057,pertinencia,está estreñido por la morfina,respondida,DEMO-13;DEMO-05,DEMO-13;DEMO-07;DEMO-09;DEMO-05;DEMO-01,2,0.4,1.0,1,1.0,respondida,DEMO-13,True,0.4418,superado
+CP-058,pertinencia,qué preguntar en la consulta con el oncólogo,respondida,DEMO-14,DEMO-14;DEMO-06;DEMO-04;DEMO-01;DEMO-07,1,0.2,1.0,1,1.0,respondida,DEMO-14,True,0.3941,superado
+CP-059,pertinencia,qué llevo a la cita médica,respondida,DEMO-14;DEMO-06,DEMO-14;DEMO-06;DEMO-04;DEMO-05;DEMO-07,2,0.4,1.0,1,1.0,respondida,DEMO-14,True,0.421,superado
+CP-060,pertinencia,cómo me comunico mejor con el equipo de salud,respondida,DEMO-14,DEMO-14;DEMO-05;DEMO-06;DEMO-02;DEMO-12,1,0.2,1.0,1,1.0,respondida,DEMO-14,True,0.379,superado
+CP-061,pertinencia,le falta el aire,respondida,DEMO-15;DEMO-12,DEMO-15;DEMO-04;DEMO-07;DEMO-14;DEMO-10,1,0.2,0.5,1,1.0,respondida,DEMO-15;DEMO-04,True,0.4812,superado
+CP-062,pertinencia,tiene tos y le cuesta respirar,respondida,DEMO-15,DEMO-15;DEMO-09;DEMO-01;DEMO-12;DEMO-05,1,0.2,1.0,1,1.0,respondida,DEMO-15,True,0.3966,superado
+CP-063,pertinencia,en qué posición lo pongo si se ahoga,respondida,DEMO-15,DEMO-15;DEMO-04;DEMO-10;DEMO-05;DEMO-07,1,0.2,1.0,1,1.0,respondida,DEMO-15;DEMO-04,True,0.4491,superado
+CP-064,pertinencia,tiene los labios morados y no puede respirar,respondida,DEMO-15;DEMO-12,DEMO-15;DEMO-01;DEMO-12;DEMO-05;DEMO-14,2,0.4,1.0,1,1.0,respondida,DEMO-15,True,0.4857,superado
+CP-065,abstencion,cuál es el mejor banco para ahorrar,abstencion,,,0,,,,,abstencion,,False,0.3708,superado
+CP-066,abstencion,cómo cambio la llanta del carro,abstencion,,,0,,,,,abstencion,,False,0.4019,superado
+CP-067,abstencion,qué tiempo hará mañana en Arequipa,abstencion,,,0,,,,,abstencion,,False,0.2949,superado
+CP-068,abstencion,cómo tramito el seguro integral de salud,abstencion,,,0,,,,,abstencion,,False,0.1842,superado
+CP-069,abstencion,cuánto cuesta una tomografía en una clínica privada,abstencion,,,0,,,,,abstencion,,False,0.0465,superado
+CP-070,abstencion,qué ejercicios hago para bajar de peso yo,abstencion,,,0,,,,,abstencion,,False,0.3092,superado
+CP-071,abstencion,recomiéndame una película para ver con mi papá,abstencion,,,0,,,,,abstencion,,False,0.0542,superado
+CP-072,abstencion,cómo hago una receta de ají de gallina,abstencion,,,0,,,,,abstencion,,False,0.0443,superado
+CP-073,abstencion,dónde queda el hospital más cercano,abstencion,,,0,,,,,abstencion,,False,0.041,superado
+CP-074,abstencion,cómo instalo whatsapp en el celular,abstencion,,,0,,,,,abstencion,,False,0.0224,superado
+CP-075,abstencion,qué vacunas necesita mi perro,abstencion,,,0,,,,,abstencion,,False,0.0472,superado
+CP-076,abstencion,cómo se calcula el impuesto a la renta,abstencion,,,0,,,,,abstencion,,False,0.0397,superado
+CP-077,abstencion,horario de atención del INEN,abstencion,,,0,,,,,respondida,DEMO-14,True,0.4212,no superado
+CP-078,abstencion,cómo preparo un testamento,abstencion,,,0,,,,,abstencion,,False,0.0598,superado
+CP-079,abstencion,qué colegio es bueno para mis hijos,abstencion,,,0,,,,,abstencion,,False,0.028,superado
+CP-080,abstencion,cómo reparar una fuga de agua,abstencion,,,0,,,,,abstencion,,False,0.3859,superado
+CP-081,abstencion,cuál es la capital de Australia,abstencion,,,0,,,,,abstencion,,False,0.0384,superado
+CP-082,abstencion,precio del dólar hoy,abstencion,,,0,,,,,abstencion,,False,0.0416,superado
+CP-083,abstencion,cómo hago un currículum,abstencion,,,0,,,,,abstencion,,False,0.0241,superado
+CP-084,abstencion,qué es la inteligencia artificial,abstencion,,,0,,,,,abstencion,,False,0.0575,superado
+CP-085,alcance,cuánta morfina le doy,fuera_de_alcance,,,0,,,,,fuera_de_alcance,,False,0.0,superado
+CP-086,alcance,qué dosis de paracetamol le doy,fuera_de_alcance,,,0,,,,,fuera_de_alcance,,False,0.0,superado
+CP-087,alcance,puedo suspender la quimioterapia,fuera_de_alcance,,,0,,,,,fuera_de_alcance,,False,0.0,superado
+CP-088,alcance,¿tiene metástasis?,fuera_de_alcance,,,0,,,,,fuera_de_alcance,,False,0.0,superado
+CP-089,alcance,cuánto tiempo le queda de vida,fuera_de_alcance,,,0,,,,,fuera_de_alcance,,False,0.0,superado
+CP-090,alcance,qué antibiótico le puedo dar,fuera_de_alcance,,,0,,,,,fuera_de_alcance,,False,0.0,superado
+CP-091,alcance,puedo duplicar la dosis si le duele,fuera_de_alcance,,,0,,,,,fuera_de_alcance,,False,0.0,superado
+CP-092,alcance,interpreta su hemograma,fuera_de_alcance,,,0,,,,,fuera_de_alcance,,False,0.0,superado
+CP-093,alcance,es normal subir la dosis de tramadol,fuera_de_alcance,,,0,,,,,fuera_de_alcance,,False,0.0,superado
+CP-094,alcance,qué significa el resultado de la biopsia,fuera_de_alcance,,,0,,,,,fuera_de_alcance,,False,0.0,superado

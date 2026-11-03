@@ -1,0 +1,13 @@
+digraph AF { rankdir=LR; fontname="DejaVu Sans"; node [fontname="DejaVu Sans", fontsize=11]; edge [fontname="DejaVu Sans", fontsize=9]; node [shape=box3d, style=filled, fillcolor="#e3f1ed", color="#0f6b5c"]; ranksep=0.8; nodesep=0.3;
+cel [label="Celular del cuidador\nAndroid / iOS\nPWA o APK"]; pc [label="PC del personal\nnavegador"];
+subgraph cluster_prod { label="Ambiente de PRODUCCIÓN (datos reales)"; style="rounded,filled"; fillcolor="#e6f4ea"; color="#0f6b5c";
+rp [label="Proxy HTTPS\n(TLS 1.2+)"]; app [label="Contenedor Docker\nuvicorn + FastAPI\n+ app web compilada"]; pg [shape=cylinder, label="PostgreSQL\n(cifrado en reposo)"]; sec [shape=note, label="Gestor de secretos\nJWT · Fernet · respaldos"]; }
+subgraph cluster_qa { label="Ambiente de PRUEBAS / CALIDAD (datos ficticios)"; style="rounded,filled"; fillcolor="#eef0ff"; color="#3d4ab0";
+qa [label="Contenedor Docker\nAPP_ENV=pruebas"]; qadb [shape=cylinder, label="BD de pruebas"]; }
+subgraph cluster_dev { label="Ambiente de DESARROLLO (datos ficticios)"; style="rounded,filled"; fillcolor="#fff4e0"; color="#9a5b00";
+dev [label="PC del desarrollador\nAPP_ENV=desarrollo"]; devdb [shape=cylinder, label="SQLite local"]; }
+nube [shape=folder, label="Almacenamiento en la nube\n(respaldos cifrados)"]; usb [shape=box, style="filled,dashed", fillcolor="#fdecea", color="#b3261e", label="Disco externo / USB\nPROHIBIDO"];
+llm [shape=box, style="rounded,dashed", label="API LLM (opcional)"];
+cel -> rp [label="HTTPS"]; pc -> rp [label="HTTPS"]; rp -> app; app -> pg; app -> sec [style=dotted]; app -> llm [style=dashed, label="HTTPS"];
+qa -> qadb; dev -> devdb; pg -> nube [label="backup.py\ncifrado"]; pg -> usb [color="#b3261e", style=dashed, label="✗", fontcolor="#b3261e"];
+pg -> qadb [color="#b3261e", style=dashed, label="✗ sin copia\nentre ambientes", fontcolor="#b3261e"]; }

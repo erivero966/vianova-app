@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Corpus documental: los PDFs (y sus metadatos) no se versionan.
+# Se conserva solo la estructura de carpetas.
+corpus/candidatos/*
+corpus/aprobados/*
+corpus/rechazados/*
+corpus/ocr/*
+!corpus/*/.gitkeep

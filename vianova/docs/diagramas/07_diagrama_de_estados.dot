@@ -1,0 +1,11 @@
+digraph ST { rankdir=LR; fontname="DejaVu Sans"; node [fontname="DejaVu Sans", fontsize=11]; edge [fontname="DejaVu Sans", fontsize=9]; node [shape=box, style="rounded,filled", fillcolor="#e3f1ed", color="#0f6b5c"];
+subgraph cluster_t { label="Ocurrencia de una tarea (RF-02, RF-03)"; style=rounded; color="#0f6b5c";
+i1 [shape=circle, label="", width=0.2, style=filled, fillcolor=black]; pend [label="Pendiente"]; recd [label="Recordatorio\nemitido"]; hecha [label="Hecha"]; venc [label="Vencida"]; omit [label="Omitida"];
+f1 [shape=doublecircle, label="", width=0.15, style=filled, fillcolor=black];
+i1 -> pend; pend -> recd [label="llega la hora"]; recd -> hecha [label="«Hecho»"]; pend -> hecha [label="«Hecho»"]; recd -> venc [label="pasa la\ntolerancia"];
+venc -> hecha [label="«Hecho»\n(fuera de tiempo)"]; venc -> omit [label="«No se hizo»"]; hecha -> f1; omit -> f1; }
+subgraph cluster_d { label="Documento del corpus (RF-12)"; style=rounded; color="#0f6b5c";
+i2 [shape=circle, label="", width=0.2, style=filled, fillcolor=black]; ficha [label="En curaduría\n(ficha)"]; inc [label="Incluido\n(indexado)"]; exc [label="Excluido"]; ret [label="Retirado"];
+i2 -> ficha [label="carga"]; ficha -> inc [label="cumple criterios"]; ficha -> exc [label="no cumple"]; inc -> ret [label="obsoleto\n(+ motivo)"]; inc -> inc [label="nueva versión\n/ reindexar"];
+ret -> inc [label="reincorporar"]; exc -> inc [label="corrige"]; }
+}

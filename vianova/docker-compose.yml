@@ -1,0 +1,31 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: vianova
+      POSTGRES_PASSWORD: vianova
+      POSTGRES_DB: vianova
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vianova -d vianova"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+  app:
+    build: .
+    env_file: [.env.example]
+    environment:
+      DATABASE_URL: postgresql+psycopg://vianova:vianova@db:5432/vianova
+      VIANOVA_DATA_DIR: /data
+    volumes:
+      - appdata:/data
+      - ./backend/data/corpus:/data/corpus:ro
+      - ./backend/data/rules.json:/data/rules.json:ro
+    ports: ["8000:8000"]
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  pgdata:
+  appdata:

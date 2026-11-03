@@ -1,0 +1,3 @@
+[APROBADO] E2E-02 Ver agenda, crear tarea y marcarla como hecha 
+[APROBADO] E2E-04 Registrar síntoma por texto con confirmación 
+CÓDIGO_SALIDA=0

@@ -1,0 +1,10 @@
+digraph NAV { rankdir=LR; fontname="DejaVu Sans"; node [fontname="DejaVu Sans", fontsize=11]; edge [fontname="DejaVu Sans", fontsize=9]; node [shape=box, style="rounded,filled", fillcolor="#e3f1ed", color="#0f6b5c", fontsize=10]; ranksep=0.6; nodesep=0.18;
+login [label="Ingreso / Crear cuenta\n(RF-01)"]; perfil [label="Perfil y paciente\n(RF-01)"];
+subgraph cluster_tab { label="Barra inferior"; style=rounded; color="#0f6b5c";
+inicio [label="Inicio"]; agenda [label="Agenda (RF-02)"]; registrar [label="Registrar (RF-04)"]; consultar [label="Consultar (RF-06)"]; mas [label="Más"]; }
+doc [label="Documento fuente\n+ traza (RF-07)"]; recs [label="Recomendaciones\n(RF-05, RF-08)"]; avisos [label="Avisos (RF-09)"]; record [label="Recordatorios (RF-03)"];
+resumen [label="Resumen (RF-10)"]; disp [label="Dispositivos (RF-11)"]; priv [label="Privacidad (RF-15)"];
+subgraph cluster_staff { label="Personal (web)"; style=rounded; color="#3d4ab0"; corpus [label="Corpus (RF-12)"]; conf [label="Configuración (RF-12)"]; users [label="Usuarios y roles (RF-13)"]; inv [label="Investigación (RF-14)"]; val [label="Validación (RF-14)"]; }
+login -> perfil [label="1.ª vez"]; login -> inicio; login -> corpus [label="curador"]; login -> users [label="admin"]; login -> inv [label="investigador"];
+inicio -> recs; inicio -> avisos; inicio -> registrar; inicio -> consultar; consultar -> doc; recs -> doc; registrar -> avisos [label="si hay aviso"];
+mas -> recs; mas -> avisos; mas -> record; mas -> resumen; mas -> disp; mas -> perfil; mas -> priv; corpus -> conf; inv -> val; users -> conf; }

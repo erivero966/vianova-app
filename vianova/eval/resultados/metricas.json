@@ -1,0 +1,18 @@
+{
+ "n_casos": 94,
+ "n_pertinencia": 64,
+ "n_sin_evidencia": 20,
+ "n_alcance": 10,
+ "precision_at_5": 0.275,
+ "precision_at_5_maxima_posible": 0.2844,
+ "recall_at_5": 0.9792,
+ "acierto_primera_posicion": 0.9375,
+ "mrr": 0.9688,
+ "trazabilidad_pct": 100.0,
+ "abstencion_correcta_pct": 95.0,
+ "fuera_de_alcance_correcto_pct": 100.0,
+ "falsas_abstenciones_pct": 0.0,
+ "tau": 0.12,
+ "k": 5,
+ "modo_generacion": "local"
+}

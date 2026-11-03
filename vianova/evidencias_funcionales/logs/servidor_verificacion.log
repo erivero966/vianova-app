@@ -1,0 +1,197 @@
+INFO:     Started server process [35342]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8876 (Press CTRL+C to quit)
+INFO:     127.0.0.1:59636 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59656 - "GET /assets/index-DaML6RG4.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /assets/index-NLYz-RNf.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /sw.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59670 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59656 - "GET /manifest.webmanifest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59682 - "GET /icons/icon-192.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /icons/icon-512.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59670 - "GET /api/alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59656 - "GET /api/tasks/agenda HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59656 - "GET /api/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59670 - "GET /api/tasks/agenda HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59682 - "GET /api/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "POST /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "POST /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "POST /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59682 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59656 - "GET /api/tasks/agenda?date=2026-10-19T00:00:00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59656 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59682 - "GET /api/tasks/agenda?date=2026-10-20T00:00:00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "GET /api/tasks/agenda?date=2026-10-20T00:00:00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "GET /api/tasks/agenda?date=2026-10-21T00:00:00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59682 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59682 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59682 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59656 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /api/tasks/agenda HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59670 - "GET /api/tasks/agenda?date=2026-10-19T00:00:00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "POST /api/tasks/1/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "POST /api/tasks/2/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59670 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /api/tasks/agenda?date=2026-10-20T00:00:00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "GET /api/tasks/agenda?date=2026-10-20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "POST /api/tasks/1/complete HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:59638 - "POST /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "POST /api/tasks/4/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "DELETE /api/tasks/4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "GET /api/tasks/agenda?date=2026-10-22 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59638 - "POST /api/tasks HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 422, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/applications.py", line 1194, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/middleware/base.py", line 203, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/app/main.py", line 54, in security_headers
+    resp = await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/middleware/base.py", line 179, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/middleware/cors.py", line 149, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/routing.py", line 678, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/routing.py", line 2809, in app
+    await route.handle(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/routing.py", line 1837, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/routing.py", line 2892, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/routing.py", line 1863, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/routing.py", line 1326, in handle
+    await effective_context.app(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/routing.py", line 152, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/routing.py", line 745, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/routing.py", line 374, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/.venv/lib64/python3.13/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/app/routers/care.py", line 100, in create_task
+    start_at=parse(data.start_at), recurrence=data.recurrence, every_hours=data.every_hours,
+             ~~~~~^^^^^^^^^^^^^^^
+  File "/home/erivero96/Downloads/vianova_app/vianova/backend/app/timeutil.py", line 18, in parse
+    dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+ValueError: Invalid isoformat string: 'no-es-fecha'
+INFO:     127.0.0.1:33632 - "POST /api/tasks HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:33648 - "POST /api/tasks HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:59648 - "GET /sw.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33648 - "POST /api/events/parse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /api/events?days=7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "POST /api/events/parse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "POST /api/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /api/events?days=7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33648 - "GET /api/events?days=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33648 - "POST /api/events HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:33648 - "POST /api/events HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:33648 - "POST /api/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59670 - "GET /api/events?days=7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59656 - "GET /api/tasks/agenda HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33648 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33648 - "GET /api/events?days=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33652 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33652 - "GET /assets/index-NLYz-RNf.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33658 - "GET /assets/index-DaML6RG4.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33652 - "GET /sw.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33652 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33652 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33658 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33652 - "GET /manifest.webmanifest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33666 - "GET /icons/icon-192.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33658 - "GET /icons/icon-512.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33658 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33658 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33658 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33670 - "GET /api/alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33678 - "GET /api/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33666 - "GET /api/tasks/agenda HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33678 - "GET /api/tasks/agenda HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33652 - "GET /api/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33652 - "GET /api/events?days=7 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [35342]

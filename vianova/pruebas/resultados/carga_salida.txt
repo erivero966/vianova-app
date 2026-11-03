@@ -1,0 +1,42 @@
+{
+ "volumen": {
+  "cuidadores_ficticios": 200,
+  "dias_historial": 30,
+  "filas": {
+   "users": 203,
+   "tasks": 600,
+   "task_completions": 19697,
+   "care_events": 2233,
+   "alerts": 483,
+   "event_logs": 30440,
+   "chunks": 48
+  },
+  "tamano_bd_mb": 11.44,
+  "tiempo_generacion_s": 61.4,
+  "lecturas": {
+   "indicadores (todos los participantes)": {
+    "ms": 439.8,
+    "estado": 200,
+    "bytes": 75345
+   },
+   "exportar registros CSV (8 semanas)": {
+    "ms": 723.9,
+    "estado": 200,
+    "bytes": 4208545
+   }
+  }
+ },
+ "login_promedio_ms": 313.3,
+ "rnf_r01": {
+  "crud_mediana_max_ms": 312.4,
+  "rag_mediana_max_ms": 389.1,
+  "cumple": true
+ }
+}
+  1 usuarios: 100.8 sol/s, errores 0, GET agenda p50=5.3 p95=44.8, GET recomendaciones p50=13.5 p95=22.6, POST consulta RAG p50=10.8 p95=14.4, POST registro p50=7.2 p95=12.2, GET avisos p50=5.4 p95=6.8
+ 10 usuarios: 116.3 sol/s, errores 0, GET agenda p50=60.0 p95=95.1, GET recomendaciones p50=138.7 p95=207.7, POST consulta RAG p50=83.8 p95=140.6, POST registro p50=65.4 p95=106.3, GET avisos p50=60.6 p95=97.7
+ 25 usuarios: 110.9 sol/s, errores 0, GET agenda p50=133.2 p95=167.0, GET recomendaciones p50=278.0 p95=726.1, POST consulta RAG p50=181.5 p95=373.4, POST registro p50=153.2 p95=727.0, GET avisos p50=105.3 p95=203.9
+ 50 usuarios: 100.2 sol/s, errores 0, GET agenda p50=230.0 p95=329.2, GET recomendaciones p50=566.5 p95=1884.8, POST consulta RAG p50=389.1 p95=1247.5, POST registro p50=312.4 p95=1853.8, GET avisos p50=196.2 p95=374.9
+ESTRÉS 100: p50=1924.9 p95=3124.0 max=3219.2 errores=0.0% rps=87.1
+ESTRÉS 150: p50=3635.3 p95=5411.9 max=5929.5 errores=0.0% rps=73.5
+ESTRÉS 200: p50=7062.2 p95=11677.8 max=13350.4 errores=0.5% rps=44.4

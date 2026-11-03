@@ -1,0 +1,595 @@
+{
+ "ronda": 2,
+ "fecha": "2026-10-16 19:09",
+ "navegador": "Chromium (Playwright)",
+ "e2e": [
+  {
+   "id": "E2E-01",
+   "rf": "RF-01",
+   "escenario": "Crear cuenta con consentimiento y registrar perfil del paciente",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 3.11,
+   "toques": 5,
+   "capturas": [
+    "RF01_registro_consentimiento.png",
+    "RF01_perfil_paciente.png"
+   ]
+  },
+  {
+   "id": "E2E-00",
+   "rf": "—",
+   "escenario": "Pantalla de inicio y menú Más",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 1.08,
+   "toques": 0,
+   "capturas": [
+    "INICIO_cuidador.png",
+    "MAS_menu.png"
+   ]
+  },
+  {
+   "id": "E2E-02",
+   "rf": "RF-02",
+   "escenario": "Ver agenda, crear tarea y marcarla como hecha",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 1.36,
+   "toques": 3,
+   "capturas": [
+    "RF02_agenda.png",
+    "RF02_nueva_tarea.png"
+   ]
+  },
+  {
+   "id": "E2E-04",
+   "rf": "RF-04",
+   "escenario": "Registrar síntoma por texto con confirmación",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 1.47,
+   "toques": 2,
+   "capturas": [
+    "RF04_confirmacion_registro.png",
+    "RF04_RF09_registro_guardado_con_aviso.png"
+   ]
+  },
+  {
+   "id": "E2E-05",
+   "rf": "RF-05",
+   "escenario": "Buscar recomendaciones explicadas",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 0.69,
+   "toques": 1,
+   "capturas": [
+    "RF05_recomendaciones.png"
+   ]
+  },
+  {
+   "id": "E2E-06",
+   "rf": "RF-06",
+   "escenario": "Consulta con respuesta, fuera de alcance y abstención",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 1.34,
+   "toques": 3,
+   "capturas": [
+    "RF06_consulta_respondida.png",
+    "RF06_abstencion_y_fuera_de_alcance.png"
+   ]
+  },
+  {
+   "id": "E2E-07",
+   "rf": "RF-07",
+   "escenario": "Traza RAG y documento fuente",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 1.4,
+   "toques": 3,
+   "capturas": [
+    "RF07_traza_rag.png",
+    "RF07_documento_fuente.png"
+   ]
+  },
+  {
+   "id": "E2E-08",
+   "rf": "RF-08",
+   "escenario": "Valorar una recomendación",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 0.65,
+   "toques": 1,
+   "capturas": [
+    "RF08_retroalimentacion.png"
+   ]
+  },
+  {
+   "id": "E2E-09",
+   "rf": "RF-09",
+   "escenario": "Historial de avisos y marcar como revisado",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 0.63,
+   "toques": 2,
+   "capturas": [
+    "RF09_historial_avisos.png"
+   ]
+  },
+  {
+   "id": "E2E-10",
+   "rf": "RF-10",
+   "escenario": "Resumen para el equipo de salud y descarga CSV",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 1.16,
+   "toques": 1,
+   "capturas": [
+    "RF10_resumen_exportable.png"
+   ]
+  },
+  {
+   "id": "E2E-11",
+   "rf": "RF-11",
+   "escenario": "Autorizar e importar datos de pulsera",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 0.76,
+   "toques": 2,
+   "capturas": [
+    "RF11_dispositivos_importacion.png"
+   ]
+  },
+  {
+   "id": "E2E-15",
+   "rf": "RF-15",
+   "escenario": "Privacidad: autorizaciones y descarga de datos",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 0.75,
+   "toques": 1,
+   "capturas": [
+    "RF15_privacidad_arco.png"
+   ]
+  },
+  {
+   "id": "E2E-03",
+   "rf": "RF-03",
+   "escenario": "Recordatorio emergente a la hora programada",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 0.73,
+   "toques": 0,
+   "capturas": [
+    "RF03_recordatorios.png"
+   ]
+  },
+  {
+   "id": "E2E-12",
+   "rf": "RF-12",
+   "escenario": "Corpus y configuración del modelo (curador)",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 1.76,
+   "toques": 1,
+   "capturas": [
+    "RF12_corpus_curaduria.png",
+    "RF12_configuracion_modelo.png"
+   ]
+  },
+  {
+   "id": "E2E-13",
+   "rf": "RF-13",
+   "escenario": "Crear cuenta interna y ver auditoría (administrador)",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 2.0,
+   "toques": 2,
+   "capturas": [
+    "RF13_usuarios_roles.png",
+    "RF13_auditoria.png"
+   ]
+  },
+  {
+   "id": "E2E-14",
+   "rf": "RF-14",
+   "escenario": "Indicadores y validación técnica (investigador)",
+   "estado": "aprobado",
+   "error": "",
+   "duracion_s": 2.4,
+   "toques": 1,
+   "capturas": [
+    "RF14_indicadores_investigacion.png",
+    "RF14_validacion_tecnica.png"
+   ]
+  }
+ ],
+ "toques_por_tarea": {
+  "Crear cuenta y perfil": 5,
+  "Crear tarea en la agenda": 3,
+  "Registrar síntoma": 2,
+  "Buscar recomendación": 1,
+  "Consultar y ver la fuente": 3,
+  "Valorar recomendación": 1,
+  "Descargar resumen": 1
+ },
+ "configuracion": [
+  {
+   "configuracion": "Teléfono pequeño 320×568",
+   "pantalla": "inicio",
+   "ancho_contenido": 320,
+   "ancho_ventana": 320,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Teléfono pequeño 320×568",
+   "pantalla": "agenda",
+   "ancho_contenido": 320,
+   "ancho_ventana": 320,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Teléfono pequeño 320×568",
+   "pantalla": "registrar",
+   "ancho_contenido": 320,
+   "ancho_ventana": 320,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Teléfono pequeño 320×568",
+   "pantalla": "consultar",
+   "ancho_contenido": 320,
+   "ancho_ventana": 320,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Teléfono pequeño 320×568",
+   "pantalla": "recomendaciones",
+   "ancho_contenido": 320,
+   "ancho_ventana": 320,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Teléfono pequeño 320×568",
+   "pantalla": "privacidad",
+   "ancho_contenido": 320,
+   "ancho_ventana": 320,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Teléfono 390×844",
+   "pantalla": "inicio",
+   "ancho_contenido": 390,
+   "ancho_ventana": 390,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Teléfono 390×844",
+   "pantalla": "agenda",
+   "ancho_contenido": 390,
+   "ancho_ventana": 390,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Teléfono 390×844",
+   "pantalla": "registrar",
+   "ancho_contenido": 390,
+   "ancho_ventana": 390,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Teléfono 390×844",
+   "pantalla": "consultar",
+   "ancho_contenido": 390,
+   "ancho_ventana": 390,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Teléfono 390×844",
+   "pantalla": "recomendaciones",
+   "ancho_contenido": 390,
+   "ancho_ventana": 390,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Teléfono 390×844",
+   "pantalla": "privacidad",
+   "ancho_contenido": 390,
+   "ancho_ventana": 390,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Android 412×915",
+   "pantalla": "inicio",
+   "ancho_contenido": 412,
+   "ancho_ventana": 412,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Android 412×915",
+   "pantalla": "agenda",
+   "ancho_contenido": 412,
+   "ancho_ventana": 412,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Android 412×915",
+   "pantalla": "registrar",
+   "ancho_contenido": 412,
+   "ancho_ventana": 412,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Android 412×915",
+   "pantalla": "consultar",
+   "ancho_contenido": 412,
+   "ancho_ventana": 412,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Android 412×915",
+   "pantalla": "recomendaciones",
+   "ancho_contenido": 412,
+   "ancho_ventana": 412,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Android 412×915",
+   "pantalla": "privacidad",
+   "ancho_contenido": 412,
+   "ancho_ventana": 412,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Tableta 768×1024",
+   "pantalla": "inicio",
+   "ancho_contenido": 768,
+   "ancho_ventana": 768,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Tableta 768×1024",
+   "pantalla": "agenda",
+   "ancho_contenido": 768,
+   "ancho_ventana": 768,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Tableta 768×1024",
+   "pantalla": "registrar",
+   "ancho_contenido": 768,
+   "ancho_ventana": 768,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Tableta 768×1024",
+   "pantalla": "consultar",
+   "ancho_contenido": 768,
+   "ancho_ventana": 768,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Tableta 768×1024",
+   "pantalla": "recomendaciones",
+   "ancho_contenido": 768,
+   "ancho_ventana": 768,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Tableta 768×1024",
+   "pantalla": "privacidad",
+   "ancho_contenido": 768,
+   "ancho_ventana": 768,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Escritorio 1366×768",
+   "pantalla": "inicio",
+   "ancho_contenido": 1366,
+   "ancho_ventana": 1366,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Escritorio 1366×768",
+   "pantalla": "agenda",
+   "ancho_contenido": 1366,
+   "ancho_ventana": 1366,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Escritorio 1366×768",
+   "pantalla": "registrar",
+   "ancho_contenido": 1366,
+   "ancho_ventana": 1366,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Escritorio 1366×768",
+   "pantalla": "consultar",
+   "ancho_contenido": 1366,
+   "ancho_ventana": 1366,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Escritorio 1366×768",
+   "pantalla": "recomendaciones",
+   "ancho_contenido": 1366,
+   "ancho_ventana": 1366,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  },
+  {
+   "configuracion": "Escritorio 1366×768",
+   "pantalla": "privacidad",
+   "ancho_contenido": 1366,
+   "ancho_ventana": 1366,
+   "sin_desborde": true,
+   "navegacion_visible": true,
+   "estado": "aprobado"
+  }
+ ],
+ "accesibilidad": {
+  "pantallas_evaluadas": 25,
+  "violaciones": [],
+  "detalle": [
+   {
+    "pantalla": "RF01_registro_consentimiento",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF01_perfil_paciente",
+    "violaciones": []
+   },
+   {
+    "pantalla": "INICIO_cuidador",
+    "violaciones": []
+   },
+   {
+    "pantalla": "MAS_menu",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF02_agenda",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF02_nueva_tarea",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF04_confirmacion_registro",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF04_RF09_registro_guardado_con_aviso",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF05_recomendaciones",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF06_consulta_respondida",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF06_abstencion_y_fuera_de_alcance",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF07_traza_rag",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF07_documento_fuente",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF08_retroalimentacion",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF09_historial_avisos",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF10_resumen_exportable",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF11_dispositivos_importacion",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF15_privacidad_arco",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF03_recordatorios",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF12_corpus_curaduria",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF12_configuracion_modelo",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF13_usuarios_roles",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF13_auditoria",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF14_indicadores_investigacion",
+    "violaciones": []
+   },
+   {
+    "pantalla": "RF14_validacion_tecnica",
+    "violaciones": []
+   }
+  ]
+ }
+}
