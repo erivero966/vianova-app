@@ -1,0 +1,19 @@
+Loading weights:   0%|          | 0/134 [00:00<?, ?it/s]Loading weights: 100%|██████████| 134/134 [00:00<00:00, 16908.95it/s]
+{"nombre": "alia", "model_id": "SINAI/ALIA-MrBERT-es-biomedical-embeddings", "revision": "95d6c927ac774b120156357dadd665c1e71adf54", "dimension": 768, "normalizado": true, "query_prompt": "", "document_prompt": "", "device": "cuda", "dtype": "torch.float32", "batch_size": 16, "max_seq_length": 8192, "padding_side": "left", "tiempo_carga_s": 0.43294253500016566, "representacion": "dense", "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU", "vram_total_bytes": 8184725504, "software": {"torch": "2.14.1", "sentence-transformers": "6.2.0", "transformers": "5.20.2", "numpy": "2.5.4", "psycopg": "3.3.6", "pgvector": "0.5.1"}, "dimension_observada_documento": 768, "dimension_observada_query": 768}
+alia: 419 embeddings generados
+alia MD01 La quimioterapia y usted: Apoyo para las personas con cáncer 66 0.701778
+alia MD02 La quimioterapia y usted: Apoyo para las personas con cáncer 65 0.628597
+alia MD03 La quimioterapia y usted: Apoyo para las personas con cáncer 46 0.651161
+alia MD04 La quimioterapia y usted: Apoyo para las personas con cáncer 48 0.694111
+alia MD05 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 20 0.634195
+alia MD06 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 3 0.730719
+alia MD07 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 3 0.659432
+alia MD08 La quimioterapia y usted: Apoyo para las personas con cáncer 67 0.698625
+alia MD09 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 32 0.596366
+alia MD10 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 3 0.635934
+alia MD11 La radioterapia y usted: Apoyo para las personas con cáncer 56 0.805217
+alia MD12 La radioterapia y usted: Apoyo para las personas con cáncer 31 0.629729
+alia MD13 La radioterapia y usted: Apoyo para las personas con cáncer 47 0.74297
+alia MD14 La radioterapia y usted: Apoyo para las personas con cáncer 10 0.72209
+alia MD15 La radioterapia y usted: Apoyo para las personas con cáncer 12 0.65916
+alia Q04 La quimioterapia y usted: Apoyo para las personas con cáncer 69 0.625337

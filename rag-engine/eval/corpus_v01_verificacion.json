@@ -1,0 +1,23 @@
+{
+  "fecha_utc": "2026-11-03T18:11:33.387713+00:00",
+  "estado": "OK",
+  "consultas": 15,
+  "resultados_verificados_con_postgresql": 75,
+  "fragmentos_distintos_en_resultados": 58,
+  "documentos_activos": 3,
+  "chunks_activos": 428,
+  "embeddings_activos": 428,
+  "chunks_retrieval": 419,
+  "sintetico": "retirada",
+  "INEN_en_base": 0,
+  "archivos_previos_con_sha256_conservado": 15,
+  "metadata_pdf_base": "coinciden",
+  "segundo_inen_ocr_creado": false,
+  "recuentos_manuales": {
+    "top1_pertinente": 6,
+    "top3_contiene_pertinente": 9,
+    "top5_contiene_pertinente": 13,
+    "fuente_esperada_recuperada": 15,
+    "fuente_esperada_pertinente_top5": 11
+  }
+}

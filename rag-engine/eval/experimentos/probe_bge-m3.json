@@ -1,0 +1,28 @@
+{
+  "nombre": "bge-m3",
+  "model_id": "BAAI/bge-m3",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "dimension": 1024,
+  "normalizado": true,
+  "query_prompt": "",
+  "document_prompt": "",
+  "device": "cuda",
+  "dtype": "torch.float32",
+  "batch_size": 16,
+  "max_seq_length": 8192,
+  "padding_side": "right",
+  "tiempo_carga_s": 2.5247197589997086,
+  "representacion": "dense",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "vram_total_bytes": 8184725504,
+  "software": {
+    "torch": "2.14.1",
+    "sentence-transformers": "6.2.0",
+    "transformers": "5.20.2",
+    "numpy": "2.5.4",
+    "psycopg": "3.3.6",
+    "pgvector": "0.5.1"
+  },
+  "dimension_observada_documento": 1024,
+  "dimension_observada_query": 1024
+}

@@ -1,0 +1,603 @@
+{
+  "fecha_utc": "2026-11-03T19:03:49.784861+00:00",
+  "tipo": "asistido_preliminar",
+  "alcance": "Anotación descriptiva del tipo de fragmento (Top-5, 15 consultas, 3 modelos) para pares cuyo juicio previo no tenía categoría. NO modifica ningún juicio de pertinencia humano ni asistido; se usa solo para medir introducciones/definiciones frente a consejos prácticos.",
+  "categorias": {
+    "consejo_practico": "medidas accionables (cualquier tema)",
+    "definicion_causas": "qué es / por qué pasa / duración",
+    "introduccion_general": "presentación o pautas generales",
+    "preguntas_sin_respuesta": "cuestionario con líneas en blanco",
+    "lista_indice": "enumeración, título o remisión",
+    "otro_tema": "contenido de otro tema"
+  },
+  "anotaciones": [
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "60aff5fc-9770-4070-a7f5-e374a3d2acaa",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "da86be80-4b90-4385-a531-e982ae6c3b7a",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "1c8a1774-743e-4c85-bbfa-4feb1bc13869",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "d4961459-bbc5-4d38-9e14-7e768b5887d5",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "aa722955-d53d-47fb-b91d-b69cb818060e",
+      "categoria": "otro_tema",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "da86be80-4b90-4385-a531-e982ae6c3b7a",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "60aff5fc-9770-4070-a7f5-e374a3d2acaa",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "92700831-5c4f-478d-9e31-14d2d0279e88",
+      "categoria": "introduccion_general",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "850fc5a2-6fda-449b-93f6-ff9cd48a2809",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "2910ab6e-f5ec-4b08-86f9-2a3035cc21e6",
+      "categoria": "preguntas_sin_respuesta",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "95af4ae7-5c67-4e4d-a883-0c6180942c01",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "dd6b8ee6-a9c8-49c9-a6f7-a4afb6212a24",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "f8ba552c-1e79-4745-84d8-8d50a6e406aa",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "a8fb67ed-60fb-45ac-9fd0-6a6347351356",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "cc4fed53-4c1e-4809-88c7-ac36ed9b688e",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "fedc328b-da6b-48b5-8ce1-ddfe7d3f5762",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "d4961459-bbc5-4d38-9e14-7e768b5887d5",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "acfcdabf-8472-4f70-9c9b-41cea0058d0d",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "434a4945-9141-4fd9-aa71-afa77a39add4",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "d164773b-eef3-4eeb-8c76-761ff93b1f4a",
+      "categoria": "lista_indice",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "5c99cef9-f923-44ad-baf7-509e6463f16c",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "558cc861-2455-458e-bfa5-da52072d64e7",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "da86be80-4b90-4385-a531-e982ae6c3b7a",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "60aff5fc-9770-4070-a7f5-e374a3d2acaa",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "98f84c32-8213-48a8-bd06-dcdea0e0dd3a",
+      "categoria": "otro_tema",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "a48746ea-6720-4b3a-a1cc-935e303b7107",
+      "categoria": "introduccion_general",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "c87c083b-d965-4f39-bdf0-65d740597f73",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "e123562c-36bc-4bd8-9d08-8eff2bded2f7",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "9d6a6f53-87d8-4434-b33b-51289f69404f",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "ade8afbd-e9b4-4c64-821e-a0ae617f97a4",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "a48746ea-6720-4b3a-a1cc-935e303b7107",
+      "categoria": "introduccion_general",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "d39db4a4-16ed-45e2-b95a-ed2a02b8f8d4",
+      "categoria": "introduccion_general",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "d6379120-2fe9-4420-b2cc-e9ba77208e62",
+      "categoria": "lista_indice",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "861d57da-729c-4271-8d10-1a0f24e00761",
+      "categoria": "lista_indice",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "1ba95068-943f-4706-9e6b-8fd7ecb3b529",
+      "categoria": "lista_indice",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "861d57da-729c-4271-8d10-1a0f24e00761",
+      "categoria": "lista_indice",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "69932133-16fe-4016-b849-ac81c8efb2c2",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "f9b0037e-b532-4c75-8aec-0665deb1f8b1",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "aa1b6069-c6ba-4e53-a5e2-a7747c63ba50",
+      "categoria": "lista_indice",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "d4961459-bbc5-4d38-9e14-7e768b5887d5",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "0be4695b-bcb8-413f-b4db-ac8a24a6391d",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "3ebda41b-a49f-4c06-ab09-16de7e95d1bc",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "bc646d03-31a9-42f2-8636-b3118f2e5221",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "07e018d4-df01-43ad-9858-d6f1c1673227",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "ef0182d4-279b-4976-9829-90445b9494f4",
+      "categoria": "lista_indice",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "d39db4a4-16ed-45e2-b95a-ed2a02b8f8d4",
+      "categoria": "introduccion_general",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "b4bb7de0-28c5-4ad3-8ee1-c0cdceb43920",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "18ef2284-13c7-46a7-bee6-9ee6b9b825a3",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "1247440f-8f7d-458e-99fd-8f05ba341020",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "a48746ea-6720-4b3a-a1cc-935e303b7107",
+      "categoria": "introduccion_general",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "8285f838-61ba-4c30-9438-d2aa4f8ed017",
+      "categoria": "preguntas_sin_respuesta",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "4a30e13d-f1ac-4040-be39-7996b128c586",
+      "categoria": "preguntas_sin_respuesta",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "d6fdf222-ae6c-406a-add6-f940a03eb3e8",
+      "categoria": "preguntas_sin_respuesta",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "2d5d704b-1be6-490d-b6f5-336d2393fcd7",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "4c988ebb-4cde-40cf-be1e-8f3d2a229060",
+      "categoria": "introduccion_general",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "f8ba552c-1e79-4745-84d8-8d50a6e406aa",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "cabe3505-1c6a-4970-bb49-08088e9a06be",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "cc4fed53-4c1e-4809-88c7-ac36ed9b688e",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "74fae4d4-f4f4-46a1-ae27-e527f21226c2",
+      "categoria": "otro_tema",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "b117a4b9-3299-4780-9cdb-c3bfdab4d831",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "fd2f581a-84df-4b32-8c14-5004527f90d2",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "6644703a-652e-4fc4-a2a7-25313327a482",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "ee66e052-c3ad-4204-b828-2aa40f7848b4",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "6e4b8e7b-4eed-43cc-bbad-30c7c9976d32",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "333e5e92-f5b8-4a1b-b015-c136c26ca9b2",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "f54aed1f-f396-45f1-adb0-ef720a4b2358",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "3910dc8c-8afd-4a34-8088-eb52b3a740b1",
+      "categoria": "introduccion_general",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "f8ba552c-1e79-4745-84d8-8d50a6e406aa",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "f696b8bd-9f51-4e75-8bc2-508df970230b",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "8d6ff4c8-efe6-47d1-a651-1d140459c09c",
+      "categoria": "otro_tema",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "3910dc8c-8afd-4a34-8088-eb52b3a740b1",
+      "categoria": "introduccion_general",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "cc4fed53-4c1e-4809-88c7-ac36ed9b688e",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "f54aed1f-f396-45f1-adb0-ef720a4b2358",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "86eeb0d8-4f05-4a61-8c99-43eebdc6e25e",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "fd2f581a-84df-4b32-8c14-5004527f90d2",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "humano"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "e4dd17a2-9420-4a13-9948-83780227fd75",
+      "categoria": "otro_tema",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "1c8a1774-743e-4c85-bbfa-4feb1bc13869",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "2c967bfa-0248-418d-95f3-9121e716d24f",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "77b01310-dba6-486c-93d2-7472a4c8e6e9",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "a0641283-634c-4066-bcdb-51f7c8e882d1",
+      "categoria": "otro_tema",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "fcce6d73-3671-432e-94a8-80250b06486b",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "8075438f-5fb2-4ff4-8aef-def3b0c382fb",
+      "categoria": "lista_indice",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "5f62f68e-0302-4724-878d-e2aeca7ca244",
+      "categoria": "otro_tema",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "ecdedb0c-0b44-4b92-83fe-94fccded59ff",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "070316df-7514-4b75-b109-baa644283cb7",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "ecdedb0c-0b44-4b92-83fe-94fccded59ff",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "b523a406-403e-4b68-821d-9f38e1d185ff",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "709a63a3-1d38-46ce-af78-0a25e7d65d5d",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "4ff0aedd-a653-4af7-96eb-a3806da93e69",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "8d6ff4c8-efe6-47d1-a651-1d140459c09c",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "5d0b6315-bcae-4ddf-a66e-9eee68c974ac",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "a62121e8-0407-47e2-90ce-37a6f154a409",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "f9b0037e-b532-4c75-8aec-0665deb1f8b1",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "fedc328b-da6b-48b5-8ce1-ddfe7d3f5762",
+      "categoria": "definicion_causas",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "dd6b8ee6-a9c8-49c9-a6f7-a4afb6212a24",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "1ba95068-943f-4706-9e6b-8fd7ecb3b529",
+      "categoria": "lista_indice",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "76fc5d2e-3f36-414a-9f07-03197d87d5fb",
+      "categoria": "consejo_practico",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "d3d08faf-2414-4410-899d-3a668c0deeb5",
+      "categoria": "preguntas_sin_respuesta",
+      "tipo_juicio_pertinencia": "asistido_preliminar"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "alia": {
+    "model_id": "SINAI/ALIA-MrBERT-es-biomedical-embeddings",
+    "revision": "95d6c927ac774b120156357dadd665c1e71adf54",
+    "files": [
+      ".gitattributes",
+      "1_Pooling/config.json",
+      "README.md",
+      "config.json",
+      "config_sentence_transformers.json",
+      "model.safetensors",
+      "modules.json",
+      "sentence_bert_config.json",
+      "special_tokens_map.json",
+      "tokenizer.json",
+      "tokenizer.model",
+      "tokenizer_config.json"
+    ]
+  },
+  "qwen3": {
+    "model_id": "Qwen/Qwen3-Embedding-0.6B",
+    "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "files": [
+      ".gitattributes",
+      "1_Pooling/config.json",
+      "README.md",
+      "config.json",
+      "config_sentence_transformers.json",
+      "generation_config.json",
+      "merges.txt",
+      "model.safetensors",
+      "modules.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.json"
+    ]
+  },
+  "bge-m3": {
+    "model_id": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "files": [
+      ".gitattributes",
+      "1_Pooling/config.json",
+      "README.md",
+      "colbert_linear.pt",
+      "config.json",
+      "config_sentence_transformers.json",
+      "imgs/.DS_Store",
+      "imgs/bm25.jpg",
+      "imgs/long.jpg",
+      "imgs/miracl.jpg",
+      "imgs/mkqa.jpg",
+      "imgs/nqa.jpg",
+      "imgs/others.webp",
+      "long.jpg",
+      "modules.json",
+      "onnx/Constant_7_attr__value",
+      "onnx/config.json",
+      "onnx/model.onnx",
+      "onnx/model.onnx_data",
+      "onnx/sentencepiece.bpe.model",
+      "onnx/special_tokens_map.json",
+      "onnx/tokenizer.json",
+      "onnx/tokenizer_config.json",
+      "pytorch_model.bin",
+      "sentence_bert_config.json",
+      "sentencepiece.bpe.model",
+      "sparse_linear.pt",
+      "special_tokens_map.json",
+      "tokenizer.json",
+      "tokenizer_config.json"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "corpus/aprobados/quimioterapia_y_usted_nci.pdf": "e131c803551271c5e38c6da1d8fe3f9cad18350c430be1bc75d798b265f7f97a",
+  "corpus/aprobados/nci_consejos_alimentacion_2024.pdf": "1e0916609d4f8e81108787ffb3e8e7d91847fd638d54ac7d944d0a5cc8b8faad",
+  "corpus/aprobados/nci_radioterapia_y_usted.pdf": "005688ca61ce95a3ee9c97961996bb6957ae03205a5e61ba3ece33b8367e22cb",
+  "corpus/aprobados/inen_paciente_oncologico_inmunodeprimido_2020.pdf": "b51a7c637b6a09268583e5c02a6ad8281a2f7a6417b9ec16da832253d777de25",
+  "corpus/aprobados/inen_agentes_antineoplasicos_2023.pdf": "23828921e058a4824e3df51f9de106ffe651825b099b0496900cadc8f3f06188",
+  "corpus/ocr/inen_paciente_oncologico_inmunodeprimido_2020_ocr.pdf": "9e8fcd1471c07c9c759713b9e12d6a9d71840e8318a1138cfb4df7b3293e7263",
+  "corpus/ocr/inen_paciente_oncologico_inmunodeprimido_2020_ocr.provenance.json": "792c574b54493450624dfdf3245c1706b46d4905e08898f61e5f71e6b7f710ff",
+  "eval/ocr_inen_inmunodeprimido_chunks_review.md": "1d68f369869ae541a82144e97b4ddc4a399f99d52edae3da542dd705059e8e72",
+  "eval/ocr_inen_inmunodeprimido_chunks_review.json": "ad39b4fde23350712620518d5f08df263f3fb8819e6639f29bfef84d27b4a662",
+  "eval/ocr_inen_inmunodeprimido_revision_manual.md": "52d21a7feb4854cd65a684df0db6e45ae14d6c7e285b11f6790a8b8cc474d6e4",
+  "eval/consultas_baseline.json": "55b0e6e57a5fb691a13ebf3b34304138003dc23aafe5e21a4d547e337aa59fe7",
+  "eval/baseline_alia_450_75.md": "d351414de5fe83a3f69361d9c9a6f29080fd5956ec20bc0cac702f1b090735cc",
+  "eval/baseline_alia_450_75_cleaned.md": "4e844e47a23653eb64df2cef6333150542b0174890a1b569c2edc93542eb06bb",
+  "eval/resultados/alia_450_75_20261023T212232Z.json": "fe923d38c253127ea1e4ed82e0bbe5c09c5655d772701eaf93f2f36856f35db4",
+  "eval/resultados/alia_450_75_cleaned_20261023.json": "6005f7db9cd76f2301427e50bea364e21108bba276870f3bd06d498122c62bde"
+}

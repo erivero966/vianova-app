@@ -84,7 +84,7 @@ def test_schema_has_page_metadata_and_registered_migrations(db) -> None:
     assert {"pagina_inicio", "pagina_fin", "token_count", "ubicacion", "tipo_contenido"} <= columns
     applied = [name for (name,) in db.execute("SELECT archivo FROM schema_migracion ORDER BY archivo")]
     assert applied == ["001_extensions.sql", "002_schema.sql", "003_fragment_metadata.sql",
-                       "004_content_type.sql"]
+                       "004_content_type.sql", "005_dense_comparison.sql"]
 
 
 def test_modified_migration_is_detected(db) -> None:

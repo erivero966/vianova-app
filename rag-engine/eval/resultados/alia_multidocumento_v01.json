@@ -1,0 +1,1214 @@
+{
+  "fecha_utc": "2026-11-03T18:04:51.003677+00:00",
+  "modelo": "SINAI/ALIA-MrBERT-es-biomedical-embeddings",
+  "dimension": 768,
+  "device": "cuda",
+  "busqueda": "pgvector exacta, distancia coseno (<=>)",
+  "chunk_size_tokens": 450,
+  "chunk_overlap_tokens": 75,
+  "top_k": 5,
+  "consultas": [
+    {
+      "id": "MD01",
+      "tema": "náuseas",
+      "texto": "Mi mamá tiene náuseas después de la quimioterapia. ¿Qué podemos hacer en casa para ayudarla?",
+      "fuente_esperada": "quimioterapia",
+      "paginas_referencia": [
+        65,
+        66,
+        67
+      ],
+      "seccion_referencia": "Náuseas y vómitos",
+      "criterio_documental": "Medidas de la sección de náuseas y vómitos durante quimioterapia; valorar también apoyo alimentario pertinente.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.701778,
+          "distancia": 0.298222,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 66,
+          "pagina_fin": 67,
+          "seccion": "Qué hacer para controlar las náuseas y los vómitos:",
+          "fragmento_id": "60aff5fc-9770-4070-a7f5-e374a3d2acaa",
+          "texto": "Î Pruebe pequeños trozos de paletas de agua sin leche o frutas heladas. También puede\n\nchupar trocitos de hielo.\n\nÎ Chupe mentas sin azúcar (“sugar-free”) o dulces que tengan un sabor agrio. Pero no\n\nuse dulces ácidos si le duele la boca o la garganta.\n\nÎ Relájese antes del tratamiento. Es posible que sienta menos náuseas si se relaja antes de cada tratamiento de quimioterapia. Puede realizar actividades que disfrute, como:\n\n• Meditar\n\n• Hacer ejercicios de respiración profunda\n\n• Imaginar escenas o experiencias que le hagan sentir en paz\n\n• Leer un libro\n\n• Tejer\n\nÎ Si siente ganas de vomitar, respire profunda y lentamente\n\no tome aire fresco. También podría distraerse al:\n\n• Conversar con amigos o parientes\n\n• Escuchar música\n\n• Mirar una película o la televisión\n\nÎ Hable con el doctor o la enfermera. El doctor puede darle medicinas que ayuden a\n\nprevenir las náuseas durante y después de la quimioterapia. Tóme las medicinas como se lo digan e informe a la enfermera si no le hacen efecto. También puede mencionar la acupuntura, la cual puede ayudar a aliviar las náuseas y vómitos causados por el tratamiento del cáncer. Infórmeles si los vómitos duran más de un día, y si vomita inmediatamente después de beber algo.\n\nDiga al doctor o a la enfermera si las medicinas antinaúseas no están funcionando."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.655657,
+          "distancia": 0.344343,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "Náuseas y vómitos",
+          "fragmento_id": "da86be80-4b90-4385-a531-e982ae6c3b7a",
+          "texto": "Náuseas y vómitos\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia pueden causar náuseas, vómitos o ambos. Las náuseas ocurren cuando se siente asco. Vomitar es cuando se arroja (devuelve) lo que haya en el estómago. Es posible que también se tenga arcadas (“dry heaves”). Estas ocurren cuando el cuerpo intenta vomitar aun cuando el estómago esté vacío"
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.628925,
+          "distancia": 0.371075,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "Las náuseas y los vómitos pueden suceder:",
+          "fragmento_id": "1c8a1774-743e-4c85-bbfa-4feb1bc13869",
+          "texto": "Las náuseas y los vómitos pueden suceder:\n\nÎ Mientras recibe el tratamiento de quimioterapia\n\nÎ Justo después de la quimioterapia\n\nÎ Muchas horas o días después de la quimioterapia\n\nEs posible que se sienta mejor en los días en que no tenga sesión de quimioterapia.\n\nHay medicinas nuevas que pueden ayudar a prevenir las náuseas y los vómitos. Estas medicinas se llaman antieméticos o antináuseas. Tal vez necesite tomar estas medicinas una hora antes de cada tratamiento de quimioterapia y unos días después. Cuántos días después de la quimioterapia dependerá del tipo de quimioterapia que esté recibiendo y de cómo reaccione usted al tratamiento. Si un tipo de medicina antináuseas no le ayuda, el doctor puede recetarle otra diferente. Tal vez tenga que tomar más de un tipo de medicina para aliviar las náuseas. La acupuntura puede ayudar también. Hable con el doctor o con la enfermera sobre tratamientos para controlar las náuseas y los vómitos causados por la quimioterapia."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.618214,
+          "distancia": 0.381786,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 66,
+          "seccion": "Qué hacer para controlar las náuseas y los vómitos:",
+          "fragmento_id": "d4961459-bbc5-4d38-9e14-7e768b5887d5",
+          "texto": "Qué hacer para controlar las náuseas y los vómitos:\n\nÎ Evite las náuseas. Para no vomitar, trate de no tener náuseas. Consuma\n\ny bebidas suaves y fáciles de digerir que no le caigan mal. Estos incluyen, por ejemplo:\n\n• Galletas simples\n\n• Pan tostado\n\n• Gelatina\n\nPara aprender más, vea la lista de alimentos y bebidas fáciles de digerir de la página 73.\n\nÎ Haga un plan para comer y beber. Algunas personas se sienten mejor cuando comen algo\n\nligero antes de la quimioterapia. Otras se sienten mejor cuando reciben la quimioterapia con el estómago vacío (sin comer nada 2 o 3 horas antes del tratamiento). Después del tratamiento, espere al menos una hora antes de comer o beber.\n\nÎ Coma comidas pequeñas. En lugar de comer 3 comidas grandes al día, tal vez quiera comer 5 o 6 comidas pequeñas. También ayuda si no se toma mucho líquido antes o durante las comidas. Tampoco se acueste justo después de comer.\n\nÎ Consuma alimentos y bebidas que estén tibios o frescos (alimentos que no estén ni\n\nmuy fríos ni muy calientes). Espere a que se enfríen los alimentos y las bebidas calientes, use hielo para enfriarlos. Para calentar los alimentos fríos, sáquelos del refrigerador una hora antes de comer o caliéntelos ligeramente en el horno de microondas. Tome bebidas que estén a temperatura ambiente y que ya no tengan burbujas.\n\nComa 5 o 6 comidas pequeñas cada día en vez de 3 comidas grandes.\n\nEvite los alimentos y las bebidas con olores fuertes. Por ejemplo:\n\n• Café\n\n• Pescado\n\n• Cebollas\n\n• Ajo\n\n• Alimentos que se estén cocinando\n\nÎ Pruebe pequeños trozos de paletas de agua sin leche o frutas heladas. También puede\n\nchupar trocitos de hielo.\n\nÎ Chupe mentas sin azúcar (“sugar-free”) o dulces que tengan un sabor agrio. Pero no\n\nuse dulces ácidos si le duele la boca o la garganta."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.584403,
+          "distancia": 0.415597,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 15,
+          "pagina_fin": 15,
+          "seccion": "Su estado de ánimo durante la quimioterapia",
+          "fragmento_id": "aa722955-d53d-47fb-b91d-b69cb818060e",
+          "texto": "Su estado de ánimo durante la quimioterapia\n\nEn algún momento durante la quimioterapia es posible que sienta:\n\nÎ Ansiedad\n\nÎ Depresión\n\nÎ Enojo\n\nÎ Frustración\n\nÎ Impotencia\n\nÎ Soledad\n\nÎ Temor\n\nEs normal tener todos estos tipos de sentimientos al recibir quimioterapia. Después de todo, vivir con cáncer y someterse al tratamiento puede causar tensión. Se puede sentir también cansancio, lo cual puede dificultar que se superen los sentimientos."
+        }
+      ]
+    },
+    {
+      "id": "MD02",
+      "tema": "vómitos",
+      "texto": "Mi papá ha vomitado después de la quimioterapia. ¿Cómo puedo ayudarlo y cuándo debo avisar al equipo médico?",
+      "fuente_esperada": "quimioterapia",
+      "paginas_referencia": [
+        65,
+        66,
+        67
+      ],
+      "seccion_referencia": "Náuseas y vómitos",
+      "criterio_documental": "Control de vómitos y comunicación con el equipo; anotar si solo se cubre una parte de la pregunta.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.628597,
+          "distancia": 0.371403,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "Náuseas y vómitos",
+          "fragmento_id": "da86be80-4b90-4385-a531-e982ae6c3b7a",
+          "texto": "Náuseas y vómitos\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia pueden causar náuseas, vómitos o ambos. Las náuseas ocurren cuando se siente asco. Vomitar es cuando se arroja (devuelve) lo que haya en el estómago. Es posible que también se tenga arcadas (“dry heaves”). Estas ocurren cuando el cuerpo intenta vomitar aun cuando el estómago esté vacío"
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.605216,
+          "distancia": 0.394784,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 66,
+          "pagina_fin": 67,
+          "seccion": "Qué hacer para controlar las náuseas y los vómitos:",
+          "fragmento_id": "60aff5fc-9770-4070-a7f5-e374a3d2acaa",
+          "texto": "Î Pruebe pequeños trozos de paletas de agua sin leche o frutas heladas. También puede\n\nchupar trocitos de hielo.\n\nÎ Chupe mentas sin azúcar (“sugar-free”) o dulces que tengan un sabor agrio. Pero no\n\nuse dulces ácidos si le duele la boca o la garganta.\n\nÎ Relájese antes del tratamiento. Es posible que sienta menos náuseas si se relaja antes de cada tratamiento de quimioterapia. Puede realizar actividades que disfrute, como:\n\n• Meditar\n\n• Hacer ejercicios de respiración profunda\n\n• Imaginar escenas o experiencias que le hagan sentir en paz\n\n• Leer un libro\n\n• Tejer\n\nÎ Si siente ganas de vomitar, respire profunda y lentamente\n\no tome aire fresco. También podría distraerse al:\n\n• Conversar con amigos o parientes\n\n• Escuchar música\n\n• Mirar una película o la televisión\n\nÎ Hable con el doctor o la enfermera. El doctor puede darle medicinas que ayuden a\n\nprevenir las náuseas durante y después de la quimioterapia. Tóme las medicinas como se lo digan e informe a la enfermera si no le hacen efecto. También puede mencionar la acupuntura, la cual puede ayudar a aliviar las náuseas y vómitos causados por el tratamiento del cáncer. Infórmeles si los vómitos duran más de un día, y si vomita inmediatamente después de beber algo.\n\nDiga al doctor o a la enfermera si las medicinas antinaúseas no están funcionando."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.573835,
+          "distancia": 0.426165,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 19,
+          "pagina_fin": 19,
+          "seccion": "¿Qué se puede hacer acerca de los efectos secundarios?",
+          "fragmento_id": "92700831-5c4f-478d-9e31-14d2d0279e88",
+          "texto": "¿Qué se puede hacer acerca de los efectos secundarios?\n\nLos doctores tienen muchas formas de evitar o de tratar los efectos secundarios de la quimioterapia y pueden ayudarle a sanar después de cada sesión de tratamiento. Pregunte al doctor o a la enfermera cuáles efectos secundarios podría tener y qué hacer al respecto.\n\nAdemás, dígales cualquier cambio que note. Esos cambios podrían ser señales de un efecto secundario.\n\nLa lista en la página siguiente indica en qué lugar del libro puede encontrar la información sobre efectos secundarios específicos."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.564823,
+          "distancia": 0.435177,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 40,
+          "pagina_fin": 40,
+          "seccion": "¿Qué más puedo hacer?",
+          "fragmento_id": "850fc5a2-6fda-449b-93f6-ff9cd48a2809",
+          "texto": "¿Qué más puedo hacer?\n\nÎ Hable con un nutricionista. Podrá sugerirle alimentos para comer una vez que deje de\n\nvomitar.\n\nÎ Pida al médico que le recete medicamentos para evitar o controlar los vómitos\n\n(antieméticos). Asegúrese de avisarle al médico o enfermero si el medicamento no lo está ayudando. El médico podrá recetarle otro medicamento. Es posible que deba tomar estos medicamentos 1 hora antes de cada tratamiento y algunos días después. El tipo de tratamiento del cáncer que recibe y cómo reacciona influirá en la cantidad de tiempo por el que necesitará tomar estos medicamentos. Tal vez quiera consultar al médico o enfermero sobre la acupuntura. A veces ayuda.\n\nÎ Evite las náuseas. Una forma de prevenir los vómitos es evitar las náuseas. Para obtener\n\nmás información sobre las náuseas, consulte la página 22.\n\nÎ Llame al médico si el vómito es intenso o dura más de 1 o 2 días. Los vómitos a\n\nveces provocan deshidratación porque el cuerpo pierde mucho líquido. El médico necesita saber si no puede retener líquidos."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.563471,
+          "distancia": 0.436529,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 14,
+          "pagina_fin": 14,
+          "seccion": "Sobre los efectos secundarios",
+          "fragmento_id": "2910ab6e-f5ec-4b08-86f9-2a3035cc21e6",
+          "texto": "Sobre los efectos secundarios\n\n¿Qué efectos secundarios puedo esperar en seguida? ______________________________ ¿Qué efectos secundarios puedo esperar más tarde? _______________________________\n\n¿Qué tan graves son estos efectos secundarios? __________________________________\n\n¿Cuánto durarán estos efectos secundarios? _____________________________________\n\n¿Desaparecerán todos ellos cuando termine la quimioterapia? ______________________\n\n¿Qué puedo hacer para controlarlos o para aliviarlos? _____________________________\n\n¿Qué puede hacer el doctor o la enfermera para controlar o aliviar estos efectos secundarios? _____________________________________________________________\n\n¿Cuándo debo llamar al doctor o a la enfermera para hablar de estos efectos secundarios? _____________________________________________________________"
+        }
+      ]
+    },
+    {
+      "id": "MD03",
+      "tema": "cansancio",
+      "texto": "Desde que recibe quimioterapia, mi familiar está muy cansado. ¿Cómo organizamos el descanso y las actividades del día?",
+      "fuente_esperada": "quimioterapia",
+      "paginas_referencia": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "seccion_referencia": "Cansancio",
+      "criterio_documental": "Descanso, actividad y ayuda cotidiana en el contexto de cansancio por quimioterapia.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.651161,
+          "distancia": 0.348839,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 46,
+          "pagina_fin": 47,
+          "seccion": "Qué hacer para controlar el cansancio:",
+          "fragmento_id": "95af4ae7-5c67-4e4d-a883-0c6180942c01",
+          "texto": "• Leer\n\n• Tejer\n\n• Aprender un idioma con cintas de audio.\n\nÎ Duerma por lo menos 8 horas cada noche. Esto quizá es más de lo que necesitaba dormir\n\nantes de la quimioterapia. Es más probable que duerma mejor durante la noche, si ha tenido alguna actividad durante el día. Además, relajarse antes de irse a la cama podría ayudarle. Por ejemplo podría:\n\n• Leer un libro\n\n• Armar un rompecabezas\n\n• Escuchar música\n\n• Practicar otro pasatiempo que le calme\n\nÎ Deje que le ayuden los demás. Pida a sus familiares y amigos que le ayuden cuando sienta\n\ncansancio. Tal vez puedan ayudarle:\n\n• Con las tareas del hogar\n\n• Llevándole a las citas de quimioterapia y de vuelta a casa\n\n• Comprando los alimentos que necesite\n\n• Preparándole comidas para servirlas al momento o para congelarlas y comerlas después.\n\nÎ Aprenda de otros que tienen cáncer. Las personas con cáncer pueden ayudarse unas a\n\notras compartiendo información para controlar el cansancio. Los grupos de apoyo pueden ser una forma de conocer a otras personas con cáncer, ya sea en persona o por Internet. Hable con el doctor o con la enfermera para obtener más información sobre estos grupos de apoyo.\n\nÎ Apunte cada día cómo se siente. Esto le ayudará a hacer un plan para usar mejor el\n\ntiempo. Comparta sus apuntes con la enfermera. Diga al doctor o a la enfermera si nota cambios en su nivel de energía. Por ejemplo, si siente mucha energía o mucho cansancio.\n\nÎ Hable con el doctor. para que le recete medicina que le ayude a:\n\n• Tener menos cansancio\n\n• Sentirse bien\n\n• Tener más apetito\n\nSi el cansancio es causado por la anemia, también le puede recomendar algún tratamiento. (Si desea aprender más sobre la anemia, vea la página 17)."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.589978,
+          "distancia": 0.410022,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 15,
+          "pagina_fin": 15,
+          "seccion": "Hacer frente a sus sentimientos durante el tratamiento del cáncer",
+          "fragmento_id": "dd6b8ee6-a9c8-49c9-a6f7-a4afb6212a24",
+          "texto": "Î Descanse bien. Asegúrese de dormir por lo menos de 7 a 8 horas cada noche. Durante el día, dedique tiempo a realizar actividades tranquilas, como leer o ver una película.\n\nÎ No se esfuerce por hacer demasiado o más de lo que puede soportar. Busque maneras más fáciles de hacer sus tareas diarias. Muchas personas se sienten mejor cuando piden o aceptan ayuda de otros.\n\nÎ Manténgase activo todos los días. Los estudios muestran que muchas personas se sienten mejor cuando hacen caminatas cortas o ejercicios suaves todos los días. Estar activo también podría ayudar a mejorar el apetito.\n\nÎ Hable con el médico o enfermera sobre los medicamentos que podría tomar si le resulta muy difícil enfrentar sus sentimientos.\n\nPara leer más sobre las formas de enfrentar sus sentimientos, consulte Tómese su tiempo: apoyo para las personas con cáncer en https://www.cancer.gov/espanol/publicaciones/ educacion-para-pacientes/tomese-su-tiempo. Para obtener más información sobre cómo sobrellevar el cansancio debido al tratamiento del cáncer, consulte La quimioterapia y usted, y La radioterapia y usted en https://www.cancer.gov/espanol/publicaciones/educacion-parapacientes#tratamientos-y-efectos-secundarios."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.579194,
+          "distancia": 0.420806,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 31,
+          "pagina_fin": 32,
+          "seccion": "Formas de controlarla",
+          "fragmento_id": "f8ba552c-1e79-4745-84d8-8d50a6e406aa",
+          "texto": "Î Coma y beba bien. Puede comer mejor si tiene cinco o seis comidas en el día, en vez de\n\ntres comidas grandes. Tenga a la mano alimentos que son fáciles de preparar, como sopas de lata, comidas congeladas, yogur y queso crema. Beba mucho líquido cada día—como 8 vasos de agua o de jugo.\n\nÎ Haga un plan de trabajo que sea el más conveniente para usted. La fatiga puede\n\nafectar la cantidad de energía que tiene para su trabajo. Puede sentirse suficientemente bien para trabajar a tiempo completo, o puede necesitar trabajar menos—tal vez solo unas cuantas horas al día o unos cuantos días a la semana. Tal vez querrá hablar con su supervisor de la posibilidad de trabajar en casa para no tener que trasladarse al trabajo. Si es posible, puede pensar en tomar ausencias médicas mientras recibe radioterapia.\n\nÎ Deje que otros le ayuden. Comuníquese con la\n\ncompañía de seguro para ver si cubren servicios de atención en casa. Usted puede también pedir a sus familiares y amigos que le ayuden cuando sienta fatiga. El personal de atención en casa, los familiares y amigos pueden ayudar con las tareas domésticas, hacer mandados, o llevarle y traerle de las visitas de radioterapia. Ellos pueden también ayudar a preparar las comidas para tenerlas ahora o para congelarlas para más tarde.\n\nÎ Aprenda de otros que tienen cáncer. Las personas que tienen cáncer pueden ayudarse\n\nmutuamente al compartir cómo controlar la fatiga. Una forma de encontrar a otras personas con cáncer es por medio de un grupo de apoyo—en persona o en Internet. Hable con su doctor o con su enfermera para aprender más de los grupos de apoyo.\n\nÎ Apunte en un diario cómo se siente cada día. Esto le ayudará a hacer planes para\n\naprovechar mejor su tiempo. Comparta sus apuntes con la enfermera. Haga saber a su doctor o a su enfermera si nota cambios en su nivel de energía, si tiene mucha energía o siente mucho cansancio.\n\nÎ Hable con su doctor o con su enfermera. Ellos pueden sugerir tratamientos para"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.563849,
+          "distancia": 0.436151,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 45,
+          "pagina_fin": 46,
+          "seccion": "Qué hacer para controlar el cansancio:",
+          "fragmento_id": "a8fb67ed-60fb-45ac-9fd0-6a6347351356",
+          "texto": "Qué hacer para controlar el cansancio:\n\nÎ Relájese. Tal vez quiera probar:\n\n• La meditación\n\n• La oración (rezo)\n\n• El yoga\n\n• Las imágenes guiadas\n\n• La visualización\n\n• Otras formas de relajarse y reducir la tensión\n\nÎ Coma y beba sanamente. Muchas veces esto se refiere a 5 o 6 comidas pequeñas al día en\n\nvez de 3 comidas abundantes. Tenga a la mano alimentos que sean fáciles de preparar, como por ejemplo:\n\n• Sopas enlatadas\n\n• Alimentos congelados\n\n• Yogur\n\n• Requesón (“cottage cheese”)\n\nTome mucho líquido todos los días, como 8 vasos (de 8 onzas) de agua o jugo.\n\nÎ Dese tiempo para descansar. Tal vez se sienta mejor si descansa o toma una siesta corta\n\ndurante el día. Muchas personas dicen que un descanso de 10 a 15 minutos les ayuda más que tomar una siesta larga. Si duerme siesta, intente dormir menos de una hora cada vez. Cuando tiene siestas cortas, le ayudará a dormir mejor en la noche.\n\nÎ Mantenga la actividad. Las investigaciones muestran que el ejercicio puede reducir el\n\ncansancio y ayudarle a dormir mejor durante la noche.\n\nTrate lo siguiente:\n\n• Ir a caminar unos 15 minutos\n\n• Practicar yoga\n\n• Hacer ejercicio en bicicleta estacionaria o estática\n\nHaga el plan de tener alguna actividad física cuando se sienta con más energía. Hable con el doctor o con la enfermera sobre cómo mantener la actividad durante la quimioterapia.\n\nÎ Trate de no hacer muchas cosas. Con el cansancio, es\n\nposible que no tenga suficiente energía para hacer todo lo que quiere hacer. Escoja las actividades que desee hacer y permita que otra persona le ayude con las demás. Trate de hacer actividades tranquilas, como por ejemplo:\n\n• Leer\n\n• Tejer\n\n• Aprender un idioma con cintas de audio.\n\nÎ Duerma por lo menos 8 horas cada noche. Esto quizá es más de lo que necesitaba dormir"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.548501,
+          "distancia": 0.451499,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 31,
+          "pagina_fin": 31,
+          "seccion": "Formas de controlarla",
+          "fragmento_id": "cc4fed53-4c1e-4809-88c7-ac36ed9b688e",
+          "texto": "Formas de controlarla\n\nÎ Trate de dormir al menos ocho horas cada noche. Esto puede ser dormir más de\n\nlo que necesitaba antes de la radioterapia. Una forma de dormir mejor en la noche es mantener la actividad durante el día. Otra forma es relajarse justo antes de acostarse. Tenga actividades que le calmen antes de acostarse, como leer, armar algún rompecabezas o escuchar música.\n\nÎ Fíjese un tiempo para descansar. Échese siestas\n\ncortas o pausas de descanso entre sus actividades.\n\nÎ No trate de hacer muchas cosas. Con la fatiga,\n\npuede ser que no tenga energía suficiente para hacer lo que quiere. Mantenga la actividad, pero haga lo que es más importante para usted. No trate de hacer lo que no es importante ahora. Por ejemplo, usted puede ir a trabajar pero no haga las tareas en casa. Podría observar los eventos deportivos de sus niños pero no prepare la cena.\n\nÎ Haga ejercicio. La investigación indica que la mayoría de la gente se siente mejor\n\ncuando hace ejercicio cada día. Camine un poco, ande en bicicleta o haga yoga. Hable con su doctor o con su enfermera de los tipos de ejercicio que usted puede hacer mientras recibe radioterapia.\n\nÎ Relájese. La meditación, la oración, el yoga tranquilo, la imaginación guiada y la\n\nvisualización son formas para aprender a relajarse y reducir la tensión. Para ejercicios de relajación:\n\n• Visite Aprenda a relajarse en el sitio web del Instituto Nacional del Cáncer en: https://www.cancer.gov/espanol/cancer/sobrellevar/sentimientos/relajarse\n\n• Vea Siga adelante: La vida después del tratamiento del cáncer, un libro del Instituto Nacional del Cáncer, disponible en: https://www.cancer.gov/espanol/publicaciones/ educacion-para-pacientes/siga-adelante\n\nÎ Coma y beba bien. Puede comer mejor si tiene cinco o seis comidas en el día, en vez de"
+        }
+      ]
+    },
+    {
+      "id": "MD04",
+      "tema": "diarrea",
+      "texto": "Mi mamá tiene diarrea durante la quimioterapia. ¿Qué cuidados y cambios en la comida pueden ayudarla?",
+      "fuente_esperada": "quimioterapia",
+      "paginas_referencia": [
+        48,
+        49,
+        50
+      ],
+      "seccion_referencia": "Diarrea",
+      "criterio_documental": "Cuidados o alimentación durante diarrea; otra guía puede aportar medidas pertinentes si no contradice el contexto.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.694111,
+          "distancia": 0.305889,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 48,
+          "pagina_fin": 48,
+          "seccion": "Diarrea",
+          "fragmento_id": "fedc328b-da6b-48b5-8ce1-ddfe7d3f5762",
+          "texto": "Diarrea\n\n¿Qué es y por qué sucede?\n\nLa diarrea sucede cuando es necesario ir frecuentemente al baño y las heces pueden ser blandas, sueltas o líquidas. La quimioterapia puede causar diarrea porque daña las células sanas que recubren el intestino grueso y el intestino delgado. Esto puede hacer que sus intestinos procesen las heces con más rapidez. La diarrea puede ser causada también por infecciones o por los medicamentos para tratar el estreñimiento."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.601627,
+          "distancia": 0.398373,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 66,
+          "seccion": "Qué hacer para controlar las náuseas y los vómitos:",
+          "fragmento_id": "d4961459-bbc5-4d38-9e14-7e768b5887d5",
+          "texto": "Qué hacer para controlar las náuseas y los vómitos:\n\nÎ Evite las náuseas. Para no vomitar, trate de no tener náuseas. Consuma\n\ny bebidas suaves y fáciles de digerir que no le caigan mal. Estos incluyen, por ejemplo:\n\n• Galletas simples\n\n• Pan tostado\n\n• Gelatina\n\nPara aprender más, vea la lista de alimentos y bebidas fáciles de digerir de la página 73.\n\nÎ Haga un plan para comer y beber. Algunas personas se sienten mejor cuando comen algo\n\nligero antes de la quimioterapia. Otras se sienten mejor cuando reciben la quimioterapia con el estómago vacío (sin comer nada 2 o 3 horas antes del tratamiento). Después del tratamiento, espere al menos una hora antes de comer o beber.\n\nÎ Coma comidas pequeñas. En lugar de comer 3 comidas grandes al día, tal vez quiera comer 5 o 6 comidas pequeñas. También ayuda si no se toma mucho líquido antes o durante las comidas. Tampoco se acueste justo después de comer.\n\nÎ Consuma alimentos y bebidas que estén tibios o frescos (alimentos que no estén ni\n\nmuy fríos ni muy calientes). Espere a que se enfríen los alimentos y las bebidas calientes, use hielo para enfriarlos. Para calentar los alimentos fríos, sáquelos del refrigerador una hora antes de comer o caliéntelos ligeramente en el horno de microondas. Tome bebidas que estén a temperatura ambiente y que ya no tengan burbujas.\n\nComa 5 o 6 comidas pequeñas cada día en vez de 3 comidas grandes.\n\nEvite los alimentos y las bebidas con olores fuertes. Por ejemplo:\n\n• Café\n\n• Pescado\n\n• Cebollas\n\n• Ajo\n\n• Alimentos que se estén cocinando\n\nÎ Pruebe pequeños trozos de paletas de agua sin leche o frutas heladas. También puede\n\nchupar trocitos de hielo.\n\nÎ Chupe mentas sin azúcar (“sugar-free”) o dulces que tengan un sabor agrio. Pero no\n\nuse dulces ácidos si le duele la boca o la garganta."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.598134,
+          "distancia": 0.401866,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 22,
+          "pagina_fin": 22,
+          "seccion": "¿Por qué pasa?",
+          "fragmento_id": "acfcdabf-8472-4f70-9c9b-41cea0058d0d",
+          "texto": "¿Por qué pasa?\n\nLa diarrea aparece por los tratamientos del cáncer, como la radioterapia en el abdomen o la pelvis, la quimioterapia o la inmunoterapia. Estos tratamientos a veces causan diarrea porque dañan las células sanas del revestimiento del intestino delgado y grueso. También podría ocurrir a causa de infecciones, medicamentos para tratar el estreñimiento o antibióticos."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.586011,
+          "distancia": 0.413989,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 29,
+          "pagina_fin": 30,
+          "seccion": "Formas de controlarla",
+          "fragmento_id": "434a4945-9141-4fd9-aa71-afa77a39add4",
+          "texto": "También, pregunte a su enfermera si puede darse baños de asiento, los cuales son baños con agua tibia que se dan sentándose y que el agua cubra solo las caderas y los glúteos. Asegúrese de decir al doctor o a la enfermera si su zona del recto se irrita.\n\nÎ Evite:\n\n• Cerveza, vino y otros tipos de alcohol\n\n• Leche y alimentos lácteos, como helado, crema agria y queso\n\n• Alimentos condimentados, como salsa picante, chile y platillos con curry\n\n• Alimentos o bebidas con cafeína, como café regular, té negro, soda y chocolate\n\n• Alimentos o bebidas que causan gas, como frijoles cocidos secos, repollo, broccoli, leche de soja y otros productos de soja\n\n• Alimentos con mucha fibra, como frutas y verduras crudas, frijoles cocidos secos y pan y cereal integrales\n\n• Alimentos fritos o grasosos\n\n• Alimentos de restaurantes de comida rápida\n\nÎ Hable con su doctor o con su enfermera. Dígales si usted tiene diarrea. Ellos\n\nsugerirán formas de controlarla. Pueden también sugerir que tome un medicamento, como Imodium®.\n\n Recursos para saber más - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\nPara aprender más acerca del control de la diarrea durante el tratamiento de cáncer:\n\nÎ Visite la sección de Efectos secundarios del sitio web del Instituto Nacional del Cáncer en: https://www.cancer.gov/espanol/cancer/tratamiento/efectos-secundarios\n\nÎ Vea Consejos de alimentación: antes, durante y después del tratamiento de cáncer, un libro del Instituto Nacional del Cáncer, disponible en: https://www.cancer.gov/espanol/ publicaciones/educacion-para-pacientes/consejos-de-alimentacion\n\n- - - - - - - - - - - - - - - - -"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.581594,
+          "distancia": 0.418406,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 50,
+          "pagina_fin": 50,
+          "seccion": "Cómo obtener más información:",
+          "fragmento_id": "d164773b-eef3-4eeb-8c76-761ff93b1f4a",
+          "texto": "Cómo obtener más información:\n\nPara obtener más información sobre cómo controlar la diarrea durante el tratamiento contra el cáncer, lea el libro Consejos de alimentación para pacientes con cáncer: Antes, durante y después del tratamiento del cáncer un libro del Instituto Nacional del Cáncer disponible en www.cancer. gov/espanol/consejos-de-alimentacion."
+        }
+      ]
+    },
+    {
+      "id": "MD05",
+      "tema": "estreñimiento",
+      "texto": "Mi papá está estreñido desde que empezó la quimioterapia. ¿Qué podemos hacer para ayudarlo a ir al baño?",
+      "fuente_esperada": "quimioterapia",
+      "paginas_referencia": [
+        53,
+        54
+      ],
+      "seccion_referencia": "Estreñimiento",
+      "criterio_documental": "Medidas ante estreñimiento y precauciones recogidas por el documento.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.634195,
+          "distancia": 0.365805,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 20,
+          "pagina_fin": 20,
+          "seccion": "¿Por qué pasa?",
+          "fragmento_id": "5c99cef9-f923-44ad-baf7-509e6463f16c",
+          "texto": "¿Por qué pasa?\n\nLa quimioterapia, la ubicación del cáncer, los analgésicos (medicamentos para el dolor) y otros medicamentos a veces causan estreñimiento. También aparece cuando no bebe suficientes líquidos, no come suficiente fibra o no hace actividad física."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.581295,
+          "distancia": 0.418705,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 53,
+          "pagina_fin": 53,
+          "seccion": "Estreñimiento",
+          "fragmento_id": "558cc861-2455-458e-bfa5-da52072d64e7",
+          "texto": "Estreñimiento\n\n¿Qué es y por qué sucede?\n\nEl estreñimiento sucede cuando una persona tiene evacuaciones del intestino menos frecuentes y las heces son duras, secas y difíciles de expulsar. Se puede eructar, pasar mucho gas, y tener calambres en el estómago o presión en el recto.\n\nLos fármacos como la quimioterapia y los medicamentos para el dolor pueden causar estreñimiento. Puede suceder también cuando la persona no tiene actividad y pasa mucho tiempo sentada o acostada. El estreñimiento puede deberse también al consumo de alimentos con poca fibra o a no beber suficientes líquidos."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.559732,
+          "distancia": 0.440268,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "seccion": "Náuseas y vómitos",
+          "fragmento_id": "da86be80-4b90-4385-a531-e982ae6c3b7a",
+          "texto": "Náuseas y vómitos\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia pueden causar náuseas, vómitos o ambos. Las náuseas ocurren cuando se siente asco. Vomitar es cuando se arroja (devuelve) lo que haya en el estómago. Es posible que también se tenga arcadas (“dry heaves”). Estas ocurren cuando el cuerpo intenta vomitar aun cuando el estómago esté vacío"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.537701,
+          "distancia": 0.462299,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 66,
+          "pagina_fin": 67,
+          "seccion": "Qué hacer para controlar las náuseas y los vómitos:",
+          "fragmento_id": "60aff5fc-9770-4070-a7f5-e374a3d2acaa",
+          "texto": "Î Pruebe pequeños trozos de paletas de agua sin leche o frutas heladas. También puede\n\nchupar trocitos de hielo.\n\nÎ Chupe mentas sin azúcar (“sugar-free”) o dulces que tengan un sabor agrio. Pero no\n\nuse dulces ácidos si le duele la boca o la garganta.\n\nÎ Relájese antes del tratamiento. Es posible que sienta menos náuseas si se relaja antes de cada tratamiento de quimioterapia. Puede realizar actividades que disfrute, como:\n\n• Meditar\n\n• Hacer ejercicios de respiración profunda\n\n• Imaginar escenas o experiencias que le hagan sentir en paz\n\n• Leer un libro\n\n• Tejer\n\nÎ Si siente ganas de vomitar, respire profunda y lentamente\n\no tome aire fresco. También podría distraerse al:\n\n• Conversar con amigos o parientes\n\n• Escuchar música\n\n• Mirar una película o la televisión\n\nÎ Hable con el doctor o la enfermera. El doctor puede darle medicinas que ayuden a\n\nprevenir las náuseas durante y después de la quimioterapia. Tóme las medicinas como se lo digan e informe a la enfermera si no le hacen efecto. También puede mencionar la acupuntura, la cual puede ayudar a aliviar las náuseas y vómitos causados por el tratamiento del cáncer. Infórmeles si los vómitos duran más de un día, y si vomita inmediatamente después de beber algo.\n\nDiga al doctor o a la enfermera si las medicinas antinaúseas no están funcionando."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.535128,
+          "distancia": 0.464872,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 42,
+          "pagina_fin": 42,
+          "seccion": "Cambios urinarios, en los riñones o en la vejiga",
+          "fragmento_id": "98f84c32-8213-48a8-bd06-dcdea0e0dd3a",
+          "texto": "Cambios urinarios, en los riñones o en la vejiga\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia dañan las células de los riñones y la vejiga. Los problemas pueden ser:\n\nÎ Ardor o dolor cuando comienza a orinar o después de vaciar la vejiga\n\nÎ Necesidad frecuente y más urgente de orinar\n\nÎ No poder orinar\n\nÎ No poder controlar el flujo de orina de la vejiga (lo que se refiere como incontinencia)\n\nÎ Sangre en la orina\n\nÎ Fiebre\n\nÎ Escalofríos\n\nÎ Orina color naranja, rojo, verde o amarillo oscuro, o tiene un fuerte olor a medicina.\n\nTome mucho líquido si recibe quimioterapia que puede dañar la vejiga y los riñones.\n\nAlgunos problemas de los riñones y de la vejiga desaparecen después de terminar la quimioterapia. Otros problemas pueden durar el resto de la vida."
+        }
+      ]
+    },
+    {
+      "id": "MD06",
+      "tema": "poco apetito",
+      "texto": "Mi familiar está en tratamiento contra el cáncer y casi no tiene apetito. ¿Cómo puedo ayudarlo a comer un poco más?",
+      "fuente_esperada": "alimentacion",
+      "paginas_referencia": [
+        17,
+        18
+      ],
+      "seccion_referencia": "Falta de apetito",
+      "criterio_documental": "Consejos de alimentación ante falta de apetito.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.730719,
+          "distancia": 0.269281,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "problemas de alimentación",
+          "fragmento_id": "a48746ea-6720-4b3a-a1cc-935e303b7107",
+          "texto": "problemas de alimentación\n\nÎ La forma en que los sentimientos afectan el apetito\n\nÎ Consejos para aliviar los problemas de alimentación\n\nÎ Formas de comer bien después de que termina el tratamiento del cáncer\n\nÎ Alimentos y bebidas que ayudan con algunos problemas de alimentación\n\nHable con el médico, profesional de enfermería o nutricionista sobre cualquier problema de alimentación que tenga durante el tratamiento del cáncer. Es posible que le pidan que lea ciertas secciones de esta publicación o que siga algunos de los consejos.\n\nEn lugar de leer de principio a fin, mire las secciones que necesita ahora. Siempre podrá leer más después."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.707102,
+          "distancia": 0.292898,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 17,
+          "pagina_fin": 17,
+          "seccion": "Falta de apetito",
+          "fragmento_id": "c87c083b-d965-4f39-bdf0-65d740597f73",
+          "texto": "Falta de apetito\n\n¿Qué es?\n\nLa falta de apetito aparece cuando no quiere comer o no tiene muchas ganas de comer. Es un problema común que se presenta con el cáncer y su tratamiento. Es posible que tenga falta de apetito por solo 1 o 2 días, o durante todo el tratamiento."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.702057,
+          "distancia": 0.297943,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 18,
+          "pagina_fin": 19,
+          "seccion": "¿Qué más puedo hacer?",
+          "fragmento_id": "e123562c-36bc-4bd8-9d08-8eff2bded2f7",
+          "texto": "¿Qué más puedo hacer?\n\nÎ Hable con un nutricionista. Podrá conversar sobre formas de obtener suficientes calorías\n\ny proteínas, incluso cuando no tenga ganas de comer.\n\nÎ Trate de tener comidas relajadas y agradables. Por ejemplo, esté en buena compañía y\n\ncoma alimentos que sean atractivos.\n\nÎ Haga ejercicio. Estar activo ayuda a mejorar\n\nsu apetito. Los estudios muestran que muchas personas con cáncer se sienten mejor cuando hacen algo de ejercicio todos los días.\n\nÎ Hable con su enfermero o trabajador\n\nsocial si el miedo, la depresión u otros sentimientos afectan su apetito o interés por la comida. Ellos le podrán dar sugerencias.\n\nÎ Hable con el médico si tiene náuseas,\n\nvómitos, estreñimiento o cambios en el sabor o el olor de los alimentos. El médico podrá ayudarle a controlar estos problemas para que sienta más apetito.\n\nRECETA para cuando no tiene apetito"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.694772,
+          "distancia": 0.305228,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 17,
+          "pagina_fin": 17,
+          "seccion": "¿Por qué pasa?",
+          "fragmento_id": "9d6a6f53-87d8-4434-b33b-51289f69404f",
+          "texto": "¿Por qué pasa?\n\nHay muchas razones por las que podría tener poco apetito.\n\nÎ el cáncer en sí\n\nÎ fatiga\n\nÎ dolor\n\nÎ medicamentos\n\nÎ sentimientos como el estrés, el miedo, la depresión y la ansiedad\n\nÎ efectos secundarios del tratamiento, como náuseas, vómitos, estreñimiento, o cambios en el sabor o el olor de los alimentos"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.684281,
+          "distancia": 0.315719,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 14,
+          "pagina_fin": 14,
+          "seccion": "Los sentimientos afectan el apetito",
+          "fragmento_id": "ade8afbd-e9b4-4c64-821e-a0ae617f97a4",
+          "texto": "Los sentimientos afectan el apetito\n\nDurante el tratamiento del cáncer, es posible que se sienta de las siguientes formas:\n\nÎ deprimido\n\nÎ asustado\n\nÎ enojado\n\nÎ indefenso\n\nÎ solo\n\nÎ ansioso\n\nEs normal tener estos sentimientos. Aunque estos no son problemas de alimentación, los sentimientos fuertes como esos afectan su interés por la comida, las compras y la cocina. El cansancio también hace que sea más difícil tolerar la situación."
+        }
+      ]
+    },
+    {
+      "id": "MD07",
+      "tema": "dificultad para comer",
+      "texto": "A mi mamá le cuesta tragar durante el tratamiento del cáncer. ¿Qué comidas podrían resultarle más fáciles de pasar?",
+      "fuente_esperada": "alimentacion",
+      "paginas_referencia": [
+        34,
+        35,
+        36
+      ],
+      "seccion_referencia": "Esofagitis (inflamación de la garganta y dificultad para tragar)",
+      "criterio_documental": "Adaptaciones de alimentos y bebidas por dificultad para tragar; distinguir de simple falta de apetito.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.659432,
+          "distancia": 0.340568,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "problemas de alimentación",
+          "fragmento_id": "a48746ea-6720-4b3a-a1cc-935e303b7107",
+          "texto": "problemas de alimentación\n\nÎ La forma en que los sentimientos afectan el apetito\n\nÎ Consejos para aliviar los problemas de alimentación\n\nÎ Formas de comer bien después de que termina el tratamiento del cáncer\n\nÎ Alimentos y bebidas que ayudan con algunos problemas de alimentación\n\nHable con el médico, profesional de enfermería o nutricionista sobre cualquier problema de alimentación que tenga durante el tratamiento del cáncer. Es posible que le pidan que lea ciertas secciones de esta publicación o que siga algunos de los consejos.\n\nEn lugar de leer de principio a fin, mire las secciones que necesita ahora. Siempre podrá leer más después."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.642203,
+          "distancia": 0.357797,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "Acerca de esta publicación",
+          "fragmento_id": "d39db4a4-16ed-45e2-b95a-ed2a02b8f8d4",
+          "texto": "Acerca de esta publicación\n\nConsejos de alimentación fue escrito para usted: alguien que recibe o está por recibir tratamiento del cáncer. Otras personas cercanas a usted, como sus familiares y amigos también podrían leer esta publicación.\n\nConsulte la información antes, durante y después del tratamiento del cáncer. Se incluyen consejos sobre problemas de alimentación comunes y las formas de aliviarlos"
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.603165,
+          "distancia": 0.396835,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 8,
+          "pagina_fin": 8,
+          "seccion": "Los efectos secundarios del tratamiento del cáncer podrían causar problemas para comer",
+          "fragmento_id": "d6379120-2fe9-4420-b2cc-e9ba77208e62",
+          "texto": "Los efectos secundarios del tratamiento del cáncer podrían causar problemas para comer\n\nLos tratamientos del cáncer se diseñan para destruir las células cancerosas. Pero estos tratamientos también pueden dañar las células sanas. El daño a las células sanas, en ocasiones, causan efectos secundarios que conducen a problemas de alimentación. Consulte la lista en la página 10 para ver los tipos de problemas de alimentación que el tratamiento del cáncer podría causar. Los problemas de alimentación comunes durante el tratamiento del cáncer incluyen los siguientes:\n\nÎ Falta de apetito\n\nÎ Cambios en el sentido del gusto o del olfato\n\nÎ Estreñimiento\n\nÎ Diarrea\n\nÎ Boca seca\n\nÎ Intolerancia a la lactosa\n\nÎ Náuseas\n\nÎ Úlceras en la boca\n\nÎ Inflamación de garganta y dificultad para tragar\n\nÎ Vómitos\n\nÎ Aumento de peso\n\nÎ Pérdida de peso\n\nEs posible que tenga poco apetito o náuseas porque el cáncer y el tratamiento le causan estrés. Pero una vez que sepa qué esperar, tal vez se sienta mejor."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.594278,
+          "distancia": 0.405722,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 67,
+          "pagina_fin": 67,
+          "seccion": "Cómo obtener más información:",
+          "fragmento_id": "861d57da-729c-4271-8d10-1a0f24e00761",
+          "texto": "Cómo obtener más información:\n\nPara aprender más sobre las náuseas y los vómitos durante el tratamiento del cáncer, lea Consejos de alimentación para pacientes con cáncer: Antes, durante y después del tratamiento, un libro del NCI. Disponible en: www.cancer.gov/espanol/consejos-de-alimentacion."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.577542,
+          "distancia": 0.422458,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 7,
+          "pagina_fin": 7,
+          "seccion": null,
+          "fragmento_id": "1ba95068-943f-4706-9e6b-8fd7ecb3b529",
+          "texto": "Lo que debe saber sobre el tratamiento del cáncer, la buena alimentación y los problemas de alimentación"
+        }
+      ]
+    },
+    {
+      "id": "MD08",
+      "tema": "alimentación con náuseas",
+      "texto": "Mi familiar tiene náuseas con el tratamiento del cáncer. ¿Qué alimentos le puedo ofrecer y cuáles conviene evitar?",
+      "fuente_esperada": "alimentacion",
+      "paginas_referencia": [
+        28,
+        29,
+        52,
+        53
+      ],
+      "seccion_referencia": "Náuseas / Alimentos y bebidas fáciles de digerir",
+      "criterio_documental": "Opciones alimentarias y alimentos que agravan las náuseas, según la fuente.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.698625,
+          "distancia": 0.301375,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 67,
+          "pagina_fin": 67,
+          "seccion": "Cómo obtener más información:",
+          "fragmento_id": "861d57da-729c-4271-8d10-1a0f24e00761",
+          "texto": "Cómo obtener más información:\n\nPara aprender más sobre las náuseas y los vómitos durante el tratamiento del cáncer, lea Consejos de alimentación para pacientes con cáncer: Antes, durante y después del tratamiento, un libro del NCI. Disponible en: www.cancer.gov/espanol/consejos-de-alimentacion."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.634681,
+          "distancia": 0.365319,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 29,
+          "pagina_fin": 30,
+          "seccion": "¿Qué más puedo hacer?",
+          "fragmento_id": "69932133-16fe-4016-b849-ac81c8efb2c2",
+          "texto": "¿Qué más puedo hacer?\n\nÎ Hable con el médico acerca de los medicamentos para evitar las náuseas, que se llaman\n\nantieméticos. Asegúrese de avisarle al médico o enfermero si los medicamentos no le sirven. Si un medicamento no funciona, el médico podrá recetarle otro. Es posible que deba tomarlos 1 hora antes de cada tratamiento y durante unos días después. El tipo de tratamiento del cáncer que reciba y la forma en que reaccione influirá en la cantidad de tiempo que necesitará tomar estos medicamentos. La acupuntura quizás lo ayude también. Hable con el médico o enfermero si desea probarla.\n\nÎ Hable con un nutricionista sobre las formas de comer suficiente, aunque tenga náuseas.\n\nÎ Relájese antes de cada tratamiento del cáncer. Tal vez se sienta mejor si prueba la\n\nrespiración profunda, la meditación o la oración. Muchas personas se relajan con actividades tranquilas como leer o escuchar música.\n\nÎ Descanse sentado después de las comidas, no se acueste.\n\nÎ Use ropa cómoda y suelta.\n\nÎ Guarde un registro de cuándo siente náuseas y qué las causa. Muéstrele el registro al enfermero, médico o nutricionista. Quizás le sugieran formas de cambiar su alimentación.\n\nÎ Evite alimentos y bebidas que tienen olor fuerte. Estos incluyen alimentos mientras\n\nse cocinan, café, pescado, cebolla y ajo. Pídale a un amigo o familiar que le prepare las comidas para evitar los olores de la cocina.\n\nÎ Abra una ventana o encienda un ventilador si su sala\n\nde estar está mal ventilada. El aire fresco ayuda a aliviar las náuseas. Asegúrese de no comer en habitaciones muy calurosas o mal ventiladas.\n\nConsejos para controlar los problemas de alimentación"
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.632202,
+          "distancia": 0.367798,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 28,
+          "pagina_fin": 28,
+          "seccion": "¿Por qué pasa?",
+          "fragmento_id": "f9b0037e-b532-4c75-8aec-0665deb1f8b1",
+          "texto": "¿Por qué pasa?\n\nLas náuseas suelen ser un efecto secundario de la cirugía, la quimioterapia, la inmunoterapia y la radioterapia dirigida al abdomen, el intestino delgado, el colon o el cerebro. También las causan ciertos tipos de cáncer u otras enfermedades."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.617804,
+          "distancia": 0.382196,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 41,
+          "pagina_fin": 42,
+          "seccion": "Formas de controlarlos",
+          "fragmento_id": "aa1b6069-c6ba-4e53-a5e2-a7747c63ba50",
+          "texto": "Para más información sobre el control de náuseas y de vómitos:\n\n• Visite la sección de Efectos secundarios del sitio web del Instituto Nacional del Cáncer en: https://www.cancer.gov/espanol/cancer/tratamiento/efectos-secundarios\n\n• Vea Consejos de alimentación: antes, durante y después del tratamiento de cáncer, un libro del Instituto Nacional del Cáncer, disponible en: https://www.cancer.gov/ espanol/publicaciones/educacion-para-pacientes/consejos-de-alimentacion\n\nFormas de manejar los efectos secundarios"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.608583,
+          "distancia": 0.391417,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 65,
+          "pagina_fin": 66,
+          "seccion": "Qué hacer para controlar las náuseas y los vómitos:",
+          "fragmento_id": "d4961459-bbc5-4d38-9e14-7e768b5887d5",
+          "texto": "Qué hacer para controlar las náuseas y los vómitos:\n\nÎ Evite las náuseas. Para no vomitar, trate de no tener náuseas. Consuma\n\ny bebidas suaves y fáciles de digerir que no le caigan mal. Estos incluyen, por ejemplo:\n\n• Galletas simples\n\n• Pan tostado\n\n• Gelatina\n\nPara aprender más, vea la lista de alimentos y bebidas fáciles de digerir de la página 73.\n\nÎ Haga un plan para comer y beber. Algunas personas se sienten mejor cuando comen algo\n\nligero antes de la quimioterapia. Otras se sienten mejor cuando reciben la quimioterapia con el estómago vacío (sin comer nada 2 o 3 horas antes del tratamiento). Después del tratamiento, espere al menos una hora antes de comer o beber.\n\nÎ Coma comidas pequeñas. En lugar de comer 3 comidas grandes al día, tal vez quiera comer 5 o 6 comidas pequeñas. También ayuda si no se toma mucho líquido antes o durante las comidas. Tampoco se acueste justo después de comer.\n\nÎ Consuma alimentos y bebidas que estén tibios o frescos (alimentos que no estén ni\n\nmuy fríos ni muy calientes). Espere a que se enfríen los alimentos y las bebidas calientes, use hielo para enfriarlos. Para calentar los alimentos fríos, sáquelos del refrigerador una hora antes de comer o caliéntelos ligeramente en el horno de microondas. Tome bebidas que estén a temperatura ambiente y que ya no tengan burbujas.\n\nComa 5 o 6 comidas pequeñas cada día en vez de 3 comidas grandes.\n\nEvite los alimentos y las bebidas con olores fuertes. Por ejemplo:\n\n• Café\n\n• Pescado\n\n• Cebollas\n\n• Ajo\n\n• Alimentos que se estén cocinando\n\nÎ Pruebe pequeños trozos de paletas de agua sin leche o frutas heladas. También puede\n\nchupar trocitos de hielo.\n\nÎ Chupe mentas sin azúcar (“sugar-free”) o dulces que tengan un sabor agrio. Pero no\n\nuse dulces ácidos si le duele la boca o la garganta."
+        }
+      ]
+    },
+    {
+      "id": "MD09",
+      "tema": "llagas en la boca",
+      "texto": "Mi papá tiene llagas en la boca por el tratamiento y le duele comer. ¿Qué le puedo preparar para que le moleste menos?",
+      "fuente_esperada": "alimentacion",
+      "paginas_referencia": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "seccion_referencia": "Mucositis (dolor en la boca)",
+      "criterio_documental": "Comidas o formas de preparación para boca dolorida; no basta explicar qué es la mucositis.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.596366,
+          "distancia": 0.403634,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 32,
+          "pagina_fin": 33,
+          "seccion": "Consejos para controlar los problemas de alimentación",
+          "fragmento_id": "0be4695b-bcb8-413f-b4db-ac8a24a6391d",
+          "texto": "Consejos para controlar los problemas de alimentación\n\nÎ No use artículos que lastimen o quemen la boca, como los siguientes:\n\n• Enjuague bucal con alcohol\n\n• Palillos para los dientes u otros objetos filosos\n\n• Cigarrillos, cigarros u otros productos de tabaco\n\n• Cerveza, vino, licor u otra bebida alcohólica\n\nÎ Informe al médico y al dentista si le duelen la boca o las encías. Podrán averiguar\n\nsi es por el tratamiento o por problemas dentales. Pregunte al dentista sobre productos especiales para limpiar y aliviar los dientes y las encías doloridos.\n\nÎ Consulte al médico acerca de los analgésicos. Quizás le indique pastillas o aerosoles\n\nque adormecen la boca mientras come.\n\nRECETA para la aliviar boca irritada"
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.595869,
+          "distancia": 0.404131,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 36,
+          "pagina_fin": 36,
+          "seccion": "¿Cuánto tiempo duran?",
+          "fragmento_id": "3ebda41b-a49f-4c06-ab09-16de7e95d1bc",
+          "texto": "¿Cuánto tiempo duran?\n\nAlgunos problemas, como las llagas en la boca, pueden desaparecer al terminar el tratamiento. Otros, como el sabor, pueden durar meses o años. Algunos problemas, como la resequedad de la boca, pueden mejorar, pero nunca desaparecer."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.556103,
+          "distancia": 0.443897,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 30,
+          "pagina_fin": 30,
+          "seccion": "¿Por qué pasa?",
+          "fragmento_id": "bc646d03-31a9-42f2-8636-b3118f2e5221",
+          "texto": "¿Por qué pasa?\n\nLos tratamientos del cáncer quizás dañen las células de crecimiento rápido en el revestimiento de la boca y los labios. Es probable que la boca y las encías se sientan mejor cuando termine el tratamiento."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.5408,
+          "distancia": 0.4592,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 33,
+          "pagina_fin": 34,
+          "seccion": "Qué hacer para controlar los problemas de la boca:",
+          "fragmento_id": "07e018d4-df01-43ad-9858-d6f1c1673227",
+          "texto": "Î Tenga cuidado con lo que come si le duele la boca. Recuerde estos consejos:\n\n• Escoja alimentos que sean húmedos, suaves y fáciles de masticar o de pasar. Por ejemplo cereales cocidos (como avena), puré de papas y huevos revueltos.\n\n• Use una licuadora para convertir los alimentos cocidos en puré, así podrán comerse con más facilidad. Para ayudar a evitar infecciones, lave bien todas las piezas de la licuadora antes y después de usarlas. Si es posible, lo mejor es lavarlas en una lavadora de platos.\n\n• Tome bocados pequeños. Mastique lentamente. Beba a sorbos los líquidos con las comidas.\n\n• Suavice los alimentos con jugo de carne (“gravy”), salsa, caldo, yogur u otros líquidos.\n\n• Coma alimentos que estén tibios o a temperatura del ambiente. Podría descubrir que los alimentos de temperatura tibia o caliente le hacen daño en la boca o la garganta.\n\n• Chupe trocitos de hielo o paletas de agua sin leche. Esto le puede aliviar el dolor de la boca.\n\n• Pida a su dietista (nutricionista) sugerencias de alimentos que sean fáciles de comer. Si quiere obtener algunas ideas de alimentos suaves que no irritan la boca adolorida, vea la tabla de la página 72.\n\nEvite las cosas que puedan lastimar, raspar o quemarle la boca. La tabla de abajo le da ejemplos de alimentos, bebidas y otros productos que debe evitar."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.538203,
+          "distancia": 0.461797,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 76,
+          "pagina_fin": 76,
+          "seccion": "Alimentos para no lastimar una boca irritada",
+          "fragmento_id": "ef0182d4-279b-4976-9829-90445b9494f4",
+          "texto": "Alimentos para no lastimar una boca irritada\n\nEsta lista puede ayudarle si la boca o la garganta están irritadas. Vea la página 27."
+        }
+      ]
+    },
+    {
+      "id": "MD10",
+      "tema": "pérdida de peso",
+      "texto": "Mi mamá está bajando de peso durante el tratamiento del cáncer. ¿Cómo puedo enriquecer sus comidas para ayudarla a mantener el peso?",
+      "fuente_esperada": "alimentacion",
+      "paginas_referencia": [
+        43,
+        44,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "seccion_referencia": "Pérdida de peso / Formas de agregar proteína y calorías",
+      "criterio_documental": "Orientación para aportar calorías/proteínas y mantener peso, con ejemplos documentados.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.635934,
+          "distancia": 0.364066,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "Acerca de esta publicación",
+          "fragmento_id": "d39db4a4-16ed-45e2-b95a-ed2a02b8f8d4",
+          "texto": "Acerca de esta publicación\n\nConsejos de alimentación fue escrito para usted: alguien que recibe o está por recibir tratamiento del cáncer. Otras personas cercanas a usted, como sus familiares y amigos también podrían leer esta publicación.\n\nConsulte la información antes, durante y después del tratamiento del cáncer. Se incluyen consejos sobre problemas de alimentación comunes y las formas de aliviarlos"
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.620158,
+          "distancia": 0.379842,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 43,
+          "pagina_fin": 43,
+          "seccion": "¿Por qué pasa?",
+          "fragmento_id": "b4bb7de0-28c5-4ad3-8ee1-c0cdceb43920",
+          "texto": "¿Por qué pasa?\n\nLa pérdida de peso podría ser a causa del cáncer mismo o de los efectos secundarios del tratamiento del cáncer, como las náuseas y los vómitos. El estrés y la preocupación también causan pérdida de peso. Muchas personas con cáncer pierden peso durante el tratamiento."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.614383,
+          "distancia": 0.385617,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 42,
+          "pagina_fin": 42,
+          "seccion": "¿Qué más puedo hacer?",
+          "fragmento_id": "18ef2284-13c7-46a7-bee6-9ee6b9b825a3",
+          "texto": "¿Qué más puedo hacer?\n\nÎ Hable con un nutricionista. Le sugerirá formas de limitar la cantidad de sal que come si\n\nestá aumentando de peso porque retiene líquidos. Un nutricionista también podrá ayudarlo a elegir alimentos saludables y hacer cambios saludables en sus recetas favoritas.\n\nÎ Mantenga un diario de alimentos. Lleve un registro de lo que come y cuándo lo come. Si\n\nlo hace, le servirá para reconocer los hábitos que podrían causar el aumento de peso.\n\nÎ Haga ejercicio todos los días. El ejercicio no solo lo ayuda a quemar calorías:\n\nlos estudios demuestran que ayuda a las personas con cáncer a sentirse mejor. Hable con el médico o enfermero sobre cuánto ejercicio debe hacer mientras recibe el tratamiento del cáncer.\n\nÎ Hable con el médico antes\n\nde comenzar una dieta para bajar de peso. Le ayudarán a saber por qué está aumentando de peso y, si tiene retención de líquidos, podrán recetarle un medicamento llamado diurético."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.593311,
+          "distancia": 0.406689,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 44,
+          "pagina_fin": 44,
+          "seccion": "Consejos para controlar los problemas de alimentación",
+          "fragmento_id": "1247440f-8f7d-458e-99fd-8f05ba341020",
+          "texto": "Consejos para controlar los problemas de alimentación\n\n¿Qué más puedo hacer?\n\nÎ Hable con un nutricionista. Le dará ideas sobre cómo mantener o recuperar su peso. Esto\n\nincluye elegir alimentos ricos en proteínas y calorías, y adaptar sus recetas favoritas.\n\nÎ Manténgase físicamente activo. Es posible que tenga más apetito si da un paseo corto o\n\nhace otro ejercicio ligero. Los estudios muestran que muchas personas con cáncer se sienten mejor cuando hacen ejercicio todos los días.\n\nÎ Considere la alimentación por sonda. A veces, cuando no pueda comer lo suficiente\n\npara mantenerse fuerte; una sonda de alimentación tal vez sea una buena opción. El médico o nutricionista hablarán de esto si creen que lo ayudará.\n\nÎ Avise al médico si tiene problemas para comer, como náuseas, vómitos o cambios en\n\nel sabor y el olor de los alimentos. Lo ayudarán controlarlos para que pueda comer mejor.\n\nRECETAS para evitar la pérdida de peso"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.589955,
+          "distancia": 0.410045,
+          "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2024",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "problemas de alimentación",
+          "fragmento_id": "a48746ea-6720-4b3a-a1cc-935e303b7107",
+          "texto": "problemas de alimentación\n\nÎ La forma en que los sentimientos afectan el apetito\n\nÎ Consejos para aliviar los problemas de alimentación\n\nÎ Formas de comer bien después de que termina el tratamiento del cáncer\n\nÎ Alimentos y bebidas que ayudan con algunos problemas de alimentación\n\nHable con el médico, profesional de enfermería o nutricionista sobre cualquier problema de alimentación que tenga durante el tratamiento del cáncer. Es posible que le pidan que lea ciertas secciones de esta publicación o que siga algunos de los consejos.\n\nEn lugar de leer de principio a fin, mire las secciones que necesita ahora. Siempre podrá leer más después."
+        }
+      ]
+    },
+    {
+      "id": "MD11",
+      "tema": "efectos secundarios",
+      "texto": "Mi familiar va a empezar radioterapia. ¿Qué efectos secundarios puede tener y de qué depende que aparezcan?",
+      "fuente_esperada": "radioterapia",
+      "paginas_referencia": [
+        25,
+        26,
+        27
+      ],
+      "seccion_referencia": "Efectos secundarios de la radioterapia",
+      "criterio_documental": "Efectos de radioterapia y relación con área de tratamiento; una lista de quimioterapia no responde ese contexto.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.805217,
+          "distancia": 0.194783,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 56,
+          "pagina_fin": 56,
+          "seccion": "Sobre efectos secundarios",
+          "fragmento_id": "8285f838-61ba-4c30-9438-d2aa4f8ed017",
+          "texto": "Sobre efectos secundarios\n\n¿Qué clase de efectos secundarios deberé esperar durante mi tratamiento \n de radioterapia?\n\nBlank lines for answer\n\nBlank lines for answer"
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.752422,
+          "distancia": 0.247578,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 56,
+          "pagina_fin": 56,
+          "seccion": "¿Qué clase de efectos secundarios tardíos deberé esperar después de que termine la radioterapia?",
+          "fragmento_id": "4a30e13d-f1ac-4040-be39-7996b128c586",
+          "texto": "¿Qué clase de efectos secundarios tardíos deberé esperar después de que termine la radioterapia?\n\nBlank lines for answer\n\nBlank lines for answer"
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.709944,
+          "distancia": 0.290056,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 56,
+          "pagina_fin": 56,
+          "seccion": "¿Desaparecerán estos efectos secundarios después de que termine \n la radioterapia?",
+          "fragmento_id": "d6fdf222-ae6c-406a-add6-f940a03eb3e8",
+          "texto": "¿Desaparecerán estos efectos secundarios después de que termine \n la radioterapia?\n\nBlank lines for answer\n\nBlank lines for answer"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.706381,
+          "distancia": 0.293619,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 25,
+          "pagina_fin": 26,
+          "seccion": "Efectos secundarios comunes",
+          "fragmento_id": "2d5d704b-1be6-490d-b6f5-336d2393fcd7",
+          "texto": "Efectos secundarios comunes\n\nMucha gente que recibe radioterapia tiene cambios en la piel y algo de fatiga. Otros efectos secundarios dependen de la parte de su cuerpo que recibe el tratamiento.\n\nLos cambios en la piel pueden incluir resequedad, comezón o ampollas en el área del tratamiento. Estos cambios ocurren porque la radiación pasa por la piel para llegar al cáncer. Usted necesitará poner especial atención a su piel durante la radioterapia. Para aprender más, vea la página 40.\n\nLa fatiga se describe con frecuencia como sentir cansancio o agotamiento. Hay muchas formas de manejar la fatiga. Para aprender más, vea la página 24.\n\nDependiendo de la parte de su cuerpo que recibe el tratamiento, usted puede tener también:\n\nÎ Diarrea\n\nÎ Caída del pelo del área tratada\n\nÎ Problemas de la boca\n\nÎ Náuseas y vómitos\n\nÎ Cambios sexuales\n\nÎ Hinchazón\n\nÎ Problemas para pasar alimentos\n\nÎ Cambios urinarios y de vejiga\n\nLa mayoría de estos efectos secundarios desaparecen a los dos meses de haber terminado la radioterapia.\n\nLos efectos secundarios tardíos pueden ocurrir después de seis meses o más de terminada la radioterapia. Varían según la parte de su cuerpo que recibió el tratamiento y la dosis de radiación administrada.\n\nLos efectos secundarios tardíos pueden incluir infecundidad, problemas en las articulaciones, linfedema, problemas de la boca y, en pocos casos, segundos cánceres. Cada persona es diferente, por esta razón hable con su doctor o con su enfermera sobre la posibilidad de que usted tenga efectos secundarios tardíos y de los signos que deberá observar. Vea la página 47 para más información sobre los efectos secundarios tardíos.\n\nLa sección Formas de manejar los efectos secundarios, desde la página 22, explica cada efecto secundario con más detalle e incluye formas como usted, su doctor o su enfermera pueden controlarlo."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.675214,
+          "distancia": 0.324786,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 3,
+          "pagina_fin": 3,
+          "seccion": "Este libro cubre:",
+          "fragmento_id": "4c988ebb-4cde-40cf-be1e-8f3d2a229060",
+          "texto": "Este libro cubre:\n\nÎ Preguntas y respuestas acerca de la radioterapia. Respuestas a preguntas comunes,\n\ncomo qué es la radioterapia y cómo afecta a las células cancerosas.\n\nÎ Radiación por rayo externo y radiación interna. Información de dos tipos\n\nprincipales de radioterapia.\n\nÎ Efectos secundarios y formas de controlarlos. Información acerca de los efectos\n\nsecundarios que pueden ocurrir, dependiendo de la parte de su cuerpo que recibe el tratamiento y formas de manejarlos.\n\nÎ Preguntas para hacer. Preguntas en las que usted puede pensar y discutir con su\n\ndoctor, con su enfermera y otros participantes en su tratamiento y cuidado.\n\nÎ Listas de alimentos y líquidos. Sugerencias para alimentos y bebidas que le pueden\n\nayudar con los efectos secundarios.\n\nHable con su doctor y con su enfermera acerca de la información en este libro. Le pueden sugerir que lea algunas secciones o que siga algunos consejos. Ya que la radioterapia afecta a la gente en forma diferente, le pueden decir también que alguna de la información en este libro no se aplica a usted.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - En vez de leer este libro de principio a fin, busque solo las secciones que necesita ahora. Después, usted puede leer más.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+        }
+      ]
+    },
+    {
+      "id": "MD12",
+      "tema": "cansancio",
+      "texto": "Mi papá está agotado desde que empezó la radioterapia. ¿Cómo puedo ayudarlo a manejar el cansancio en casa?",
+      "fuente_esperada": "radioterapia",
+      "paginas_referencia": [
+        30,
+        31,
+        32
+      ],
+      "seccion_referencia": "Fatiga",
+      "criterio_documental": "Manejo de fatiga en radioterapia; distinguir consejo aplicable de información exclusiva de otro tratamiento.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.629729,
+          "distancia": 0.370271,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 31,
+          "pagina_fin": 32,
+          "seccion": "Formas de controlarla",
+          "fragmento_id": "f8ba552c-1e79-4745-84d8-8d50a6e406aa",
+          "texto": "Î Coma y beba bien. Puede comer mejor si tiene cinco o seis comidas en el día, en vez de\n\ntres comidas grandes. Tenga a la mano alimentos que son fáciles de preparar, como sopas de lata, comidas congeladas, yogur y queso crema. Beba mucho líquido cada día—como 8 vasos de agua o de jugo.\n\nÎ Haga un plan de trabajo que sea el más conveniente para usted. La fatiga puede\n\nafectar la cantidad de energía que tiene para su trabajo. Puede sentirse suficientemente bien para trabajar a tiempo completo, o puede necesitar trabajar menos—tal vez solo unas cuantas horas al día o unos cuantos días a la semana. Tal vez querrá hablar con su supervisor de la posibilidad de trabajar en casa para no tener que trasladarse al trabajo. Si es posible, puede pensar en tomar ausencias médicas mientras recibe radioterapia.\n\nÎ Deje que otros le ayuden. Comuníquese con la\n\ncompañía de seguro para ver si cubren servicios de atención en casa. Usted puede también pedir a sus familiares y amigos que le ayuden cuando sienta fatiga. El personal de atención en casa, los familiares y amigos pueden ayudar con las tareas domésticas, hacer mandados, o llevarle y traerle de las visitas de radioterapia. Ellos pueden también ayudar a preparar las comidas para tenerlas ahora o para congelarlas para más tarde.\n\nÎ Aprenda de otros que tienen cáncer. Las personas que tienen cáncer pueden ayudarse\n\nmutuamente al compartir cómo controlar la fatiga. Una forma de encontrar a otras personas con cáncer es por medio de un grupo de apoyo—en persona o en Internet. Hable con su doctor o con su enfermera para aprender más de los grupos de apoyo.\n\nÎ Apunte en un diario cómo se siente cada día. Esto le ayudará a hacer planes para\n\naprovechar mejor su tiempo. Comparta sus apuntes con la enfermera. Haga saber a su doctor o a su enfermera si nota cambios en su nivel de energía, si tiene mucha energía o siente mucho cansancio.\n\nÎ Hable con su doctor o con su enfermera. Ellos pueden sugerir tratamientos para"
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.586107,
+          "distancia": 0.413893,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 30,
+          "pagina_fin": 30,
+          "seccion": "¿Cuánto tiempo dura?",
+          "fragmento_id": "cabe3505-1c6a-4970-bb49-08088e9a06be",
+          "texto": "¿Cuánto tiempo dura?\n\nCuándo sentirá usted fatiga por primera vez dependerá de varios factores, como su edad, su salud, su actividad y cómo se sentía usted antes de empezar la radioterapia.\n\nLa fatiga puede durar de seis semanas a un año después de su última sesión de radioterapia. Algunas personas pueden sentir siempre fatiga y no tener tanta energía como tenían antes de la radioterapia."
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.577575,
+          "distancia": 0.422425,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 31,
+          "pagina_fin": 31,
+          "seccion": "Formas de controlarla",
+          "fragmento_id": "cc4fed53-4c1e-4809-88c7-ac36ed9b688e",
+          "texto": "Formas de controlarla\n\nÎ Trate de dormir al menos ocho horas cada noche. Esto puede ser dormir más de\n\nlo que necesitaba antes de la radioterapia. Una forma de dormir mejor en la noche es mantener la actividad durante el día. Otra forma es relajarse justo antes de acostarse. Tenga actividades que le calmen antes de acostarse, como leer, armar algún rompecabezas o escuchar música.\n\nÎ Fíjese un tiempo para descansar. Échese siestas\n\ncortas o pausas de descanso entre sus actividades.\n\nÎ No trate de hacer muchas cosas. Con la fatiga,\n\npuede ser que no tenga energía suficiente para hacer lo que quiere. Mantenga la actividad, pero haga lo que es más importante para usted. No trate de hacer lo que no es importante ahora. Por ejemplo, usted puede ir a trabajar pero no haga las tareas en casa. Podría observar los eventos deportivos de sus niños pero no prepare la cena.\n\nÎ Haga ejercicio. La investigación indica que la mayoría de la gente se siente mejor\n\ncuando hace ejercicio cada día. Camine un poco, ande en bicicleta o haga yoga. Hable con su doctor o con su enfermera de los tipos de ejercicio que usted puede hacer mientras recibe radioterapia.\n\nÎ Relájese. La meditación, la oración, el yoga tranquilo, la imaginación guiada y la\n\nvisualización son formas para aprender a relajarse y reducir la tensión. Para ejercicios de relajación:\n\n• Visite Aprenda a relajarse en el sitio web del Instituto Nacional del Cáncer en: https://www.cancer.gov/espanol/cancer/sobrellevar/sentimientos/relajarse\n\n• Vea Siga adelante: La vida después del tratamiento del cáncer, un libro del Instituto Nacional del Cáncer, disponible en: https://www.cancer.gov/espanol/publicaciones/ educacion-para-pacientes/siga-adelante\n\nÎ Coma y beba bien. Puede comer mejor si tiene cinco o seis comidas en el día, en vez de"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.555848,
+          "distancia": 0.444152,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 13,
+          "pagina_fin": 13,
+          "seccion": "Después de haber terminado la radioterapia, ¿en qué síntomas me deberé fijar?",
+          "fragmento_id": "74fae4d4-f4f4-46a1-ae27-e527f21226c2",
+          "texto": "Después de haber terminado la radioterapia, ¿en qué síntomas me deberé fijar?\n\nUsted ha pasado por muchas cosas a causa del cáncer y la radioterapia. Es posible que ahora sea más consciente de su cuerpo y de cómo se siente cada día. Ponga atención a los cambios en su cuerpo. Diga a su doctor o a su enfermera si usted tiene:\n\nÎ Dolor que no desaparece\n\nÎ Nuevos bultos, bolas, hinchazones, irritaciones, raspones o sangrado\n\nÎ Cambios de apetito, náuseas, vómitos, diarrea o estreñimiento\n\nÎ Adelgazamiento que no puede explicarse\n\nÎ Fiebre, tos, irritación de la garganta que no desaparecen\n\nÎ Cualquier otro síntoma que le preocupa"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.555441,
+          "distancia": 0.444559,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 30,
+          "pagina_fin": 30,
+          "seccion": "Fatiga",
+          "fragmento_id": "b117a4b9-3299-4780-9cdb-c3bfdab4d831",
+          "texto": "Fatiga\n\n¿Qué es?\n\nLa fatiga por la radioterapia puede ser leve o extrema. Mucha gente describe la fatiga como sentir debilidad, cansancio, agotamiento, pesadez o lentitud.\n\nLa fatiga es un efecto secundario común, y es muy posible que usted sentirá algún grado de fatiga durante el tratamiento. ¿Por qué sucede?\n\nLa fatiga puede ser causada por muchos problemas, como:\n\nÎ Anemia\n\nÎ Cambios de apetito\n\nÎ Ansiedad\n\nÎ Depresión\n\nÎ Infección\n\nÎ Falta de actividad\n\nÎ Medicamentos\n\nÎ Dolor\n\nÎ Dificultad para respirar\n\nÎ Dificultad para dormir\n\nÎ Otros problemas médicos\n\nLa fatiga puede originarse también por el esfuerzo de ir a radioterapia cada día o por la tensión. Las más de las veces, usted no sabrá por qué siente fatiga."
+        }
+      ]
+    },
+    {
+      "id": "MD13",
+      "tema": "piel",
+      "texto": "A mi mamá se le está irritando la piel donde recibe radioterapia. ¿Cómo debemos cuidarla y qué debemos evitar?",
+      "fuente_esperada": "radioterapia",
+      "paginas_referencia": [
+        46,
+        47,
+        48
+      ],
+      "seccion_referencia": "Cambios en la piel",
+      "criterio_documental": "Cuidados y precauciones en la piel del área irradiada.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.74297,
+          "distancia": 0.25703,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 47,
+          "pagina_fin": 47,
+          "seccion": "Formas de controlarlos",
+          "fragmento_id": "fd2f581a-84df-4b32-8c14-5004527f90d2",
+          "texto": "Formas de controlarlos\n\nÎ Cuidado de la piel. Ponga mucho más cuidado de la piel durante la radioterapia. Hágalo\n\nsuavemente y no se frote o restregue, ni rasque en el área de tratamiento. Use cremas recomendadas por su doctor o su enfermera.\n\nÎ No se ponga en su piel nada que sea muy caliente o muy frío. No use almohadillas\n\ncalientes, ni paquetes de hielo, u otras cosas calientes o frías en el área de tratamiento.\n\nÎ Tenga cuidado en la regadera o al darse un baño. Puede darse un regaderazo con\n\nagua tibia todos los días. Si prefiere darse un baño con agua tibia, hágalo solo cada tercer día y no se remoje por mucho tiempo. Ya sea que se dé un regaderazo o un baño, asegúrese de usar un jabón suave. Séquese con una toalla suave con plamadas, sin frotarse. Asegúrese de que no se borren las marcas de tinta que necesita para la radioterapia.\n\nÎ Use solo las cremas y productos para la piel\n\nque recomiendan su doctor o su enfermera. Si usa una crema recetada para un problema de la piel o acné, dígalo a su doctor o a su enfermera antes de empezar el tratamiento con radiación. Revise con su doctor o con su enfermera antes de usar cualquiera de los productos para la piel a continuación:\n\n• Baño de burbujas\n\n• Maicena\n\n• Crema\n\n• Desodorante\n\n• Depilador\n\n• Maquillaje\n\n• Aceite\n\n• Ungüento\n\n• Perfume\n\n• Polvo\n\n• Jabón\n\n• Protector solar\n\nÎ Lugares frescos, húmedos. Su piel puede sentirse mucho mejor cuando esté en lugares\n\nfrescos, húmedos. Usted puede humedecer su cuarto si pone un recipiente con agua en el radiador o usa un humedecedor. Si usa un humedecedor, asegúrese de seguir las instrucciones para limpiarlo con el fin de evitar las bacterias.\n\nÎ Telas suaves. Use ropa y sábanas hechas con telas muy suaves."
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.673469,
+          "distancia": 0.326531,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 48,
+          "pagina_fin": 48,
+          "seccion": "Formas de controlarlos",
+          "fragmento_id": "6644703a-652e-4fc4-a2a7-25313327a482",
+          "texto": "efectos dañinos del sol.\n\nÎ Cinta adhesiva. No ponga vendas adhesivas ni otro tipo de cintas que se pegan a su piel\n\nen el área del tratamiento. Hable con su médico o con su enfermera de la forma de poner vendas sin cintas.\n\nÎ Afeitarse. Pregunte al doctor o a la enfermera si puede afeitarse el área de tratamiento.\n\nSi puede hacerlo, use una afeitadora eléctrica, pero no use líquido acondicionador antes de afeitarse.\n\nÎ Área del recto. Si tiene radioterapia en el área del recto, es probable que tenga\n\nproblemas en la piel. Estos problemas empeoran con frecuencia después de ir al baño. Límpiese con toallitas para bebés o rocíe agua de una botella rociadora. Pregunte a la enfermera si los baños de asiento podrían ayudarle. Los baños de asiento son baños con agua tibia que se dan en una posición sentada y que cubren solo las caderas y los glúteos.\n\nÎ Hable con su doctor o con su enfermera. Algunos cambios en la piel pueden ser\n\nmuy graves. Su equipo de tratamiento revisará los cambios en la piel cada vez que tenga radioterapia. Asegúrese de notificar cualquier cambio en la piel que usted pueda notar.\n\nÎ Medicinas. Las medicinas pueden ayudarle con algunos cambios en la piel. Estas\n\npueden ser cremas para piel reseca o con comezón, antibióticos para tratar infecciones y medicamentos para reducir la inflamación o comezón.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Asegúrese de no lavarse las marcas de tinta que necesita para la radioterapia.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.666481,
+          "distancia": 0.333519,
+          "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2019",
+          "pagina_inicio": 37,
+          "pagina_fin": 37,
+          "seccion": "Qué hacer para controlar los cambios en la piel y en las uñas:",
+          "fragmento_id": "ee66e052-c3ad-4204-b828-2aa40f7848b4",
+          "texto": "Î Problemas de las uñas:\n\n• Use guantes cuando lave los platos, cuando trabaje en el jardín o limpie la casa\n\n• Diga al doctor o a la enfermera si las cutículas están rojas y dolorosas.\n\nÎ Reacción grave en la piel (“radiation recall”):\n\n• Proteja del sol el área de su piel donde recibió radioterapia.\n\n• No use camas solares.\n\n• Ponga un paño frío y mojado donde le duele la piel.\n\n• Use ropas de algodón o de otras telas suaves. Esto incluye su ropa interior como sostenes (brasieres), calzones (pantaletas), calzoncillos y camisetas.\n\n• Diga al doctor si tiene una reacción grave en la piel en el área donde recibió la radioterapia."
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.659519,
+          "distancia": 0.340481,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 46,
+          "pagina_fin": 46,
+          "seccion": "Cambios en la piel",
+          "fragmento_id": "6e4b8e7b-4eed-43cc-bbad-30c7c9976d32",
+          "texto": "Cambios en la piel\n\n¿Qué son?\n\nLa radioterapia puede causar cambios en la piel en el área del tratamiento. Estos son algunos cambios comunes en la piel:\n\nÎ Enrojecimiento. Su piel en el área del tratamiento puede verse como si se hubiera\n\nquemado por el sol ligera o gravemente.\n\nÎ Comezón intensa. La piel en el área de su tratamiento puede tener una comezón\n\nintensa. Es importante que evite rascarse, lo cual puede causar que se parta la piel y se infecte. Al partirse la piel, el problema que sucede es que la piel del área de tratamiento se despelleja con más rapidez de lo que puede sanar.\n\nÎ Piel reseca y despellejada. La piel en el área de su tratamiento puede estar muy seca.\n\nPuede estar tan seca que empiece a despellejarse, como si estuviera muy quemada por el sol. Si se despelleja con más rapidez de lo que sana, puede presentar llagas o úlceras.\n\nÎ Reacción húmeda. La piel en el área del tratamiento puede aparecer húmeda, con llagas\n\ne infectada. Este problema es más común en donde usted tiene pliegues de la piel, como en los glúteos, detrás de las orejas y abajo de sus senos. Puede ocurrir también en donde su piel es muy delgada, como en su cuello.\n\nÎ Piel inflamada. La piel en el área de su tratamiento puede estar inflamada y abultada."
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.603406,
+          "distancia": 0.396594,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 47,
+          "pagina_fin": 48,
+          "seccion": "Formas de controlarlos",
+          "fragmento_id": "333e5e92-f5b8-4a1b-b015-c136c26ca9b2",
+          "texto": "frescos, húmedos. Usted puede humedecer su cuarto si pone un recipiente con agua en el radiador o usa un humedecedor. Si usa un humedecedor, asegúrese de seguir las instrucciones para limpiarlo con el fin de evitar las bacterias.\n\nÎ Telas suaves. Use ropa y sábanas hechas con telas muy suaves.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Cuide muy bien su piel durante la radioterapia. Hágalo suavemente, sin raspar, frotar o rascar.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\nÎ No use ropa que sea muy ajustada y que no respira en el área de tratamiento,\n\ncomo fajas y pantimedias.\n\nÎ Proteja su piel del sol todos los días. El sol puede quemarle aun en los días nublados\n\no cuando sale a la calle por unos minutos. No vaya a la playa o tome baños de sol. Use un sombrero de ala ancha, camisas de manga larga y pantalones largos cuando salga a la calle. Hable con su médico o con su enfermera de las cremas de protección solar. Ellos pueden recomendarle que use un protector solar con un factor de protección solar (SPF) de 30 o más alto. Usted necesitará proteger su piel del sol aun después de terminada la radioterapia.\n\nÎ No use cámaras de bronceado. Las cámaras de bronceado le exponen a los mismos\n\nefectos dañinos del sol.\n\nÎ Cinta adhesiva. No ponga vendas adhesivas ni otro tipo de cintas que se pegan a su piel\n\nen el área del tratamiento. Hable con su médico o con su enfermera de la forma de poner vendas sin cintas."
+        }
+      ]
+    },
+    {
+      "id": "MD14",
+      "tema": "alimentación",
+      "texto": "Mi familiar está recibiendo radioterapia. ¿Necesita comer de alguna forma especial para mantener sus fuerzas y su peso?",
+      "fuente_esperada": "radioterapia",
+      "paginas_referencia": [
+        10,
+        59
+      ],
+      "seccion_referencia": "¿Deberé seguir una dieta especial mientras reciba radioterapia?",
+      "criterio_documental": "Necesidades alimentarias durante radioterapia y mantenimiento del peso; considerar apoyo de la guía de alimentación.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.72209,
+          "distancia": 0.27791,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 10,
+          "pagina_fin": 10,
+          "seccion": "¿Deberé seguir una dieta especial mientras reciba radioterapia?",
+          "fragmento_id": "f54aed1f-f396-45f1-adb0-ef720a4b2358",
+          "texto": "¿Deberé seguir una dieta especial mientras reciba radioterapia?\n\nSu cuerpo usa mucha energía para sanar durante la radioterapia. Es importante que coma suficientes calorías y proteínas para mantener el mismo peso durante este tiempo. Pregunte a su doctor o a su enfermera si necesita una dieta especial mientras recibe radioterapia. También puede ser útil que hable con un dietista.\n\nPara saber más sobre alimentos y bebidas que son ricos en calorías o proteínas, vea la tabla en la página 53. Usted puede también leer Consejos de alimentación: antes, durante y después del tratamiento de cáncer, un libro del Instituto Nacional del Cáncer, disponible en: https://www.cancer.gov/ espanol/publicaciones/educacion-para-pacientes/consejos-de-alimentacion"
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.591867,
+          "distancia": 0.408133,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 12,
+          "pagina_fin": 12,
+          "seccion": "¿Cómo aprovecho al máximo la radioterapia?",
+          "fragmento_id": "3910dc8c-8afd-4a34-8088-eb52b3a740b1",
+          "texto": "¿Cómo aprovecho al máximo la radioterapia?\n\nUsted tiene un papel importante en su radioterapia. Para obtener lo máximo de este tratamiento:\n\nÎ Llegue a tiempo a todas sus sesiones de radioterapia.\n\nÎ Haga preguntas y hable de sus preocupaciones.\n\nÎ Diga a alguien de su equipo de radioterapia cuando tenga efectos\n\nsecundarios y cambios en sus hábitos del intestino o de alimentación.\n\nÎ Diga a su doctor o a su enfermera si algo le duele.\n\nSiga los consejos de sus doctores o de sus enfermeras acerca de cómo cuidarse en casa, para:\n\nÎ Cuidar su piel\n\nÎ Beber suficiente líquido\n\nÎ Comer alimentos para ayudarle con los efectos secundarios\n\nÎ Mantener su mismo peso\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Haga una lista de preguntas y problemas que quiere discutir con su doctor o con su enfermera. Asegúrese de llevar esta lista a sus consultas. Vea ejemplos de preguntas en las páginas 49 y 50.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Asegúrese de llegar a tiempo a todas sus sesiones de radioterapia.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.582509,
+          "distancia": 0.417491,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 31,
+          "pagina_fin": 32,
+          "seccion": "Formas de controlarla",
+          "fragmento_id": "f8ba552c-1e79-4745-84d8-8d50a6e406aa",
+          "texto": "Î Coma y beba bien. Puede comer mejor si tiene cinco o seis comidas en el día, en vez de\n\ntres comidas grandes. Tenga a la mano alimentos que son fáciles de preparar, como sopas de lata, comidas congeladas, yogur y queso crema. Beba mucho líquido cada día—como 8 vasos de agua o de jugo.\n\nÎ Haga un plan de trabajo que sea el más conveniente para usted. La fatiga puede\n\nafectar la cantidad de energía que tiene para su trabajo. Puede sentirse suficientemente bien para trabajar a tiempo completo, o puede necesitar trabajar menos—tal vez solo unas cuantas horas al día o unos cuantos días a la semana. Tal vez querrá hablar con su supervisor de la posibilidad de trabajar en casa para no tener que trasladarse al trabajo. Si es posible, puede pensar en tomar ausencias médicas mientras recibe radioterapia.\n\nÎ Deje que otros le ayuden. Comuníquese con la\n\ncompañía de seguro para ver si cubren servicios de atención en casa. Usted puede también pedir a sus familiares y amigos que le ayuden cuando sienta fatiga. El personal de atención en casa, los familiares y amigos pueden ayudar con las tareas domésticas, hacer mandados, o llevarle y traerle de las visitas de radioterapia. Ellos pueden también ayudar a preparar las comidas para tenerlas ahora o para congelarlas para más tarde.\n\nÎ Aprenda de otros que tienen cáncer. Las personas que tienen cáncer pueden ayudarse\n\nmutuamente al compartir cómo controlar la fatiga. Una forma de encontrar a otras personas con cáncer es por medio de un grupo de apoyo—en persona o en Internet. Hable con su doctor o con su enfermera para aprender más de los grupos de apoyo.\n\nÎ Apunte en un diario cómo se siente cada día. Esto le ayudará a hacer planes para\n\naprovechar mejor su tiempo. Comparta sus apuntes con la enfermera. Haga saber a su doctor o a su enfermera si nota cambios en su nivel de energía, si tiene mucha energía o siente mucho cansancio.\n\nÎ Hable con su doctor o con su enfermera. Ellos pueden sugerir tratamientos para"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.563811,
+          "distancia": 0.436189,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 49,
+          "pagina_fin": 50,
+          "seccion": "Formas de controlarlos",
+          "fragmento_id": "f696b8bd-9f51-4e75-8bc2-508df970230b",
+          "texto": "Formas de controlarlos\n\nÎ Tenga cuidado de lo que come cuando su garganta está irritada.\n\n• Escoja alimentos que son fáciles de pasar.\n\n• Corte los alimentos, mézclelos o desmenúcelos para que se puedan comer con más facilidad.\n\n• Coma alimentos húmedos, suaves, como cereales cocidos, puré de papas y huevos revueltos.\n\n• Humedezca y suavice los alimentos con jugo de carne, con salsa, caldo, yogur o con otros líquidos.\n\n• Tome bebidas frías.\n\n• Use una pajilla para beberlas.\n\n• Coma alimentos fríos o a temperatura ambiente.\n\n- - - - - - - - - - - - - - - - - - - Diga a su doctor o a su enfermera si usted:\n\n• Tiene problemas para pasar\n\n• Siente como que se ahoga\n\n• Tose al comer o al beber\n\n- - - - - - - - - - - - - - - - - - - - -\n\nÎ Coma comidas pequeñas y bocadillos. Puede ser más fácil comer una pequeña cantidad de comida de una vez. En vez de comer tres comidas grandes cada día, coma cinco o seis comidas pequeñas o bocadillos.\n\nÎ Escoja alimentos y bebidas que son ricos en calorías y proteínas. Cuando duele pasar los alimentos, usted puede comer menos y adelgazar. Es importante que mantenga su peso durante la radioterapia. Tomar alimentos y bebidas que son ricos en calorías y proteínas puede ayudarle. Vea la tabla en la página 53 para ideas de alimentos.\n\nÎ Al sentarse, asegúrese de mantener una posición derecha e incline ligeramente la cabeza hacia adelante cuando coma y beba. Permanezca en la silla o de pie en una posición derecha durante 30 minutos por lo menos después de comer.\n\nÎ Evite cosas que puedan quemar o raspar su garganta, como:\n\n• Alimentos y bebidas calientes\n\n• Comidas condimentadas\n\n• Alimentos y jugos ácidos, como tomates y naranjas"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.550943,
+          "distancia": 0.449057,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 10,
+          "pagina_fin": 10,
+          "seccion": "¿Puedo seguir trabajando durante la radioterapia?",
+          "fragmento_id": "8d6ff4c8-efe6-47d1-a651-1d140459c09c",
+          "texto": "¿Puedo seguir trabajando durante la radioterapia?\n\nAlgunas personas pueden trabajar a tiempo completo durante la radioterapia. Otras pueden trabajar solo a tiempo parcial o no pueden hacerlo. Cuánto pueda usted trabajar dependerá de cómo se sienta. Pregunte a su doctor o a su enfermera lo que puede esperar del tratamiento que recibirá.\n\nPuede ser que se sienta lo suficientemente bien para trabajar cuando usted empieza sus tratamientos de radiación. Al pasar del tiempo, no se sorprenda si tiene más cansancio, si tiene menos energía o se siente débil. Cuando haya terminado el tratamiento, podrá necesitar unas cuantas semanas o muchos meses para sentirse mejor.\n\nPuede llegar a un punto en su radioterapia que sienta demasiado cansancio como para trabajar. Hable con su empresa para determinar si puede tomarse ausencias por enfermedad. Revise si su seguro médico pagará por el tratamiento mientras usted se toma ausencia por enfermedad.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Pregunte a su doctor, a su enfermera o al dietista si necesita una dieta especial mientras recibe radioterapia.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+        }
+      ]
+    },
+    {
+      "id": "MD15",
+      "tema": "cuidados durante radioterapia",
+      "texto": "Voy a acompañar a mi papá durante la radioterapia. ¿Qué cuidados diarios y hábitos le ayudan a llevar mejor el tratamiento?",
+      "fuente_esperada": "radioterapia",
+      "paginas_referencia": [
+        12
+      ],
+      "seccion_referencia": "¿Cómo aprovecho al máximo la radioterapia?",
+      "criterio_documental": "Cuidados generales durante radioterapia, autocuidado y comunicación con el equipo; no limitarse a la definición del tratamiento.",
+      "resultados": [
+        {
+          "posicion": 1,
+          "similitud": 0.65916,
+          "distancia": 0.34084,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 12,
+          "pagina_fin": 12,
+          "seccion": "¿Cómo aprovecho al máximo la radioterapia?",
+          "fragmento_id": "3910dc8c-8afd-4a34-8088-eb52b3a740b1",
+          "texto": "¿Cómo aprovecho al máximo la radioterapia?\n\nUsted tiene un papel importante en su radioterapia. Para obtener lo máximo de este tratamiento:\n\nÎ Llegue a tiempo a todas sus sesiones de radioterapia.\n\nÎ Haga preguntas y hable de sus preocupaciones.\n\nÎ Diga a alguien de su equipo de radioterapia cuando tenga efectos\n\nsecundarios y cambios en sus hábitos del intestino o de alimentación.\n\nÎ Diga a su doctor o a su enfermera si algo le duele.\n\nSiga los consejos de sus doctores o de sus enfermeras acerca de cómo cuidarse en casa, para:\n\nÎ Cuidar su piel\n\nÎ Beber suficiente líquido\n\nÎ Comer alimentos para ayudarle con los efectos secundarios\n\nÎ Mantener su mismo peso\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Haga una lista de preguntas y problemas que quiere discutir con su doctor o con su enfermera. Asegúrese de llevar esta lista a sus consultas. Vea ejemplos de preguntas en las páginas 49 y 50.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Asegúrese de llegar a tiempo a todas sus sesiones de radioterapia.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+        },
+        {
+          "posicion": 2,
+          "similitud": 0.61728,
+          "distancia": 0.38272,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 31,
+          "pagina_fin": 31,
+          "seccion": "Formas de controlarla",
+          "fragmento_id": "cc4fed53-4c1e-4809-88c7-ac36ed9b688e",
+          "texto": "Formas de controlarla\n\nÎ Trate de dormir al menos ocho horas cada noche. Esto puede ser dormir más de\n\nlo que necesitaba antes de la radioterapia. Una forma de dormir mejor en la noche es mantener la actividad durante el día. Otra forma es relajarse justo antes de acostarse. Tenga actividades que le calmen antes de acostarse, como leer, armar algún rompecabezas o escuchar música.\n\nÎ Fíjese un tiempo para descansar. Échese siestas\n\ncortas o pausas de descanso entre sus actividades.\n\nÎ No trate de hacer muchas cosas. Con la fatiga,\n\npuede ser que no tenga energía suficiente para hacer lo que quiere. Mantenga la actividad, pero haga lo que es más importante para usted. No trate de hacer lo que no es importante ahora. Por ejemplo, usted puede ir a trabajar pero no haga las tareas en casa. Podría observar los eventos deportivos de sus niños pero no prepare la cena.\n\nÎ Haga ejercicio. La investigación indica que la mayoría de la gente se siente mejor\n\ncuando hace ejercicio cada día. Camine un poco, ande en bicicleta o haga yoga. Hable con su doctor o con su enfermera de los tipos de ejercicio que usted puede hacer mientras recibe radioterapia.\n\nÎ Relájese. La meditación, la oración, el yoga tranquilo, la imaginación guiada y la\n\nvisualización son formas para aprender a relajarse y reducir la tensión. Para ejercicios de relajación:\n\n• Visite Aprenda a relajarse en el sitio web del Instituto Nacional del Cáncer en: https://www.cancer.gov/espanol/cancer/sobrellevar/sentimientos/relajarse\n\n• Vea Siga adelante: La vida después del tratamiento del cáncer, un libro del Instituto Nacional del Cáncer, disponible en: https://www.cancer.gov/espanol/publicaciones/ educacion-para-pacientes/siga-adelante\n\nÎ Coma y beba bien. Puede comer mejor si tiene cinco o seis comidas en el día, en vez de"
+        },
+        {
+          "posicion": 3,
+          "similitud": 0.56802,
+          "distancia": 0.43198,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 10,
+          "pagina_fin": 10,
+          "seccion": "¿Deberé seguir una dieta especial mientras reciba radioterapia?",
+          "fragmento_id": "f54aed1f-f396-45f1-adb0-ef720a4b2358",
+          "texto": "¿Deberé seguir una dieta especial mientras reciba radioterapia?\n\nSu cuerpo usa mucha energía para sanar durante la radioterapia. Es importante que coma suficientes calorías y proteínas para mantener el mismo peso durante este tiempo. Pregunte a su doctor o a su enfermera si necesita una dieta especial mientras recibe radioterapia. También puede ser útil que hable con un dietista.\n\nPara saber más sobre alimentos y bebidas que son ricos en calorías o proteínas, vea la tabla en la página 53. Usted puede también leer Consejos de alimentación: antes, durante y después del tratamiento de cáncer, un libro del Instituto Nacional del Cáncer, disponible en: https://www.cancer.gov/ espanol/publicaciones/educacion-para-pacientes/consejos-de-alimentacion"
+        },
+        {
+          "posicion": 4,
+          "similitud": 0.565969,
+          "distancia": 0.434031,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 19,
+          "pagina_fin": 19,
+          "seccion": "¿Cómo podré relajarme durante las sesiones de tratamiento?",
+          "fragmento_id": "86eeb0d8-4f05-4a61-8c99-43eebdc6e25e",
+          "texto": "¿Cómo podré relajarme durante las sesiones de tratamiento?\n\nÎ Lleve algo en qué ocuparse mientras está en la sala de espera, como\n\nun libro, crucigramas, costura o encaje.\n\nÎ Use audífonos para escuchar música o libros grabados.\n\nÎ Medite, respire profundamente, rece, use imágenes o encuentre otras\n\nformas de relajarse. Para ejercicios de relajación:\n\n• Visite Aprenda a relajarse en el sitio web del Instituto Nacional del Cáncer en: https://www.cancer.gov/espanol/cancer/sobrellevar/ sentimientos/relajarse\n\n• Vea Siga adelante: la vida después del tratamiento del cáncer, un libro del Instituto Nacional del Cáncer, disponible en: https://www.cancer.gov/espanol/publicaciones/educacion-parapacientes/siga-adelante\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Su radioterapeuta puede verle, oirle y hablar con usted en todo momento mientras recibe radioterapia de haz externo.\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+        },
+        {
+          "posicion": 5,
+          "similitud": 0.555195,
+          "distancia": 0.444805,
+          "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+          "entidad": "National Cancer Institute (NCI)",
+          "version": "2016",
+          "pagina_inicio": 47,
+          "pagina_fin": 47,
+          "seccion": "Formas de controlarlos",
+          "fragmento_id": "fd2f581a-84df-4b32-8c14-5004527f90d2",
+          "texto": "Formas de controlarlos\n\nÎ Cuidado de la piel. Ponga mucho más cuidado de la piel durante la radioterapia. Hágalo\n\nsuavemente y no se frote o restregue, ni rasque en el área de tratamiento. Use cremas recomendadas por su doctor o su enfermera.\n\nÎ No se ponga en su piel nada que sea muy caliente o muy frío. No use almohadillas\n\ncalientes, ni paquetes de hielo, u otras cosas calientes o frías en el área de tratamiento.\n\nÎ Tenga cuidado en la regadera o al darse un baño. Puede darse un regaderazo con\n\nagua tibia todos los días. Si prefiere darse un baño con agua tibia, hágalo solo cada tercer día y no se remoje por mucho tiempo. Ya sea que se dé un regaderazo o un baño, asegúrese de usar un jabón suave. Séquese con una toalla suave con plamadas, sin frotarse. Asegúrese de que no se borren las marcas de tinta que necesita para la radioterapia.\n\nÎ Use solo las cremas y productos para la piel\n\nque recomiendan su doctor o su enfermera. Si usa una crema recetada para un problema de la piel o acné, dígalo a su doctor o a su enfermera antes de empezar el tratamiento con radiación. Revise con su doctor o con su enfermera antes de usar cualquiera de los productos para la piel a continuación:\n\n• Baño de burbujas\n\n• Maicena\n\n• Crema\n\n• Desodorante\n\n• Depilador\n\n• Maquillaje\n\n• Aceite\n\n• Ungüento\n\n• Perfume\n\n• Polvo\n\n• Jabón\n\n• Protector solar\n\nÎ Lugares frescos, húmedos. Su piel puede sentirse mucho mejor cuando esté en lugares\n\nfrescos, húmedos. Usted puede humedecer su cuarto si pone un recipiente con agua en el radiador o usa un humedecedor. Si usa un humedecedor, asegúrese de seguir las instrucciones para limpiarlo con el fin de evitar las bacterias.\n\nÎ Telas suaves. Use ropa y sábanas hechas con telas muy suaves."
+        }
+      ]
+    }
+  ]
+}

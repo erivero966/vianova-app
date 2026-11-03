@@ -1,0 +1,96 @@
+Could not reach the Hub (Cannot reach https://huggingface.co/api/models/SINAI/ALIA-MrBERT-es-biomedical-embeddings: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'SINAI/ALIA-MrBERT-es-biomedical-embeddings'.
+Could not reach the Hub (Cannot reach https://huggingface.co/api/models/SINAI/ALIA-MrBERT-es-biomedical-embeddings: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'SINAI/ALIA-MrBERT-es-biomedical-embeddings'.
+Loading weights:   0%|          | 0/134 [00:00<?, ?it/s]Loading weights:  16%|█▋        | 22/134 [00:00<00:00, 215.16it/s]Loading weights:  43%|████▎     | 57/134 [00:00<00:00, 291.80it/s]Loading weights:  70%|███████   | 94/134 [00:00<00:00, 326.45it/s]Loading weights:  95%|█████████▍| 127/134 [00:00<00:00, 313.25it/s]Loading weights: 100%|██████████| 134/134 [00:00<00:00, 320.92it/s]
+
+=== nci_consejos_alimentacion_2024.pdf ===
+Extrayendo PDF...
+64 páginas (63 con texto)
+Generando chunks...
+167 fragmentos
+Generando embeddings...
+32 / 167
+64 / 167
+96 / 167
+128 / 167
+160 / 167
+167 / 167
+Guardando...
+32 / 167
+64 / 167
+96 / 167
+128 / 167
+160 / 167
+167 / 167
+Indexación completada.
+
+Documento:
+Consejos de alimentación: antes, durante y después del tratamiento del cáncer
+
+Entidad:
+National Cancer Institute (NCI)
+
+Versión:
+2024
+
+Archivo:
+corpus/aprobados/nci_consejos_alimentacion_2024.pdf
+
+SHA-256:
+1e0916609d4f8e81108787ffb3e8e7d91847fd638d54ac7d944d0a5cc8b8faad
+
+Páginas:
+64 (63 con texto)
+
+Caracteres:
+74516
+
+Chunks:
+167 (165 con sección, 24 multipágina)
+
+Tokens (min / promedio / mediana / max):
+4 / 129.8 / 93 / 446
+
+Chunking:
+450 tokens, solapamiento 75 (tokenizer SINAI/ALIA-MrBERT-es-biomedical-embeddings)
+
+Limpieza:
+118 líneas de encabezado/pie eliminadas, 3 palabras con guion reconstruidas, 202 títulos
+
+Origen de extracción:
+digital (tipografia_digital)
+
+Patrón eliminado: #
+Tipo: header/footer (footer)
+Número de apariciones: 57
+Páginas afectadas: 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63
+
+Patrón eliminado: www.cancer.gov/espanol
+Tipo: header/footer (footer)
+Número de apariciones: 31
+Páginas afectadas: 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63
+
+Patrón eliminado: #-#-#-# (#-#-#-cancer)
+Tipo: header/footer (footer)
+Número de apariciones: 30
+Páginas afectadas: 2, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62
+
+Índice:
+5 chunks; páginas 5, 6
+
+Modelo:
+ALIA (SINAI/ALIA-MrBERT-es-biomedical-embeddings)
+
+Dimensión:
+768
+
+Device:
+cuda
+
+Embeddings generados:
+167
+
+Tiempos (s):
+extracción 0.112 | limpieza+chunking 0.296 | embeddings 2.617 | guardado 0.109 | total 3.168
+
+Estado:
+ACTIVA

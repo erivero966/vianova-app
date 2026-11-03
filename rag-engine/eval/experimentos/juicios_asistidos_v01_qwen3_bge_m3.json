@@ -1,0 +1,2692 @@
+{
+  "fecha_utc": "2026-11-03T18:58:32.599974+00:00",
+  "origen": "asistido_preliminar",
+  "autorizacion": "Usuario autoriza revisión documental asistida de resultados nuevos; juicios humanos existentes inmutables y separados.",
+  "alcance": "Pares (consulta, fragmento) del Top-10 de Qwen3 y BGE-M3 sin juicio humano ni asistido previo. Juicio posterior al retrieval: consulta frente al texto completo recuperado. Sin validación clínica ni gold standard. Sin LLM en embeddings/retrieval/ranking.",
+  "criterio": "Mismo criterio de la revisión humana: pertinente exige aporte práctico/sustantivo a la necesidad; definiciones, introducciones, preguntas sin respuesta o mera coincidencia léxica (p. ej. 'peso' en dirección opuesta) no bastan. Parcial se indica en el motivo.",
+  "juicios": [
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "5d0b6315-bcae-4ddf-a66e-9eee68c974ac",
+      "texto_sha256": "a787b68631c0a97730f7f0145e555cf8ed0bec58899158c30e080987a8f2c9c7",
+      "pertinente": true,
+      "motivo": "Parcial: medidas generales para náuseas (comidas pequeñas, temperatura, plan de comidas, consultar antieméticos) desde Radioterapia; complemento, conservando ese contexto.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#9"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        41,
+        41
+      ],
+      "seccion": "Formas de controlarlos"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "5f62f68e-0302-4724-878d-e2aeca7ca244",
+      "texto_sha256": "5a55fa8a96be3f6fa3aa18c3acd292a189f06e29e7c56a59d2a830c0d0795585",
+      "pertinente": false,
+      "motivo": "Seguridad con fluidos corporales tras quimioterapia; no aborda cómo aliviar náuseas.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#5"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        6,
+        6
+      ],
+      "seccion": "Seguridad en casa después de recibir tratamientos de quimioterapia"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "69932133-16fe-4016-b849-ac81c8efb2c2",
+      "texto_sha256": "d158100057a25fe2026f3d0449f6f6bcf8e4e504c7b0cd527c5a2416c9c7f76b",
+      "pertinente": true,
+      "motivo": "Medidas concretas para náuseas en casa: antieméticos, relajación, evitar olores, ventilar, descansar sentado tras comer.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#6",
+        "qwen3#8"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        29,
+        30
+      ],
+      "seccion": "¿Qué más puedo hacer?"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "723cba2f-7549-46c7-b074-fdc288d0acc1",
+      "texto_sha256": "401abc0205a6fc1e162ae9cb727d4aedb87f8901a23b39a918b60e09a25ebfa6",
+      "pertinente": false,
+      "motivo": "Síntomas tipo influenza; náusea solo aparece en una lista, sin medidas.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#7"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        69,
+        69
+      ],
+      "seccion": "Síntomas como los de influenza"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "8075438f-5fb2-4ff4-8aef-def3b0c382fb",
+      "texto_sha256": "d5fa37650362dd7dc8497855b1eb6bae3da179c5fa9d8574ac0d928a0c766ea6",
+      "pertinente": false,
+      "motivo": "Lista de problemas de alimentación con remisión a páginas; sin cuidados para náuseas.",
+      "categoria": "lista_indice",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#7"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        48,
+        49
+      ],
+      "seccion": "Quimioterapia"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "c10a7c8e-7fbe-42d2-9f44-3904618d8e0e",
+      "texto_sha256": "7e28be33c21dbf552b09bbe4876a526c87049b5093a44751eba33e50852787f9",
+      "pertinente": false,
+      "motivo": "Cambios en el sistema nervioso; no trata náuseas.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#10"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        29,
+        30
+      ],
+      "seccion": "Cambios en el sistema nervioso"
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "c9e1b456-f23e-427b-a4c1-e272b5d0187b",
+      "texto_sha256": "fe90cf2964cf49388f7d69054f4dee46ba09350b19321d3be0b8bd507ed9ff1e",
+      "pertinente": false,
+      "motivo": "Define náuseas/vómitos en radioterapia; no indica qué hacer.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        40,
+        40
+      ],
+      "seccion": "Náuseas y vómitos"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "98f84c32-8213-48a8-bd06-dcdea0e0dd3a",
+      "texto_sha256": "11ba5a81cb155da433d12fae5e04d889d10fe862007074c828b051c4486d36df",
+      "pertinente": false,
+      "motivo": "Cambios urinarios/renales; no trata vómitos.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#10"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        42,
+        42
+      ],
+      "seccion": "Cambios urinarios, en los riñones o en la vejiga"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "c10a7c8e-7fbe-42d2-9f44-3904618d8e0e",
+      "texto_sha256": "7e28be33c21dbf552b09bbe4876a526c87049b5093a44751eba33e50852787f9",
+      "pertinente": false,
+      "motivo": "Cambios en el sistema nervioso; no trata vómitos ni aviso por vómitos.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#8"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        29,
+        30
+      ],
+      "seccion": "Cambios en el sistema nervioso"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "d4961459-bbc5-4d38-9e14-7e768b5887d5",
+      "texto_sha256": "4ebb6bf105ab68da37d0e39e9b8073d730cfffcdaaece1726774e3d28156a137",
+      "pertinente": true,
+      "motivo": "Parcial: medidas concretas para controlar náuseas y vómitos (alimentos suaves, comidas pequeñas, olores); no detalla cuándo avisar al equipo.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10",
+        "qwen3#5"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        65,
+        66
+      ],
+      "seccion": "Qué hacer para controlar las náuseas y los vómitos:"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "e4dd17a2-9420-4a13-9948-83780227fd75",
+      "texto_sha256": "866b8a9d29c509177274d853a3a008388413d86c0a19ae803febf5ed5f2dcd57",
+      "pertinente": false,
+      "motivo": "Apoyo emocional; no aborda vómitos.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#7"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        15,
+        16
+      ],
+      "seccion": "¿Cómo puedo superar mis sentimientos durante la quimioterapia?"
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "ec0c62e8-1f0e-4e50-b308-90180f67e8e7",
+      "texto_sha256": "d2fa6015d1a7a14685e18525b3aed1ccd7c827c50ff6233fb573dc931638c339",
+      "pertinente": false,
+      "motivo": "Fecundidad y recursos; no relacionado con vómitos.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#5"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        64,
+        64
+      ],
+      "seccion": "Para el HOMBRE, hable con el doctor o con la enfermera:"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "04970512-28da-4133-87e6-69d5a2f66a6e",
+      "texto_sha256": "7979f270967668399ead4bc2c3f44d9ee95dff7fb7f6a535ce4928e8e2379b6e",
+      "pertinente": true,
+      "motivo": "Parcial: medidas de descanso, limitar actividades y aceptar ayuda, en el contexto de la anemia que causa cansancio; aplicable a organizar el día.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        21,
+        22
+      ],
+      "seccion": "Qué hacer para controlar la anemia:"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "1c8a1774-743e-4c85-bbfa-4feb1bc13869",
+      "texto_sha256": "89e844c80bdff0b941775701406fe00cf3e7cf2977320bb11f6f171573032fcc",
+      "pertinente": false,
+      "motivo": "Náuseas y antieméticos; no trata cansancio.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#5"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        65,
+        65
+      ],
+      "seccion": "Las náuseas y los vómitos pueden suceder:"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "5284d4c3-b516-4af4-aa1f-4926026fa18f",
+      "texto_sha256": "f00689790f6ce338ec6bd187a339e04cc40271f1021e41acd278933c881e12c9",
+      "pertinente": false,
+      "motivo": "Frecuencia y ciclos de quimioterapia; no aborda organización del descanso.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#5",
+        "qwen3#7"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        7,
+        7
+      ],
+      "seccion": "¿Con qué frecuencia recibiré la quimioterapia?"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "76341af8-15cf-4996-909a-4b1247be932d",
+      "texto_sha256": "934d671d97deee42fcf248bd64a5aabd868a89c6f895c051246a720f5cf6cfa5",
+      "pertinente": false,
+      "motivo": "Causas del cansancio; sin medidas para organizar descanso/actividades.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#9"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        44,
+        44
+      ],
+      "seccion": "El cansancio puede ser causado también por:"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "aa722955-d53d-47fb-b91d-b69cb818060e",
+      "texto_sha256": "121025e09dd32c0e5f06f670ae59dfd0e78a3f8a900b310f99caa85ac26d2864",
+      "pertinente": false,
+      "motivo": "Lista de emociones; menciona cansancio sin medidas.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#9"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        15,
+        15
+      ],
+      "seccion": "Su estado de ánimo durante la quimioterapia"
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "d74cf457-b845-4f0d-bb6d-4c519f24c3c2",
+      "texto_sha256": "b578a2f204cbf03fd5fcb63c1fa4c35f7f1323b1389a2c680e6d5e799f2623f9",
+      "pertinente": false,
+      "motivo": "Define el cansancio por quimioterapia; no indica cómo organizar descanso y actividades.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#2",
+        "qwen3#2"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        44,
+        44
+      ],
+      "seccion": "Cansancio"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "04970512-28da-4133-87e6-69d5a2f66a6e",
+      "texto_sha256": "7979f270967668399ead4bc2c3f44d9ee95dff7fb7f6a535ce4928e8e2379b6e",
+      "pertinente": false,
+      "motivo": "Control de la anemia (descanso, actividades); no aborda diarrea ni cambios de comida.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        21,
+        22
+      ],
+      "seccion": "Qué hacer para controlar la anemia:"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "083150f0-9e7c-4afd-b40f-f49cea7341be",
+      "texto_sha256": "b7bba91c454092d04d09cda5449ea8de04d0501158b0a1191a9d9d5a8438490b",
+      "pertinente": false,
+      "motivo": "Por qué la radioterapia causa diarrea; sin cuidados ni cambios en la comida.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#5"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        28,
+        28
+      ],
+      "seccion": "¿Por qué sucede?"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "1b611c75-1d1d-4a79-88cf-cb6ccfd1965b",
+      "texto_sha256": "d14f63f358c19f68442de01e7f0224db2a163e8cf30868f076d93299fd11cf28",
+      "pertinente": false,
+      "motivo": "Vitaminas/complementos durante quimioterapia; no trata diarrea.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#5"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        10,
+        10
+      ],
+      "seccion": "¿Puedo tomar minerales, complementos dietéticos, o hierbas mientras recibo quimioterapia?"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "1c8a1774-743e-4c85-bbfa-4feb1bc13869",
+      "texto_sha256": "89e844c80bdff0b941775701406fe00cf3e7cf2977320bb11f6f171573032fcc",
+      "pertinente": false,
+      "motivo": "Náuseas, vómitos y antieméticos; otro síntoma.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#8",
+        "qwen3#2"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        65,
+        65
+      ],
+      "seccion": "Las náuseas y los vómitos pueden suceder:"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "98f84c32-8213-48a8-bd06-dcdea0e0dd3a",
+      "texto_sha256": "11ba5a81cb155da433d12fae5e04d889d10fe862007074c828b051c4486d36df",
+      "pertinente": false,
+      "motivo": "Cambios urinarios; otro problema.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#9"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        42,
+        42
+      ],
+      "seccion": "Cambios urinarios, en los riñones o en la vejiga"
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "a62121e8-0407-47e2-90ce-37a6f154a409",
+      "texto_sha256": "eca752a57a1a7ae09f8fd592fbb17f7990975f361c4f2a35fa371a3be4925797",
+      "pertinente": false,
+      "motivo": "Pautas generales de alimentación durante el tratamiento; no específicas para diarrea.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#10"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        10,
+        10
+      ],
+      "seccion": "Formas de aprovechar al máximo los alimentos y las bebidas"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "04970512-28da-4133-87e6-69d5a2f66a6e",
+      "texto_sha256": "7979f270967668399ead4bc2c3f44d9ee95dff7fb7f6a535ce4928e8e2379b6e",
+      "pertinente": false,
+      "motivo": "Control de la anemia; no trata estreñimiento.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#9"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        21,
+        22
+      ],
+      "seccion": "Qué hacer para controlar la anemia:"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "103e31fe-26a5-455f-b842-fc50bbdb0589",
+      "texto_sha256": "b7401070dc83a70f899585f4f58d0ac05ff6eeb7613af4d229e9c101c46e0299",
+      "pertinente": false,
+      "motivo": "Precauciones con plaquetas bajas; solo menciona avisar estreñimiento y remite a la p. 49, sin medidas para ir al baño.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#2"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        56,
+        56
+      ],
+      "seccion": "Hable con el doctor o con la enfermera antes de:"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "1c8a1774-743e-4c85-bbfa-4feb1bc13869",
+      "texto_sha256": "89e844c80bdff0b941775701406fe00cf3e7cf2977320bb11f6f171573032fcc",
+      "pertinente": false,
+      "motivo": "Náuseas y vómitos; otro síntoma.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#3"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        65,
+        65
+      ],
+      "seccion": "Las náuseas y los vómitos pueden suceder:"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "2c967bfa-0248-418d-95f3-9121e716d24f",
+      "texto_sha256": "bb04f745dfe96a96652a27aa9c287813542cc887f55a299b4c1baacf0e4f197a",
+      "pertinente": false,
+      "motivo": "Causas de vómitos; otro síntoma.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#9"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        39,
+        39
+      ],
+      "seccion": "¿Por qué pasa?"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "3a238705-2408-47d5-9577-aeefc3f3ea0b",
+      "texto_sha256": "ba3a99b8db8aafd4eca66b712792e18dda0b52817d249b16bca95925e0d6c31c",
+      "pertinente": true,
+      "motivo": "Medidas para estreñimiento: actividad diaria, registro de evacuaciones, nutricionista y aviso si no defeca en 2-3 días.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#6"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        21,
+        21
+      ],
+      "seccion": "¿Qué más puedo hacer?"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "434a4945-9141-4fd9-aa71-afa77a39add4",
+      "texto_sha256": "ec4914381f6b41107669f478bf8aea16881fe072f517719f11a7d56ab3366405",
+      "pertinente": false,
+      "motivo": "Cuidados para diarrea en radioterapia: dirección opuesta al estreñimiento.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#8"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        29,
+        30
+      ],
+      "seccion": "Formas de controlarla"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "69234ad1-d796-41c9-9d2a-415c016ae424",
+      "texto_sha256": "fde2012f4da22acd05b8bb6b7e411e4a53353b22f336c5aba967fdc859078bd7",
+      "pertinente": true,
+      "motivo": "Apartado de control del estreñimiento (Quimioterapia p. 53-54): líquidos, actividad, fibra y cuándo avisar; responde la necesidad.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#5"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        53,
+        54
+      ],
+      "seccion": "Forma de controlar el estreñimiento:"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "850fc5a2-6fda-449b-93f6-ff9cd48a2809",
+      "texto_sha256": "1c18f6eb2e336edae5764b68b5a33d41b84eebb288ad120c97e553043b0276fb",
+      "pertinente": false,
+      "motivo": "Medidas para vómitos; otro síntoma.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#8"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        40,
+        40
+      ],
+      "seccion": "¿Qué más puedo hacer?"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "e4dd17a2-9420-4a13-9948-83780227fd75",
+      "texto_sha256": "866b8a9d29c509177274d853a3a008388413d86c0a19ae803febf5ed5f2dcd57",
+      "pertinente": false,
+      "motivo": "Apoyo emocional; no trata estreñimiento.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#4"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        15,
+        16
+      ],
+      "seccion": "¿Cómo puedo superar mis sentimientos durante la quimioterapia?"
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "ec0c62e8-1f0e-4e50-b308-90180f67e8e7",
+      "texto_sha256": "d2fa6015d1a7a14685e18525b3aed1ccd7c827c50ff6233fb573dc931638c339",
+      "pertinente": false,
+      "motivo": "Fecundidad y recursos; no relacionado.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#7"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        64,
+        64
+      ],
+      "seccion": "Para el HOMBRE, hable con el doctor o con la enfermera:"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "070316df-7514-4b75-b109-baa644283cb7",
+      "texto_sha256": "da6fb8ac82eb890f7587a1f56f3489870dca9af301ef479bcf2ae67ecfd58da8",
+      "pertinente": true,
+      "motivo": "[límite] Parcial: final de 'Formas de controlar los cambios de apetito' con opciones médicas (medicinas que aumentan el apetito, nutrición IV/sonda) y remisión; no da formas caseras de ayudarle a comer.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#1",
+        "qwen3#3"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        28,
+        28
+      ],
+      "seccion": "Formas de controlar los cambios de apetito:"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "3fd8d3ff-15e4-4356-a801-69e80fbf177a",
+      "texto_sha256": "f9a5b5f2d7984f3a9bd056a176bed53be2f46cabd0307afb2f6ef57517d0862a",
+      "pertinente": false,
+      "motivo": "Variabilidad de problemas para comer y aviso general; sin medidas para el apetito.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#10"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        9,
+        9
+      ],
+      "seccion": "Las necesidades de cada persona son distintas"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "5d0b6315-bcae-4ddf-a66e-9eee68c974ac",
+      "texto_sha256": "a787b68631c0a97730f7f0145e555cf8ed0bec58899158c30e080987a8f2c9c7",
+      "pertinente": false,
+      "motivo": "Medidas para náuseas en radioterapia; no dirigidas a la falta de apetito.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#7"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        41,
+        41
+      ],
+      "seccion": "Formas de controlarlos"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "a62121e8-0407-47e2-90ce-37a6f154a409",
+      "texto_sha256": "eca752a57a1a7ae09f8fd592fbb17f7990975f361c4f2a35fa371a3be4925797",
+      "pertinente": true,
+      "motivo": "Formas concretas de comer más: comer cuando hay más apetito, alimentos que apetecen, batidos de proteínas, líquidos.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#9",
+        "qwen3#2"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        10,
+        10
+      ],
+      "seccion": "Formas de aprovechar al máximo los alimentos y las bebidas"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "a929379e-576f-404f-b971-cb9485c3c053",
+      "texto_sha256": "b7f87615d9f8e8c772089ea0667364294d6af6e3d29f5c85560fbcc79506f64e",
+      "pertinente": false,
+      "motivo": "Preparación previa al tratamiento; no responde a falta de apetito actual.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#9"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        8,
+        8
+      ],
+      "seccion": "Preparación para el tratamiento del cáncer"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "b66d7482-4a07-4e35-9abd-031ebad53f8a",
+      "texto_sha256": "8b343d2a97dbfb16b6e46f6a9b061fadd17b83a10939b5201b3d3292d4196e6c",
+      "pertinente": true,
+      "motivo": "Nota para cuidadores: tener alimentos a mano, ofrecer cuando esté listo, apoyar sin presionar, líquidos nutritivos sin apetito.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        13,
+        13
+      ],
+      "seccion": "Nota especial para los cuidadores"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "d1bf660f-cf43-4df7-8537-ff33c33f4242",
+      "texto_sha256": "8ea9b006a1992c5119f6fa107e2ddb86c646722c63b1a1469698ec3c695bbb3b",
+      "pertinente": false,
+      "motivo": "Necesidades alimentarias generales con cáncer; no da formas de ayudar a comer más.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#8"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        7,
+        7
+      ],
+      "seccion": "Las personas con cáncer tienen necesidades de alimentación diferentes"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "d6379120-2fe9-4420-b2cc-e9ba77208e62",
+      "texto_sha256": "1141901c7b7b36a8b8e6303aafc42c84dd82fbd957b872c2676e99f824074c19",
+      "pertinente": false,
+      "motivo": "Enumeración de problemas de alimentación; sin soluciones.",
+      "categoria": "lista_indice",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#7"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        8,
+        8
+      ],
+      "seccion": "Los efectos secundarios del tratamiento del cáncer podrían causar problemas para comer"
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "f8ba552c-1e79-4745-84d8-8d50a6e406aa",
+      "texto_sha256": "408a5dd6f372ad3e7d4649fa8eb4dfb977f369db0378a5b8bbaa37c49f3a5008",
+      "pertinente": false,
+      "motivo": "Manejo de la fatiga en radioterapia; 'coma y beba bien' en otro contexto.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#6"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        31,
+        32
+      ],
+      "seccion": "Formas de controlarla"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "1660bee0-99e1-46e5-9f71-3125e2316dd6",
+      "texto_sha256": "cce4985be751eeb06408db6077a9102868e14032e48551b702a4a5a8cf1c847a",
+      "pertinente": false,
+      "motivo": "Recomienda consultar a un nutricionista; no indica comidas fáciles de tragar.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#9"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        9,
+        10
+      ],
+      "seccion": "Hable con el médico, enfermero o nutricionista"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "2acbff10-8621-4150-8b10-e83e2c88e398",
+      "texto_sha256": "f1f428bc1bf59ef035df2a4ee40da7e1d9bbbe05d0d8b5f2e467a90b179e7c10",
+      "pertinente": true,
+      "motivo": "Apartado de dificultad para tragar (Alimentación p. 34-35): alimentos blandos, purés, humedecer, pajita, qué evitar y cuándo avisar.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#4"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        34,
+        35
+      ],
+      "seccion": "¿Cómo me alimento si tengo este problema?"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "434a4945-9141-4fd9-aa71-afa77a39add4",
+      "texto_sha256": "ec4914381f6b41107669f478bf8aea16881fe072f517719f11a7d56ab3366405",
+      "pertinente": false,
+      "motivo": "Alimentos a evitar con diarrea; otro problema.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#8"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        29,
+        30
+      ],
+      "seccion": "Formas de controlarla"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "708a1372-a240-48ff-af6b-ff37787f2854",
+      "texto_sha256": "a509fe8dc021bb2da31176c001a0aa6399027543b6bdae652bd1df3e64c92996",
+      "pertinente": true,
+      "motivo": "Parcial: qué evitar para no irritar la garganta y avisar si hay problemas para tragar, desde Radioterapia; no lista comidas fáciles.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#7"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        50,
+        50
+      ],
+      "seccion": "Formas de controlarlos"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "a48a4bdb-987f-411e-acb0-a93dfebe82f3",
+      "texto_sha256": "dacf902c6f8a637fd12f7bf4ecf36ad2cffa5e640f44685725a0c41ba6bb62f1",
+      "pertinente": false,
+      "motivo": "Solo título/introducción de la lista de alimentos fáciles de tragar; el fragmento no contiene los alimentos.",
+      "categoria": "lista_indice",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#9"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        55,
+        55
+      ],
+      "seccion": "Alimentos y bebidas fáciles de masticar y tragar"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "a62121e8-0407-47e2-90ce-37a6f154a409",
+      "texto_sha256": "eca752a57a1a7ae09f8fd592fbb17f7990975f361c4f2a35fa371a3be4925797",
+      "pertinente": false,
+      "motivo": "Pautas generales de alimentación; no específicas para tragar.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#4"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        10,
+        10
+      ],
+      "seccion": "Formas de aprovechar al máximo los alimentos y las bebidas"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "a929379e-576f-404f-b971-cb9485c3c053",
+      "texto_sha256": "b7f87615d9f8e8c772089ea0667364294d6af6e3d29f5c85560fbcc79506f64e",
+      "pertinente": false,
+      "motivo": "Preparación previa al tratamiento; no responde dificultad para tragar.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#8"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        8,
+        8
+      ],
+      "seccion": "Preparación para el tratamiento del cáncer"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "ade8afbd-e9b4-4c64-821e-a0ae617f97a4",
+      "texto_sha256": "a1d0623aeacbb1f8bea13e7a74e5c5454c2d480b46ac9ef46020c67778d9aed5",
+      "pertinente": false,
+      "motivo": "Sentimientos y apetito; sin comidas para tragar.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#10"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        14,
+        14
+      ],
+      "seccion": "Los sentimientos afectan el apetito"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "b523a406-403e-4b68-821d-9f38e1d185ff",
+      "texto_sha256": "65c4f7d58f3a932b4168f2e69946f21f387bc131281586f0d02fa492e7b86975",
+      "pertinente": true,
+      "motivo": "Parcial: alimentos blandos, purés, humedecer y pajita para boca dolorida que dificulta masticar y tragar; aplicable aunque el apartado es de llagas.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#2"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        30,
+        31
+      ],
+      "seccion": "¿Cómo me alimento si tengo este problema?"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "c2afa637-826b-4cee-baac-338fb2a1b6ce",
+      "texto_sha256": "ebe32cba6bb0efc60f55b0fd8b82e4a87a2cf64fa803358fa9a151139982547f",
+      "pertinente": false,
+      "motivo": "Alimentación para náuseas; otro problema.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        28,
+        29
+      ],
+      "seccion": "¿Cómo me alimento si tengo este problema?"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "d1bf660f-cf43-4df7-8537-ff33c33f4242",
+      "texto_sha256": "8ea9b006a1992c5119f6fa107e2ddb86c646722c63b1a1469698ec3c695bbb3b",
+      "pertinente": false,
+      "motivo": "Necesidades alimentarias generales; solo una línea menciona salsas si cuesta tragar.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#2"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        7,
+        7
+      ],
+      "seccion": "Las personas con cáncer tienen necesidades de alimentación diferentes"
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "f696b8bd-9f51-4e75-8bc2-508df970230b",
+      "texto_sha256": "a04a3a13f5f21abb5e5936a45a9d6dfd7239092f00fd64ce273d67f0db54c193",
+      "pertinente": true,
+      "motivo": "Garganta irritada en Radioterapia: alimentos fáciles de pasar, húmedos y suaves, desmenuzar, pajita, postura; responde con procedencia de Radioterapia.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#3"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        49,
+        50
+      ],
+      "seccion": "Formas de controlarlos"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "070316df-7514-4b75-b109-baa644283cb7",
+      "texto_sha256": "da6fb8ac82eb890f7587a1f56f3489870dca9af301ef479bcf2ae67ecfd58da8",
+      "pertinente": false,
+      "motivo": "Opciones médicas para el apetito; no aborda alimentos con náuseas.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#7"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        28,
+        28
+      ],
+      "seccion": "Formas de controlar los cambios de apetito:"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "1ba95068-943f-4706-9e6b-8fd7ecb3b529",
+      "texto_sha256": "b43abb052c6f7ae9902a73cabb3a56e0d91f25c73575a1aa6e522aacc82baccf",
+      "pertinente": false,
+      "motivo": "Solo un encabezado de sección; sin contenido.",
+      "categoria": "lista_indice",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#6"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        7,
+        7
+      ],
+      "seccion": null
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "434a4945-9141-4fd9-aa71-afa77a39add4",
+      "texto_sha256": "ec4914381f6b41107669f478bf8aea16881fe072f517719f11a7d56ab3366405",
+      "pertinente": false,
+      "motivo": "Alimentos a evitar con diarrea; no náuseas.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#3"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        29,
+        30
+      ],
+      "seccion": "Formas de controlarla"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "5d0b6315-bcae-4ddf-a66e-9eee68c974ac",
+      "texto_sha256": "a787b68631c0a97730f7f0145e555cf8ed0bec58899158c30e080987a8f2c9c7",
+      "pertinente": true,
+      "motivo": "Parcial: alimentación con náuseas en Radioterapia: bocadillo ligero (galletas saladas, jugo de manzana), comidas pequeñas, temperatura ambiente.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#4",
+        "qwen3#8"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        41,
+        41
+      ],
+      "seccion": "Formas de controlarlos"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "60aff5fc-9770-4070-a7f5-e374a3d2acaa",
+      "texto_sha256": "affb44e1c767e06e9875fe1c535ab7ff2494b151896e788f234928847b6d518f",
+      "pertinente": true,
+      "motivo": "Parcial: alimentos para náuseas (paletas de agua, frutas heladas, hielo, mentas/dulces agrios) y medidas complementarias.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        66,
+        67
+      ],
+      "seccion": "Qué hacer para controlar las náuseas y los vómitos:"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "a62121e8-0407-47e2-90ce-37a6f154a409",
+      "texto_sha256": "eca752a57a1a7ae09f8fd592fbb17f7990975f361c4f2a35fa371a3be4925797",
+      "pertinente": false,
+      "motivo": "Pautas generales de alimentación; no dirigidas a náuseas.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#10"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        10,
+        10
+      ],
+      "seccion": "Formas de aprovechar al máximo los alimentos y las bebidas"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "a929379e-576f-404f-b971-cb9485c3c053",
+      "texto_sha256": "b7f87615d9f8e8c772089ea0667364294d6af6e3d29f5c85560fbcc79506f64e",
+      "pertinente": false,
+      "motivo": "Preparación previa al tratamiento.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#7"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        8,
+        8
+      ],
+      "seccion": "Preparación para el tratamiento del cáncer"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "d1bf660f-cf43-4df7-8537-ff33c33f4242",
+      "texto_sha256": "8ea9b006a1992c5119f6fa107e2ddb86c646722c63b1a1469698ec3c695bbb3b",
+      "pertinente": false,
+      "motivo": "Necesidades alimentarias generales con cáncer.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#4"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        7,
+        7
+      ],
+      "seccion": "Las personas con cáncer tienen necesidades de alimentación diferentes"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "d39db4a4-16ed-45e2-b95a-ed2a02b8f8d4",
+      "texto_sha256": "f4c42865ec8b5be630782c5c1be92ffec8cf3a4790a8230b4dd1bb0c6f4b4729",
+      "pertinente": false,
+      "motivo": "Presentación de la publicación.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#6"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        3,
+        3
+      ],
+      "seccion": "Acerca de esta publicación"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "d5617037-678b-4011-8b85-4bd55a92f411",
+      "texto_sha256": "720e3f10c47bff76d8c233f57307e4af548cdb7041c869ca0d0ce9e0da3b81de",
+      "pertinente": false,
+      "motivo": "Seguridad alimentaria frente a infecciones; no alimentos para náuseas.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#9"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        12,
+        12
+      ],
+      "seccion": "Evite lo siguiente:"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "d6379120-2fe9-4420-b2cc-e9ba77208e62",
+      "texto_sha256": "1141901c7b7b36a8b8e6303aafc42c84dd82fbd957b872c2676e99f824074c19",
+      "pertinente": false,
+      "motivo": "Enumeración de problemas de alimentación.",
+      "categoria": "lista_indice",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#5",
+        "qwen3#5"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        8,
+        8
+      ],
+      "seccion": "Los efectos secundarios del tratamiento del cáncer podrían causar problemas para comer"
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "ecdedb0c-0b44-4b92-83fe-94fccded59ff",
+      "texto_sha256": "18be14ea4789fb2a6deb0a1c4043624da79732c83a8b8f629d7460d5a6892cad",
+      "pertinente": false,
+      "motivo": "Afrontar sentimientos que afectan el apetito; no alimentos para náuseas.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#2"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        14,
+        15
+      ],
+      "seccion": "Hacer frente a sus sentimientos durante el tratamiento del cáncer"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "04c490d1-78c9-4ce3-bd6c-e325819949c2",
+      "texto_sha256": "8ab86c21c50018c30720a446ca56fcfa806073ae2fc686892863de04bfb733f0",
+      "pertinente": false,
+      "motivo": "Cuidado bucal (dentista, enjuagues, revisión) para dolor de boca; no indica qué preparar de comer.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#6"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        31,
+        31
+      ],
+      "seccion": "¿Qué más puedo hacer?"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "078f6761-4b9d-4fe5-ac56-4ca0c3b17754",
+      "texto_sha256": "18af0b459c78cd88ebe3ce49a8325a65325136d9346a4752ae2c4afd869e1253",
+      "pertinente": false,
+      "motivo": "Higiene bucal y dentista en Radioterapia; sin contenido alimentario.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#7"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        37,
+        37
+      ],
+      "seccion": "Formas de controlarlos"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "0bcc40e3-bb45-4bf8-8cf7-425ce5d6aaff",
+      "texto_sha256": "af31f6990c8dfaaf7ed45254fae69354231663ac9e6ae409d95c27bef74db6b6",
+      "pertinente": true,
+      "motivo": "Boca irritada en Radioterapia: alimentos suaves y húmedos (cereales cocidos, puré, huevos), suavizar con caldo/yogur y qué evitar (crujiente, picante, ácido).",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#5"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        37,
+        38
+      ],
+      "seccion": "Formas de controlarlos"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "2d9aa3e9-d44f-45b5-bc13-c0538fefb745",
+      "texto_sha256": "a1d7c19dae996d2e5ced1da56147cda2321b516b483cad1e0f349aafc84433f6",
+      "pertinente": false,
+      "motivo": "Evitar azúcar/tabaco, ejercicios de mandíbula, pedir analgésicos; no qué preparar para comer.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        38,
+        39
+      ],
+      "seccion": "Formas de controlarlos"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "9fc4c1b3-90fa-4426-8cec-e59985f9e412",
+      "texto_sha256": "0107f9bd475fc0b1f4bfa0eb6a2f335fed45cc248409dc0a11ffd4c3b3b88e43",
+      "pertinente": true,
+      "motivo": "[límite] Parcial: casi todo higiene bucal; termina con alimentos húmedos y suaves (avena, puré, huevos revueltos) si duele la boca.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#4",
+        "qwen3#10"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        32,
+        33
+      ],
+      "seccion": "Qué hacer para controlar los problemas de la boca:"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "ab58f5b7-ced7-41d0-b384-817be9c9f163",
+      "texto_sha256": "33d209e97afcd93a7a1664911b0642fd4fef665d69a3db35ec61befaa3eb7c79",
+      "pertinente": false,
+      "motivo": "Cambios de gusto y olfato; no llagas.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#5",
+        "qwen3#8"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        38,
+        38
+      ],
+      "seccion": "¿Qué más puedo hacer?"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "b90ec492-7a82-42ad-a3f5-36dd5f5a49fb",
+      "texto_sha256": "0c0a3f1f365b446a3c061735468a7a72abd4c893b73dcc720b2079dc7eb1baa0",
+      "pertinente": false,
+      "motivo": "Boca seca: recomienda ácidos/dulces para salivar, contraindicado si duele la boca; no responde a llagas.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#3"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        24,
+        24
+      ],
+      "seccion": "¿Cómo me alimento si tengo este problema?"
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "f696b8bd-9f51-4e75-8bc2-508df970230b",
+      "texto_sha256": "a04a3a13f5f21abb5e5936a45a9d6dfd7239092f00fd64ce273d67f0db54c193",
+      "pertinente": true,
+      "motivo": "[límite] Parcial: garganta irritada en Radioterapia; alimentos húmedos, suaves, fríos y evitar ácidos/picantes, aplicables al dolor al comer.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#8",
+        "qwen3#7"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        49,
+        50
+      ],
+      "seccion": "Formas de controlarlos"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "070316df-7514-4b75-b109-baa644283cb7",
+      "texto_sha256": "da6fb8ac82eb890f7587a1f56f3489870dca9af301ef479bcf2ae67ecfd58da8",
+      "pertinente": false,
+      "motivo": "Opciones médicas para el apetito; no explica cómo enriquecer comidas.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#3",
+        "qwen3#7"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        28,
+        28
+      ],
+      "seccion": "Formas de controlar los cambios de apetito:"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "60095f38-1a97-43cf-8dc5-b41940ba714a",
+      "texto_sha256": "62b696c40d5e2001c760b3972d8d776632c60b612bb5c36b42ae3c6c3e826909",
+      "pertinente": true,
+      "motivo": "Apartado de pérdida de peso (Alimentación p. 43): agregar proteínas y calorías (maní, aceite, nueces, aguacate, proteína en polvo), batidos, horario fijo; responde exactamente.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#6",
+        "qwen3#2"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        43,
+        43
+      ],
+      "seccion": "¿Cómo me alimento si tengo este problema?"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "9773697b-9408-48b3-9b3c-114b63aaef25",
+      "texto_sha256": "81c68dcdd4e0b5808badae89bef70f6f590217ca727eba5fe1cd894e45206bca",
+      "pertinente": false,
+      "motivo": "Dirección opuesta: aumento de peso (frutas/verduras bajas en calorías para sentirse lleno); no pertinente para pérdida de peso.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#5"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        41,
+        41
+      ],
+      "seccion": "¿Cómo me alimento si tengo este problema?"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "a62121e8-0407-47e2-90ce-37a6f154a409",
+      "texto_sha256": "eca752a57a1a7ae09f8fd592fbb17f7990975f361c4f2a35fa371a3be4925797",
+      "pertinente": true,
+      "motivo": "[límite] Parcial: comer muchas proteínas y calorías cuando pueda y batidos de proteínas; pauta general sin recetas de enriquecimiento.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#9",
+        "qwen3#8"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        10,
+        10
+      ],
+      "seccion": "Formas de aprovechar al máximo los alimentos y las bebidas"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "a929379e-576f-404f-b971-cb9485c3c053",
+      "texto_sha256": "b7f87615d9f8e8c772089ea0667364294d6af6e3d29f5c85560fbcc79506f64e",
+      "pertinente": false,
+      "motivo": "Mención superficial de mantener el peso antes del tratamiento; no enseña a enriquecer comidas.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#7",
+        "qwen3#6"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        8,
+        8
+      ],
+      "seccion": "Preparación para el tratamiento del cáncer"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "b66d7482-4a07-4e35-9abd-031ebad53f8a",
+      "texto_sha256": "8b343d2a97dbfb16b6e46f6a9b061fadd17b83a10939b5201b3d3292d4196e6c",
+      "pertinente": true,
+      "motivo": "Parcial: para cuidadores, tener alimentos a mano y sumar calorías y proteínas (salsas, hummus, mantequilla de maní).",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        13,
+        13
+      ],
+      "seccion": "Nota especial para los cuidadores"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "d1bf660f-cf43-4df7-8537-ff33c33f4242",
+      "texto_sha256": "8ea9b006a1992c5119f6fa107e2ddb86c646722c63b1a1469698ec3c695bbb3b",
+      "pertinente": false,
+      "motivo": "Necesidad general de proteínas y calorías adicionales; sin formas concretas de enriquecer comidas.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#3"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        7,
+        7
+      ],
+      "seccion": "Las personas con cáncer tienen necesidades de alimentación diferentes"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "ecdedb0c-0b44-4b92-83fe-94fccded59ff",
+      "texto_sha256": "18be14ea4789fb2a6deb0a1c4043624da79732c83a8b8f629d7460d5a6892cad",
+      "pertinente": false,
+      "motivo": "Afrontar sentimientos que afectan el apetito.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#9"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        14,
+        15
+      ],
+      "seccion": "Hacer frente a sus sentimientos durante el tratamiento del cáncer"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "f54aed1f-f396-45f1-adb0-ef720a4b2358",
+      "texto_sha256": "4b2f368068914541ec768787252b3c416f2f932cbbe47bc6bcef46b7cc17782a",
+      "pertinente": false,
+      "motivo": "[límite] Radioterapia: importancia de calorías/proteínas para mantener peso y remisión a tabla; no explica cómo enriquecer comidas.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#4"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        10,
+        10
+      ],
+      "seccion": "¿Deberé seguir una dieta especial mientras reciba radioterapia?"
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "f8ba552c-1e79-4745-84d8-8d50a6e406aa",
+      "texto_sha256": "408a5dd6f372ad3e7d4649fa8eb4dfb977f369db0378a5b8bbaa37c49f3a5008",
+      "pertinente": false,
+      "motivo": "Manejo de la fatiga en Radioterapia; 'coma y beba bien' sin enriquecimiento.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#8"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        31,
+        32
+      ],
+      "seccion": "Formas de controlarla"
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "15cabb71-19c0-4304-9832-3bd2fd575262",
+      "texto_sha256": "621c1a4acebde86e76945ff862ca4241638bb2713894d252f04f89c2f424f094",
+      "pertinente": false,
+      "motivo": "Remisión a otra sección y a una tabla; no enumera efectos ni de qué dependen.",
+      "categoria": "lista_indice",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#7"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        26,
+        26
+      ],
+      "seccion": "Efectos secundarios comunes"
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "644cde0b-5af3-4b10-a7c4-539e461248ed",
+      "texto_sha256": "af0302e9db4b4c4d7a9258c9bbc004ad9cb71d98a04124447f67738dae881688",
+      "pertinente": false,
+      "motivo": "Seguimiento al terminar la radioterapia; solo define efectos tardíos.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#10"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        13,
+        13
+      ],
+      "seccion": "¿Qué sucede cuando termina la radioterapia?"
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "68766a3a-a96f-41dc-823f-2550ba64ff6c",
+      "texto_sha256": "a6cf942bd6b727beaca8d3c7400410277e54b9d39a301eb2313dd29ef0e1ed77",
+      "pertinente": false,
+      "motivo": "[límite] Un solo efecto (sexualidad/fecundidad) por radiación pélvica; no responde la pregunta general.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#9"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        43,
+        43
+      ],
+      "seccion": "¿Por qué suceden?"
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "aca65b5a-48c6-475b-87af-ed7c898cf0a4",
+      "texto_sha256": "2f8560cfa8191724349e590e19dd9e60e6b6e5036b8f8bd7cc5a326998fedaa1",
+      "pertinente": true,
+      "motivo": "Parcial: efectos tardíos y de qué dependen (zona tratada y dosis); no cubre efectos agudos.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#4",
+        "qwen3#7"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        53,
+        53
+      ],
+      "seccion": "Efectos tardíos"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "2d5d704b-1be6-490d-b6f5-336d2393fcd7",
+      "texto_sha256": "665ffbc40725f98fd79f9fda9a9af32704c4d94446fc13776f58a2401fb8963e",
+      "pertinente": false,
+      "motivo": "Panorama de efectos secundarios; la fatiga solo se menciona con remisión a p. 24.",
+      "categoria": "lista_indice",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#8"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        25,
+        26
+      ],
+      "seccion": "Efectos secundarios comunes"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "3910dc8c-8afd-4a34-8088-eb52b3a740b1",
+      "texto_sha256": "90438afc15bacdaf01b12da44a6c07cf1f40ac8665182010c1652acfd1b7792e",
+      "pertinente": false,
+      "motivo": "Recomendaciones generales para aprovechar la radioterapia; no maneja el cansancio.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#2",
+        "qwen3#5"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        12,
+        12
+      ],
+      "seccion": "¿Cómo aprovecho al máximo la radioterapia?"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "95af4ae7-5c67-4e4d-a883-0c6180942c01",
+      "texto_sha256": "f921f3c7370a942cf1ffa07ace869e57667258ed93b7614d3188ceb67f6461f8",
+      "pertinente": true,
+      "motivo": "Parcial: medidas concretas para el cansancio (sueño, ayuda de otros, diario, consultar) desde Quimioterapia; complemento general, conservando ese contexto.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#1",
+        "qwen3#6"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        46,
+        47
+      ],
+      "seccion": "Qué hacer para controlar el cansancio:"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "a8fb67ed-60fb-45ac-9fd0-6a6347351356",
+      "texto_sha256": "caf455573fe16f42e94cfb4c99b292a289a3615552dc0cca5c36bf1fc9b12447",
+      "pertinente": true,
+      "motivo": "Parcial: control del cansancio (relajarse, comidas pequeñas, descanso corto, actividad, priorizar) desde Quimioterapia; complemento general.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#5"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        45,
+        46
+      ],
+      "seccion": "Qué hacer para controlar el cansancio:"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "d3d08faf-2414-4410-899d-3a668c0deeb5",
+      "texto_sha256": "457995e880cfc3eebabb8fbc483ba663615b907a90a07b190cee7a71621dd097",
+      "pertinente": false,
+      "motivo": "Pregunta con líneas en blanco; sin contenido.",
+      "categoria": "preguntas_sin_respuesta",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#8",
+        "qwen3#10"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        55,
+        55
+      ],
+      "seccion": "¿Cómo puede ayudarme la radioterapia?"
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "d74cf457-b845-4f0d-bb6d-4c519f24c3c2",
+      "texto_sha256": "b578a2f204cbf03fd5fcb63c1fa4c35f7f1323b1389a2c680e6d5e799f2623f9",
+      "pertinente": false,
+      "motivo": "Define el cansancio por quimioterapia; sin medidas.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        44,
+        44
+      ],
+      "seccion": "Cansancio"
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "3910dc8c-8afd-4a34-8088-eb52b3a740b1",
+      "texto_sha256": "90438afc15bacdaf01b12da44a6c07cf1f40ac8665182010c1652acfd1b7792e",
+      "pertinente": false,
+      "motivo": "Solo menciona 'cuidar su piel' dentro de pautas generales.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#7",
+        "qwen3#6"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        12,
+        12
+      ],
+      "seccion": "¿Cómo aprovecho al máximo la radioterapia?"
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "73602e91-964e-4f1e-b336-0135c911df25",
+      "texto_sha256": "6e8836547fa8258e9a82e91489825bd61336ecf9eb40c0b00a8a57c0146ec851",
+      "pertinente": false,
+      "motivo": "Cambios de piel por quimioterapia; descriptivo y de otro tratamiento.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#9"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        35,
+        36
+      ],
+      "seccion": "Los cambios menores en la piel incluyen:"
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "79325e0e-3c1c-47a8-bf0c-d2f249738f7a",
+      "texto_sha256": "f3ed92c6b60c37562bb04aa595ca5670fa61755a286fd51bb66395c78fd59cbe",
+      "pertinente": false,
+      "motivo": "Por qué la radiación cambia la piel; sin cuidados.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#6",
+        "qwen3#10"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        46,
+        46
+      ],
+      "seccion": "¿Por qué sucede?"
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "8485f8e9-d7cd-44fc-a47c-a43196942b92",
+      "texto_sha256": "f6bc5157af2a6985406444d320199b4d1b2bc0250d01b887d79385e9fc31c7ad",
+      "pertinente": false,
+      "motivo": "Fecundidad y sexualidad en mujeres; no piel.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#9"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        43,
+        44
+      ],
+      "seccion": "Para las mujeres, problemas para discutir \n con su doctor o con su enfermera:"
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "862221b3-b0ca-4fed-ae01-35104fd30fab",
+      "texto_sha256": "42671e4ddb1873a0463e2ccd19cc9a23f8684f901503da14903c25b6db80c600",
+      "pertinente": false,
+      "motivo": "Lista de problemas de alimentación por radioterapia.",
+      "categoria": "lista_indice",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#8"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        48,
+        48
+      ],
+      "seccion": "Radioterapia"
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "c8f5eb5a-a216-41f5-8808-e297dbfa20b9",
+      "texto_sha256": "a7ceca4a530c986bf5f90d0da69f487fbbabf6e02c11f5aa1a5ccbd7635234a8",
+      "pertinente": false,
+      "motivo": "[límite] Ropa para la sesión de haz externo; incluye no usar ropa ajustada ni polvo en el área, pero no trata la piel irritada.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#7"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        18,
+        18
+      ],
+      "seccion": "¿Cómo deberé vestirme para radioterapia de haz externo?"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "862221b3-b0ca-4fed-ae01-35104fd30fab",
+      "texto_sha256": "42671e4ddb1873a0463e2ccd19cc9a23f8684f901503da14903c25b6db80c600",
+      "pertinente": false,
+      "motivo": "Lista de problemas de alimentación por radioterapia con remisiones; no dice cómo comer.",
+      "categoria": "lista_indice",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#3",
+        "qwen3#7"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        48,
+        48
+      ],
+      "seccion": "Radioterapia"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "a929379e-576f-404f-b971-cb9485c3c053",
+      "texto_sha256": "b7f87615d9f8e8c772089ea0667364294d6af6e3d29f5c85560fbcc79506f64e",
+      "pertinente": false,
+      "motivo": "[límite] Preparación previa: comer saludable y mantener el peso antes del tratamiento; no durante la radioterapia.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#5"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        8,
+        8
+      ],
+      "seccion": "Preparación para el tratamiento del cáncer"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "b66d7482-4a07-4e35-9abd-031ebad53f8a",
+      "texto_sha256": "8b343d2a97dbfb16b6e46f6a9b061fadd17b83a10939b5201b3d3292d4196e6c",
+      "pertinente": true,
+      "motivo": "Parcial: para cuidadores, alimentos a mano y sumar calorías/proteínas; general, no específico de radioterapia.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#9"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        13,
+        13
+      ],
+      "seccion": "Nota especial para los cuidadores"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "d1bf660f-cf43-4df7-8537-ff33c33f4242",
+      "texto_sha256": "8ea9b006a1992c5119f6fa107e2ddb86c646722c63b1a1469698ec3c695bbb3b",
+      "pertinente": true,
+      "motivo": "Parcial: explica que con cáncer se necesitan más proteínas y calorías (carne, pescado, huevos, lácteos) para mantener la fuerza; responde si se necesita comer de forma especial.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#8",
+        "qwen3#6"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        7,
+        7
+      ],
+      "seccion": "Las personas con cáncer tienen necesidades de alimentación diferentes"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "ecdedb0c-0b44-4b92-83fe-94fccded59ff",
+      "texto_sha256": "18be14ea4789fb2a6deb0a1c4043624da79732c83a8b8f629d7460d5a6892cad",
+      "pertinente": false,
+      "motivo": "Afrontar sentimientos que afectan el apetito.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#10"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        14,
+        15
+      ],
+      "seccion": "Hacer frente a sus sentimientos durante el tratamiento del cáncer"
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "f52ac152-579f-4c62-9a2e-ebb719e68f7d",
+      "texto_sha256": "93f1c24947a7734b240fa4e897c037bc5d9da2476a52a5093b252e3c0967c8de",
+      "pertinente": false,
+      "motivo": "Alimentación saludable después de terminar el tratamiento (baja en grasa); otra etapa.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        46,
+        47
+      ],
+      "seccion": "Formas de volver a una alimentación saludable"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "2d5d704b-1be6-490d-b6f5-336d2393fcd7",
+      "texto_sha256": "665ffbc40725f98fd79f9fda9a9af32704c4d94446fc13776f58a2401fb8963e",
+      "pertinente": false,
+      "motivo": "Panorama de efectos secundarios con remisiones; sin cuidados diarios.",
+      "categoria": "lista_indice",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#9"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        25,
+        26
+      ],
+      "seccion": "Efectos secundarios comunes"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "333e5e92-f5b8-4a1b-b015-c136c26ca9b2",
+      "texto_sha256": "accf30e9ecb84af578be5bde6b2b8fd207e7b4e3c880a06bc43d67b8df59a930",
+      "pertinente": true,
+      "motivo": "Parcial: cuidados diarios de la piel durante radioterapia (telas suaves, no ropa ajustada, protección solar, sin cintas adhesivas).",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#4"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        47,
+        48
+      ],
+      "seccion": "Formas de controlarlos"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "4c988ebb-4cde-40cf-be1e-8f3d2a229060",
+      "texto_sha256": "396f1ec0d5cab58e706230d852dfb424a6e8e052b1665c1175a901f721fe3db8",
+      "pertinente": false,
+      "motivo": "Contenido del libro; introducción.",
+      "categoria": "introduccion_general",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#8"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        3,
+        3
+      ],
+      "seccion": "Este libro cubre:"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "6644703a-652e-4fc4-a2a7-25313327a482",
+      "texto_sha256": "c8fb524a1eebe7c77e6169b45b46ad397c030f64d952f58822ce5cdebec34225",
+      "pertinente": true,
+      "motivo": "Parcial: cuidados de la piel (afeitado, zona rectal, avisar cambios, medicinas, no borrar marcas).",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#6"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        48,
+        48
+      ],
+      "seccion": "Formas de controlarlos"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "a2282951-919e-4c1b-9fd5-63d76fe7fee4",
+      "texto_sha256": "96ede41b4e7b95c670654324f8ccdda9dc1d6a597a3b502b4eaa1cb05a56bfe9",
+      "pertinente": false,
+      "motivo": "Qué ocurre en una sesión; no cuidados diarios ni hábitos.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10",
+        "qwen3#8"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        18,
+        18
+      ],
+      "seccion": "¿Qué sucede en una sesión de tratamiento?"
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "e095f5fa-c196-425f-9253-6d420f5c2f19",
+      "texto_sha256": "87faa4d78330568b2f3695e6fe7d5cb3e74ab0e84d461da48a7007c1fa0f46d7",
+      "pertinente": false,
+      "motivo": "Simulación y marcas antes del tratamiento; no hábitos diarios.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#5"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        17,
+        17
+      ],
+      "seccion": "¿Qué sucede antes de empezar el tratamiento de radiación de haz externo?"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "10ed6f4f-176e-47da-9d87-8ff465ffb747",
+      "texto_sha256": "e1cbc71c9bfe5ccc42b664cd41b3bcf4c0c636ddcba3c4a96118b39a490c3434",
+      "pertinente": false,
+      "motivo": "Cambios en piel y uñas; no signos de infección.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#9"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        35,
+        35
+      ],
+      "seccion": "Cambios en la piel y las uñas"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "4112269b-df9e-45dd-9cb4-46deef9b752f",
+      "texto_sha256": "dfaf83f2d087d690187917e4524580729a312ae77446269ea42a5d019cc37ad8",
+      "pertinente": false,
+      "motivo": "Cambios en los ojos; no infección.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#10"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        68,
+        68
+      ],
+      "seccion": "Otros efectos secundarios"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "47664d9e-46ad-4bf1-ba3d-c7e3545e8b74",
+      "texto_sha256": "a3de2cb773885f8d0255624e8ce0946e6f1f88999c5952930d752f9b8425515b",
+      "pertinente": false,
+      "motivo": "[límite] Medidas para prevenir/controlar la infección (lavado de manos, evitar enfermos); no enumera signos de infección.",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#4"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        58,
+        59
+      ],
+      "seccion": "Qué hacer para controlar la infección:"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "5f62f68e-0302-4724-878d-e2aeca7ca244",
+      "texto_sha256": "5a55fa8a96be3f6fa3aa18c3acd292a189f06e29e7c56a59d2a830c0d0795585",
+      "pertinente": false,
+      "motivo": "Seguridad con fluidos corporales en casa; no signos de infección.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#6"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        6,
+        6
+      ],
+      "seccion": "Seguridad en casa después de recibir tratamientos de quimioterapia"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "73602e91-964e-4f1e-b336-0135c911df25",
+      "texto_sha256": "6e8836547fa8258e9a82e91489825bd61336ecf9eb40c0b00a8a57c0146ec851",
+      "pertinente": false,
+      "motivo": "Cambios en la piel por quimioterapia y alergia; no infección.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#8",
+        "qwen3#6"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        35,
+        36
+      ],
+      "seccion": "Los cambios menores en la piel incluyen:"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "74fae4d4-f4f4-46a1-ae27-e527f21226c2",
+      "texto_sha256": "9501b6a871a2ef7c93b92484f4825e1beb808b3ae4fc8765c6a8c5effa54e96f",
+      "pertinente": false,
+      "motivo": "Síntomas a vigilar tras terminar la radioterapia; otro tratamiento y etapa, no signos de infección.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#8"
+      ],
+      "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        13,
+        13
+      ],
+      "seccion": "Después de haber terminado la radioterapia, ¿en qué síntomas me deberé fijar?"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "8075438f-5fb2-4ff4-8aef-def3b0c382fb",
+      "texto_sha256": "d5fa37650362dd7dc8497855b1eb6bae3da179c5fa9d8574ac0d928a0c766ea6",
+      "pertinente": false,
+      "motivo": "Lista de problemas de alimentación por quimioterapia.",
+      "categoria": "lista_indice",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#10",
+        "qwen3#5"
+      ],
+      "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+      "pagina": [
+        48,
+        49
+      ],
+      "seccion": "Quimioterapia"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "95e107ed-5b94-4ad3-8be6-b9af4bb40946",
+      "texto_sha256": "1833d345184cd0ea1baf5430d177b61062e15f6bd10a841b2e7d05d4760fc32a",
+      "pertinente": true,
+      "motivo": "Fragmento histórico objetivo: lista explícita de señales de infección además de la fiebre (Quimioterapia p. 62).",
+      "categoria": "consejo_practico",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#5"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        62,
+        62
+      ],
+      "seccion": "Además de la fiebre, otras señales de infección son:"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "98f84c32-8213-48a8-bd06-dcdea0e0dd3a",
+      "texto_sha256": "11ba5a81cb155da433d12fae5e04d889d10fe862007074c828b051c4486d36df",
+      "pertinente": false,
+      "motivo": "Daño renal/vesical; fiebre y escalofríos aparecen como síntomas urinarios, no como signos de infección.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#7",
+        "qwen3#3"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        42,
+        42
+      ],
+      "seccion": "Cambios urinarios, en los riñones o en la vejiga"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "aa722955-d53d-47fb-b91d-b69cb818060e",
+      "texto_sha256": "121025e09dd32c0e5f06f670ae59dfd0e78a3f8a900b310f99caa85ac26d2864",
+      "pertinente": false,
+      "motivo": "Estado de ánimo.",
+      "categoria": "otro_tema",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#4"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        15,
+        15
+      ],
+      "seccion": "Su estado de ánimo durante la quimioterapia"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "c10a7c8e-7fbe-42d2-9f44-3904618d8e0e",
+      "texto_sha256": "7e28be33c21dbf552b09bbe4876a526c87049b5093a44751eba33e50852787f9",
+      "pertinente": false,
+      "motivo": "Cambios en el sistema nervioso.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_bge-m3_v01.json",
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "bge-m3#1",
+        "qwen3#2"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        29,
+        30
+      ],
+      "seccion": "Cambios en el sistema nervioso"
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "d74cf457-b845-4f0d-bb6d-4c519f24c3c2",
+      "texto_sha256": "b578a2f204cbf03fd5fcb63c1fa4c35f7f1323b1389a2c680e6d5e799f2623f9",
+      "pertinente": false,
+      "motivo": "Define cansancio.",
+      "categoria": "definicion_causas",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": [
+        "resultados_qwen3_v01.json"
+      ],
+      "posiciones_al_revisar": [
+        "qwen3#7"
+      ],
+      "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "pagina": [
+        44,
+        44
+      ],
+      "seccion": "Cansancio"
+    }
+  ]
+}

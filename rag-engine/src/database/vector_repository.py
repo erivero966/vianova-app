@@ -32,6 +32,14 @@ from .repositories import ConfiguracionModelo
 # modelo con otra dimensión se crea su tabla en sql/ y se registra aquí.
 VECTOR_TABLES: dict[str, int] = {
     "embedding_fragmento_alia": 768,
+    "embedding_fragmento_qwen3": 1024,
+    "embedding_fragmento_bge_m3": 1024,
+}
+
+VECTOR_TABLE_MODELS = {
+    "embedding_fragmento_alia": "SINAI/ALIA-MrBERT-es-biomedical-embeddings",
+    "embedding_fragmento_qwen3": "Qwen/Qwen3-Embedding-0.6B",
+    "embedding_fragmento_bge_m3": "BAAI/bge-m3",
 }
 
 NORM_TOLERANCE = 1e-3
@@ -72,6 +80,8 @@ class VectorRepository:
                 f"La configuración '{config.nombre}' declara {config.dimension} dimensiones "
                 f"pero {table} almacena VECTOR({VECTOR_TABLES[table]})."
             )
+        if VECTOR_TABLE_MODELS[table] != config.model_id:
+            raise ValueError(f"La tabla {table} no corresponde al modelo {config.model_id}.")
         self._conn = conn
         self.config = config
         self.table_name = table

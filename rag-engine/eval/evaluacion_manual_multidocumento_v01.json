@@ -1,0 +1,472 @@
+{
+  "fecha_revision": "2026-11-03",
+  "tipo": "revision manual documental de los 75 resultados completos; no evaluación automática por un modelo",
+  "criterio": "Sí exige al menos un aporte práctico/sustantivo a lo preguntado. Una definición sola no basta cuando se piden cuidados; para alimentación se requiere contenido alimentario. Un sí puede ser parcial, y se indica la limitación. Fuente esperada se comprueba aparte por documento en Top-5, sin implicar pertinencia. No se validan ni combinan pautas clínicas.",
+  "consultas": [
+    {
+      "id": "MD01",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": true,
+          "motivo": "Medidas concretas para náuseas, relajación y comunicación con el equipo; responde la necesidad."
+        },
+        {
+          "posicion": 2,
+          "pertinente": false,
+          "motivo": "Define náuseas y vómitos; no explica qué hacer en casa."
+        },
+        {
+          "posicion": 3,
+          "pertinente": true,
+          "motivo": "Explica prevención y conversación con el equipo sobre el control del síntoma."
+        },
+        {
+          "posicion": 4,
+          "pertinente": true,
+          "motivo": "Medidas alimentarias concretas y precauciones durante quimioterapia."
+        },
+        {
+          "posicion": 5,
+          "pertinente": false,
+          "motivo": "Estado de ánimo general; no aborda manejo de náuseas."
+        }
+      ],
+      "observacion": "Top-1 útil y fuente esperada. Los cinco resultados pertenecen a Quimioterapia; no se observó cruce con Alimentación en esta consulta."
+    },
+    {
+      "id": "MD02",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": false,
+          "motivo": "Definición y mecanismo, sin cuidados ni criterios para avisar."
+        },
+        {
+          "posicion": 2,
+          "pertinente": true,
+          "motivo": "Contiene ayuda práctica y situaciones para informar al equipo; cubre ambas partes."
+        },
+        {
+          "posicion": 3,
+          "pertinente": false,
+          "motivo": "Consejo general sobre efectos secundarios; no aporta manejo específico del vómito."
+        },
+        {
+          "posicion": 4,
+          "pertinente": true,
+          "motivo": "Alimentación aporta control del vómito y comunicación con el médico; cruce útil."
+        },
+        {
+          "posicion": 5,
+          "pertinente": false,
+          "motivo": "Lista de preguntas con espacios en blanco; no aporta respuestas."
+        }
+      ],
+      "observacion": "Quimioterapia rank 2 y Alimentación rank 4 aportan contenido pertinente. Las fuentes expresan plazos de aviso distintos; se conservan separados, sin sintetizar una pauta nueva."
+    },
+    {
+      "id": "MD03",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": true,
+          "motivo": "Descanso, ayuda familiar, actividades y registro de energía."
+        },
+        {
+          "posicion": 2,
+          "pertinente": true,
+          "motivo": "Consejos generales de descanso y tareas durante tratamiento; complemento parcial desde Alimentación."
+        },
+        {
+          "posicion": 3,
+          "pertinente": true,
+          "motivo": "Planificación de actividades y ayuda en fatiga; complemento general desde Radioterapia, conservando ese contexto."
+        },
+        {
+          "posicion": 4,
+          "pertinente": true,
+          "motivo": "Descansos y planificación de actividad en quimioterapia."
+        },
+        {
+          "posicion": 5,
+          "pertinente": true,
+          "motivo": "Descanso y actividades para fatiga en radioterapia; complemento parcial, sin asumir equivalencia de tratamientos."
+        }
+      ],
+      "observacion": "Cruce de las tres fuentes; Quimioterapia encabeza y Alimentación añade apoyo cotidiano. Los fragmentos de Radioterapia se consideran complementos generales, no instrucciones transferibles en bloque."
+    },
+    {
+      "id": "MD04",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": false,
+          "motivo": "Define diarrea y sus causas; no aporta los cuidados solicitados."
+        },
+        {
+          "posicion": 2,
+          "pertinente": false,
+          "motivo": "Cuidados para náuseas y vómitos, no para diarrea."
+        },
+        {
+          "posicion": 3,
+          "pertinente": false,
+          "motivo": "Explica causas de diarrea, sin cambios de comida ni cuidados."
+        },
+        {
+          "posicion": 4,
+          "pertinente": true,
+          "motivo": "Cuidados y alimentos a evitar para diarrea; complemento parcial desde Radioterapia, manteniendo su procedencia."
+        },
+        {
+          "posicion": 5,
+          "pertinente": false,
+          "motivo": "Remisión a otro libro; no contiene recomendaciones."
+        }
+      ],
+      "observacion": "El Top-3 no aporta cuidados concretos. Top-4 contiene apoyo para diarrea desde otra fuente; no recuperó en Top-5 la sección de manejo de diarrea de Quimioterapia."
+    },
+    {
+      "id": "MD05",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": false,
+          "motivo": "Alimentación explica causas de estreñimiento, no medidas de ayuda."
+        },
+        {
+          "posicion": 2,
+          "pertinente": false,
+          "motivo": "Quimioterapia describe estreñimiento y causas, sin el apartado de cuidados."
+        },
+        {
+          "posicion": 3,
+          "pertinente": false,
+          "motivo": "Náuseas y vómitos: otro síntoma."
+        },
+        {
+          "posicion": 4,
+          "pertinente": false,
+          "motivo": "Control de náuseas y vómitos: otro síntoma."
+        },
+        {
+          "posicion": 5,
+          "pertinente": false,
+          "motivo": "Problemas urinarios; la expresión ir al baño recupera un contexto distinto."
+        }
+      ],
+      "observacion": "La fuente esperada aparece en rank 2, pero ningún Top-5 responde cómo ayudar. La sección Forma de controlar el estreñimiento está persistida en p. 53–54 y no fue recuperada."
+    },
+    {
+      "id": "MD06",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": false,
+          "motivo": "Introducción con temas del folleto y remisión general; no ofrece formas de comer más."
+        },
+        {
+          "posicion": 2,
+          "pertinente": false,
+          "motivo": "Definición de falta de apetito; no da medidas."
+        },
+        {
+          "posicion": 3,
+          "pertinente": true,
+          "motivo": "Medidas concretas para apetito y comidas agradables, con apoyo profesional."
+        },
+        {
+          "posicion": 4,
+          "pertinente": false,
+          "motivo": "Lista de causas; no contiene medidas."
+        },
+        {
+          "posicion": 5,
+          "pertinente": false,
+          "motivo": "Describe sentimientos y su relación con apetito; no propone acciones."
+        }
+      ],
+      "observacion": "La fuente esperada domina, pero su introducción desplaza los cuidados al rank 3."
+    },
+    {
+      "id": "MD07",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": false,
+          "motivo": "Introducción; sin comidas ni preparación para dificultad al tragar."
+        },
+        {
+          "posicion": 2,
+          "pertinente": false,
+          "motivo": "Presentación del libro; sin contenido específico."
+        },
+        {
+          "posicion": 3,
+          "pertinente": false,
+          "motivo": "Enumeración de problemas para comer; no da soluciones para tragar."
+        },
+        {
+          "posicion": 4,
+          "pertinente": false,
+          "motivo": "Referencia desde Quimioterapia a otra publicación sobre náuseas; no responde."
+        },
+        {
+          "posicion": 5,
+          "pertinente": false,
+          "motivo": "Solo un título general."
+        }
+      ],
+      "observacion": "No hay un fragmento pertinente en Top-5. La sección alimentaria para esofagitis está en la base (p. 34–35); se confirma un fallo de selección, no ausencia del contenido."
+    },
+    {
+      "id": "MD08",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": false,
+          "motivo": "Quimioterapia remite al libro de Alimentación; no aporta alimentos."
+        },
+        {
+          "posicion": 2,
+          "pertinente": true,
+          "motivo": "Alimentación incluye alimentos con olores fuertes que evitar y ayuda para preparación; cubre parte de la pregunta."
+        },
+        {
+          "posicion": 3,
+          "pertinente": false,
+          "motivo": "Causas de náuseas; no ofrece opciones alimentarias."
+        },
+        {
+          "posicion": 4,
+          "pertinente": false,
+          "motivo": "Radioterapia remite a otras fuentes; sin recomendaciones en este fragmento."
+        },
+        {
+          "posicion": 5,
+          "pertinente": true,
+          "motivo": "Quimioterapia aporta opciones suaves y alimentos/olores a evitar; cruce pertinente."
+        }
+      ],
+      "observacion": "El Top-1 es una referencia de otra guía que desplaza al contenido pertinente de Alimentación (rank 2). El cruce útil aparece entre ranks 2 y 5, no por la mera coincidencia del título citado."
+    },
+    {
+      "id": "MD09",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": false,
+          "motivo": "Cuidados bucales y consulta sobre dolor, pero no qué comida preparar; el rótulo RECETA no incluye la receta."
+        },
+        {
+          "posicion": 2,
+          "pertinente": false,
+          "motivo": "Duración de llagas en radioterapia; no responde qué preparar."
+        },
+        {
+          "posicion": 3,
+          "pertinente": false,
+          "motivo": "Causas de lesión de mucosa; no ofrece comidas."
+        },
+        {
+          "posicion": 4,
+          "pertinente": true,
+          "motivo": "Quimioterapia sí incluye alimentos y formas de preparación para boca dolorida."
+        },
+        {
+          "posicion": 5,
+          "pertinente": false,
+          "motivo": "Solo título/remisión de una lista, sin alimentos en el chunk."
+        }
+      ],
+      "observacion": "Alimentación aparece primero, pero no responde la preparación solicitada. El cruce útil con Quimioterapia está en rank 4. Su propia sección de alimentación para mucositis también está persistida."
+    },
+    {
+      "id": "MD10",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": false,
+          "motivo": "Introducción del folleto; no enseña a enriquecer comidas."
+        },
+        {
+          "posicion": 2,
+          "pertinente": false,
+          "motivo": "Causas de pérdida de peso; no da medidas."
+        },
+        {
+          "posicion": 3,
+          "pertinente": false,
+          "motivo": "Habla de AUMENTO de peso y dieta para bajarlo: dirección opuesta a la consulta."
+        },
+        {
+          "posicion": 4,
+          "pertinente": true,
+          "motivo": "Contenido sobre mantener/recuperar peso mediante alimentos ricos en calorías/proteínas; pertinente, aunque sin lista detallada de ingredientes."
+        },
+        {
+          "posicion": 5,
+          "pertinente": false,
+          "motivo": "Descripción de temas de la publicación; no contenido específico."
+        }
+      ],
+      "observacion": "Fallo de contexto relevante: aumento de peso en rank 3 desplaza pérdida de peso en rank 4. La sección con ejemplos concretos para enriquecer comidas de p. 43 existe en la base y tampoco está en Top-5."
+    },
+    {
+      "id": "MD11",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": false,
+          "motivo": "Pregunta para hacer al equipo con Blank lines for answer; no es respuesta."
+        },
+        {
+          "posicion": 2,
+          "pertinente": false,
+          "motivo": "Otra pregunta con líneas en blanco."
+        },
+        {
+          "posicion": 3,
+          "pertinente": false,
+          "motivo": "Otra pregunta con líneas en blanco."
+        },
+        {
+          "posicion": 4,
+          "pertinente": true,
+          "motivo": "Enumera efectos secundarios y relación con área tratada; responde ambas partes."
+        },
+        {
+          "posicion": 5,
+          "pertinente": false,
+          "motivo": "Presentación del contenido del libro, no explicación sustantiva de los efectos."
+        }
+      ],
+      "observacion": "Los tres primeros resultados son formularios de preguntas. La respuesta documental está en rank 4 pese a que Top-1 tiene similitud 0.805217."
+    },
+    {
+      "id": "MD12",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": true,
+          "motivo": "Planificación, ayuda familiar y manejo de energía durante radioterapia."
+        },
+        {
+          "posicion": 2,
+          "pertinente": false,
+          "motivo": "Duración de la fatiga; no manejo doméstico."
+        },
+        {
+          "posicion": 3,
+          "pertinente": true,
+          "motivo": "Descanso y actividades para manejar fatiga."
+        },
+        {
+          "posicion": 4,
+          "pertinente": false,
+          "motivo": "Vigilancia de síntomas DESPUÉS del tratamiento; no manejo de fatiga durante radioterapia."
+        },
+        {
+          "posicion": 5,
+          "pertinente": false,
+          "motivo": "Define fatiga y causas; no ofrece acciones."
+        }
+      ],
+      "observacion": "La fuente y el contenido de manejo de fatiga están en Top-1 y Top-3. Algunos resultados posteriores no contestan la necesidad."
+    },
+    {
+      "id": "MD13",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": true,
+          "motivo": "Cuidados específicos de la piel irradiada y productos/acciones que evitar."
+        },
+        {
+          "posicion": 2,
+          "pertinente": true,
+          "motivo": "Precauciones para piel irradiada y comunicación de cambios al equipo."
+        },
+        {
+          "posicion": 3,
+          "pertinente": false,
+          "motivo": "Quimioterapia trata uñas y radiation recall tras radioterapia previa; no equivale a cuidado habitual durante irradiación actual."
+        },
+        {
+          "posicion": 4,
+          "pertinente": true,
+          "motivo": "Describe cambios y una precaución explícita para evitar rascarse; aporte parcial."
+        },
+        {
+          "posicion": 5,
+          "pertinente": true,
+          "motivo": "Ropa, protección solar y precauciones durante radioterapia."
+        }
+      ],
+      "observacion": "Cruce de contexto no pertinente en rank 3: radiation recall y uñas desde Quimioterapia. No desplazó al Top-1 correcto, pero entra en Top-3 y debe mantenerse distinguido."
+    },
+    {
+      "id": "MD14",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": true,
+          "motivo": "Necesidades de calorías/proteínas y mantenimiento de peso en radioterapia."
+        },
+        {
+          "posicion": 2,
+          "pertinente": true,
+          "motivo": "Autocuidado y comunicación sobre alimentación/peso; complemento parcial."
+        },
+        {
+          "posicion": 3,
+          "pertinente": true,
+          "motivo": "Medidas de alimentación dentro del manejo de fatiga; complemento parcial."
+        },
+        {
+          "posicion": 4,
+          "pertinente": true,
+          "motivo": "Alimentación calórica/proteica cuando hay garganta irritada; pertinente solo bajo esa condición explícita."
+        },
+        {
+          "posicion": 5,
+          "pertinente": false,
+          "motivo": "El grueso trata trabajo y bajas laborales; la remisión final a consultar dieta no aporta contenido suficiente sobre alimentación."
+        }
+      ],
+      "observacion": "Los cinco resultados son de Radioterapia. Top-1 responde claramente; no se produjo cruce con Alimentación en esta consulta."
+    },
+    {
+      "id": "MD15",
+      "juicios": [
+        {
+          "posicion": 1,
+          "pertinente": true,
+          "motivo": "Autocuidado general, asistencia y comunicación con el equipo durante radioterapia."
+        },
+        {
+          "posicion": 2,
+          "pertinente": true,
+          "motivo": "Hábitos de descanso y actividad para fatiga."
+        },
+        {
+          "posicion": 3,
+          "pertinente": true,
+          "motivo": "Alimentación y mantenimiento del peso durante radioterapia."
+        },
+        {
+          "posicion": 4,
+          "pertinente": true,
+          "motivo": "Actividades para relajarse en sesiones; apoyo práctico."
+        },
+        {
+          "posicion": 5,
+          "pertinente": true,
+          "motivo": "Cuidados de piel irradiada como parte del autocuidado diario."
+        }
+      ],
+      "observacion": "Top-1 y Top-3 pertinentes; todos los resultados conservan el contexto de Radioterapia."
+    }
+  ]
+}

@@ -1,0 +1,858 @@
+{
+  "fecha_utc": "2026-11-03T18:25:19.272063+00:00",
+  "origen": "asistido_preliminar",
+  "autorizacion": "Usuario autoriza revisión documental asistida de resultados nuevos; conservar sin modificar juicios humanos y separarlos explícitamente.",
+  "alcance": "Consulta frente a texto recuperado y contexto documental. Sin validación clínica ni gold standard definitivo. Sin LLM en embeddings/retrieval/ranking.",
+  "juicios": [
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "d74cf457-b845-4f0d-bb6d-4c519f24c3c2",
+      "texto_sha256": "b578a2f204cbf03fd5fcb63c1fa4c35f7f1323b1389a2c680e6d5e799f2623f9",
+      "pertinente": false,
+      "motivo": "Define fatiga; no aporta cuidados para náuseas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "e4dd17a2-9420-4a13-9948-83780227fd75",
+      "texto_sha256": "866b8a9d29c509177274d853a3a008388413d86c0a19ae803febf5ed5f2dcd57",
+      "pertinente": false,
+      "motivo": "Apoyo emocional general, sin medidas dirigidas a náuseas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "f9b0037e-b532-4c75-8aec-0665deb1f8b1",
+      "texto_sha256": "370b27c6a180ac1faee3623ac239b51272593d38b3ccb271521b7e1f5b5ad801",
+      "pertinente": false,
+      "motivo": "Explica causas y duración de náuseas; no responde qué hacer en casa.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "92700831-5c4f-478d-9e31-14d2d0279e88",
+      "texto_sha256": "079d3c7b438ec8f957116f05baef11df000937e4d5652dd710bdcac7c6053ad9",
+      "pertinente": false,
+      "motivo": "Comunicación genérica sobre efectos secundarios, sin medidas sobre náuseas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD01",
+      "fragmento_id": "fcce6d73-3671-432e-94a8-80250b06486b",
+      "texto_sha256": "3a5fd5ae841867ef503241df34dd7baba5579df6773617494ea184cebcf51ac8",
+      "pertinente": false,
+      "motivo": "Explica falta de apetito; no aporta medidas para náuseas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "1c8a1774-743e-4c85-bbfa-4feb1bc13869",
+      "texto_sha256": "89e844c80bdff0b941775701406fe00cf3e7cf2977320bb11f6f171573032fcc",
+      "pertinente": true,
+      "motivo": "Parcial: describe náuseas/vómitos y consultar por antieméticos; no precisa todas las señales para avisar.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "5f62f68e-0302-4724-878d-e2aeca7ca244",
+      "texto_sha256": "5a55fa8a96be3f6fa3aa18c3acd292a189f06e29e7c56a59d2a830c0d0795585",
+      "pertinente": false,
+      "motivo": "Precauciones al manipular fluidos tras quimioterapia; no control del vómito ni señales de aviso.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "a0641283-634c-4066-bcdb-51f7c8e882d1",
+      "texto_sha256": "09ec127af1dbfc3e30b63f96d884fdaa3a287439273bb8f40d6a5d050e52274e",
+      "pertinente": false,
+      "motivo": "Sesiones de quimioterapia omitidas; no ayuda ante vómitos.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "2c967bfa-0248-418d-95f3-9121e716d24f",
+      "texto_sha256": "bb04f745dfe96a96652a27aa9c287813542cc887f55a299b4c1baacf0e4f197a",
+      "pertinente": false,
+      "motivo": "Explicación de vómitos sin cuidados ni criterios de aviso.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD02",
+      "fragmento_id": "22bad113-5c55-4708-bd37-5da38235e6bd",
+      "texto_sha256": "4e8d4530df0862ba7f7b57b54b463302d87f8987f7b018f284f5766b7e8c9137",
+      "pertinente": false,
+      "motivo": "Riesgo general de efectos secundarios, sin respuesta específica.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "6faa2c44-fe1e-4a2b-8238-04ce417dd737",
+      "texto_sha256": "0e6ce19f0e8593dc9896cd07e0123eaf16dc26d5925a1ce8de0d280d81c16dd3",
+      "pertinente": false,
+      "motivo": "Preguntas para rellenar, sin respuestas ni pautas de descanso.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "77b01310-dba6-486c-93d2-7472a4c8e6e9",
+      "texto_sha256": "51c3b8ece73e5a6ad067feb3d9e9c22347db8d66cc283ac12a762cca50664146",
+      "pertinente": true,
+      "motivo": "Parcial: adapta trabajo y horarios en quimioterapia al cansancio; no cubre todo el descanso doméstico.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "86eeb0d8-4f05-4a61-8c99-43eebdc6e25e",
+      "texto_sha256": "88708f6d23e854fcddf480e1f8cd8c88db28c0410c8adaf503e000f3029e4cb7",
+      "pertinente": false,
+      "motivo": "Relajación durante sesiones, no organización del cansancio diario.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "e4dd17a2-9420-4a13-9948-83780227fd75",
+      "texto_sha256": "866b8a9d29c509177274d853a3a008388413d86c0a19ae803febf5ed5f2dcd57",
+      "pertinente": false,
+      "motivo": "Ejercicio para estado de ánimo, sin organizar descanso ni actividad ante fatiga.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD03",
+      "fragmento_id": "a0641283-634c-4066-bcdb-51f7c8e882d1",
+      "texto_sha256": "09ec127af1dbfc3e30b63f96d884fdaa3a287439273bb8f40d6a5d050e52274e",
+      "pertinente": false,
+      "motivo": "Sesiones omitidas, sin manejo del cansancio.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "fcce6d73-3671-432e-94a8-80250b06486b",
+      "texto_sha256": "3a5fd5ae841867ef503241df34dd7baba5579df6773617494ea184cebcf51ac8",
+      "pertinente": false,
+      "motivo": "Falta de apetito, sin medidas para diarrea.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "5c99cef9-f923-44ad-baf7-509e6463f16c",
+      "texto_sha256": "ba897a7fc6f92432a6b82756ce1ff4d1ee67da770f00a879bfdabd718f1079d3",
+      "pertinente": false,
+      "motivo": "Define estreñimiento, problema distinto.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "60aff5fc-9770-4070-a7f5-e374a3d2acaa",
+      "texto_sha256": "affb44e1c767e06e9875fe1c535ab7ff2494b151896e788f234928847b6d518f",
+      "pertinente": false,
+      "motivo": "Cuidados para náuseas, sin abordar diarrea.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "c2c3ae42-b658-4b34-af4a-236bd52b14e8",
+      "texto_sha256": "c36624e772786009bad17b402b143b15b5233eb07a5e31c102dc4ddde67f29bd",
+      "pertinente": true,
+      "motivo": "Medidas concretas para diarrea y alimentación durante quimioterapia.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD04",
+      "fragmento_id": "8075438f-5fb2-4ff4-8aef-def3b0c382fb",
+      "texto_sha256": "d5fa37650362dd7dc8497855b1eb6bae3da179c5fa9d8574ac0d928a0c766ea6",
+      "pertinente": false,
+      "motivo": "Enumera problemas de alimentación por quimioterapia, sin cuidados para diarrea.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "5f62f68e-0302-4724-878d-e2aeca7ca244",
+      "texto_sha256": "5a55fa8a96be3f6fa3aa18c3acd292a189f06e29e7c56a59d2a830c0d0795585",
+      "pertinente": false,
+      "motivo": "Seguridad de fluidos de quimioterapia, sin aliviar estreñimiento.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "fedc328b-da6b-48b5-8ce1-ddfe7d3f5762",
+      "texto_sha256": "2212fec8b3749c98bb0e44112bbce79854a2c5c3a8b5601e1e09b50741b51ffd",
+      "pertinente": false,
+      "motivo": "Explica diarrea, problema distinto.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "fcce6d73-3671-432e-94a8-80250b06486b",
+      "texto_sha256": "3a5fd5ae841867ef503241df34dd7baba5579df6773617494ea184cebcf51ac8",
+      "pertinente": false,
+      "motivo": "Define falta de apetito, sin ayudar a evacuar.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "3a24e8ff-88be-417c-8f7d-9699c9e0ca4a",
+      "texto_sha256": "ba44b386d1a9f2bc6519d9e0fb09cf9bb9cdea1b3e134e680dc94903950af580",
+      "pertinente": false,
+      "motivo": "Definición y causas de estreñimiento, sin medidas prácticas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD05",
+      "fragmento_id": "2bc45185-e6e8-4512-8f1a-5a8b91835416",
+      "texto_sha256": "9dde66cf1e9f27639da7e1b0b0f90fc54d8102c5cb789050c9d27d8e339cb7f9",
+      "pertinente": false,
+      "motivo": "Introducción del libro, sin cuidados.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "d39db4a4-16ed-45e2-b95a-ed2a02b8f8d4",
+      "texto_sha256": "f4c42865ec8b5be630782c5c1be92ffec8cf3a4790a8230b4dd1bb0c6f4b4729",
+      "pertinente": false,
+      "motivo": "Introducción editorial, sin consejos para comer más.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "ecdedb0c-0b44-4b92-83fe-94fccded59ff",
+      "texto_sha256": "18be14ea4789fb2a6deb0a1c4043624da79732c83a8b8f629d7460d5a6892cad",
+      "pertinente": true,
+      "motivo": "Parcial: comer alimentos favoritos cuando faltan ganas y apoyo para afrontar sentimientos.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "1ba95068-943f-4706-9e6b-8fd7ecb3b529",
+      "texto_sha256": "b43abb052c6f7ae9902a73cabb3a56e0d91f25c73575a1aa6e522aacc82baccf",
+      "pertinente": false,
+      "motivo": "Título sin contenido alimentario.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "1247440f-8f7d-458e-99fd-8f05ba341020",
+      "texto_sha256": "aabbad9ab55b40d17ff8bb95654c455440b27e382c3310a8f85955483f22ab5c",
+      "pertinente": true,
+      "motivo": "Parcial: actividad ligera para aumentar apetito y apoyo nutricional; incluye otros problemas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD06",
+      "fragmento_id": "dd6b8ee6-a9c8-49c9-a6f7-a4afb6212a24",
+      "texto_sha256": "48c98e24f2a89f7f1947ce8fc0c411e2fa4989dc0ce287fd929fa70decbc3529",
+      "pertinente": true,
+      "motivo": "Actividad física ligera para mejorar apetito y otras medidas de apoyo.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "3fd8d3ff-15e4-4356-a801-69e80fbf177a",
+      "texto_sha256": "f9a5b5f2d7984f3a9bd056a176bed53be2f46cabd0307afb2f6ef57517d0862a",
+      "pertinente": false,
+      "motivo": "Necesidades nutritivas generales; no texturas o comidas para disfagia.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "c11c4665-43dc-4b1a-bb8c-184681f309bd",
+      "texto_sha256": "87b15f1d9d7131835debb3d2042d1d68c84ededa9a5244e8593f8c884c258b7f",
+      "pertinente": false,
+      "motivo": "Alimentación después de cirugía; no adaptación por dificultad al tragar.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "070316df-7514-4b75-b109-baa644283cb7",
+      "texto_sha256": "da6fb8ac82eb890f7587a1f56f3489870dca9af301ef479bcf2ae67ecfd58da8",
+      "pertinente": false,
+      "motivo": "Alimentación por sonda/vena y falta de apetito; no comidas fáciles de pasar.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "9529c956-cd11-44e4-906d-1b27c7e0a8f2",
+      "texto_sha256": "a5550aaa49ce81f28803eb52ffc80d941dd4f3eb50439eda4a66755f18b5b158",
+      "pertinente": false,
+      "motivo": "Información posterior al tratamiento; sin alimentos para disfagia.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD07",
+      "fragmento_id": "ecdedb0c-0b44-4b92-83fe-94fccded59ff",
+      "texto_sha256": "18be14ea4789fb2a6deb0a1c4043624da79732c83a8b8f629d7460d5a6892cad",
+      "pertinente": false,
+      "motivo": "Sentimientos y apetito; no dificultad de deglución.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "c2afa637-826b-4cee-baac-338fb2a1b6ce",
+      "texto_sha256": "ebe32cba6bb0efc60f55b0fd8b82e4a87a2cf64fa803358fa9a151139982547f",
+      "pertinente": true,
+      "motivo": "Alimentos y pautas alimentarias para náuseas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "36c8d278-bab8-48c1-bac8-e9bdcb8d3145",
+      "texto_sha256": "df4c7f1160787fd4684c7a8e9dab88fd7ac0bbfe27c27ad09c90b76c0716f83e",
+      "pertinente": false,
+      "motivo": "Define náuseas, sin opciones alimentarias.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "a48746ea-6720-4b3a-a1cc-935e303b7107",
+      "texto_sha256": "ebbd91f239f7b791d54e339b6d3eab563ac012d4f11d091abb1c36978e070d31",
+      "pertinente": false,
+      "motivo": "Introducción editorial sin alimentos concretos.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "9d6a6f53-87d8-4434-b33b-51289f69404f",
+      "texto_sha256": "62af13369a31408c944b6fe5ff82d3ad6a9bef983e9fce2256eff846490f2cfa",
+      "pertinente": false,
+      "motivo": "Causas de falta de apetito, sin opciones para náuseas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD08",
+      "fragmento_id": "028d0c83-2aba-4a89-9596-5a47c33bc5d6",
+      "texto_sha256": "45cacfde503d3ada8600e92ad44e36fb035dc9538163ad2d89431a38666fe144",
+      "pertinente": true,
+      "motivo": "Pautas alimentarias para náuseas durante radioterapia; aplicables al contexto general de tratamiento.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "556b3c48-029b-423c-86ca-9a745c67273c",
+      "texto_sha256": "3b781804771da48ec69b6b89052a3c1ce5142f5f93e1292759352b0907fc3888",
+      "pertinente": false,
+      "motivo": "Enumera problemas orales; no comidas o preparaciones.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "b523a406-403e-4b68-821d-9f38e1d185ff",
+      "texto_sha256": "65c4f7d58f3a932b4168f2e69946f21f387bc131281586f0d02fa492e7b86975",
+      "pertinente": true,
+      "motivo": "Opciones alimentarias y adaptación de comida por dolor de boca.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "f48e8de1-aa5e-4e56-b5d1-386ac5ab165e",
+      "texto_sha256": "5810d0454427ec3e075ccbdb872a727e668236cc9541adedd0827e3b7a895484",
+      "pertinente": false,
+      "motivo": "Define mucositis; no comidas o formas de preparación.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "708a1372-a240-48ff-af6b-ff37787f2854",
+      "texto_sha256": "a509fe8dc021bb2da31176c001a0aa6399027543b6bdae652bd1df3e64c92996",
+      "pertinente": false,
+      "motivo": "Se refiere a inflamación de garganta por radioterapia; no se extrapola silenciosamente a llagas bucales.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD09",
+      "fragmento_id": "7f523dd9-51fd-4483-9bc1-b9cd7b1cc269",
+      "texto_sha256": "c11c11d378a01d77fb5630a6ed98e847a8a85ded96a203d3801828d06d6d3e46",
+      "pertinente": false,
+      "motivo": "Dentista e higiene oral, sin responder qué comida preparar.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "8af356d1-8a95-49bf-948b-b88d7b3a2544",
+      "texto_sha256": "3441aacd2aa099e9be09ab857a3acb0600b6f50157e0f5bdcfcd6867537365c8",
+      "pertinente": false,
+      "motivo": "Define aumento de peso, dirección opuesta a la necesidad consultada.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "9c0f8f07-4c9c-42cd-bd73-fa2f799a723a",
+      "texto_sha256": "5948505bbf1b7156249c35e8292522fca948295939308c92bf0d01373e45fccb",
+      "pertinente": false,
+      "motivo": "Causas de aumento de peso; no enriquecer comidas ante pérdida de peso.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "1ba95068-943f-4706-9e6b-8fd7ecb3b529",
+      "texto_sha256": "b43abb052c6f7ae9902a73cabb3a56e0d91f25c73575a1aa6e522aacc82baccf",
+      "pertinente": false,
+      "motivo": "Título sin consejos de enriquecimiento.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "3d69dbf1-cd1f-48b6-9c2f-02e282e42e6c",
+      "texto_sha256": "7f0c360d3e8a503820caf1036ad8ab5506fab7953b6f175218913c4b41656b8e",
+      "pertinente": false,
+      "motivo": "Alimentación después del tratamiento, sin medidas concretas para la pérdida actual.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD10",
+      "fragmento_id": "5a152008-54c7-40a4-8d1e-c237192004f4",
+      "texto_sha256": "c7e9e35d1944fb248b0a99fd855d307bfa15c3490f86fe3e6b412b271d43321a",
+      "pertinente": false,
+      "motivo": "Título aislado, sin contenido práctico.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "8fc5fbb6-b515-4ae1-8a06-f81fe7668056",
+      "texto_sha256": "1b50e66d21da755e23d2464b09efec8408e60a980a7581139063c1f41401f06c",
+      "pertinente": true,
+      "motivo": "Parcial: aclara que los efectos secundarios pueden causar dolor; no explica cuáles otros ni los factores.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "74fae4d4-f4f4-46a1-ae27-e527f21226c2",
+      "texto_sha256": "9501b6a871a2ef7c93b92484f4825e1beb808b3ae4fc8765c6a8c5effa54e96f",
+      "pertinente": false,
+      "motivo": "Seguimiento tras tratamiento; no describe efectos ni factores durante el inicio.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "4ff0aedd-a653-4af7-96eb-a3806da93e69",
+      "texto_sha256": "ad6eaa786279959ab7b9fa52fa9eefa072105e8a737515d5fcd38da1a6d6d3fa",
+      "pertinente": true,
+      "motivo": "Parcial: relaciona efectos secundarios con zona irradiada.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "862221b3-b0ca-4fed-ae01-35104fd30fab",
+      "texto_sha256": "42671e4ddb1873a0463e2ccd19cc9a23f8684f901503da14903c25b6db80c600",
+      "pertinente": true,
+      "motivo": "Describe problemas de alimentación por radiación y su relación con área irradiada.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD11",
+      "fragmento_id": "709a63a3-1d38-46ce-af78-0a25e7d65d5d",
+      "texto_sha256": "c79fee2c639604b43dc35fdf8dceaed9ec6ae3b9e9554e352b2fc6863ed88410",
+      "pertinente": true,
+      "motivo": "Parcial: mecanismo del daño sano y factores del riesgo de efectos secundarios.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "86eeb0d8-4f05-4a61-8c99-43eebdc6e25e",
+      "texto_sha256": "88708f6d23e854fcddf480e1f8cd8c88db28c0410c8adaf503e000f3029e4cb7",
+      "pertinente": false,
+      "motivo": "Relajación en la sesión, sin manejo del cansancio doméstico.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "76fc5d2e-3f36-414a-9f07-03197d87d5fb",
+      "texto_sha256": "5b29238784ebe714dbe789155c59acd2d3948cc90a332bcecddc475f84701b4e",
+      "pertinente": false,
+      "motivo": "Apoyo emocional y ejercicio para ánimo, sin medidas específicas ante agotamiento.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "8d6ff4c8-efe6-47d1-a651-1d140459c09c",
+      "texto_sha256": "93a42b34ce33112031684cd3e2e3523759192f5b0224634a5471dfd73a608f9f",
+      "pertinente": true,
+      "motivo": "Parcial: adaptación del trabajo y ausencias por cansancio durante radioterapia.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "76341af8-15cf-4996-909a-4b1247be932d",
+      "texto_sha256": "934d671d97deee42fcf248bd64a5aabd868a89c6f895c051246a720f5cf6cfa5",
+      "pertinente": false,
+      "motivo": "Causas de cansancio en quimioterapia, sin cuidados en radioterapia.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD12",
+      "fragmento_id": "4a30e13d-f1ac-4040-be39-7996b128c586",
+      "texto_sha256": "880e73ac39de52a61d56df312f761789163fb36a5774ab81f80c5443d8b020da",
+      "pertinente": false,
+      "motivo": "Pregunta sin respuesta sobre efectos tardíos.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "2d5d704b-1be6-490d-b6f5-336d2393fcd7",
+      "texto_sha256": "665ffbc40725f98fd79f9fda9a9af32704c4d94446fc13776f58a2401fb8963e",
+      "pertinente": false,
+      "motivo": "Describe cambios cutáneos y otros efectos; remite a otra sección sin dar cuidados.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "8fc5fbb6-b515-4ae1-8a06-f81fe7668056",
+      "texto_sha256": "1b50e66d21da755e23d2464b09efec8408e60a980a7581139063c1f41401f06c",
+      "pertinente": false,
+      "motivo": "Dolor de radioterapia; no cuidados de piel.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "3a48b1c3-4423-4757-bbaa-0fb4e398eb7b",
+      "texto_sha256": "0541f4719def05ad4901a2f0c92012f84d7af31e243407ca0feb5ffcb1b5c771",
+      "pertinente": false,
+      "motivo": "Daño oral por radiación; no piel irradiada.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "7e869cd8-df97-4f51-b61e-06f4f4caecf4",
+      "texto_sha256": "1d48f5d768c69536f46d3cc7ac6f2bdb4892e25858725e9d62f1ae1e76bc1e6a",
+      "pertinente": false,
+      "motivo": "Duración y características de cambios de piel; no ofrece cuidados concretos.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD13",
+      "fragmento_id": "2d1ae01e-2962-4aed-a9e4-ab69688fcb1d",
+      "texto_sha256": "12dc6ece1e873225510137f13711a067c6586d100e29f135ab7e9e326bebea0b",
+      "pertinente": false,
+      "motivo": "Problemas urinarios, sin cuidados de piel.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "d3d08faf-2414-4410-899d-3a668c0deeb5",
+      "texto_sha256": "457995e880cfc3eebabb8fbc483ba663615b907a90a07b190cee7a71621dd097",
+      "pertinente": false,
+      "motivo": "Pregunta sin respuesta.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "5d0b6315-bcae-4ddf-a66e-9eee68c974ac",
+      "texto_sha256": "a787b68631c0a97730f7f0145e555cf8ed0bec58899158c30e080987a8f2c9c7",
+      "pertinente": true,
+      "motivo": "Parcial: comidas pequeñas y organización de ingesta durante radioterapia, centradas en náuseas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "1247440f-8f7d-458e-99fd-8f05ba341020",
+      "texto_sha256": "aabbad9ab55b40d17ff8bb95654c455440b27e382c3310a8f85955483f22ab5c",
+      "pertinente": true,
+      "motivo": "Proteínas/calorías y apoyo nutricional para mantener o recuperar peso.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "a62121e8-0407-47e2-90ce-37a6f154a409",
+      "texto_sha256": "eca752a57a1a7ae09f8fd592fbb17f7990975f361c4f2a35fa371a3be4925797",
+      "pertinente": true,
+      "motivo": "Proteínas/calorías y formas de aprovechar la ingesta para mantener fuerza durante tratamiento.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD14",
+      "fragmento_id": "d39db4a4-16ed-45e2-b95a-ed2a02b8f8d4",
+      "texto_sha256": "f4c42865ec8b5be630782c5c1be92ffec8cf3a4790a8230b4dd1bb0c6f4b4729",
+      "pertinente": false,
+      "motivo": "Introducción editorial sin pautas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "f8ba552c-1e79-4745-84d8-8d50a6e406aa",
+      "texto_sha256": "408a5dd6f372ad3e7d4649fa8eb4dfb977f369db0378a5b8bbaa37c49f3a5008",
+      "pertinente": true,
+      "motivo": "Comida, bebida, adaptación del trabajo y ayuda diaria durante radioterapia.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "8d6ff4c8-efe6-47d1-a651-1d140459c09c",
+      "texto_sha256": "93a42b34ce33112031684cd3e2e3523759192f5b0224634a5471dfd73a608f9f",
+      "pertinente": true,
+      "motivo": "Parcial: organizar trabajo y ausencias según cansancio.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "76fc5d2e-3f36-414a-9f07-03197d87d5fb",
+      "texto_sha256": "5b29238784ebe714dbe789155c59acd2d3948cc90a332bcecddc475f84701b4e",
+      "pertinente": true,
+      "motivo": "Parcial: apoyo emocional, relajación y actividad consultada al equipo.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "cf0f4390-9667-4e45-9a2a-ee857f7d840c",
+      "texto_sha256": "da983df23f2b572969964a9fbb9a11835a68688d31bc4e434f93393ea28d0beb",
+      "pertinente": false,
+      "motivo": "Introducción editorial; no cuidados diarios.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "MD15",
+      "fragmento_id": "d3d08faf-2414-4410-899d-3a668c0deeb5",
+      "texto_sha256": "457995e880cfc3eebabb8fbc483ba663615b907a90a07b190cee7a71621dd097",
+      "pertinente": false,
+      "motivo": "Pregunta sin respuesta.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "723cba2f-7549-46c7-b074-fdc288d0acc1",
+      "texto_sha256": "401abc0205a6fc1e162ae9cb727d4aedb87f8901a23b39a918b60e09a25ebfa6",
+      "pertinente": true,
+      "motivo": "Parcial: síntomas tipo influenza que el texto también atribuye a posible infección; no sustituye la lista específica de señales de infección.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 1
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "ae3053e3-8bb9-4ef9-976e-68094bb5e8fa",
+      "texto_sha256": "dabd3f692bb800e3531ddf614e2c7f262187e4c24972fb0909b2472eb3a1c3d8",
+      "pertinente": false,
+      "motivo": "Definición de quimioterapia, sin signos de infección.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 2
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "92700831-5c4f-478d-9e31-14d2d0279e88",
+      "texto_sha256": "079d3c7b438ec8f957116f05baef11df000937e4d5652dd710bdcac7c6053ad9",
+      "pertinente": false,
+      "motivo": "Orientación genérica sobre efectos secundarios, sin signos de infección.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 3
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "22bad113-5c55-4708-bd37-5da38235e6bd",
+      "texto_sha256": "4e8d4530df0862ba7f7b57b54b463302d87f8987f7b018f284f5766b7e8c9137",
+      "pertinente": false,
+      "motivo": "Probabilidad de efectos secundarios, sin signos de infección.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 4
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "b103c308-e80c-45d6-9eec-f9c900dacf43",
+      "texto_sha256": "d705a1a9d56097d876ea207504f6a5a44e56e77abf17a2c65fbeda31876040fc",
+      "pertinente": false,
+      "motivo": "Sensaciones generales según tratamiento, sin signos de infección.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 5
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "6faa2c44-fe1e-4a2b-8238-04ce417dd737",
+      "texto_sha256": "0e6ce19f0e8593dc9896cd07e0123eaf16dc26d5925a1ce8de0d280d81c16dd3",
+      "pertinente": false,
+      "motivo": "Cuestionario sin respuestas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 6
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "34831a69-e2aa-4d0d-acbe-ca8db0b25fe2",
+      "texto_sha256": "f3cddaf1afc68aeab2ccb524f7ffdfb11e4cc53c40ee597aa1bec30908d0a15e",
+      "pertinente": true,
+      "motivo": "Parcial: identifica fiebre en neutropenia y aviso al equipo; no contiene la lista de otros signos de la página 62.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 7
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "949c7699-65ee-453d-849b-546cddb34b3d",
+      "texto_sha256": "96a6a70e74b94ab6a16c80bae6bd2c4f821359812143f7bbe8d1a06813a1809c",
+      "pertinente": false,
+      "motivo": "Lista de efectos secundarios generales, sin signos de infección.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 8
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "2910ab6e-f5ec-4b08-86f9-2a3035cc21e6",
+      "texto_sha256": "5e3ec659bdf7a3559c782d8392e9fb7be77749a3c017585cacad57999425d958",
+      "pertinente": false,
+      "motivo": "Cuestionario sin respuestas.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 9
+    },
+    {
+      "consulta_id": "Q04",
+      "fragmento_id": "3c9ebf7b-453b-4655-aaca-a8e572d34d6a",
+      "texto_sha256": "586b55b4e883c5e7de76bc17281e0689befc1222fc5d3e52794e09f906c4134c",
+      "pertinente": false,
+      "motivo": "Daño oral general, sin identificar signos de infección.",
+      "origen": "asistido_preliminar",
+      "evidencia_resultados": "resultados_alia_v01.json",
+      "posicion_al_revisar": 10
+    }
+  ]
+}

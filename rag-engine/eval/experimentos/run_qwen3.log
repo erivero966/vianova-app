@@ -1,0 +1,19 @@
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  65%|██████▌   | 203/310 [00:00<00:00, 2000.98it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2226.42it/s]
+{"nombre": "qwen3", "model_id": "Qwen/Qwen3-Embedding-0.6B", "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3", "dimension": 1024, "normalizado": true, "query_prompt": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery:", "document_prompt": "", "device": "cuda", "dtype": "torch.float32", "batch_size": 16, "max_seq_length": 32768, "padding_side": "right", "tiempo_carga_s": 0.9786042709993126, "representacion": "dense", "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU", "vram_total_bytes": 8184725504, "software": {"torch": "2.14.1", "sentence-transformers": "6.2.0", "transformers": "5.20.2", "numpy": "2.5.4", "psycopg": "3.3.6", "pgvector": "0.5.1"}, "dimension_observada_documento": 1024, "dimension_observada_query": 1024}
+qwen3: 419 embeddings generados
+qwen3 MD01 La quimioterapia y usted: Apoyo para las personas con cáncer 65 0.79482
+qwen3 MD02 La quimioterapia y usted: Apoyo para las personas con cáncer 65 0.692086
+qwen3 MD03 La quimioterapia y usted: Apoyo para las personas con cáncer 46 0.733394
+qwen3 MD04 La quimioterapia y usted: Apoyo para las personas con cáncer 27 0.680597
+qwen3 MD05 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 20 0.682912
+qwen3 MD06 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 14 0.807931
+qwen3 MD07 La quimioterapia y usted: Apoyo para las personas con cáncer 28 0.7268
+qwen3 MD08 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 29 0.723832
+qwen3 MD09 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 32 0.665762
+qwen3 MD10 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 42 0.690983
+qwen3 MD11 La radioterapia y usted: Apoyo para las personas con cáncer 25 0.847242
+qwen3 MD12 La radioterapia y usted: Apoyo para las personas con cáncer 31 0.733043
+qwen3 MD13 La radioterapia y usted: Apoyo para las personas con cáncer 47 0.842139
+qwen3 MD14 La radioterapia y usted: Apoyo para las personas con cáncer 10 0.829918
+qwen3 MD15 La radioterapia y usted: Apoyo para las personas con cáncer 12 0.778116
+qwen3 Q04 La quimioterapia y usted: Apoyo para las personas con cáncer 69 0.747461

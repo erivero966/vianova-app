@@ -1,0 +1,19 @@
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 50084.68it/s]
+{"nombre": "bge-m3", "model_id": "BAAI/bge-m3", "revision": "5617a9f61b028005a4858fdac845db406aefb181", "dimension": 1024, "normalizado": true, "query_prompt": "", "document_prompt": "", "device": "cuda", "dtype": "torch.float32", "batch_size": 16, "max_seq_length": 8192, "padding_side": "right", "tiempo_carga_s": 1.8821597470005145, "representacion": "dense", "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU", "vram_total_bytes": 8184725504, "software": {"torch": "2.14.1", "sentence-transformers": "6.2.0", "transformers": "5.20.2", "numpy": "2.5.4", "psycopg": "3.3.6", "pgvector": "0.5.1"}, "dimension_observada_documento": 1024, "dimension_observada_query": 1024}
+bge-m3: 419 embeddings generados
+bge-m3 MD01 La quimioterapia y usted: Apoyo para las personas con cáncer 65 0.670712
+bge-m3 MD02 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 40 0.632311
+bge-m3 MD03 La quimioterapia y usted: Apoyo para las personas con cáncer 46 0.672437
+bge-m3 MD04 La quimioterapia y usted: Apoyo para las personas con cáncer 48 0.65961
+bge-m3 MD05 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 20 0.622185
+bge-m3 MD06 La quimioterapia y usted: Apoyo para las personas con cáncer 28 0.698172
+bge-m3 MD07 La quimioterapia y usted: Apoyo para las personas con cáncer 28 0.675325
+bge-m3 MD08 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 29 0.700733
+bge-m3 MD09 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 30 0.654933
+bge-m3 MD10 Consejos de alimentación: antes, durante y después del tratamiento del cáncer 7 0.685602
+bge-m3 MD11 La radioterapia y usted: Apoyo para las personas con cáncer 25 0.715754
+bge-m3 MD12 La quimioterapia y usted: Apoyo para las personas con cáncer 46 0.63632
+bge-m3 MD13 La radioterapia y usted: Apoyo para las personas con cáncer 47 0.69404
+bge-m3 MD14 La radioterapia y usted: Apoyo para las personas con cáncer 10 0.758658
+bge-m3 MD15 La radioterapia y usted: Apoyo para las personas con cáncer 12 0.668669
+bge-m3 Q04 La quimioterapia y usted: Apoyo para las personas con cáncer 29 0.576388

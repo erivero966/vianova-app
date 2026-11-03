@@ -4,6 +4,8 @@ Capa de embeddings y base vectorial persistente (PostgreSQL + pgvector) del RAG 
 
 El modelo predeterminado es `SINAI/ALIA-MrBERT-es-biomedical-embeddings`. La misma interfaz admite `Qwen/Qwen3-Embedding-0.6B` y `BAAI/bge-m3` para comparaciones posteriores.
 
+Estado del corpus v01 (2026-11-03): tres NCI digitales activos, 428 chunks/embeddings, 419 chunks recuperables; documento sintético retirado e INEN fuera de retrieval. Véanse el [baseline multidocumento ALIA de 15 consultas](eval/corpus_v01_multidocumento_alia.md), el [banco independiente MD01–MD15](eval/consultas_multidocumento_v01.json) y el [manifest de curación](corpus/manifest_curacion.json). La evaluación documenta fallos de pertinencia. La comparación dense preliminar ALIA / Qwen3 / BGE-M3 sobre los mismos 419 chunks está en [eval/model_comparison_v01.md](eval/model_comparison_v01.md) (con Q04 en [eval/q04_model_comparison.md](eval/q04_model_comparison.md)); es preliminar y no selecciona modelo.
+
 ## 1. Crear el entorno virtual
 
 El código es compatible con Python 3.11+. El entorno validado realmente usa **Python 3.13.13** (ver «Versiones validadas»); no es necesario recrearlo con 3.11.
@@ -395,9 +397,9 @@ Los originales de `corpus/aprobados/` son la fuente documental y permanecen inta
 python scripts/ocr_pdf.py \
   corpus/aprobados/inen_paciente_oncologico_inmunodeprimido_2020.pdf
 
-python scripts/ocr_pdf.py \
-  corpus/aprobados/inen_agentes_antineoplasicos_2023.pdf
 ```
+
+El comando anterior documenta el experimento ya realizado; **no repetirlo en esta fase**. El primer INEN fue rechazado por errores clínicamente relevantes. El segundo INEN, `inen_agentes_antineoplasicos_2023.pdf`, permanece candidato, requiere OCR y no está autorizado para procesamiento. Véanse el [gate de fidelidad documental](corpus/README.md#control-de-fidelidad-y-decisiones-de-curación) y el [manifest persistente](corpus/manifest_curacion.json). Se conserva toda la evidencia original.
 
 El script:
 
@@ -523,6 +525,6 @@ Para liberar espacio puede borrar solo la carpeta del modelo dentro de `hub` cua
 
 ## Alcance y seguridad clínica
 
-Esta etapa demuestra ingestión documental y recuperación semántica persistente. La similitud no acredita corrección clínica: cualquier corpus y resultado destinado a cuidadores debe ser curado y validado por profesionales. Esta fase termina en la recuperación de fragmentos: no hay OCR, generación de respuestas, LLM, API web, panel ni app.
+Esta etapa demuestra ingestión documental y recuperación semántica persistente. La similitud no acredita corrección clínica: cualquier corpus y resultado destinado a cuidadores debe ser curado y validado por profesionales. Existe un experimento OCR rechazado y conservado como evidencia; el corpus activo de esta fase usa documentos digitales. La fase termina en la recuperación de fragmentos, sin generación de respuestas, LLM, API web, panel ni app.
 
 No deben guardarse en el repositorio contraseñas reales (`.env` está ignorado por Git), PDFs médicos personales ni información identificable de pacientes. El corpus de ejemplo (`src/sample_corpus.py`) es sintético.

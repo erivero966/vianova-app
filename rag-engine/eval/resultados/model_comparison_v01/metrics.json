@@ -1,0 +1,1383 @@
+{
+  "manifest_sha256": "c650d1468927594ff797db6f5e3adc348043b32c97f76c4f16d44bb2005c7d82",
+  "chunks_ids_sha256": "1a401463bb0fe0c31b3476d46d971c64993b0d42dca6611224b2de2e99cce2a6",
+  "modelos": {
+    "alia": {
+      "tecnico": {
+        "model_id": "SINAI/ALIA-MrBERT-es-biomedical-embeddings",
+        "revision": "95d6c927ac774b120156357dadd665c1e71adf54",
+        "dimension": 768,
+        "dtype": "torch.float32",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "batch_size": 16,
+        "max_seq_length": 8192,
+        "embedding_count": 419,
+        "embedding_time_seconds": 4.681561993999821,
+        "embeddings_per_second": 89.50004304909692,
+        "load_time_seconds": 0.43294253500016566,
+        "queries_time_seconds": 0.14722385400136773,
+        "q04_time_seconds": 0.05307674699997733,
+        "vram_peak_allocated_bytes": 906383360,
+        "vram_peak_reserved_bytes": 941621248,
+        "query_instruction": "",
+        "document_instruction": "",
+        "normalization": "L2 (normalize_embeddings=True); distancia coseno <=>",
+        "representation": "dense",
+        "persistence": "419 existentes verificados, no sobrescritos; se conservan los demás embeddings históricos",
+        "timestamp_embeddings_db": "2026-11-03T18:02:53.577553+00:00",
+        "timestamp_results": "2026-11-03T18:17:21.608397+00:00"
+      },
+      "model_id": "SINAI/ALIA-MrBERT-es-biomedical-embeddings",
+      "revision": "95d6c927ac774b120156357dadd665c1e71adf54",
+      "configuracion_id": "089123fd-36ae-4d29-88e9-3cec64218adf",
+      "metricas_preliminares_humano_mas_asistido": {
+        "Hit@1": 0.4,
+        "Hit@3": 0.6,
+        "Hit@5": 0.8666666666666667,
+        "Hit@10": 0.8666666666666667,
+        "MRR@10": 0.5555555555555556
+      },
+      "metricas_solo_pertinentes_humanos_cota_inferior": {
+        "Hit@1": 0.4,
+        "Hit@3": 0.6,
+        "Hit@5": 0.8666666666666667,
+        "Hit@10": 0.8666666666666667,
+        "MRR@10": 0.5555555555555556
+      },
+      "cobertura_humana_slots": {
+        "top1": "15/15",
+        "top3": "45/45",
+        "top5": "75/75",
+        "top10": "75/150"
+      },
+      "configuracion": {
+        "nombre": "alia",
+        "model_id": "SINAI/ALIA-MrBERT-es-biomedical-embeddings",
+        "revision": "95d6c927ac774b120156357dadd665c1e71adf54",
+        "dimension": 768,
+        "normalizado": true,
+        "query_prompt": "",
+        "document_prompt": "",
+        "device": "cuda",
+        "dtype": "torch.float32",
+        "batch_size": 16,
+        "max_seq_length": 8192,
+        "padding_side": "left",
+        "tiempo_carga_s": 0.43294253500016566,
+        "representacion": "dense",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "vram_total_bytes": 8184725504,
+        "software": {
+          "torch": "2.14.1",
+          "sentence-transformers": "6.2.0",
+          "transformers": "5.20.2",
+          "numpy": "2.5.4",
+          "psycopg": "3.3.6",
+          "pgvector": "0.5.1"
+        },
+        "dimension_observada_documento": 768,
+        "dimension_observada_query": 768,
+        "tokens_documento_max": 452,
+        "tokens_query_max": 30,
+        "textos_truncados": 0,
+        "tiempo_embeddings_s": 4.681561993999821,
+        "embeddings_por_segundo": 89.50004304909692,
+        "vram_pico_embeddings_allocated_bytes": 906383360,
+        "vram_pico_embeddings_reserved_bytes": 941621248,
+        "alia_diferencia_max_abs": 1.955777406692505e-05,
+        "persistencia": "419 existentes verificados, no sobrescritos; se conservan los demás embeddings históricos",
+        "tiempo_guardado_o_verificacion_s": 0.0930436590001591,
+        "embeddings_elegibles": 419,
+        "tiempo_consultas_15_s": 0.14722385400136773,
+        "tiempo_Q04_s": 0.05307674699997733,
+        "vram_pico_total_allocated_bytes": 906383360,
+        "vram_pico_total_reserved_bytes": 941621248
+      }
+    },
+    "qwen3": {
+      "tecnico": {
+        "model_id": "Qwen/Qwen3-Embedding-0.6B",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+        "dimension": 1024,
+        "dtype": "torch.float32",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "batch_size": 16,
+        "max_seq_length": 32768,
+        "embedding_count": 419,
+        "embedding_time_seconds": 20.708925961000205,
+        "embeddings_per_second": 20.232821382870164,
+        "load_time_seconds": 0.9786042709993126,
+        "queries_time_seconds": 0.47984617600013735,
+        "q04_time_seconds": 0.022942206999687187,
+        "vram_peak_allocated_bytes": 2889395200,
+        "vram_peak_reserved_bytes": 3294625792,
+        "query_instruction": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery:",
+        "document_instruction": "",
+        "normalization": "L2 (normalize_embeddings=True); distancia coseno <=>",
+        "representation": "dense",
+        "persistence": "419 nuevos embeddings; ningún fragmento creado/modificado",
+        "timestamp_embeddings_db": "2026-11-03T18:57:02.016283+00:00",
+        "timestamp_results": "2026-11-03T18:57:03.110445+00:00"
+      },
+      "model_id": "Qwen/Qwen3-Embedding-0.6B",
+      "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "configuracion_id": "2e19f115-7896-4c92-a53c-307af41d4072",
+      "metricas_preliminares_humano_mas_asistido": {
+        "Hit@1": 0.6666666666666666,
+        "Hit@3": 0.8,
+        "Hit@5": 0.8,
+        "Hit@10": 0.8666666666666667,
+        "MRR@10": 0.7407407407407407
+      },
+      "metricas_solo_pertinentes_humanos_cota_inferior": {
+        "Hit@1": 0.4666666666666667,
+        "Hit@3": 0.6666666666666666,
+        "Hit@5": 0.8,
+        "Hit@10": 0.8666666666666667,
+        "MRR@10": 0.6040740740740741
+      },
+      "cobertura_humana_slots": {
+        "top1": "10/15",
+        "top3": "25/45",
+        "top5": "35/75",
+        "top10": "53/150"
+      },
+      "configuracion": {
+        "nombre": "qwen3",
+        "model_id": "Qwen/Qwen3-Embedding-0.6B",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+        "dimension": 1024,
+        "normalizado": true,
+        "query_prompt": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery:",
+        "document_prompt": "",
+        "device": "cuda",
+        "dtype": "torch.float32",
+        "batch_size": 16,
+        "max_seq_length": 32768,
+        "padding_side": "right",
+        "tiempo_carga_s": 0.9786042709993126,
+        "representacion": "dense",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "vram_total_bytes": 8184725504,
+        "software": {
+          "torch": "2.14.1",
+          "sentence-transformers": "6.2.0",
+          "transformers": "5.20.2",
+          "numpy": "2.5.4",
+          "psycopg": "3.3.6",
+          "pgvector": "0.5.1"
+        },
+        "dimension_observada_documento": 1024,
+        "dimension_observada_query": 1024,
+        "tokens_documento_max": 547,
+        "tokens_query_max": 54,
+        "textos_truncados": 0,
+        "tiempo_embeddings_s": 20.708925961000205,
+        "embeddings_por_segundo": 20.232821382870164,
+        "vram_pico_embeddings_allocated_bytes": 2889395200,
+        "vram_pico_embeddings_reserved_bytes": 3294625792,
+        "persistencia": "419 nuevos embeddings; ningún fragmento creado/modificado",
+        "tiempo_guardado_o_verificacion_s": 0.3023650360000829,
+        "embeddings_elegibles": 419,
+        "tiempo_consultas_15_s": 0.47984617600013735,
+        "tiempo_Q04_s": 0.022942206999687187,
+        "vram_pico_total_allocated_bytes": 2889395200,
+        "vram_pico_total_reserved_bytes": 3294625792
+      }
+    },
+    "bge-m3": {
+      "tecnico": {
+        "model_id": "BAAI/bge-m3",
+        "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+        "dimension": 1024,
+        "dtype": "torch.float32",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "batch_size": 16,
+        "max_seq_length": 8192,
+        "embedding_count": 419,
+        "embedding_time_seconds": 10.242969884000559,
+        "embeddings_per_second": 40.90610484508744,
+        "load_time_seconds": 1.8821597470005145,
+        "queries_time_seconds": 0.3680545870010974,
+        "q04_time_seconds": 0.07762765799998306,
+        "vram_peak_allocated_bytes": 2656789504,
+        "vram_peak_reserved_bytes": 2856321024,
+        "query_instruction": "",
+        "document_instruction": "",
+        "normalization": "L2 (normalize_embeddings=True); distancia coseno <=>",
+        "representation": "dense",
+        "persistence": "419 nuevos embeddings; ningún fragmento creado/modificado",
+        "timestamp_embeddings_db": "2026-11-03T18:57:53.917857+00:00",
+        "timestamp_results": "2026-11-03T18:57:54.874619+00:00"
+      },
+      "model_id": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "configuracion_id": "ae83d20d-2782-43f8-9f3a-4fb12b8a6787",
+      "metricas_preliminares_humano_mas_asistido": {
+        "Hit@1": 0.7333333333333333,
+        "Hit@3": 0.8666666666666667,
+        "Hit@5": 1.0,
+        "Hit@10": 1.0,
+        "MRR@10": 0.8155555555555555
+      },
+      "metricas_solo_pertinentes_humanos_cota_inferior": {
+        "Hit@1": 0.4666666666666667,
+        "Hit@3": 0.7333333333333333,
+        "Hit@5": 0.8666666666666667,
+        "Hit@10": 0.8666666666666667,
+        "MRR@10": 0.5933333333333334
+      },
+      "cobertura_humana_slots": {
+        "top1": "9/15",
+        "top3": "25/45",
+        "top5": "37/75",
+        "top10": "51/150"
+      },
+      "configuracion": {
+        "nombre": "bge-m3",
+        "model_id": "BAAI/bge-m3",
+        "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+        "dimension": 1024,
+        "normalizado": true,
+        "query_prompt": "",
+        "document_prompt": "",
+        "device": "cuda",
+        "dtype": "torch.float32",
+        "batch_size": 16,
+        "max_seq_length": 8192,
+        "padding_side": "right",
+        "tiempo_carga_s": 1.8821597470005145,
+        "representacion": "dense",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "vram_total_bytes": 8184725504,
+        "software": {
+          "torch": "2.14.1",
+          "sentence-transformers": "6.2.0",
+          "transformers": "5.20.2",
+          "numpy": "2.5.4",
+          "psycopg": "3.3.6",
+          "pgvector": "0.5.1"
+        },
+        "dimension_observada_documento": 1024,
+        "dimension_observada_query": 1024,
+        "tokens_documento_max": 472,
+        "tokens_query_max": 33,
+        "textos_truncados": 0,
+        "tiempo_embeddings_s": 10.242969884000559,
+        "embeddings_por_segundo": 40.90610484508744,
+        "vram_pico_embeddings_allocated_bytes": 2656789504,
+        "vram_pico_embeddings_reserved_bytes": 2856321024,
+        "persistencia": "419 nuevos embeddings; ningún fragmento creado/modificado",
+        "tiempo_guardado_o_verificacion_s": 0.21166903999983333,
+        "embeddings_elegibles": 419,
+        "tiempo_consultas_15_s": 0.3680545870010974,
+        "tiempo_Q04_s": 0.07762765799998306,
+        "vram_pico_total_allocated_bytes": 2656789504,
+        "vram_pico_total_reserved_bytes": 2856321024
+      }
+    }
+  },
+  "por_consulta": {
+    "MD01": {
+      "alia": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 3,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "definicion_causas",
+          "consejo_practico",
+          "consejo_practico",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 3,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "otro_tema",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 4,
+          "asistido_preliminar": 6
+        },
+        "pertinentes_top5": 3,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "definicion_causas",
+          "consejo_practico",
+          "definicion_causas"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 4,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 1
+        }
+      }
+    },
+    "MD02": {
+      "alia": {
+        "primer_pertinente": 2,
+        "primer_pertinente_solo_humano": 2,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 2,
+        "primer_accionable": 2,
+        "categorias_top5": [
+          "definicion_causas",
+          "consejo_practico",
+          "introduccion_general",
+          "consejo_practico",
+          "preguntas_sin_respuesta"
+        ],
+        "no_accionables_antes_del_primer_accionable": 1,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 4,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 1
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 2,
+        "tipos_top10": {
+          "asistido_preliminar": 7,
+          "humano": 3
+        },
+        "pertinentes_top5": 4,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "definicion_causas",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 3,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 2
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 4,
+          "asistido_preliminar": 6
+        },
+        "pertinentes_top5": 2,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "definicion_causas",
+          "introduccion_general",
+          "consejo_practico",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 1,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 4
+        }
+      }
+    },
+    "MD03": {
+      "alia": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 5,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 2,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 1,
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 2
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 3,
+          "asistido_preliminar": 7
+        },
+        "pertinentes_top5": 2,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "definicion_causas",
+          "consejo_practico",
+          "otro_tema",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 3,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "definicion_causas",
+          "consejo_practico",
+          "consejo_practico",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 3,
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 2
+        }
+      }
+    },
+    "MD04": {
+      "alia": {
+        "primer_pertinente": 4,
+        "primer_pertinente_solo_humano": 4,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 1,
+        "primer_accionable": 4,
+        "categorias_top5": [
+          "definicion_causas",
+          "consejo_practico",
+          "definicion_causas",
+          "consejo_practico",
+          "lista_indice"
+        ],
+        "no_accionables_antes_del_primer_accionable": 2,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 3,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 1,
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 1
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 9,
+        "primer_pertinente_solo_humano": 9,
+        "tipos_top10": {
+          "asistido_preliminar": 6,
+          "humano": 4
+        },
+        "pertinentes_top5": 0,
+        "primer_accionable": 9,
+        "categorias_top5": [
+          "definicion_causas",
+          "otro_tema",
+          "definicion_causas",
+          "lista_indice",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 4,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 3,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 2
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 3,
+        "primer_pertinente_solo_humano": 3,
+        "tipos_top10": {
+          "humano": 4,
+          "asistido_preliminar": 6
+        },
+        "pertinentes_top5": 1,
+        "primer_accionable": 3,
+        "categorias_top5": [
+          "definicion_causas",
+          "definicion_causas",
+          "consejo_practico",
+          "consejo_practico",
+          "definicion_causas"
+        ],
+        "no_accionables_antes_del_primer_accionable": 2,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 3,
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 2
+        }
+      }
+    },
+    "MD05": {
+      "alia": {
+        "primer_pertinente": null,
+        "primer_pertinente_solo_humano": null,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 0,
+        "primer_accionable": null,
+        "categorias_top5": [
+          "definicion_causas",
+          "definicion_causas",
+          "definicion_causas",
+          "consejo_practico",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 4,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 1,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 4
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": null,
+        "primer_pertinente_solo_humano": null,
+        "tipos_top10": {
+          "humano": 3,
+          "asistido_preliminar": 7
+        },
+        "pertinentes_top5": 0,
+        "primer_accionable": null,
+        "categorias_top5": [
+          "definicion_causas",
+          "consejo_practico",
+          "otro_tema",
+          "otro_tema",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 3,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 1,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 4
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 5,
+        "primer_pertinente_solo_humano": null,
+        "tipos_top10": {
+          "humano": 3,
+          "asistido_preliminar": 7
+        },
+        "pertinentes_top5": 1,
+        "primer_accionable": 5,
+        "categorias_top5": [
+          "definicion_causas",
+          "otro_tema",
+          "definicion_causas",
+          "otro_tema",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 2,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 1,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 4
+        }
+      }
+    },
+    "MD06": {
+      "alia": {
+        "primer_pertinente": 3,
+        "primer_pertinente_solo_humano": 3,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 1,
+        "primer_accionable": 3,
+        "categorias_top5": [
+          "introduccion_general",
+          "definicion_causas",
+          "consejo_practico",
+          "definicion_causas",
+          "definicion_causas"
+        ],
+        "no_accionables_antes_del_primer_accionable": 2,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 5
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 5,
+        "tipos_top10": {
+          "asistido_preliminar": 7,
+          "humano": 3
+        },
+        "pertinentes_top5": 4,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "introduccion_general",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 4,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 2,
+        "tipos_top10": {
+          "asistido_preliminar": 7,
+          "humano": 3
+        },
+        "pertinentes_top5": 4,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "introduccion_general",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 4
+        }
+      }
+    },
+    "MD07": {
+      "alia": {
+        "primer_pertinente": null,
+        "primer_pertinente_solo_humano": null,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 0,
+        "primer_accionable": null,
+        "categorias_top5": [
+          "introduccion_general",
+          "introduccion_general",
+          "lista_indice",
+          "lista_indice",
+          "lista_indice"
+        ],
+        "no_accionables_antes_del_primer_accionable": 5,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 4,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": null,
+        "primer_pertinente_solo_humano": null,
+        "tipos_top10": {
+          "asistido_preliminar": 7,
+          "humano": 3
+        },
+        "pertinentes_top5": 0,
+        "primer_accionable": null,
+        "categorias_top5": [
+          "consejo_practico",
+          "introduccion_general",
+          "consejo_practico",
+          "otro_tema",
+          "lista_indice"
+        ],
+        "no_accionables_antes_del_primer_accionable": 7,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 4
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 2,
+        "primer_pertinente_solo_humano": null,
+        "tipos_top10": {
+          "asistido_preliminar": 9,
+          "humano": 1
+        },
+        "pertinentes_top5": 3,
+        "primer_accionable": 2,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "lista_indice"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 3,
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 1
+        }
+      }
+    },
+    "MD08": {
+      "alia": {
+        "primer_pertinente": 2,
+        "primer_pertinente_solo_humano": 2,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 2,
+        "primer_accionable": 2,
+        "categorias_top5": [
+          "lista_indice",
+          "consejo_practico",
+          "definicion_causas",
+          "lista_indice",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 1,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 2,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 2,
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 1
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 2,
+          "asistido_preliminar": 8
+        },
+        "pertinentes_top5": 1,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "otro_tema",
+          "lista_indice",
+          "introduccion_general",
+          "lista_indice"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 4,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 3,
+          "asistido_preliminar": 7
+        },
+        "pertinentes_top5": 2,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "lista_indice",
+          "consejo_practico",
+          "consejo_practico",
+          "lista_indice"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 2,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1,
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 2
+        }
+      }
+    },
+    "MD09": {
+      "alia": {
+        "primer_pertinente": 4,
+        "primer_pertinente_solo_humano": 4,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 1,
+        "primer_accionable": 4,
+        "categorias_top5": [
+          "consejo_practico",
+          "definicion_causas",
+          "definicion_causas",
+          "consejo_practico",
+          "lista_indice"
+        ],
+        "no_accionables_antes_del_primer_accionable": 2,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 2,
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 1,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 2
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 2,
+        "primer_pertinente_solo_humano": 2,
+        "tipos_top10": {
+          "humano": 3,
+          "asistido_preliminar": 7
+        },
+        "pertinentes_top5": 3,
+        "primer_accionable": 2,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "otro_tema",
+          "consejo_practico",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 3,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1,
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 1
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 3,
+        "tipos_top10": {
+          "asistido_preliminar": 8,
+          "humano": 2
+        },
+        "pertinentes_top5": 3,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 3,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 2
+        }
+      }
+    },
+    "MD10": {
+      "alia": {
+        "primer_pertinente": 4,
+        "primer_pertinente_solo_humano": 4,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 1,
+        "primer_accionable": 4,
+        "categorias_top5": [
+          "introduccion_general",
+          "definicion_causas",
+          "consejo_practico",
+          "consejo_practico",
+          "introduccion_general"
+        ],
+        "no_accionables_antes_del_primer_accionable": 2,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 5
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 2,
+        "primer_pertinente_solo_humano": 4,
+        "tipos_top10": {
+          "humano": 3,
+          "asistido_preliminar": 7
+        },
+        "pertinentes_top5": 2,
+        "primer_accionable": 2,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "introduccion_general",
+          "consejo_practico",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 5
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 5,
+        "primer_pertinente_solo_humano": 5,
+        "tipos_top10": {
+          "asistido_preliminar": 8,
+          "humano": 2
+        },
+        "pertinentes_top5": 1,
+        "primer_accionable": 5,
+        "categorias_top5": [
+          "lista_indice",
+          "consejo_practico",
+          "consejo_practico",
+          "introduccion_general",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 2,
+        "documentos_top5": {
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 3,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1,
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 1
+        }
+      }
+    },
+    "MD11": {
+      "alia": {
+        "primer_pertinente": 4,
+        "primer_pertinente_solo_humano": 4,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 1,
+        "primer_accionable": null,
+        "categorias_top5": [
+          "preguntas_sin_respuesta",
+          "preguntas_sin_respuesta",
+          "preguntas_sin_respuesta",
+          "definicion_causas",
+          "introduccion_general"
+        ],
+        "no_accionables_antes_del_primer_accionable": 7,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 2,
+        "tipos_top10": {
+          "asistido_preliminar": 5,
+          "humano": 5
+        },
+        "pertinentes_top5": 3,
+        "primer_accionable": null,
+        "categorias_top5": [
+          "definicion_causas",
+          "definicion_causas",
+          "definicion_causas",
+          "preguntas_sin_respuesta",
+          "preguntas_sin_respuesta"
+        ],
+        "no_accionables_antes_del_primer_accionable": 8,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 5,
+        "tipos_top10": {
+          "asistido_preliminar": 6,
+          "humano": 4
+        },
+        "pertinentes_top5": 4,
+        "primer_accionable": null,
+        "categorias_top5": [
+          "definicion_causas",
+          "definicion_causas",
+          "preguntas_sin_respuesta",
+          "definicion_causas",
+          "definicion_causas"
+        ],
+        "no_accionables_antes_del_primer_accionable": 9,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      }
+    },
+    "MD12": {
+      "alia": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 2,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "definicion_causas",
+          "consejo_practico",
+          "otro_tema",
+          "definicion_causas"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 3,
+          "asistido_preliminar": 7
+        },
+        "pertinentes_top5": 3,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "definicion_causas",
+          "introduccion_general"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 3,
+        "tipos_top10": {
+          "asistido_preliminar": 7,
+          "humano": 3
+        },
+        "pertinentes_top5": 4,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "introduccion_general",
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 2,
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 3
+        }
+      }
+    },
+    "MD13": {
+      "alia": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 4,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "definicion_causas",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 4,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 4,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "definicion_causas"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 4,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 4,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "definicion_causas",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 4,
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 1
+        }
+      }
+    },
+    "MD14": {
+      "alia": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 4,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "introduccion_general",
+          "consejo_practico",
+          "consejo_practico",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 4,
+          "asistido_preliminar": 6
+        },
+        "pertinentes_top5": 4,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "introduccion_general",
+          "consejo_practico",
+          "consejo_practico",
+          "introduccion_general"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 3,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 2
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 4,
+          "asistido_preliminar": 6
+        },
+        "pertinentes_top5": 4,
+        "primer_accionable": 1,
+        "categorias_top5": [
+          "consejo_practico",
+          "consejo_practico",
+          "lista_indice",
+          "introduccion_general",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 4,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 1
+        }
+      }
+    },
+    "MD15": {
+      "alia": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 5,
+          "asistido_preliminar": 5
+        },
+        "pertinentes_top5": 5,
+        "primer_accionable": 2,
+        "categorias_top5": [
+          "introduccion_general",
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 1,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      },
+      "qwen3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 4,
+          "asistido_preliminar": 6
+        },
+        "pertinentes_top5": 5,
+        "primer_accionable": 2,
+        "categorias_top5": [
+          "introduccion_general",
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 1,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      },
+      "bge-m3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": 1,
+        "tipos_top10": {
+          "humano": 4,
+          "asistido_preliminar": 6
+        },
+        "pertinentes_top5": 3,
+        "primer_accionable": 2,
+        "categorias_top5": [
+          "introduccion_general",
+          "consejo_practico",
+          "consejo_practico",
+          "preguntas_sin_respuesta",
+          "otro_tema"
+        ],
+        "no_accionables_antes_del_primer_accionable": 1,
+        "documentos_top5": {
+          "La radioterapia y usted: Apoyo para las personas con cáncer": 5
+        }
+      }
+    },
+    "Q04": {
+      "alia": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": null,
+        "tipos_top10": {
+          "asistido_preliminar": 10
+        },
+        "pertinentes_top5": 1,
+        "primer_accionable": null,
+        "categorias_top5": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "no_accionables_antes_del_primer_accionable": 0,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 5
+        },
+        "rank_primer_fragmento_pertinente": 1,
+        "rank_fragmento_objetivo_historico": 54,
+        "similitud_objetivo": 0.40653939266620276,
+        "total_ranking": 419
+      },
+      "qwen3": {
+        "primer_pertinente": 1,
+        "primer_pertinente_solo_humano": null,
+        "tipos_top10": {
+          "asistido_preliminar": 10
+        },
+        "pertinentes_top5": 1,
+        "primer_accionable": null,
+        "categorias_top5": [
+          null,
+          "definicion_causas",
+          "definicion_causas",
+          "otro_tema",
+          "lista_indice"
+        ],
+        "no_accionables_antes_del_primer_accionable": 5,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 4,
+          "Consejos de alimentación: antes, durante y después del tratamiento del cáncer": 1
+        },
+        "rank_primer_fragmento_pertinente": 1,
+        "rank_fragmento_objetivo_historico": 22,
+        "similitud_objetivo": 0.5749478593499755,
+        "total_ranking": 419
+      },
+      "bge-m3": {
+        "primer_pertinente": 2,
+        "primer_pertinente_solo_humano": null,
+        "tipos_top10": {
+          "asistido_preliminar": 10
+        },
+        "pertinentes_top5": 3,
+        "primer_accionable": 5,
+        "categorias_top5": [
+          "definicion_causas",
+          null,
+          null,
+          "consejo_practico",
+          "consejo_practico"
+        ],
+        "no_accionables_antes_del_primer_accionable": 1,
+        "documentos_top5": {
+          "La quimioterapia y usted: Apoyo para las personas con cáncer": 5
+        },
+        "rank_primer_fragmento_pertinente": 2,
+        "rank_fragmento_objetivo_historico": 5,
+        "similitud_objetivo": 0.5548933744430582,
+        "total_ranking": 419
+      }
+    }
+  },
+  "procedencia": {
+    "slots": {
+      "humano": 179,
+      "asistido_preliminar": 301
+    },
+    "pares_unicos": {
+      "humano": 75,
+      "asistido_preliminar": 210
+    }
+  }
+}
