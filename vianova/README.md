@@ -55,6 +55,47 @@ cd frontend && npm install && npm run dev     # http://localhost:5173 (usa el ba
 npm run build                                 # regenera frontend/dist
 ```
 
+### Prototipo integrado (RAG: BGE-M3 + pgvector + qwen2.5:7b en Ollama)
+
+La pantalla **Consultar** (`#/consultar`) responde con un RAG completo y local. Primero recupera los Top-3 fragmentos de las guías del NCI en `rag-engine` (`../rag-engine`). Luego `qwen2.5:7b`, servido por Ollama en local, redacta una respuesta breve basada solo en esos fragmentos. Debajo se muestran las **fuentes utilizadas**, con entidad, documento, sección y página, y el botón **Ver evidencia recuperada** despliega los fragmentos originales. El asistente anterior, que usa el corpus de demostración, sigue disponible en `#/asistente`.
+
+Flujo: frontend → `POST /api/rag/search` (backend :8000) → `RAG_API_URL` (rag-engine :8001, `top_k=3`) → reglas de `safety.py` → Ollama `OLLAMA_URL` (`/api/chat`, `OLLAMA_MODEL`, sin streaming, temperatura 0) → verificación → respuesta, fuentes y evidencia.
+
+Controles contra alucinaciones (`backend/app/rag/grounded.py`):
+
+1. Las reglas deterministas tienen prioridad. La alerta de urgencia siempre se muestra, diga lo que diga el modelo. Las consultas fuera de alcance (dosis, diagnóstico, pronóstico, cambios de tratamiento) se responden sin llamar al LLM.
+2. **Abstención previa:** si no hay resultados o la similitud del mejor fragmento es menor que `RAG_MIN_SCORE` (0.50), no se llama al LLM. El umbral se calibró a mano con unas 16 consultas: las de fuera del corpus quedaron en ≤ 0.49 y las cubiertas en ≥ 0.52. Es una regla mínima de demo, no un resultado de evaluación.
+3. **Prompt restrictivo:** solo fuentes, una cita `[n]` por oración, y la frase "Las fuentes recuperadas no indican…" cuando falta información. Si no hay información suficiente, el modelo devuelve la frase de abstención exacta.
+4. **Verificación posterior:** se eliminan las oraciones con menos del 60 % de palabras de contenido presentes en las fuentes (`text.coverage`). En las frases "Las fuentes no indican…, pero…" se recorta lo que va después del "pero". Una cantidad con unidad de medicamento (por ejemplo "8 mg") que no esté en las fuentes descarta la respuesta. Si no queda nada respaldado, el sistema se abstiene.
+5. Si Ollama está caído, es lento o responde algo inválido, se muestra "No fue posible generar una explicación…" y la evidencia recuperada queda a la vista.
+
+```bash
+# 1. Levantar PostgreSQL + pgvector
+cd ../rag-engine && docker compose up -d
+# 2. Levantar RAG :8001 (sin conexión a Hugging Face; el modelo debe estar en caché)
+source .venv/bin/activate && HF_HUB_OFFLINE=1 uvicorn src.api.app:app --host 0.0.0.0 --port 8001
+curl http://localhost:8001/health          # "status":"ok", "embeddings":419
+# 3. Levantar backend :8000 (otra terminal)
+cd vianova/backend && source .venv/bin/activate && RAG_API_URL=http://127.0.0.1:8001 uvicorn app.main:app --port 8000
+# 4. Frontend: el backend ya sirve frontend/dist. Para desarrollo: cd vianova/frontend && npm run dev   (:5173)
+# 5. Abrir http://localhost:8000/#/consultar  (o :5173) con demo@vianova.local / Demo2026!
+```
+
+**Arranque en un solo paso:** `./run_demo.sh` (o `./run_demo.sh --vite`) deja lista toda la demo y reutiliza los servicios que ya estén levantados:
+
+1. PostgreSQL + pgvector.
+2. RAG Engine en :8001 (`HF_HUB_OFFLINE=1`).
+3. Ollama en :11434. Si su API (`/api/tags`) no responde, el script lo inicia: con `systemctl start ollama` si existe el servicio systemd (instalación oficial en Linux; puede pedir contraseña) o, si no, con `ollama serve` en segundo plano (log en `/tmp/vianova-ollama.log`). Después reintenta cada 0,5 s hasta 30 s.
+4. Backend en :8000.
+5. Vite en :5173 (solo con `--vite`).
+
+Sobre Ollama:
+
+- El script nunca ejecuta `ollama run` ni descarga modelos.
+- `qwen2.5:7b` debe estar instalado de antemano (`ollama pull qwen2.5:7b`). Si falta, el script se detiene y lo indica.
+- No se precarga el modelo: Qwen se carga en memoria con la primera consulta, que tarda unos segundos más, y queda cargado 30 min (`keep_alive`).
+- Un Ollama que ya estaba en marcha se reutiliza y nunca se detiene. Ctrl+C solo detiene lo que el script inició, salvo PostgreSQL y Ollama.
+
 ---
 
 ## 2. Requerimientos y pantallas
@@ -144,6 +185,8 @@ Ver `.env.example`. Las principales son:
 - `LLM_PROVIDER`: `local` por defecto, `anthropic` u `openai`.
 - `ANTHROPIC_API_KEY` u `OPENAI_API_KEY`.
 - `RAG_TAU` y `RAG_MIN_COVERAGE`.
+- `OLLAMA_URL` (`http://127.0.0.1:11434`), `OLLAMA_MODEL` (`qwen2.5:7b`), `OLLAMA_TIMEOUT` (60 s) y `RAG_MIN_SCORE` (0.50): generación local de la pantalla Consultar.
+- `RAG_API_URL` (por defecto `http://127.0.0.1:8001`): URL del motor `rag-engine` que usa la pantalla Consultar. También `RAG_API_TIMEOUT` (15 s) y `RAG_API_TOP_K` (3). El backend no lee el archivo `.env` por sí solo, así que esta variable debe exportarse antes de arrancarlo.
 - `W_SEM`, `W_CTX`, `W_REG` y `W_PREF`, los pesos del recomendador, que deben sumar 1.
 - `ON_TIME_TOLERANCE_MIN`.
 - `DATABASE_URL`, por ejemplo PostgreSQL.

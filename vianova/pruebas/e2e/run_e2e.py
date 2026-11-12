@@ -211,7 +211,7 @@ def e2e05(page, c):
 
 
 def e2e06(page, c):
-    go(page, "consultar", "Consultar")
+    go(page, "asistente", "Consultar")   # asistente con corpus de demostración (antes #/consultar)
     page.locator("textarea").fill("¿Qué puede comer si tiene llagas en la boca?")
     tap(page, c, role="button", name="Preguntar", exact=True)
     page.wait_for_selector("article.answer.respondida")
@@ -227,7 +227,7 @@ def e2e06(page, c):
 
 
 def e2e07(page, c):
-    page.goto(BASE + "/#/consultar"); page.reload()
+    page.goto(BASE + "/#/asistente"); page.reload()
     page.get_by_role("heading", name="Consultar").first.wait_for()
     page.locator("textarea").fill("¿Cómo cuido la piel durante la radioterapia?")
     tap(page, c, role="button", name="Preguntar", exact=True)
@@ -333,7 +333,7 @@ def e2e14(page, c):
 # ----------------------------------------------------------------------------- configuración (tamaños de pantalla)
 VIEWPORTS = [("Teléfono pequeño 320×568", 320, 568), ("Teléfono 390×844", 390, 844), ("Android 412×915", 412, 915),
              ("Tableta 768×1024", 768, 1024), ("Escritorio 1366×768", 1366, 768)]
-CONFIG_PAGES = [("inicio", "Buen"), ("agenda", "Agenda de cuidado"), ("registrar", "Registrar"), ("consultar", "Consultar"),
+CONFIG_PAGES = [("inicio", "Buen"), ("agenda", "Agenda de cuidado"), ("registrar", "Registrar"), ("consultar", "¿En qué podemos ayudarte?"),
                 ("recomendaciones", "Recomendaciones"), ("privacidad", "Privacidad")]
 
 

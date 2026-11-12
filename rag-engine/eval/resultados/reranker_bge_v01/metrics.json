@@ -1,0 +1,456 @@
+{
+  "version": "4B-reranker-bge-v01",
+  "fecha_utc": "2026-11-12T19:14:47.037511+00:00",
+  "consultas_metricas": "MD01-MD15 (Q04 se analiza por separado, como en 4A.1)",
+  "reglas": {
+    "estricto": "Humano original Sí=pertinente/No=no; revisión 4A.1 solo grado 2=pertinente.",
+    "laxo": "Humano original Sí=pertinente/No=no; revisión 4A.1 grados 1 o 2=pertinente.",
+    "precedencia": "humano_revision_4a1 > asistido_preliminar; humano_original se conserva inmutable."
+  },
+  "baseline": {
+    "strict": {
+      "consultas": 15,
+      "Hit@1": 0.6,
+      "Hit@3": 0.8,
+      "Hit@5": 1.0,
+      "Hit@10": 1.0,
+      "Hit@1_count": 9,
+      "Hit@3_count": 12,
+      "Hit@5_count": 15,
+      "Hit@10_count": 15,
+      "MRR@10": 0.7288888888888889,
+      "primer_pertinente_por_consulta": {
+        "MD01": 1,
+        "MD02": 1,
+        "MD03": 1,
+        "MD04": 3,
+        "MD05": 5,
+        "MD06": 2,
+        "MD07": 2,
+        "MD08": 1,
+        "MD09": 1,
+        "MD10": 5,
+        "MD11": 5,
+        "MD12": 1,
+        "MD13": 1,
+        "MD14": 1,
+        "MD15": 1
+      }
+    },
+    "lenient": {
+      "consultas": 15,
+      "Hit@1": 0.7333333333333333,
+      "Hit@3": 1.0,
+      "Hit@5": 1.0,
+      "Hit@10": 1.0,
+      "Hit@1_count": 11,
+      "Hit@3_count": 15,
+      "Hit@5_count": 15,
+      "Hit@10_count": 15,
+      "MRR@10": 0.8444444444444444,
+      "primer_pertinente_por_consulta": {
+        "MD01": 1,
+        "MD02": 1,
+        "MD03": 1,
+        "MD04": 3,
+        "MD05": 2,
+        "MD06": 1,
+        "MD07": 2,
+        "MD08": 1,
+        "MD09": 1,
+        "MD10": 3,
+        "MD11": 1,
+        "MD12": 1,
+        "MD13": 1,
+        "MD14": 1,
+        "MD15": 1
+      }
+    }
+  },
+  "reranker": {
+    "strict": {
+      "consultas": 15,
+      "Hit@1": 0.5333333333333333,
+      "Hit@3": 0.8666666666666667,
+      "Hit@5": 1.0,
+      "Hit@10": 1.0,
+      "Hit@1_count": 8,
+      "Hit@3_count": 13,
+      "Hit@5_count": 15,
+      "Hit@10_count": 15,
+      "MRR@10": 0.7222222222222222,
+      "primer_pertinente_por_consulta": {
+        "MD01": 1,
+        "MD02": 2,
+        "MD03": 2,
+        "MD04": 4,
+        "MD05": 3,
+        "MD06": 1,
+        "MD07": 4,
+        "MD08": 1,
+        "MD09": 1,
+        "MD10": 2,
+        "MD11": 1,
+        "MD12": 1,
+        "MD13": 2,
+        "MD14": 1,
+        "MD15": 1
+      }
+    },
+    "lenient": {
+      "consultas": 15,
+      "Hit@1": 0.6666666666666666,
+      "Hit@3": 0.9333333333333333,
+      "Hit@5": 1.0,
+      "Hit@10": 1.0,
+      "Hit@1_count": 10,
+      "Hit@3_count": 14,
+      "Hit@5_count": 15,
+      "Hit@10_count": 15,
+      "MRR@10": 0.8055555555555556,
+      "primer_pertinente_por_consulta": {
+        "MD01": 1,
+        "MD02": 1,
+        "MD03": 2,
+        "MD04": 4,
+        "MD05": 1,
+        "MD06": 1,
+        "MD07": 3,
+        "MD08": 1,
+        "MD09": 1,
+        "MD10": 2,
+        "MD11": 1,
+        "MD12": 1,
+        "MD13": 2,
+        "MD14": 1,
+        "MD15": 1
+      }
+    }
+  },
+  "diferencia": {
+    "strict": {
+      "Hit@1_count": -1,
+      "Hit@3_count": 1,
+      "Hit@5_count": 0,
+      "Hit@10_count": 0,
+      "MRR@10": -0.00666666666666671
+    },
+    "lenient": {
+      "Hit@1_count": -1,
+      "Hit@3_count": -1,
+      "Hit@5_count": 0,
+      "Hit@10_count": 0,
+      "MRR@10": -0.03888888888888886
+    }
+  },
+  "por_consulta": {
+    "strict": {
+      "MD01": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD02": {
+        "antes": 1,
+        "despues": 2,
+        "cambio": "empeoró"
+      },
+      "MD03": {
+        "antes": 1,
+        "despues": 2,
+        "cambio": "empeoró"
+      },
+      "MD04": {
+        "antes": 3,
+        "despues": 4,
+        "cambio": "empeoró"
+      },
+      "MD05": {
+        "antes": 5,
+        "despues": 3,
+        "cambio": "mejoró"
+      },
+      "MD06": {
+        "antes": 2,
+        "despues": 1,
+        "cambio": "mejoró"
+      },
+      "MD07": {
+        "antes": 2,
+        "despues": 4,
+        "cambio": "empeoró"
+      },
+      "MD08": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD09": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD10": {
+        "antes": 5,
+        "despues": 2,
+        "cambio": "mejoró"
+      },
+      "MD11": {
+        "antes": 5,
+        "despues": 1,
+        "cambio": "mejoró"
+      },
+      "MD12": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD13": {
+        "antes": 1,
+        "despues": 2,
+        "cambio": "empeoró"
+      },
+      "MD14": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD15": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      }
+    },
+    "lenient": {
+      "MD01": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD02": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD03": {
+        "antes": 1,
+        "despues": 2,
+        "cambio": "empeoró"
+      },
+      "MD04": {
+        "antes": 3,
+        "despues": 4,
+        "cambio": "empeoró"
+      },
+      "MD05": {
+        "antes": 2,
+        "despues": 1,
+        "cambio": "mejoró"
+      },
+      "MD06": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD07": {
+        "antes": 2,
+        "despues": 3,
+        "cambio": "empeoró"
+      },
+      "MD08": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD09": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD10": {
+        "antes": 3,
+        "despues": 2,
+        "cambio": "mejoró"
+      },
+      "MD11": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD12": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD13": {
+        "antes": 1,
+        "despues": 2,
+        "cambio": "empeoró"
+      },
+      "MD14": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      },
+      "MD15": {
+        "antes": 1,
+        "despues": 1,
+        "cambio": "igual"
+      }
+    }
+  },
+  "q04": {
+    "baseline": {
+      "primer_pertinente_estricto": 2,
+      "primer_pertinente_laxo": 2,
+      "primer_fragmento_especifico_infeccion": 2,
+      "primer_fragmento_especifico_y_pertinente_estricto": 2,
+      "rank_fragmento_historico_p62": 5,
+      "fragmento_historico_id": "95e107ed-5b94-4ad3-8be6-b9af4bb40946"
+    },
+    "reranker": {
+      "primer_pertinente_estricto": 1,
+      "primer_pertinente_laxo": 1,
+      "primer_fragmento_especifico_infeccion": 1,
+      "primer_fragmento_especifico_y_pertinente_estricto": 1,
+      "rank_fragmento_historico_p62": 9,
+      "fragmento_historico_id": "95e107ed-5b94-4ad3-8be6-b9af4bb40946"
+    }
+  },
+  "md10_top5": {
+    "baseline": [
+      {
+        "rank": 1,
+        "fragmento_id": "1ba95068-943f-4706-9e6b-8fd7ecb3b529",
+        "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+        "pagina_inicio": 7,
+        "pagina_fin": 7,
+        "seccion": null,
+        "grado_humano": 0,
+        "pertinente_estricto": false,
+        "pertinente_laxo": false,
+        "observacion_humana": "Título suelto",
+        "texto_inicio": "Lo que debe saber sobre el tratamiento del cáncer, la buena alimentación y los problemas de alimentación"
+      },
+      {
+        "rank": 2,
+        "fragmento_id": "18ef2284-13c7-46a7-bee6-9ee6b9b825a3",
+        "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+        "pagina_inicio": 42,
+        "pagina_fin": 42,
+        "seccion": "¿Qué más puedo hacer?",
+        "grado_humano": 0,
+        "pertinente_estricto": false,
+        "pertinente_laxo": false,
+        "observacion_humana": "Habla de AUMENTO de peso y dieta para bajarlo: dirección opuesta a la consulta.",
+        "texto_inicio": "¿Qué más puedo hacer? Î Hable con un nutricionista. Le sugerirá formas de limitar la cantidad de sal que come si está aumentando de peso porque retiene líquidos. Un nutricionista también podrá ayudarlo a elegir alimentos saludables y hacer cambios saludables en sus recetas favori"
+      },
+      {
+        "rank": 3,
+        "fragmento_id": "070316df-7514-4b75-b109-baa644283cb7",
+        "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+        "pagina_inicio": 28,
+        "pagina_fin": 28,
+        "seccion": "Formas de controlar los cambios de apetito:",
+        "grado_humano": 1,
+        "pertinente_estricto": false,
+        "pertinente_laxo": true,
+        "observacion_humana": "Opciones médicas ante la pérdida de peso (medicinas para el apetito, IV, sonda) y remisión, no dice cómo enriquecer las comidas",
+        "texto_inicio": "• Tomar medicinas que aumenten su apetito • Recibir alimentación por vía intravenosa (por las venas, “IV”, en inglés) • Recibir nutrición por una sonda. El libro del Instituto Nacional del Cáncer titulado Consejos de alimentación para pacientes con cáncer: Antes, durante y despué"
+      },
+      {
+        "rank": 4,
+        "fragmento_id": "f54aed1f-f396-45f1-adb0-ef720a4b2358",
+        "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+        "pagina_inicio": 10,
+        "pagina_fin": 10,
+        "seccion": "¿Deberé seguir una dieta especial mientras reciba radioterapia?",
+        "grado_humano": 1,
+        "pertinente_estricto": false,
+        "pertinente_laxo": true,
+        "observacion_humana": "Importancia de calorías y proteínas para mantener el peso, remite a una tabla y al dietista sin dar ejemplos, viene de La radioterapia y usted",
+        "texto_inicio": "¿Deberé seguir una dieta especial mientras reciba radioterapia? Su cuerpo usa mucha energía para sanar durante la radioterapia. Es importante que coma suficientes calorías y proteínas para mantener el mismo peso durante este tiempo. Pregunte a su doctor o a su enfermera si necesi"
+      },
+      {
+        "rank": 5,
+        "fragmento_id": "1247440f-8f7d-458e-99fd-8f05ba341020",
+        "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+        "pagina_inicio": 44,
+        "pagina_fin": 44,
+        "seccion": "Consejos para controlar los problemas de alimentación",
+        "grado_humano": 2,
+        "pertinente_estricto": true,
+        "pertinente_laxo": true,
+        "observacion_humana": "Contenido sobre mantener/recuperar peso mediante alimentos ricos en calorías/proteínas; pertinente, aunque sin lista detallada de ingredientes.",
+        "texto_inicio": "Consejos para controlar los problemas de alimentación ¿Qué más puedo hacer? Î Hable con un nutricionista. Le dará ideas sobre cómo mantener o recuperar su peso. Esto incluye elegir alimentos ricos en proteínas y calorías, y adaptar sus recetas favoritas. Î Manténgase físicamente "
+      }
+    ],
+    "reranker": [
+      {
+        "rank": 1,
+        "fragmento_id": "18ef2284-13c7-46a7-bee6-9ee6b9b825a3",
+        "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+        "pagina_inicio": 42,
+        "pagina_fin": 42,
+        "seccion": "¿Qué más puedo hacer?",
+        "grado_humano": 0,
+        "pertinente_estricto": false,
+        "pertinente_laxo": false,
+        "observacion_humana": "Habla de AUMENTO de peso y dieta para bajarlo: dirección opuesta a la consulta.",
+        "texto_inicio": "¿Qué más puedo hacer? Î Hable con un nutricionista. Le sugerirá formas de limitar la cantidad de sal que come si está aumentando de peso porque retiene líquidos. Un nutricionista también podrá ayudarlo a elegir alimentos saludables y hacer cambios saludables en sus recetas favori"
+      },
+      {
+        "rank": 2,
+        "fragmento_id": "60095f38-1a97-43cf-8dc5-b41940ba714a",
+        "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+        "pagina_inicio": 43,
+        "pagina_fin": 43,
+        "seccion": "¿Cómo me alimento si tengo este problema?",
+        "grado_humano": 2,
+        "pertinente_estricto": true,
+        "pertinente_laxo": true,
+        "observacion_humana": "Responde directamente, horario fijo, comidas pequeñas, agregar proteínas y calorías (mantequilla de maní, aceite de oliva, nueces, aguacate), batidos, proteína en polvo",
+        "texto_inicio": "¿Cómo me alimento si tengo este problema? Î Siga un horario fijo para comer, en lugar de esperar a sentir hambre. Coma aunque no sienta hambre, mientras recibe tratamiento para el cáncer. Î Coma 5 o 6 comidas pequeñas cada día en lugar de 3 comidas grandes. A muchas personas les "
+      },
+      {
+        "rank": 3,
+        "fragmento_id": "f54aed1f-f396-45f1-adb0-ef720a4b2358",
+        "documento": "La radioterapia y usted: Apoyo para las personas con cáncer",
+        "pagina_inicio": 10,
+        "pagina_fin": 10,
+        "seccion": "¿Deberé seguir una dieta especial mientras reciba radioterapia?",
+        "grado_humano": 1,
+        "pertinente_estricto": false,
+        "pertinente_laxo": true,
+        "observacion_humana": "Importancia de calorías y proteínas para mantener el peso, remite a una tabla y al dietista sin dar ejemplos, viene de La radioterapia y usted",
+        "texto_inicio": "¿Deberé seguir una dieta especial mientras reciba radioterapia? Su cuerpo usa mucha energía para sanar durante la radioterapia. Es importante que coma suficientes calorías y proteínas para mantener el mismo peso durante este tiempo. Pregunte a su doctor o a su enfermera si necesi"
+      },
+      {
+        "rank": 4,
+        "fragmento_id": "1247440f-8f7d-458e-99fd-8f05ba341020",
+        "documento": "Consejos de alimentación: antes, durante y después del tratamiento del cáncer",
+        "pagina_inicio": 44,
+        "pagina_fin": 44,
+        "seccion": "Consejos para controlar los problemas de alimentación",
+        "grado_humano": 2,
+        "pertinente_estricto": true,
+        "pertinente_laxo": true,
+        "observacion_humana": "Contenido sobre mantener/recuperar peso mediante alimentos ricos en calorías/proteínas; pertinente, aunque sin lista detallada de ingredientes.",
+        "texto_inicio": "Consejos para controlar los problemas de alimentación ¿Qué más puedo hacer? Î Hable con un nutricionista. Le dará ideas sobre cómo mantener o recuperar su peso. Esto incluye elegir alimentos ricos en proteínas y calorías, y adaptar sus recetas favoritas. Î Manténgase físicamente "
+      },
+      {
+        "rank": 5,
+        "fragmento_id": "070316df-7514-4b75-b109-baa644283cb7",
+        "documento": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+        "pagina_inicio": 28,
+        "pagina_fin": 28,
+        "seccion": "Formas de controlar los cambios de apetito:",
+        "grado_humano": 1,
+        "pertinente_estricto": false,
+        "pertinente_laxo": true,
+        "observacion_humana": "Opciones médicas ante la pérdida de peso (medicinas para el apetito, IV, sonda) y remisión, no dice cómo enriquecer las comidas",
+        "texto_inicio": "• Tomar medicinas que aumenten su apetito • Recibir alimentación por vía intravenosa (por las venas, “IV”, en inglés) • Recibir nutrición por una sonda. El libro del Instituto Nacional del Cáncer titulado Consejos de alimentación para pacientes con cáncer: Antes, durante y despué"
+      }
+    ]
+  }
+}

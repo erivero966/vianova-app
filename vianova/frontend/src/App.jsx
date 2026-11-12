@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx'
 import Tasks from './pages/Tasks.jsx'
 import Register from './pages/Register.jsx'
 import Ask from './pages/Ask.jsx'
+import Sources from './pages/Sources.jsx'
 import Doc from './pages/Doc.jsx'
 import Summary from './pages/Summary.jsx'
 import Devices from './pages/Devices.jsx'
@@ -27,10 +28,11 @@ const STAFF_NAV = {
 }
 const STAFF_HOME = { curador: 'corpus', investigador: 'investigacion', admin: 'usuarios' }
 
-function EnvBanner() {
+function EnvBanner({ compact = false }) {
   const [env, setEnv] = useState(null)
   useEffect(() => { fetch('/api/health').then(r => r.json()).then(d => setEnv(d.ambiente)).catch(() => {}) }, [])
   if (!env || env === 'produccion') return null
+  if (compact) return <span className="env-tag" title={`Ambiente de ${env}: solo datos ficticios`}>Demo</span>
   return <div className={`env-banner ${env}`} role="note">Ambiente de {env === 'pruebas' ? 'PRUEBAS / CALIDAD' : 'DESARROLLO'} · solo datos ficticios</div>
 }
 
@@ -137,7 +139,7 @@ export default function App() {
     content = {
       '': <Home user={user} />, inicio: <Home user={user} />, agenda: <Tasks />, tareas: <Tasks />, registrar: <Register />,
       recomendaciones: <Recommendations />, avisos: <Alerts />, recordatorios: <Reminders />, privacidad: <Privacy />,
-      consultar: <Ask />, documento: <Doc id={arg} />, resumen: <Summary />, dispositivos: <Devices />,
+      consultar: <Sources user={user} />, asistente: <Ask />, documento: <Doc id={arg} />, resumen: <Summary />, dispositivos: <Devices />,
       perfil: <Profile onSaved={() => api('/api/auth/me').then(setUser)} />,
       mas: <More user={user} logout={logout} />,
     }[page] ?? <Home user={user} />
@@ -154,9 +156,9 @@ export default function App() {
   return (
     <div className="app">
       <a className="skip-link" href="#contenido">Saltar al contenido</a>
-      <EnvBanner />
+      {page !== 'consultar' && <EnvBanner />}
       <header className="topbar">
-        <a href="#/" className="brand"><span className="logo" aria-hidden="true">♥</span> Vianova</a>
+        <a href="#/" className="brand"><span className="logo" aria-hidden="true">♥</span> Vianova{page === 'consultar' && <EnvBanner compact />}</a>
         <div className="topbar-right">
           {user.role !== 'cuidador' && (
             <nav className="staff-nav" aria-label="Módulos">
@@ -174,7 +176,7 @@ export default function App() {
       {user.role === 'cuidador' && (
         <nav className="bottomnav" aria-label="Navegación principal">
           {CAREGIVER_NAV.map(([k, label, icon]) => {
-            const active = (page || 'inicio') === k || (k === 'agenda' && page === 'tareas') || (k === 'mas' && MORE_PAGES.includes(page))
+            const active = (page || 'inicio') === k || (k === 'agenda' && page === 'tareas') || (k === 'consultar' && page === 'asistente') || (k === 'mas' && MORE_PAGES.includes(page))
             return (
               <a key={k} href={`#/${k}`} className={active ? 'active' : ''} aria-current={active ? 'page' : undefined}>
                 <span className="ico" aria-hidden="true">{icon}</span><span>{label}</span>

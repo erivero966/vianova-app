@@ -1,0 +1,69 @@
+{
+  "fecha_utc": "2026-11-12T19:14:47.037511+00:00",
+  "modelo": {
+    "model_id": "BAAI/bge-reranker-v2-m3",
+    "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "parametros": 567755777,
+    "tipo": "cross-encoder",
+    "salida": "score de CrossEncoder.predict (activación por defecto de sentence-transformers)"
+  },
+  "configuracion": {
+    "candidatos": "Top-10 BGE-M3 congelado (4A)",
+    "top_k": 10,
+    "max_length": 1024,
+    "batch_size": 10,
+    "dtype": "float32",
+    "device": "cuda",
+    "desempate": "rank original BGE-M3",
+    "pares_truncados": 0,
+    "tokens_par_max": 500
+  },
+  "entradas": {
+    "eval/resultados/model_comparison_v01/bge_m3.json": "7b78712c8dbb2eb4ac7f0db2e9cf17101e4e5701ecec1bc911452c9eb90bd8b8",
+    "eval/resultados/model_comparison_v01/judgments_human_reviewed.json": "c6e52df6ca0b87a85071dfc15b79b3aaa3844fc814a929f5d555c2fb7a9ac9e4",
+    "eval/resultados/model_comparison_v01/metrics_human_reviewed.json": "5452bbeda8a2d8fe728b9b26f67b23fcc05b4b110ac67b4eae65310f2155f3a7"
+  },
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "vram_total_bytes": 8184725504,
+    "parametros_en": [
+      "cuda:0"
+    ],
+    "offload": false
+  },
+  "tiempos": {
+    "carga_modelo_s": 1.721133197999734,
+    "pasada_1_total_s": 9.69533048700032,
+    "pasada_2_total_s": 9.669134861000202,
+    "consultas": 16,
+    "pares": 160,
+    "pasada_2_media_ms_por_consulta": 604.2634658749648,
+    "pasada_2_max_ms_por_consulta": 620.0391709990072,
+    "pasada_1_primera_consulta_ms": 718.4157610008697
+  },
+  "vram": {
+    "torch_pico_asignado_bytes": 2509010944,
+    "torch_pico_reservado_bytes": 2826960896,
+    "nvidia_smi_usado_antes_mib": 2324,
+    "nvidia_smi_usado_despues_mib": 5142,
+    "nota": "nvidia-smi incluye otros procesos (API rag-engine con BGE-M3, Ollama)"
+  },
+  "reproducibilidad": {
+    "mismo_orden_en_2_pasadas": true,
+    "max_diff_score": 0.0
+  },
+  "complementario_fp16": {
+    "media_ms_por_consulta": 161.48976762485745,
+    "max_ms_por_consulta": 171.6118809999898,
+    "consultas_con_mismo_orden_que_fp32": 16,
+    "consultas": 16,
+    "max_diff_score": 0.0024487078189849854,
+    "vram_pico_asignado_bytes": 2279675392
+  },
+  "software": {
+    "python": "3.13.13",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.20.2",
+    "sentence-transformers": "6.2.0"
+  }
+}

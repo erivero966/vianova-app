@@ -1,5 +1,6 @@
 """Consulta RAG, recomendaciones, lectura de documentos y administración del corpus."""
 import re
+import time
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
@@ -7,7 +8,9 @@ from sqlalchemy.orm import Session
 from ..db import get_db
 from ..logs import log_event, audit
 from ..models import User, Document, Chunk, Feedback
+from ..rag import engine_client, grounded
 from ..rag.assistant import ask
+from ..rag.safety import is_urgent, URGENT_MESSAGE
 from ..rag.corpus import upsert_document, bump_version, current_version, pdf_to_text, rebuild_chunks
 from ..rag.index import INDEX
 from ..recommender import recommend
@@ -32,6 +35,53 @@ def assistant(data: AskIn, user: User = Depends(cuidador), db: Session = Depends
               fuente_id=";".join(s["doc_id"] for s in res["sources"]), version_corpus=res["corpus_version"],
               duracion_ms=res["duration_ms"])
     return res
+
+
+class RagSearchIn(BaseModel):
+    query: str = Field(min_length=1, max_length=600)
+    channel: str = Field(default="texto", pattern="^(texto|voz)$")
+
+
+RAG_UNAVAILABLE = "No se pudo consultar la base de conocimiento en este momento. Inténtalo nuevamente."
+
+
+@router.post("/rag/search")
+def rag_search(data: RagSearchIn, user: User = Depends(cuidador), db: Session = Depends(get_db)):
+    """RAG completo: retrieval en rag-engine (BGE-M3 + pgvector) -> reglas de seguridad -> qwen2.5:7b (Ollama local).
+
+    La respuesta incluye los Top-K originales (`sources`) para la evidencia. Si Ollama falla, las fuentes se
+    devuelven igual con un aviso (`answer_status = sin_generacion`).
+    """
+    query = data.query.strip()
+    if not query:
+        raise HTTPException(422, "Escribe una consulta antes de continuar.")
+    start = time.perf_counter()
+    try:
+        res = engine_client.search(query)
+    except engine_client.RagEngineError:
+        log_event(db, user, "consulta_rag", "fuentes_verificadas", canal=data.channel, resultado="error",
+                  duracion_ms=int((time.perf_counter() - start) * 1000))
+        raise HTTPException(503, RAG_UNAVAILABLE)
+    retrieval_ms = int((time.perf_counter() - start) * 1000)
+    sources = res["results"]
+    gen = grounded.answer(query, sources)
+    total_ms = int((time.perf_counter() - start) * 1000)
+    # Fuentes utilizadas: las citadas por el modelo ([n] = posición en el contexto); si no cita, todas las entregadas.
+    used = [sources[i - 1]["rank"] for i in gen["cited"]] or (
+        [s["rank"] for s in sources] if gen["status"] == "respondida" else [])
+    log_event(db, user, "consulta_rag", "fuentes_verificadas", canal=data.channel,
+              resultado={"respondida": "exito", "sin_generacion": "error"}.get(gen["status"], "abstencion"),
+              fuente_id=";".join(f"{s['document'][:30]} p.{s['page_start']}" for s in sources if s["rank"] in used),
+              duracion_ms=total_ms)
+    return {
+        "query": query,
+        "answer": gen["answer"],
+        "answer_status": gen["status"],
+        "sources": [dict(s, used=s["rank"] in used) for s in sources],
+        "urgent": is_urgent(query),               # regla determinista: no depende del LLM
+        "urgent_message": URGENT_MESSAGE,
+        "timing_ms": {"retrieval": retrieval_ms, "total": total_ms},
+    }
 
 
 @router.get("/recommendations")

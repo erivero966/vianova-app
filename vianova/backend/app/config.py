@@ -72,6 +72,19 @@ RAG_EMBED_DIM = int(os.getenv("RAG_EMBED_DIM", "64"))
 RAG_DENSE_WEIGHT = float(os.getenv("RAG_DENSE_WEIGHT", "0.3"))
 RAG_TOP_K = int(os.getenv("RAG_TOP_K", "5"))
 
+# Motor RAG externo (rag-engine: BGE-M3 + PostgreSQL/pgvector). El backend actúa como intermediario.
+RAG_API_URL = os.getenv("RAG_API_URL", "http://127.0.0.1:8001").rstrip("/")
+RAG_API_TIMEOUT = float(os.getenv("RAG_API_TIMEOUT", "15"))
+RAG_API_TOP_K = int(os.getenv("RAG_API_TOP_K", "3"))
+# Abstención mínima antes de generar: similitud coseno del mejor fragmento (BGE-M3). Calibrado a mano con
+# consultas dentro/fuera del corpus NCI (fuera: <= 0.49; dentro: >= 0.52). No es un resultado de evaluación.
+RAG_MIN_SCORE = float(os.getenv("RAG_MIN_SCORE", "0.50"))
+
+# Generación local con Ollama (sin servicios externos)
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://127.0.0.1:11434").rstrip("/")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:7b")
+OLLAMA_TIMEOUT = float(os.getenv("OLLAMA_TIMEOUT", "60"))
+
 # Recomendador: pesos w1..w4 (deben sumar 1)
 W_SEM = float(os.getenv("W_SEM", "0.45"))
 W_CTX = float(os.getenv("W_CTX", "0.25"))

@@ -499,6 +499,79 @@ Cada página conserva su número físico 1-based. Cada fragmento guarda `pagina_
 - `parametros`: versiones del pipeline, extractor (PyMuPDF/MuPDF) y limpieza, `chunk_size_tokens`, `chunk_overlap_tokens`, tokenizer, modelo, dimensión, normalización.
 - `metricas`: páginas, caracteres, chunks, tokens min/max/promedio/mediana, embeddings, patrones eliminados, y tiempos de extracción, limpieza+chunking, embeddings, guardado y total.
 
+## 9. API del prototipo
+
+API HTTP (FastAPI) que expone **solo el retrieval ya implementado**: BGE-M3 dense (1024d) → pgvector, búsqueda exacta por distancia coseno, con los filtros normales del corpus (versión `activa`, `tipo_contenido = 'contenido'`). No incluye reranker, BM25, búsqueda híbrida ni LLM, y no genera respuestas: devuelve fragmentos con su fuente.
+
+```bash
+docker compose up -d
+source .venv/bin/activate
+uvicorn src.api.app:app --host 0.0.0.0 --port 8000
+# equivalente: python scripts/run_api.py --port 8000
+```
+
+- Swagger: <http://localhost:8000/docs>
+- El modelo se carga **una vez** al iniciar (CUDA si está disponible) y se reutiliza. Use un único worker: cada worker cargaría otra copia en la GPU.
+- Al arrancar se registran modelo, device, dimensión, base y nº de embeddings BGE-M3.
+- El backend del prototipo (`vianova/backend`) también usa el puerto 8000; si se ejecutan a la vez, levante esta API con `--port 8001`.
+- CORS: por defecto `http://localhost:5173` y `http://127.0.0.1:5173` (Vite). Otros orígenes: `API_CORS_ORIGINS="http://a:1,http://b:2"`.
+
+### Endpoints
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| GET | `/health` | Estado; comprueba conexión real a PostgreSQL. 503 si la base o el modelo no están disponibles. |
+| POST | `/api/rag/search` | Top-K fragmentos. `query` obligatoria y no vacía; `top_k` entre 1 y 10 (por defecto 3). |
+
+Códigos: `422` request inválido, `503` base o modelo no disponibles, `500` error inesperado (sin stack trace; el detalle queda en el log del servidor).
+
+### Ejemplo
+
+```bash
+curl -X POST http://localhost:8000/api/rag/search \
+  -H "Content-Type: application/json" \
+  -d '{"query": "náuseas después de la quimioterapia", "top_k": 3}'
+```
+
+Respuesta real (texto recortado):
+
+```json
+{
+  "query": "náuseas después de la quimioterapia",
+  "model": "BAAI/bge-m3",
+  "top_k": 3,
+  "results": [
+    {
+      "rank": 1,
+      "fragment_id": "da86be80-4b90-4385-a531-e982ae6c3b7a",
+      "score": 0.69522,
+      "distance": 0.30478,
+      "text": "Náuseas y vómitos\n\n¿Qué son y por qué suceden?\n\nAlgunos tipos de quimioterapia pueden causar náuseas, vómitos o ambos. …",
+      "document": "La quimioterapia y usted: Apoyo para las personas con cáncer",
+      "entity": "National Cancer Institute (NCI)",
+      "version": "2019",
+      "section": "Náuseas y vómitos",
+      "page_start": 65,
+      "page_end": 65
+    }
+  ]
+}
+```
+
+`score` = similitud coseno = `1 - distance`. `page_start`/`page_end` son páginas físicas del PDF.
+
+```bash
+curl http://localhost:8000/health
+# {"status":"ok","database":"connected","model":"BAAI/bge-m3","retrieval":"pgvector_exact","device":"cuda","dimension":1024,"embeddings":419}
+```
+
+### Pruebas
+
+```bash
+pytest -q tests/test_api.py                          # rápidas: sin modelo ni base
+pytest -q -m integration tests/test_api_integration.py  # BGE-M3 real + vianova_rag (solo lectura)
+```
+
 ## Versiones validadas
 
 Ejecutado en Linux (Fedora 42) con NVIDIA GeForce RTX 4060 Laptop GPU:
@@ -515,6 +588,7 @@ Ejecutado en Linux (Fedora 42) con NVIDIA GeForce RTX 4060 Laptop GPU:
 | PyMuPDF | 2.0 (MuPDF 1.28.5) |
 | PostgreSQL | 16.15 (imagen `pgvector/pgvector:0.8.7-pg16@sha256:7b822b0a…`) |
 | pgvector (extensión) | 0.8.7 |
+| FastAPI / Uvicorn | 0.162.5 / 0.54.0 |
 | Docker / Compose | 29.5.3 / v5.1.4 |
 
 ## Caché de Hugging Face
@@ -525,6 +599,6 @@ Para liberar espacio puede borrar solo la carpeta del modelo dentro de `hub` cua
 
 ## Alcance y seguridad clínica
 
-Esta etapa demuestra ingestión documental y recuperación semántica persistente. La similitud no acredita corrección clínica: cualquier corpus y resultado destinado a cuidadores debe ser curado y validado por profesionales. Existe un experimento OCR rechazado y conservado como evidencia; el corpus activo de esta fase usa documentos digitales. La fase termina en la recuperación de fragmentos, sin generación de respuestas, LLM, API web, panel ni app.
+Esta etapa demuestra ingestión documental y recuperación semántica persistente. La similitud no acredita corrección clínica: cualquier corpus y resultado destinado a cuidadores debe ser curado y validado por profesionales. Existe un experimento OCR rechazado y conservado como evidencia; el corpus activo de esta fase usa documentos digitales. La fase termina en la recuperación de fragmentos, expuesta mediante una API HTTP de solo retrieval para el prototipo, sin generación de respuestas ni LLM.
 
 No deben guardarse en el repositorio contraseñas reales (`.env` está ignorado por Git), PDFs médicos personales ni información identificable de pacientes. El corpus de ejemplo (`src/sample_corpus.py`) es sintético.
